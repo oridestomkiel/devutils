@@ -1,0 +1,137 @@
+[
+  {
+    "Inicio": "MZN",
+    "Final": "NAG",
+    "Estado": "Acre"
+  },
+  {
+    "Inicio": "MUA",
+    "Final": "MVK",
+    "Estado": "Alagoas"
+  },
+  {
+    "Inicio": "NEI",
+    "Final": "NFB",
+    "Estado": "Amapá"
+  },
+  {
+    "Inicio": "JWF",
+    "Final": "JXY",
+    "Estado": "Amazonas"
+  },
+  {
+    "Inicio": "JKS",
+    "Final": "JSZ",
+    "Estado": "Bahia"
+  },
+  {
+    "Inicio": "HTX",
+    "Final": "HZA",
+    "Estado": "Ceará"
+  },
+  {
+    "Inicio": "JDP",
+    "Final": "JKR",
+    "Estado": "Distrito Federal"
+  },
+  {
+    "Inicio": "MOX",
+    "Final": "MTZ",
+    "Estado": "Espírito Santo"
+  },
+  {
+    "Inicio": "KAV",
+    "Final": "KFC",
+    "Estado": "Goiás"
+  },
+  {
+    "Inicio": "HOL",
+    "Final": "HQE",
+    "Estado": "Maranhão"
+  },
+  {
+    "Inicio": "JXZ",
+    "Final": "KAU",
+    "Estado": "Mato Grosso"
+  },
+  {
+    "Inicio": "HQF",
+    "Final": "HTW",
+    "Estado": "Mato Grosso do Sul"
+  },
+  {
+    "Inicio": "GKJ",
+    "Final": "HOK",
+    "Estado": "Minas Gerais"
+  },
+  {
+    "Inicio": "AAA",
+    "Final": "BEZ",
+    "Estado": "Paraná"
+  },
+  {
+    "Inicio": "MMN",
+    "Final": "MOW",
+    "Estado": "Paraíba"
+  },
+  {
+    "Inicio": "JTA",
+    "Final": "JWE",
+    "Estado": "Pará"
+  },
+  {
+    "Inicio": "KFD",
+    "Final": "KME",
+    "Estado": "Pernambuco"
+  },
+  {
+    "Inicio": "LVF",
+    "Final": "LWQ",
+    "Estado": "Piauí"
+  },
+  {
+    "Inicio": "MXH",
+    "Final": "MZM",
+    "Estado": "Rio Grande do Norte"
+  },
+  {
+    "Inicio": "IAQ",
+    "Final": "JDO",
+    "Estado": "Rio Grande do Sul"
+  },
+  {
+    "Inicio": "KMF",
+    "Final": "LVE",
+    "Estado": "Rio de Janeiro"
+  },
+  {
+    "Inicio": "NBB",
+    "Final": "NEH",
+    "Estado": "Rondônia"
+  },
+  {
+    "Inicio": "NAH",
+    "Final": "NBA",
+    "Estado": "Roraima"
+  },
+  {
+    "Inicio": "LWR",
+    "Final": "MMM",
+    "Estado": "Santa Catarina"
+  },
+  {
+    "Inicio": "HZB",
+    "Final": "IAP",
+    "Estado": "Sergipe"
+  },
+  {
+    "Inicio": "BFA",
+    "Final": "GKI",
+    "Estado": "São Paulo"
+  },
+  {
+    "Inicio": "MVL",
+    "Final": "MXG",
+    "Estado": "Tocatins"
+  }
+]

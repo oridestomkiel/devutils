@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferramenta - DevUtils</title>
+    <meta
+      name="description"
+      content="Ferramentas rápidas, úteis e sem rastreio."
+    />
+    <meta name="author" content="DevUtils" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="DevUtils - Ferramentas para Devs" />
+    <meta
+      property="og:description"
+      content="Ferramentas rápidas, úteis e sem rastreio."
+    />
+    <meta
+      property="og:image"
+      content="https://devutils.zmohouse.com.br/assets/images/logo.png"
+    />
+    <meta property="og:url" content="https://devutils.zmohouse.com.br/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DevUtils - Ferramentas para Devs" />
+    <meta
+      name="twitter:description"
+      content="Ferramentas rápidas, úteis e sem rastreio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://devutils.zmohouse.com.br/assets/images/logo.png"
+    />
+
+    <link rel="icon" href="https://devutils.zmohouse.com.br/ico.png" />
+    <script type="module" src="/src/tool-loader.js"></script>
+  </head>
+  <body class="bg-gray-900 text-white font-sans p-6">
+    <header class="bg-gray-800 text-white p-4">
+      <div class="max-w-6xl mx-auto flex items-center justify-between">
+        <a
+          href="/"
+          class="flex items-center gap-2 text-xl font-bold hover:underline"
+        >
+          <img
+            src="https://devutils.zmohouse.com.br/assets/images/logo.png"
+            width="24"
+            height="24"
+            alt="DevUtils logo"
+            class="block"
+          />
+          <span>DevUtils // everyday tools</span>
+        </a>
+        <nav class="hidden md:block">
+          <ul class="flex space-x-6">
+            <li><a href="/" class="hover:underline">Início</a></li>
+            <li><a href="/tools.html" class="hover:underline">Catálogo</a></li>
+          </ul>
+        </nav>
+        <button
+          id="menuBtn"
+          class="block md:hidden hover:text-gray-400 focus:outline-none"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <nav
+      id="mobileMenu"
+      class="bg-gray-800 text-white p-4 hidden border-t border-gray-700 md:hidden"
+    >
+      <ul class="space-y-2">
+        <li><a href="/" class="hover:underline block">Início</a></li>
+        <li>
+          <a href="/tools.html" class="hover:underline block">Catálogo</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="max-w-6xl mx-auto mt-4 mb-4" id="toolContainer">
+      <p class="text-gray-400">Carregando ferramenta...</p>
+    </main>
+
+    <footer
+      class="text-center p-4 border-t border-gray-700 text-sm text-gray-400 mt-4"
+    >
+      <div class="text-gray-500 max-w-6xl mx-auto mb-4">
+        Sem propaganda, sem rastreio. Só utilidade |
+        <a
+          href="https://devutils.zmohouse.com.br/termos.html"
+          class="font-bold hover:underline"
+          >Política de Privacidade & Termos de Uso</a
+        >
+      </div>
+      <div class="text-gray-500 max-w-6xl mx-auto mt-4">
+        O DevUtils é um projeto open-source feito por desenvolvedores para
+        desenvolvedores. Se você quiser contribuir com novas ferramentas,
+        melhorias ou ideias, confira o repositório no
+        <a
+          href="https://github.com/oridestomkiel/devutils"
+          class="font-bold text-white hover:underline"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >. Toda contribuição é bem-vinda - juntos podemos criar uma suíte ainda
+        mais útil e eficiente.
+      </div>
+    </footer>
+    <script>
+      document.getElementById("menuBtn").addEventListener("click", () => {
+        document.getElementById("mobileMenu").classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

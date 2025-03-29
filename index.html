@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DevUtils - Ferramentas para desenvolvedores</title>
+    <meta
+      name="description"
+      content="Ferramentas utilitárias para desenvolvedores. Sem rastreio, sem propaganda. Só utilidade."
+    />
+    <meta name="author" content="DevUtils" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="DevUtils - Ferramentas para Devs" />
+    <meta
+      property="og:description"
+      content="Ferramentas rápidas, úteis e sem rastreio."
+    />
+    <meta
+      property="og:image"
+      content="https://devutils.zmohouse.com.br/assets/images/logo.png"
+    />
+    <meta property="og:url" content="https://devutils.zmohouse.com.br/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DevUtils - Ferramentas para Devs" />
+    <meta
+      name="twitter:description"
+      content="Ferramentas rápidas, úteis e sem rastreio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://devutils.zmohouse.com.br/assets/images/logo.png"
+    />
+
+    <link rel="icon" href="https://devutils.zmohouse.com.br/ico.png" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body class="bg-gray-900 text-white font-sans">
+    <header class="bg-gray-800 text-white p-4">
+      <div class="max-w-6xl mx-auto flex items-center justify-between">
+        <a
+          href="/"
+          class="flex items-center gap-2 text-xl font-bold hover:underline"
+        >
+          <img
+            src="https://devutils.zmohouse.com.br/assets/images/logo.png"
+            width="24"
+            height="24"
+            alt=""
+            class="block"
+          />
+          <span>DevUtils // everyday tools</span>
+        </a>
+        <nav class="hidden md:block">
+          <ul class="flex space-x-6">
+            <li>
+              <a href="/" class="hover:underline">Início</a>
+            </li>
+            <li>
+              <a href="/tools" class="hover:underline">Catálogo</a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onclick="toggleSidebar()"
+                class="hover:underline block"
+                >⚙️ Configurar</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button
+          id="menuBtn"
+          class="block md:hidden hover:text-gray-400 focus:outline-none"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+    <nav
+      id="mobileMenu"
+      class="bg-gray-800 text-white p-4 hidden border-t border-gray-700 md:hidden"
+    >
+      <ul class="space-y-2">
+        <li>
+          <a href="/" class="hover:underline block">Início</a>
+        </li>
+        <li>
+          <a href="/tools" class="hover:underline block">Catálogo</a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            onclick="toggleSidebar()"
+            class="hover:underline block"
+            >⚙️ Configurar</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main
+      id="cardContainer"
+      class="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+    ></main>
+
+    <aside
+      id="sidebar"
+      class="fixed top-0 right-0 w-[500px] max-w-full h-full bg-gray-800 shadow-lg p-4 transform translate-x-full transition-transform duration-300 z-50 overflow-y-auto"
+    >
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-semibold">Configurações</h2>
+        <button onclick="toggleSidebar()" class="text-white">✕</button>
+      </div>
+      <form id="configForm">
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-sm text-gray-300">
+            <span class="text-gray-500 ml-2"
+              >(Selecionadas: <span id="countOn">0</span> /
+              <span id="countTotal">0</span>)</span
+            >
+          </span>
+          <button
+            type="button"
+            id="toggleAllBtn"
+            class="text-sm text-blue-400 hover:underline"
+          >
+            Selecionar todos
+          </button>
+        </div>
+
+        <div class="relative mb-4">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 Buscar ferramenta..."
+            class="w-full p-2 pr-10 rounded bg-gray-700 text-white"
+          />
+          <button
+            id="clearSearchBtn"
+            type="button"
+            class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
+            style="display: none"
+          >
+            ✕
+          </button>
+        </div>
+
+        <ul id="sortable" class="space-y-2 mb-4"></ul>
+        <p
+          id="saveMsg"
+          class="mt-4 text-green-400 hidden opacity-0 transition-opacity duration-300 text-center"
+        >
+          Configurações salvas!
+        </p>
+      </form>
+    </aside>
+
+    <footer
+      class="text-center p-4 border-t border-gray-700 text-sm text-gray-400 mt-4"
+    >
+      <div class="text-gray-500 max-w-6xl mx-auto mb-4">
+        Sem propaganda, sem rastreio. Só utilidade |
+        <a
+          href="https://devutils.zmohouse.com.br/termos.html"
+          class="font-bold hover:underline"
+          >Política de Privacidade & Termos de Uso</a
+        >
+      </div>
+      <div class="text-gray-500 max-w-6xl mx-auto mt-4">
+        O DevUtils é um projeto open-source feito por desenvolvedores para
+        desenvolvedores. Se você quiser contribuir com novas ferramentas,
+        melhorias ou ideias, confira o repositório no
+        <a
+          href="https://github.com/oridestomkiel/devutils"
+          class="font-bold text-white hover:underline"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >. Toda contribuição é bem-vinda - juntos podemos criar uma suíte ainda
+        mais útil e eficiente.
+      </div>
+    </footer>
+
+    <script>
+      function toggleSidebar() {
+        const el = document.getElementById("sidebar");
+        el.classList.toggle("translate-x-full");
+      }
+      document.getElementById("menuBtn").addEventListener("click", () => {
+        const mobileMenu = document.getElementById("mobileMenu");
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
