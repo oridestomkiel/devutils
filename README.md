@@ -44,6 +44,10 @@ const modulo = {
   description: "Descrição breve da ferramenta",
   tags: ["exemplo", "modulo"],
   category: "Utilitários",
+  author: "{DEV}}",
+  hasApi: false, // Se usa api externa
+  license: "MIT",
+  version: "1.0.0",
   render: () => `HTML`,
   init: () => {
     /* JS */
