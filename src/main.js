@@ -88,15 +88,24 @@ async function renderSidebarList(filter = "") {
       return;
 
     const li = document.createElement("li");
-    li.className =
-      "bg-gray-700 p-2 rounded flex justify-between items-center cursor-move";
+    li.className = "bg-gray-700 p-2 rounded cursor-move";
+
     li.setAttribute("data-id", tool);
     li.innerHTML = `
-      <span>${mod.title}</span>
-      <input type="checkbox" ${prefs.enabled[tool] ? "checked" : ""} />
-    `;
+    <div class="flex items-center gap-3 w-full justify-between">
+      <span class="text-gray-400 cursor-grab select-none">☰</span>
+      <label class="flex items-center gap-2 flex-1 justify-between cursor-pointer">
+        <span class="flex-1 text-white">${mod.title}</span>
+        <input type="checkbox" class="form-checkbox h-5 w-5" ${
+          prefs.enabled[tool] ? "checked" : ""
+        } />
+      </label>
+    </div>
+  `;
 
-    li.querySelector("input").addEventListener("change", (e) => {
+    const checkbox = li.querySelector("input");
+    checkbox.addEventListener("click", (e) => e.stopPropagation());
+    checkbox.addEventListener("change", (e) => {
       prefs.enabled[tool] = e.target.checked;
       savePrefs();
       renderSidebarList(searchInput.value);
@@ -114,6 +123,7 @@ async function renderSidebarList(filter = "") {
 
   new Sortable(list, {
     animation: 150,
+    handle: ".cursor-grab",
     onEnd: () => {
       const newOrder = Array.from(
         document.querySelectorAll("#sortable li")
@@ -122,6 +132,7 @@ async function renderSidebarList(filter = "") {
       savePrefs();
     },
   });
+
   document.getElementById("countTotal").textContent = prefs.order.length;
   document.getElementById("countOn").textContent = Object.values(
     prefs.enabled
