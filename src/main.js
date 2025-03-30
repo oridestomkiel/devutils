@@ -176,3 +176,47 @@ clearSearchBtn.addEventListener("click", () => {
   clearSearchBtn.style.display = "none";
   renderSidebarList();
 });
+
+document.getElementById("backupBtn").addEventListener("click", () => {
+  const blob = new Blob([JSON.stringify(prefs, null, 2)], {
+    type: "application/json",
+  });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "devutils-prefs.json";
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+document.getElementById("importPrefsInput").addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const imported = JSON.parse(reader.result);
+      if (!imported.order || !imported.enabled) {
+        alert("Arquivo inválido");
+        return;
+      }
+      prefs = imported;
+      savePrefs();
+      renderSidebarList();
+    } catch (err) {
+      alert("Erro ao importar configurações.");
+    }
+  };
+  reader.readAsText(file);
+});
+
+document.getElementById("resetPrefsBtn").addEventListener("click", () => {
+  const confirmReset = confirm(
+    "Tem certeza que deseja resetar todas as configurações?"
+  );
+  if (confirmReset) {
+    localStorage.removeItem("devutils_prefs");
+    location.reload();
+  }
+});

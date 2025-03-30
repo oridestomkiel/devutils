@@ -113,6 +113,43 @@
         <h2 class="text-xl font-semibold">Configurações</h2>
         <button onclick="toggleSidebar()" class="text-white">✕</button>
       </div>
+      <div
+        class="sticky bottom-0 bg-gray-800 pt-2 pb-4 border-t border-gray-700"
+      >
+        <div class="flex justify-between gap-2">
+          <button
+            id="backupBtn"
+            type="button"
+            title="Exportar suas configurações como um arquivo JSON"
+            class="flex-1 bg-gray-700 hover:bg-gray-600 rounded px-3 py-1 text-sm"
+          >
+            Backup
+          </button>
+
+          <label
+            for="importPrefsInput"
+            title="Importar configurações salvas de um arquivo JSON"
+            class="flex-1 bg-gray-700 hover:bg-gray-600 rounded px-3 py-1 text-sm text-center cursor-pointer"
+          >
+            Importar
+            <input
+              id="importPrefsInput"
+              type="file"
+              accept=".json"
+              class="hidden"
+            />
+          </label>
+
+          <button
+            id="resetPrefsBtn"
+            type="button"
+            title="Apagar todas as configurações e voltar ao padrão"
+            class="flex-1 bg-red-700 hover:bg-red-600 rounded px-3 py-1 text-sm"
+          >
+            Resetar
+          </button>
+        </div>
+      </div>
       <form id="configForm">
         <div class="flex justify-between items-center mb-2">
           <span class="text-sm text-gray-300">
