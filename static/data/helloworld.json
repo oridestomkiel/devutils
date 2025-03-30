@@ -1,0 +1,23 @@
+{
+  "Assembly": "section .data\n    msg db \"Hello, world!\", 0xA\nsection .text\n    global _start\n_start:\n    mov eax, 4\n    mov ebx, 1\n    mov ecx, msg\n    mov edx, 14\n    int 0x80\n    mov eax, 1\n    xor ebx, ebx\n    int 0x80",
+  "Bash": "echo \"Hello, world!\"",
+  "C": "#include <stdio.h>\nint main() {\n  printf(\"Hello, world!\\n\");\n  return 0;\n}",
+  "C#": "using System;\nclass Program {\n  static void Main() {\n    Console.WriteLine(\"Hello, world!\");\n  }\n}",
+  "C++": "#include <iostream>\nint main() {\n  std::cout << \"Hello, world!\" << std::endl;\n  return 0;\n}",
+  "Go": "package main\nimport \"fmt\"\nfunc main() {\n  fmt.Println(\"Hello, world!\")\n}",
+  "Haskell": "main = putStrLn \"Hello, world!\"",
+  "Java": "public class HelloWorld {\n  public static void main(String[] args) {\n    System.out.println(\"Hello, world!\");\n  }\n}",
+  "JavaScript": "console.log('Hello, world!');",
+  "Kotlin": "fun main() {\n  println(\"Hello, world!\")\n}",
+  "Lua": "print(\"Hello, world!\")",
+  "PHP": "<?php\necho \"Hello, world!\";\n?>",
+  "Perl": "print \"Hello, world!\\n\";",
+  "Python": "print('Hello, world!')",
+  "R": "cat(\"Hello, world!\\n\")",
+  "Ruby": "puts 'Hello, world!'",
+  "Rust": "fn main() {\n  println!(\"Hello, world!\");\n}",
+  "Scala": "object HelloWorld extends App {\n  println(\"Hello, world!\")\n}",
+  "Shell": "echo \"Hello, world!\"",
+  "Swift": "print(\"Hello, world!\")",
+  "TypeScript": "console.log('Hello, world!');"
+}
