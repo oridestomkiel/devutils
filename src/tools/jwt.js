@@ -34,7 +34,7 @@ const jwt = {
       <div class="relative">
         <pre
           id="jwtOutput"
-          class="p-3 bg-gray-800 text-green-400 rounded overflow-x-auto whitespace-pre-wrap break-words text-sm"
+          class="p-3 bg-gray-700 text-green-400 rounded overflow-x-auto whitespace-pre-wrap break-words text-sm"
         ></pre>
         <button
           id="jwtCopyBtn"
