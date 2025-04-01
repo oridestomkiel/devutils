@@ -9,7 +9,7 @@ const defaultEnabled = [
   "cpf",
   "jsonformatter",
   "passwordgen",
-  "jwt",
+  "jwtviewer",
 ];
 
 const localPrefs = localStorage.getItem("devutils_prefs");

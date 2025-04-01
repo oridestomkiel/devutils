@@ -107,14 +107,74 @@
 
     <aside
       id="sidebar"
-      class="fixed top-0 right-0 w-[500px] max-w-full h-full bg-gray-800 shadow-lg p-4 transform translate-x-full transition-transform duration-300 z-50 overflow-y-auto"
+      class="fixed top-0 right-0 w-[500px] max-w-full h-full bg-gray-800 shadow-lg p-4 pb-0 transform translate-x-full transition-transform duration-300 z-50 overflow-y-auto"
     >
-      <div class="flex justify-between items-center mb-4">
-        <h2 class="text-xl font-semibold">Configurações</h2>
-        <button onclick="toggleSidebar()" class="text-white">✕</button>
+      <div class="flex items-center gap-2 pb-8">
+        <button
+          onclick="toggleSidebar()"
+          class="p-1 rounded-full bg-gray-700 hover:bg-gray-600 text-white"
+          title="Fechar painel"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </button>
+        <h2 class="text-xl font-semibold">Configurar</h2>
       </div>
+      <form id="configForm">
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-sm text-gray-300">
+            <span class="text-gray-500 ml-2"
+              >(Selecionadas: <span id="countOn">0</span> /
+              <span id="countTotal">0</span>)</span
+            >
+          </span>
+          <button
+            type="button"
+            id="toggleAllBtn"
+            class="text-sm text-blue-400 hover:underline"
+          >
+            Selecionar todos
+          </button>
+        </div>
+
+        <div class="relative mb-4">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="🔍 Buscar ferramenta..."
+            class="w-full p-2 pr-10 rounded bg-gray-900 border border-gray-600 text-white"
+          />
+          <button
+            id="clearSearchBtn"
+            type="button"
+            class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
+            style="display: none"
+          >
+            ✕
+          </button>
+        </div>
+
+        <ul id="sortable" class="space-y-2 mb-4"></ul>
+        <p
+          id="saveMsg"
+          class="mt-4 text-green-400 hidden opacity-0 transition-opacity duration-300 text-center"
+        >
+          Configurações salvas!
+        </p>
+      </form>
       <div
-        class="sticky bottom-0 bg-gray-800 pt-2 pb-4 border-t border-gray-700"
+        class="sticky bottom-0 bg-gray-800 pt-2 pb-2 border-t border-gray-700"
       >
         <div class="flex justify-between gap-2">
           <button
@@ -150,48 +210,6 @@
           </button>
         </div>
       </div>
-      <form id="configForm">
-        <div class="flex justify-between items-center mb-2">
-          <span class="text-sm text-gray-300">
-            <span class="text-gray-500 ml-2"
-              >(Selecionadas: <span id="countOn">0</span> /
-              <span id="countTotal">0</span>)</span
-            >
-          </span>
-          <button
-            type="button"
-            id="toggleAllBtn"
-            class="text-sm text-blue-400 hover:underline"
-          >
-            Selecionar todos
-          </button>
-        </div>
-
-        <div class="relative mb-4">
-          <input
-            type="text"
-            id="searchInput"
-            placeholder="🔍 Buscar ferramenta..."
-            class="w-full p-2 pr-10 rounded bg-gray-700 text-white"
-          />
-          <button
-            id="clearSearchBtn"
-            type="button"
-            class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
-            style="display: none"
-          >
-            ✕
-          </button>
-        </div>
-
-        <ul id="sortable" class="space-y-2 mb-4"></ul>
-        <p
-          id="saveMsg"
-          class="mt-4 text-green-400 hidden opacity-0 transition-opacity duration-300 text-center"
-        >
-          Configurações salvas!
-        </p>
-      </form>
     </aside>
 
     <footer
@@ -222,8 +240,13 @@
 
     <script>
       function toggleSidebar() {
-        const el = document.getElementById("sidebar");
-        el.classList.toggle("translate-x-full");
+        const sidebar = document.getElementById("sidebar");
+        sidebar.classList.toggle("translate-x-full");
+        if (!sidebar.classList.contains("translate-x-full")) {
+          setTimeout(() => {
+            document.getElementById("searchInput")?.focus();
+          }, 300);
+        }
       }
       document.getElementById("menuBtn").addEventListener("click", () => {
         const mobileMenu = document.getElementById("mobileMenu");
