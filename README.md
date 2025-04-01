@@ -1,4 +1,4 @@
-# 🛠️ **DevUtils**
+# 🛠️ **DevUtils** // everyday tools
 
 Ferramentas rápidas, úteis e sem rastreio para o dia a dia de desenvolvedores. Totalmente open-source, sem dependências pesadas, sem propaganda, e com foco em produtividade.
 
@@ -8,7 +8,7 @@ Ferramentas rápidas, úteis e sem rastreio para o dia a dia de desenvolvedores.
 
 O **DevUtils** é uma suíte de ferramentas utilitárias construídas com HTML, JavaScript Vanilla e Tailwind CSS, otimizadas para carregamento rápido e uso direto no navegador. Perfeito para desenvolvedores que preferem soluções leves e eficazes.
 
-🔗 <a href="https://devutils.zmohouse.com.br" target="_blank" rel="noopener noreferrer">Acesse a versão online do DevUtils</a>
+🔗 <a href="https://devutils.tools/" target="_blank" rel="noopener noreferrer">Acesse a versão online do DevUtils</a>
 
 ---
 
@@ -106,11 +106,9 @@ Dúvidas, sugestões ou quer participar mais ativamente? Entre em contato ou [ab
 
 ---
 
-## ☕ Me pague um café
+## 💜 Ajude a manter o DevUtils no ar  
 
-Se o DevUtils te ajudou de alguma forma, considere apoiar o projeto com um café!  
-Isso ajuda a manter o projeto vivo e melhorar ainda mais as ferramentas.
+Este é um projeto independente, mantido por uma única pessoa.  
+Com sua contribuição, o DevUtils continua gratuito, acessível e sempre evoluindo com novas ferramentas.
 
 **PIX:** `20b16bb2-d827-48a6-9e2c-924cd11a1a79`
-
-<img src="https://devutils.zmohouse.com.br/assets/images/qrcode-pix.png" alt="QR Code PIX" width="180" />
