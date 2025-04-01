@@ -24,6 +24,8 @@ const queryplayground = {
         <button id="qpOpenBtn" class="hidden bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded text-sm" disabled>Abrir URL</button>
       </div>
   
+      <div id="errorURL" class="text-sm font-mono mb-3 text-red-400 break-words bg-gray-900 p-3 rounded hidden"></div>
+
       <div id="qpExtras" class="hidden">
         <div id="qpPreview" class="text-sm font-mono mb-3 text-green-400 break-words bg-gray-900 p-3 rounded"></div>
       <div id="qpMeta" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6 text-sm text-gray-300"></div>
@@ -50,6 +52,7 @@ const queryplayground = {
   init: () => {
     const input = document.getElementById("qpInput");
     const preview = document.getElementById("qpPreview");
+    const errorURL = document.getElementById("errorURL");
     const meta = document.getElementById("qpMeta");
     const paramsTable = document.getElementById("qpParamsBody");
     const copyBtn = document.getElementById("qpCopyBtn");
@@ -154,6 +157,19 @@ const queryplayground = {
 
     const analyzeURL = () => {
       const raw = input.value.trim();
+
+      document.getElementById("errorURL").classList.add("hidden");
+
+      if (!/^https?:\/\//i.test(raw)) {
+        errorURL.innerHTML = `<span class="text-red-400">A URL deve começar com http:// ou https://</span>`;
+        document.getElementById("errorURL").classList.remove("hidden");
+        meta.innerHTML = "";
+        paramsTable.innerHTML = "";
+        toggleUI(false, true);
+        currentUrl = null;
+        return;
+      }
+
       try {
         currentUrl = new URL(raw);
         queryParams.length = 0;
