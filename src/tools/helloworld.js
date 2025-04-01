@@ -10,7 +10,7 @@ const helloworld = {
     "códigos básicos",
     "gerador de código",
   ],
-  category: "Outros",
+  category: "Utilitários",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

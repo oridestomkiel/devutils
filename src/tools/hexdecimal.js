@@ -11,7 +11,7 @@ const hexdecimal = {
     "hex dec",
     "calculadora hexadecimal",
   ],
-  category: "Conversores Numéricos",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

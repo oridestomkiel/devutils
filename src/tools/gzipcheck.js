@@ -10,7 +10,7 @@ const gzipcheck = {
     "otimização",
     "performance web",
   ],
-  category: "Rede",
+  category: "Redes / HTTP",
   author: "DevUtils",
   hasApi: true,
   license: "MIT",

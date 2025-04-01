@@ -13,7 +13,7 @@ const caseconvert = {
     "kebab para camel",
     "case converter",
   ],
-  category: "Conversores de Texto",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

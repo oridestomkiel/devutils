@@ -12,7 +12,7 @@ const currencyformat = {
     "preço formatado",
     "moeda internacional",
   ],
-  category: "Formatadores",
+  category: "Formatadores / Minificadores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

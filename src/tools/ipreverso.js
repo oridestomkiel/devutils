@@ -11,7 +11,7 @@ const ipreverso = {
     "ip externo",
     "meu endereço ip",
   ],
-  category: "Informações",
+  category: "Redes / HTTP",
   author: "DevUtils",
   hasApi: true,
   license: "MIT",

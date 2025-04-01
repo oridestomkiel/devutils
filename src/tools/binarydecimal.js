@@ -11,7 +11,7 @@ const binarydecimal = {
     "calculadora binária",
     "binário online",
   ],
-  category: "Conversores Numéricos",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

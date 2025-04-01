@@ -3,7 +3,7 @@ const texttoall = {
   description:
     "Digite qualquer texto e veja sua conversão automática para representações BINARIO, DECIMAL, OCTAL, HEX, BASE64, ASCII, UTF8, URL, UNICODE, MORSE e HTML",
   tags: ["conversão", "texto", "binário", "base64", "unicode", "morse"],
-  category: "Texto",
+  category: "Ferramentas de Texto",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

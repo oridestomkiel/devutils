@@ -11,7 +11,7 @@ const jsonbeautifier = {
     "prettify json",
     "json beautifier",
   ],
-  category: "Formatadores",
+  category: "Formatadores / Minificadores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

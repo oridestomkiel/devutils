@@ -3,7 +3,7 @@ const validacc = {
   description:
     "Digite um número de cartão e descubra se ele é válido usando o algoritmo de Luhn. Detecta a bandeira automaticamente.",
   tags: ["cartão", "validador", "luhn", "número", "crédito", "bandeira"],
-  category: "Financeiro",
+  category: "Utilitários",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

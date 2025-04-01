@@ -11,7 +11,7 @@ const yamlandjson = {
     "yaml json",
     "api conf",
   ],
-  category: "Conversores de Dados",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

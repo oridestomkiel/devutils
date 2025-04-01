@@ -11,7 +11,7 @@ const csvtojson = {
     "conversão de arquivos",
     "csv json",
   ],
-  category: "Conversores de Dados",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

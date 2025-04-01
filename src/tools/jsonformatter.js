@@ -11,7 +11,7 @@ const jsonformatter = {
     "json organizado",
     "ferramenta json",
   ],
-  category: "Formatadores",
+  category: "Formatadores / Minificadores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

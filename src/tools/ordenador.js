@@ -3,7 +3,7 @@ const ordenador = {
   description:
     "Ferramenta online para colocar uma lista em ordem alfabética. Copie e cole a lista com os nomes que quer organizar alfabeticamente e depois clique em “Ordenar”.",
   tags: ["ordem", "alfabética", "ordenar", "lista", "texto", "duplicados"],
-  category: "Texto",
+  category: "Ferramentas de Texto",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

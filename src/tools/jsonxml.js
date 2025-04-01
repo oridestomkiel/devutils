@@ -11,7 +11,7 @@ const jsonxml = {
     "formato json",
     "transformar xml json",
   ],
-  category: "Conversores de Dados",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

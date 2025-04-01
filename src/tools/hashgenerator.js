@@ -3,7 +3,7 @@ const hashgenerator = {
   description:
     "Digite qualquer texto para gerar os hashes MD5, SHA1, SHA224, SHA256 e SHA512 automaticamente. Com opção de copiar cada um.",
   tags: ["hash", "md5", "sha", "criptografia", "gerador de hash"],
-  category: "Texto",
+  category: "Ferramentas de Texto",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

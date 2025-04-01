@@ -3,7 +3,7 @@ const extrairemail = {
   description:
     "Cole qualquer conteúdo de texto e extraia todos os endereços de e-mail encontrados. Organize por ordem alfabética ou por domínio.",
   tags: ["e-mail", "extrair", "texto", "ordenar", "domínio", "lista de emails"],
-  category: "Texto",
+  category: "Ferramentas de Texto",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

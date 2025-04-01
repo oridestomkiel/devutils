@@ -10,7 +10,7 @@ const uuid = {
     "identificador único",
     "uuid em lote",
   ],
-  category: "Identificadores",
+  category: "Geradores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

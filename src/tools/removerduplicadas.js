@@ -8,7 +8,7 @@ const removerduplicadas = {
     "duplicadas",
     "linhas repetidas",
   ],
-  category: "Texto",
+  category: "Ferramentas de Texto",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

@@ -11,7 +11,7 @@ const horarioMundial = {
     "horário de países",
     "data e hora global",
   ],
-  category: "Informações",
+  category: "Datas e Horários",
   author: "DevUtils",
   hasApi: true,
   license: "MIT",

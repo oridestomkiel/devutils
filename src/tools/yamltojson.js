@@ -11,7 +11,7 @@ const yamltojson = {
     "transformar yaml em json",
     "dados estruturados",
   ],
-  category: "Conversores de Dados",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

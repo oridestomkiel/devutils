@@ -3,7 +3,7 @@ const geracc = {
   description:
     "Gere números de cartão válidos para testes e desenvolvimento. Suporta múltiplas bandeiras e gera CVV e validade aleatórios.",
   tags: ["cartão", "gerador", "luhn", "bandeira", "crédito", "testes"],
-  category: "Financeiro",
+  category: "Geradores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

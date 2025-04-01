@@ -11,7 +11,7 @@ const ping = {
     "ping dns",
     "teste ip",
   ],
-  category: "Informações",
+  category: "Redes / HTTP",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

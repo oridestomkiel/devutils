@@ -11,7 +11,7 @@ const jsontoyaml = {
     "configuração yaml",
     "transformar json em yaml",
   ],
-  category: "Conversores de Dados",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

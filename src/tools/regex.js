@@ -11,7 +11,7 @@ const regex = {
     "analisar padrões",
     "ferramenta regex",
   ],
-  category: "Ferramentas de Desenvolvimento",
+  category: "Utilitários",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",

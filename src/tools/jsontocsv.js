@@ -11,7 +11,7 @@ const jsontocsv = {
     "transformar json em csv",
     "dados estruturados",
   ],
-  category: "Conversores de Dados",
+  category: "Conversores",
   author: "DevUtils",
   hasApi: false,
   license: "MIT",
