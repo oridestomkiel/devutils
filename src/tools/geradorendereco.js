@@ -51,7 +51,7 @@ const geradorendereco = {
               <label class="block text-sm mb-1">${label}</label>
               <div class="flex gap-2">
                 <input id="out${label}" readonly class="w-full p-2 bg-gray-700 text-green-400 rounded" />
-                <button data-copy="out${label}" class="px-2 py-1 bg-gray-700 hover:bg-gray-600 rounded text-xs">Copiar</button>
+                <button data-copy="out${label}" class="px-2 py-1 bg-gray-700 hover:bg-gray-600 rounded">Copiar</button>
               </div>
             </div>`
             )
@@ -62,7 +62,7 @@ const geradorendereco = {
           <label class="block text-sm mb-1">Resposta completa (JSON)</label>
           <div class="relative">
             <pre id="outJson" class="h-full p-3 bg-gray-900 text-green-400 rounded text-xs overflow-auto whitespace-pre-wrap border border-gray-700"></pre>
-            <button id="copyJson" class="absolute top-2 right-2 px-2 py-1 bg-gray-700 hover:bg-gray-600 rounded text-xs">Copiar</button>
+            <button id="copyJson" class="absolute top-2 right-2 px-2 py-1 bg-gray-700 hover:bg-gray-600 rounded">Copiar</button>
           </div>
         </div>
       </div>

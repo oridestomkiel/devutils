@@ -24,10 +24,10 @@ const jsonformatter = {
       </button>
       <div class="relative">
         <pre id="jsonOutput" class="p-3 bg-gray-800 text-green-400 rounded overflow-x-auto whitespace-pre-wrap text-sm pr-16"></pre>
-        <button id="copyJsonBtn" class="absolute top-2 right-2 bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-xs text-white">
+        <button id="copyJsonBtn" class="absolute top-2 right-2 bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-white">
           Copiar
         </button>
-        <span id="copiedJsonMsg" class="absolute top-2 right-2 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+        <span id="copiedJsonMsg" class="absolute top-2 right-2 text-green-400 px-2 py-1 hidden">Copiado!</span>
       </div>
     </div>
   `,

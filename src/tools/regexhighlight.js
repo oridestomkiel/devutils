@@ -22,8 +22,8 @@ const regexhighlight = {
     <button id="regexTestBtn" class="bg-green-600 hover:bg-green-700 px-3 py-1 rounded">Testar Regex</button>
     <div class="relative mt-4">
       <div id="regexResult" class="p-3 bg-gray-800 rounded text-white whitespace-pre-wrap break-words pr-16"></div>
-      <button id="copyRegexResultBtn" class="absolute top-2 right-2 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <span id="copiedRegexMsg" class="absolute top-2 right-2 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyRegexResultBtn" class="absolute top-2 right-2 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <span id="copiedRegexMsg" class="absolute top-2 right-2 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
     <small class="text-gray-400 block mt-2">Use sintaxe padrão JavaScript. Flags como <code>g</code> e <code>i</code> são opcionais no final: <code>/padrão/gi</code>.</small>
   `,

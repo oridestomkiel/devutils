@@ -38,7 +38,7 @@ const jwt = {
         ></pre>
         <button
           id="jwtCopyBtn"
-          class="absolute top-2 right-2 bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-xs"
+          class="absolute top-2 right-2 bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded"
         >
           Copiar
         </button>

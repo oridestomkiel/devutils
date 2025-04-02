@@ -41,8 +41,8 @@ const unicodeescape = {
 
     <div class="relative">
       <textarea id="unicodeOutput" class="w-full p-2 bg-gray-700 text-green-400 rounded pr-20" rows="4" readonly placeholder="Resultado aparece aqui..."></textarea>
-      <button id="copyUnicodeBtn" class="absolute top-2 right-2 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <span id="copiedUnicodeMsg" class="absolute top-2 right-2 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyUnicodeBtn" class="absolute top-2 right-2 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <span id="copiedUnicodeMsg" class="absolute top-2 right-2 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
   `,
   init: () => {

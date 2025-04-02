@@ -32,9 +32,9 @@ const urlencode = {
 
     <div class="relative mb-2">
       <textarea id="urlOutput" class="w-full p-2 bg-gray-700 text-green-400 rounded pr-24" rows="3" readonly placeholder="Resultado aqui..."></textarea>
-      <button id="copyUrlBtn" class="absolute top-2 right-20 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <button id="downloadUrlBtn" class="absolute top-2 right-2 text-xs bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-white">Baixar</button>
-      <span id="copiedUrlMsg" class="absolute top-2 right-20 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyUrlBtn" class="absolute top-2 right-20 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <button id="downloadUrlBtn" class="absolute top-2 right-2 bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-white">Baixar</button>
+      <span id="copiedUrlMsg" class="absolute top-2 right-20 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
 
     <div id="urlPreview" class="mt-1 text-sm text-blue-400 underline hidden">

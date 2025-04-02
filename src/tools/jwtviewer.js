@@ -28,18 +28,22 @@ const jwtviewer = {
   
       <div id="jwtOutputGroup" class="hidden">
         <div id="jwtVisual" class="font-mono text-sm bg-gray-900 p-3 rounded mb-3 break-words whitespace-pre-wrap"></div>
-        <div id="jwtStatus" class="text-sm font-mono mb-2 hidden"></div>
+        <div id="jwtStatus" class="text-base font-semibold font-mono mb-4 p-3 hidden"></div>
   
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+          <div class="bg-gray-900 rounded p-3">
           <div>
-            <div class="text-gray-400 text-xs mb-1">HEADER</div>
-            <pre id="jwtHeader" class="bg-gray-800 text-sm p-3 rounded min-h-[10rem] mb-2 whitespace-pre-wrap break-words"></pre>
-            <button id="copyHeaderBtn" class="mt-1 text-xs bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded">Copiar Header</button>
+            <div class="text-gray-400 mb-1">HEADER</div>
+            <pre id="jwtHeader" class="text-sm p-3 min-h-[10rem] mb-2 whitespace-pre-wrap break-words"></pre>
+            <button id="copyHeaderBtn" class="mt-1 bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded">Copiar Header</button>
+          </div>
           </div>
           <div>
-            <div class="text-gray-400 text-xs mb-1">PAYLOAD</div>
-            <pre id="jwtPayload" class="bg-gray-800 text-sm p-3 rounded min-h-[10rem] mb-2 whitespace-pre-wrap break-words"></pre>
-            <button id="copyPayloadBtn" class="mt-1 text-xs bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded">Copiar Payload</button>
+          <div class="bg-gray-900 rounded p-3">
+            <div class="text-gray-400 mb-1">PAYLOAD</div>
+            <pre id="jwtPayload" class="text-sm p-3 min-h-[10rem] mb-2 whitespace-pre-wrap break-words"></pre>
+            <button id="copyPayloadBtn" class="mt-1 bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded">Copiar Payload</button>
+          </div>
           </div>
         </div>
   

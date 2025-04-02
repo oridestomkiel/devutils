@@ -20,8 +20,8 @@ const rg = {
     <button id="rgGenBtn" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded mb-2">Gerar RG</button>
     <div class="relative">
       <input id="rgOutput" type="text" readonly class="w-full p-2 bg-gray-700 text-green-400 rounded pr-20" />
-      <button id="copyRgBtn" class="absolute top-1 right-1 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <span id="copiedRgMsg" class="absolute top-1 right-1 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyRgBtn" class="absolute top-1 right-1 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <span id="copiedRgMsg" class="absolute top-1 right-1 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
   `,
   init: () => {

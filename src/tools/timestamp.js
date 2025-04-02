@@ -29,8 +29,8 @@ const timestamp = {
 
     <div class="relative">
       <input id="timestampOutput" type="text" readonly class="w-full p-2 bg-gray-800 text-green-400 rounded pr-20" placeholder="Resultado aparecerá aqui..." />
-      <button id="copyTimestampBtn" class="absolute top-2 right-2 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <span id="copiedTimestampMsg" class="absolute top-2 right-2 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyTimestampBtn" class="absolute top-2 right-2 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <span id="copiedTimestampMsg" class="absolute top-2 right-2 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
 
     <small class="text-gray-400 block mt-2">Aceita timestamp Unix (segundos) ou datas como <code>2025-03-28 15:00</code>, <code>28/03/2025</code> etc.</small>

@@ -20,8 +20,8 @@ const markdownhtmltag = {
       <button id="mdRawRenderBtn" class="bg-blue-600 hover:bg-blue-700 px-4 py-1 rounded mb-2">Converter</button>
       <div class="relative">
         <pre id="mdRawOutput" class="bg-gray-800 text-green-400 rounded p-4 max-h-96 overflow-y-auto text-sm whitespace-pre-wrap break-words pr-16"></pre>
-        <button id="copyMdRawBtn" class="absolute top-0 right-4 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-        <span id="copiedMdRawMsg" class="absolute top-0 right-4 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+        <button id="copyMdRawBtn" class="absolute top-0 right-4 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+        <span id="copiedMdRawMsg" class="absolute top-0 right-4 text-green-400 px-2 py-1 hidden">Copiado!</span>
       </div>
     `,
   init: () => {

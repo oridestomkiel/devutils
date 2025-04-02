@@ -26,9 +26,9 @@ const yamlandjson = {
     
     <div class="relative">
       <textarea id="yamlJsonOutput" class="w-full p-2 bg-gray-700 text-green-400 rounded pr-24" rows="6" readonly placeholder="Resultado..."></textarea>
-      <button id="copyYamlJsonBtn" class="absolute top-2 right-20 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <button id="downloadYamlJsonBtn" class="absolute top-2 right-6 text-xs bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-white">Baixar</button>
-      <span id="copiedYamlJsonMsg" class="absolute top-2 right-20 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyYamlJsonBtn" class="absolute top-2 right-20 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <button id="downloadYamlJsonBtn" class="absolute top-2 right-6 bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-white">Baixar</button>
+      <span id="copiedYamlJsonMsg" class="absolute top-2 right-20 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
   `,
   init: () => {

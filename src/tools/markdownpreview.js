@@ -21,8 +21,8 @@ const markdownpreview = {
     <button id="mdRenderBtn" class="bg-blue-600 hover:bg-blue-700 px-4 py-1 rounded mb-2">Converter</button>
     <div class="relative">
       <div id="mdOutput" class="markdown-preview bg-gray-800 text-white rounded p-4 max-h-96 overflow-y-auto text-sm"></div>
-      <button id="copyMdBtn" class="absolute top-2 right-2 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <span id="copiedMdMsg" class="absolute top-2 right-2 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyMdBtn" class="absolute top-2 right-2 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <span id="copiedMdMsg" class="absolute top-2 right-2 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
   `,
   init: () => {

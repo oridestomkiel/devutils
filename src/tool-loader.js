@@ -40,8 +40,8 @@ if (!tool) {
       </button>
       <div id="sourceContainer" class="mt-2 hidden border border-gray-700 rounded">
         <div class="relative bg-gray-800 rounded-t" style="height: 25px">
-          <span id="copiadoMsg" class="text-xs text-green-400 absolute left-2 top-1 hidden">Copiado!</span>
-          <button id="copiarBtn" class="absolute right-2 top-1 text-xs text-blue-400 hover:underline">Copiar código</button>
+          <span id="copiadoMsg" class="text-green-400 absolute right-2 top-1 hidden">Copiado!</span>
+          <button id="copiarBtn" class="absolute right-2 top-1 text-blue-400 hover:underline">Copiar código</button>
         </div>
         <pre class="line-numbers bg-gray-900 rounded-b text-xs">
           <code id="sourceCode" class="language-javascript block p-4 text-green-400 font-mono whitespace-pre-wrap"></code>

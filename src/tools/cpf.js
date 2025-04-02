@@ -38,8 +38,8 @@ const cpf = {
 
       <div class="mt-2 flex gap-2">
         <textarea id="cpfOutput" readonly class="p-2 bg-gray-700 text-green-400 rounded w-full h-40 font-mono resize-none" placeholder="CPFs gerados aparecerão aqui"></textarea>
-        <button id="cpfCopyBtn" class="bg-green-700 hover:bg-green-600 px-2 py-1 rounded">Copiar</button>
       </div>
+      <button id="cpfCopyBtn" class="bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-white">Copiar</button>
     </div>
   `,
 

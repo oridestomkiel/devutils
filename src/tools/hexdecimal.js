@@ -24,8 +24,8 @@ const hexdecimal = {
     </div>
     <div class="relative">
       <pre id="hexDecOutput" class="mt-2 text-green-400 whitespace-pre-wrap break-words pr-12"> </pre>
-      <button id="copyHexDec" class="absolute top-0 right-0 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <span id="copiedHexDec" class="absolute top-0 right-0 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyHexDec" class="absolute top-0 right-0 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <span id="copiedHexDec" class="absolute top-0 right-0 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
   `,
   init: () => {

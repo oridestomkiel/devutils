@@ -33,8 +33,8 @@ const lorem = {
     <button id="loremBtn" class="bg-yellow-600 hover:bg-yellow-700 px-4 py-2 rounded">Gerar</button>
     <div class="relative mt-2">
       <pre id="loremOutput" class="text-green-400 whitespace-pre-wrap break-words pr-16"> </pre>
-      <button id="copyLoremBtn" class="absolute top-0 right-0 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <span id="copiedLoremMsg" class="absolute top-0 right-0 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyLoremBtn" class="absolute top-0 right-0 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <span id="copiedLoremMsg" class="absolute top-0 right-0 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
   `,
   init: async () => {

@@ -21,8 +21,8 @@ const textnormalize = {
     <button id="normBtn" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded w-full mb-2">Normalizar</button>
     <div class="relative">
       <textarea id="normOutput" class="w-full p-2 bg-gray-700 text-green-400 rounded pr-20" rows="4" readonly placeholder="Texto normalizado aparecerá aqui..."></textarea>
-      <button id="copyNormBtn" class="absolute top-2 right-2 text-xs bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
-      <span id="copiedNormMsg" class="absolute top-2 right-2 text-xs text-green-400 px-2 py-1 hidden">Copiado!</span>
+      <button id="copyNormBtn" class="absolute top-2 right-2 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white">Copiar</button>
+      <span id="copiedNormMsg" class="absolute top-2 right-2 text-green-400 px-2 py-1 hidden">Copiado!</span>
     </div>
   `,
   init: () => {

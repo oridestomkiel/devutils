@@ -43,9 +43,10 @@ const geradordecnpj = {
       <button id="cnpjBtn" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded">Gerar CNPJ</button>
 
       <div class="mt-2 flex gap-2">
-        <textarea id="cnpjOutput" readonly class="p-2 bg-gray-700 text-green-400 rounded w-full h-40 font-mono resize-none" placeholder="CNPJs gerados aparecerão aqui"></textarea>
-        <button id="cnpjCopyBtn" class="bg-green-700 hover:bg-green-600 px-2 py-1 rounded">Copiar</button>
+        <textarea id="cnpjOutput" readonly class="p-2 bg-gray-700 text-green-400 rounded w-full h-40 font-mono resize-none" placeholder="CNPJs gerados aparecerão aqui"></textarea>        
       </div>
+
+      <button id="cnpjCopyBtn" class="bg-gray-700 hover:bg-gray-600 px-2 py-1 rounded text-white">Copiar</button>
     </div>
   `,
 
