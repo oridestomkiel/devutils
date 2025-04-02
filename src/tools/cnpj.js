@@ -90,7 +90,15 @@ const cnpj = {
       const cnpjValue = cnpjInput.value;
       const isValid = validateCNPJ(cnpjValue);
 
-      cnpjOutput.value = isValid ? "CNPJ válido" : "CNPJ inválido";
+      cnpjOutput.classList.remove("text-green-400", "text-red-400");
+
+      if (isValid) {
+        cnpjOutput.value = "✅ CNPJ válido.";
+        cnpjOutput.classList.add("text-green-400");
+      } else {
+        cnpjOutput.value = "❌ CNPJ inválido.";
+        cnpjOutput.classList.add("text-red-400");
+      }
     });
 
     copyBtn.addEventListener("click", () => {
