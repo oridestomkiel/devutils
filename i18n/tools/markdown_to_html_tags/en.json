@@ -1,0 +1,14 @@
+{
+  "title": "Markdown → HTML (Tags)",
+  "description": "Convert Markdown to raw HTML by displaying only the generated HTML tags. Ideal for developers and content integration.",
+  "tags": [
+    "markdown to html",
+    "markdown to html",
+    "convert markdown",
+    "html tag output",
+    "raw markdown",
+    "view markdown html"
+  ],
+  "category": "Converters",
+  "placeholder": "# Title\n\nSome *markdown* text."
+}

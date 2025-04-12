@@ -1,0 +1,19 @@
+{
+  "title": "Generador de listas de correo electrónico aleatorias",
+  "description": "Genere direcciones de correo electrónico ficticias para realizar pruebas, simular registros y validar formularios. Ideal para entornos de desarrollo.",
+  "tags": [
+    "generador de correo electrónico",
+    "correos electrónicos aleatorios",
+    "correo electrónico falso",
+    "lista de correo electrónico",
+    "correos electrónicos para pruebas",
+    "correo electrónico ficticio",
+    "correo electrónico para desarrollo"
+  ],
+  "category": "Generadores",
+  "quantity_placeholder": "Número de correos electrónicos",
+  "domain_placeholder": "Dominio (p. ej. gmail.com)",
+  "generate": "Para generar",
+  "output_placeholder": "Los correos electrónicos generados aparecerán aquí",
+  "error_input": "Verificar cantidad y dominio."
+}

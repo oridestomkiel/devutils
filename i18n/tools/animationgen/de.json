@@ -1,0 +1,41 @@
+{
+  "title": "CSS-Animationsgenerator",
+  "description": "Erstelle CSS-Animationen mit verschiedenen Bewegungstypen, steuere Dauer, Timing, Verzögerung und Wiederholung. Vorschau und CSS kopieren.",
+  "tags": [
+    "CSS-Animation",
+    "Schlüsselbilder",
+    "Web-Animation",
+    "Zeitverlauf",
+    "Schleife",
+    "Interaktives Design"
+  ],
+  "category": "Design / Farben",
+  "animationType": "Animationstyp",
+  "categories": {
+    "basic": "🎯 Einfach",
+    "slides": "📦 Folien",
+    "dynamic": "🤸 Dynamisch",
+    "visual": "🧼 Visuell",
+    "loop": "🔁 Schleife / Ruhig"
+  },
+  "options": {
+    "fade": "Einblenden",
+    "scale": "Skalieren (Zoom)",
+    "rotate": "Drehen",
+    "slide-left": "Nach links schieben",
+    "slide-right": "Nach rechts schieben",
+    "slide-up": "Nach oben schieben",
+    "slide-down": "Nach unten schieben",
+    "bounce": "Springen",
+    "shake": "Schütteln",
+    "flip": "Flip Y",
+    "flip-x": "Flip X",
+    "blur-in": "Einblenden mit Unschärfe",
+    "opacity-pulse": "Transparenzpuls",
+    "zoom-in": "Hineinzoomen",
+    "zoom-out": "Herauszoomen",
+    "float": "Schweben",
+    "wave": "Welle",
+    "pulse": "Pulsieren"
+  }
+}

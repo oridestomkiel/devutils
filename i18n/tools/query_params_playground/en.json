@@ -1,0 +1,21 @@
+{
+  "title": "Query Params Playground",
+  "description": "Interactively decode, edit, and assemble URLs. Modify parameters, view the final URL, and view structure details.",
+  "tags": [
+    "url",
+    "query",
+    "params",
+    "playground",
+    "tool"
+  ],
+  "category": "Encoders/Decoders",
+  "placeholder": "Paste or type a full URL for analysis...",
+  "analyze": "Analyze URL",
+  "add_param": "Add Param",
+  "open": "Open URL",
+  "key": "Key",
+  "value": "Value",
+  "remove_key": "Remove parameter",
+  "url_prefix_error": "The URL must start with http:// or https://",
+  "url_invalid": "Invalid or incomplete URL."
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Comprobador de GZIP",
+  "description": "Comprueba si el servidor de una URL tiene habilitada la compresión GZIP. Visualiza los encabezados de respuesta en tiempo real.",
+  "tags": [
+    "gzip",
+    "encabezados http",
+    "compresión",
+    "comprobador de gzip",
+    "mejoramiento",
+    "rendimiento web"
+  ],
+  "category": "Redes / HTTP",
+  "placeholder": "https://ejemplo.com/arquivo.js",
+  "check": "Comprobar GZIP",
+  "checking": "De cheques...",
+  "gzip.enabled": "✅ GZIP está activado: el texto se comprime.",
+  "gzip.disabled": "❌ GZIP NO está habilitado: respuesta sin comprimir.",
+  "httpHeaders": "Encabezados HTTP",
+  "error.invalidUrl": "Introduzca una URL válida.",
+  "error.checkFailed": "Error durante la prueba",
+  "error.prefix": "Error"
+}

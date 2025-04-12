@@ -1,0 +1,28 @@
+{
+  "title": "Générer et analyser UUID / ULID / Nano ID",
+  "description": "Générez des identifiants uniques (UUID, ULID, Nano ID) et vérifiez leur structure et leur validité. Le tout localement dans votre navigateur.",
+  "tags": [
+    "uuid",
+    "ulidé",
+    "nanoïde",
+    "identifiant",
+    "sécurité",
+    "générateur"
+  ],
+  "category": "Générateurs",
+  "type": "Type d'identifiant :",
+  "amount": "Montant:",
+  "lowercase": "Convertir en minuscules",
+  "generate": "Pour générer",
+  "analyzeTitle": "Analyser l'identifiant",
+  "analyze": "Pour analyser",
+  "placeholder": "Coller un UUID, ULID ou Nano ID",
+  "uuidValid": "UUID valide",
+  "version": "Version",
+  "variant": "Variante",
+  "uuidRfc": "RFC 4122 (norme)",
+  "ulidValid": "ULID valide",
+  "nanoidValid": "Nano ID valide",
+  "invalidID": "ID invalide ou non reconnu.",
+  "unknown": "Inconnu"
+}

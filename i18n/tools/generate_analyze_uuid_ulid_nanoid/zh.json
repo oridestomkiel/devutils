@@ -1,0 +1,28 @@
+{
+  "title": "生成并解析 UUID / ULID / Nano ID",
+  "description": "生成唯一标识符（UUID、ULID、Nano ID）并检查其结构和有效性。所有内容均在您的浏览器中本地进行。",
+  "tags": [
+    "唯一标识",
+    "乌利德",
+    "纳米类",
+    "标识符",
+    "安全",
+    "发电机"
+  ],
+  "category": "生成器",
+  "type": "身份证类型：",
+  "amount": "数量：",
+  "lowercase": "转换为小写",
+  "generate": "生成",
+  "analyzeTitle": "分析标识符",
+  "analyze": "分析",
+  "placeholder": "粘贴 UUID、ULID 或 Nano ID",
+  "uuidValid": "有效的 UUID",
+  "version": "版本",
+  "variant": "变体",
+  "uuidRfc": "RFC 4122（标准）",
+  "ulidValid": "有效 ULID",
+  "nanoidValid": "有效的 Nano ID",
+  "invalidID": "无效或无法识别的身份证件。",
+  "unknown": "未知"
+}

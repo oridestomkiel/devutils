@@ -1,0 +1,21 @@
+{
+  "title": "车牌生成器",
+  "description": "根据州生成有效车牌并选择是否包含标点符号。非常适合测试和模拟。",
+  "tags": [
+    "平板发生器",
+    "牌照",
+    "棋盘模拟器",
+    "带有状态的牌子",
+    "带面具的盘子"
+  ],
+  "category": "生成器",
+  "label_quantity": "数量：",
+  "label_state": "状态：",
+  "label_mask": "带标点符号（例如 ABC-1234）",
+  "any_state": "任何",
+  "generate": "生成",
+  "copy": "复制",
+  "copied": "已复制！",
+  "error_loading": "加载车牌数据错误。",
+  "no_data": "没有数据"
+}

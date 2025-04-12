@@ -1,0 +1,22 @@
+{
+  "title": "Währungsformatierer BRL / USD / EUR",
+  "description": "Formatiere Geldbeträge im BRL-, USD- und EUR-Standard mit korrekten Trennzeichen und Symbolen. Ideal zur Anzeige von Preisen in Systemen und E-Commerce.",
+  "tags": [
+    "währungsformatierer",
+    "brl währung",
+    "usd währung",
+    "eur währung",
+    "werte formatieren",
+    "geldformatierung",
+    "formatierter preis",
+    "internationale währung"
+  ],
+  "category": "Formatierer / Minifizierer",
+  "placeholder.input": "Wert eingeben",
+  "placeholder.output": "Formatiertes Ergebnis",
+  "option.brl": "Real (BRL)",
+  "option.usd": "Dollar (USD)",
+  "option.eur": "Euro (EUR)",
+  "button.format": "Formatieren",
+  "error.invalidValue": "Ungültiger Wert."
+}

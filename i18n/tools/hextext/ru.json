@@ -1,0 +1,14 @@
+{
+    "title": "Conversor Hex ↔ Texto",
+    "description": "Converta valores hexadecimais para texto e texto para hexadecimal com precisão. Útil para codificação, debugging e manipulação de strings.",
+    "tags": [
+        "hex para texto",
+        "texto para hex",
+        "conversor hexadecimal",
+        "string para hex",
+        "decodificar hex",
+        "codificar texto",
+        "converter hex"
+    ],
+    "category": "Codificadores / Decodificadores"
+}

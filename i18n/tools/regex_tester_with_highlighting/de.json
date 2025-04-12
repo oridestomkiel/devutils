@@ -1,0 +1,21 @@
+{
+  "title": "Regex-Tester mit Hervorhebung",
+  "description": "Testen Sie Ihre regulären Ausdrücke in Echtzeit mit Syntaxhervorhebung. Ideal für die Musteranalyse, die Validierung von Zeichenfolgen und die schnelle Fehlerkorrektur.",
+  "tags": [
+    "regulärer Ausdruck",
+    "reguläre Ausdrücke",
+    "Regex-Test",
+    "Regex mit Hervorhebung",
+    "Regulären Ausdruck validieren",
+    "Muster analysieren",
+    "Regex-Tool"
+  ],
+  "category": "Dienstprogramme",
+  "regex_placeholder": "Geben Sie das Regex-Muster ein (z. B. \\d+ oder /\\w+/gi)",
+  "text_placeholder": "Text, wo der reguläre Ausdruck angewendet werden soll",
+  "test": "Testen Sie reguläre Ausdrücke",
+  "fill_both": "Füllen Sie beide Felder aus.",
+  "invalid": "Ungültiger regulärer Ausdruck:",
+  "no_match": "Keine Übereinstimmungen gefunden.",
+  "hint": "Verwenden Sie die Standard-JavaScript-Syntax. Flags wie g und i sind am Ende optional: /default/gi."
+}

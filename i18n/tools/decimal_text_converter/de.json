@@ -1,0 +1,19 @@
+{
+  "title": "Dezimal ↔ Text Konverter",
+  "description": "Konvertiere Dezimalzahlen in Text und Text in Dezimalzahlen mit Leichtigkeit. Nützlich für Codierung, Tests und Datenmanipulation.",
+  "tags": [
+    "dezimal zu text",
+    "text zu dezimal",
+    "dezimalkonvertierung",
+    "zahl in text umwandeln",
+    "ascii dezimal",
+    "dezimaldarstellung",
+    "zahlenkonverter"
+  ],
+  "category": "Kodierer / Dekodierer",
+  "placeholder": "Text oder Dezimalzahlen durch Leerzeichen getrennt eingeben",
+  "outputPlaceholder": "Ergebnis erscheint hier",
+  "textToDecimal": "Text → Dezimal",
+  "decimalToText": "Dezimal → Text",
+  "decodeError": "Fehler bei der Umwandlung von Dezimal zu Text."
+}

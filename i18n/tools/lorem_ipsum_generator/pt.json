@@ -1,0 +1,21 @@
+{
+  "title": "Gerador de Lorem Ipsum",
+  "description": "Gere textos fictícios padrão Lorem Ipsum para usar como placeholder em designs, layouts e testes de conteúdo.",
+  "tags": [
+    "lorem ipsum",
+    "texto fictício",
+    "gerador de texto",
+    "texto para layout",
+    "placeholder de conteúdo",
+    "texto simulado",
+    "conteúdo de teste"
+  ],
+  "category": "Geradores",
+  "paragraphs": "Parágrafos",
+  "words": "Palavras",
+  "bytes": "Bytes",
+  "lists": "Listas",
+  "startWithLorem": "Começar com \"Lorem ipsum dolor sit amet...\"",
+  "error.loading": "Erro ao carregar texto Lorem Ipsum.",
+  "loremIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc purus, gravida non dignissim iaculis, pretium sed metus. Quisque faucibus, lacus a vulputate fermentum, lacus erat feugiat risus, non fringilla ligula eros eu sem. Integer consectetur, sem suscipit pellentesque auctor, neque velit fermentum mi, id elementum eros felis at nisi. Aenean consectetur gravida dui, vel porta diam aliquam et. Aliquam volutpat, lectus ut convallis vestibulum, ligula leo fringilla neque, non fringilla justo tortor non purus. Proin consequat erat vitae tellus pharetra, in malesuada eros rutrum. Integer sed massa dignissim, efficitur eros vitae, rhoncus nisi. Sed gravida rutrum est at venenatis."
+}

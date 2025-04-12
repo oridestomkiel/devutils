@@ -1,0 +1,19 @@
+{
+  "title": "Validador de boletos bancários",
+  "description": "Valide rapidamente boletos bancários brasileiros, verificando dígitos e estrutura do código de barras. Ideal para testes, automações e verificação de pagamentos.",
+  "tags": [
+    "validador de boletos",
+    "validar boleto bancário",
+    "verificador de boleto",
+    "boleto online",
+    "código de barras boleto",
+    "validação boleto",
+    "boleto bancário"
+  ],
+  "category": "Validadores",
+  "placeholder": "Digite o número do boleto",
+  "validate": "Validar Boleto",
+  "error.length": "❌ Boleto inválido. Deve conter 47 ou 48 dígitos.",
+  "error.dv": "❌ Dígitos verificadores inválidos. Boleto inválido.",
+  "success": "✅ Boleto válido. Valor detectado: {valor}"
+}

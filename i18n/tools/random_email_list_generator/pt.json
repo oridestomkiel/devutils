@@ -1,0 +1,19 @@
+{
+  "title": "Gerador de lista de emails aleatórios",
+  "description": "Gere endereços de email fictícios para testes, cadastros simulados e validação de formulários. Perfeito para ambientes de desenvolvimento.",
+  "tags": [
+    "gerador de email",
+    "emails aleatórios",
+    "email fake",
+    "lista de emails",
+    "emails para teste",
+    "email fictício",
+    "email para desenvolvimento"
+  ],
+  "category": "Geradores",
+  "quantity_placeholder": "Qtd de emails",
+  "domain_placeholder": "Domínio (ex: gmail.com)",
+  "generate": "Gerar",
+  "output_placeholder": "Emails gerados aparecerão aqui",
+  "error_input": "Verifique a quantidade e o domínio."
+}

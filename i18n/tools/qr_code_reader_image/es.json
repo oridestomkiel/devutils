@@ -1,0 +1,14 @@
+{
+  "title": "Lector de código QR (imagen)",
+  "description": "Sube una imagen con código QR para decodificar el contenido. Muestra el texto incrustado y permite copiarlo con un solo clic.",
+  "tags": [
+    "código QR",
+    "lector QR",
+    "imagen",
+    "escáner",
+    "decodificar qr"
+  ],
+  "category": "Imágenes",
+  "svg_not_supported": "El formato SVG no es compatible. Utilice PNG o JPG.",
+  "no_qr_found": "No se detectó ningún código QR."
+}

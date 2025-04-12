@@ -1,0 +1,20 @@
+{
+  "title": "Générateur JWT",
+  "description": "Créez des jetons JWT personnalisés avec en-tête, charge utile et secret. Idéal pour les tests avec HS256.",
+  "tags": [
+    "jwt",
+    "jeton",
+    "générer un jwt",
+    "tester jwt",
+    "cryptage"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "payload": "Charge utile (JSON)",
+  "header": "En-tête (facultatif)",
+  "secret": "Secret (HS256)",
+  "secretPlaceholder": "Entrez dans le secret...",
+  "outputLabel": "Jeton JWT",
+  "invalidPayload": "Charge utile invalide",
+  "invalidHeader": "En-tête invalide",
+  "secretRequired": "secret obligatoire"
+}

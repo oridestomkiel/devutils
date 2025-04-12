@@ -1,0 +1,11 @@
+{
+  "title": "Backslashes maskieren/demaskieren",
+  "description": "Konvertiere Sonderzeichen wie Zeilenumbrüche (\\n), Tabs (\\t), Anführungszeichen und andere in maskierte Strings oder umgekehrt.",
+  "tags": ["escape", "unescape", "backslash", "text", "string"],
+  "category": "Textwerkzeuge",
+  "escape": "Maskieren",
+  "unescape": "Demaskieren",
+  "inputLabel": "Eingabe:",
+  "outputLabel": "Ausgabe:",
+  "convert": "Konvertieren"
+}

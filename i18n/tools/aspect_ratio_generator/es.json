@@ -1,0 +1,24 @@
+{
+  "title": "Generador de Relación de Aspecto",
+  "description": "Genera estilos CSS para mantener una relación de aspecto fija en elementos como videos, imágenes o contenedores responsivos.",
+  "tags": [
+    "relación de aspecto",
+    "responsivo",
+    "truco css",
+    "proporción",
+    "contenedor",
+    "truco de padding"
+  ],
+  "category": "Diseño / Colores",
+  "label.ratio": "Relación de aspecto",
+  "label.ratio.custom": "Personalizado (ancho:alto)",
+  "label.ratio.mode": "Modo",
+  "option.ratio.16_9": "16:9",
+  "option.ratio.4_3": "4:3",
+  "option.ratio.1_1": "1:1",
+  "option.ratio.21_9": "21:9",
+  "option.ratio.custom": "Personalizado",
+  "option.mode.modern": "aspect-ratio (moderno)",
+  "option.mode.fallback": "padding-top (compatible)",
+  "preview.label": "Vista previa"
+}

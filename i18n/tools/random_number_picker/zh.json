@@ -1,0 +1,19 @@
+{
+  "title": "随机数选择器",
+  "description": "免费在线数字选择器。选择范围并点击抽奖号码。您还可以使用它在 Facebook、Instagram 和其他社交网络上进行抽奖。",
+  "tags": [
+    "抽奖",
+    "随机的",
+    "随机的",
+    "数字",
+    "Facebook",
+    "Instagram"
+  ],
+  "category": "实用工具",
+  "instruction": "输入数字范围，点击绘制：",
+  "min_label": "最低限度",
+  "max_label": "最大限度",
+  "draw_button": "抽奖号码",
+  "result_label": "生成的数字：",
+  "invalid_range": "无效范围"
+}

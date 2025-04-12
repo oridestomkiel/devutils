@@ -1,0 +1,23 @@
+{
+  "title": "Date Difference Calculator",
+  "description": "Calculate the difference between two dates in days, months, or years. Ideal for deadlines, expiration tracking, and time counting.",
+  "tags": [
+    "date difference",
+    "calculate dates",
+    "how many days between dates",
+    "days between dates",
+    "time calculator",
+    "time between dates",
+    "count days"
+  ],
+  "category": "Dates and Times",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "calculate": "Calculate",
+  "invalidDates": "Please fill in both dates correctly.",
+  "difference": "Difference",
+  "days": "days",
+  "hours": "hours",
+  "minutes": "minutes",
+  "resultPlaceholder": "Result will appear here"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "JSON Schema → OpenAPI",
+    "description": "Converta um schema JSON válido para o formato OpenAPI 3.0. Ajusta campos como 'nullable', remove '$schema' e formata corretamente para uso em APIs.",
+    "tags": [
+        "json schema",
+        "openapi",
+        "converter",
+        "api design",
+        "spec"
+    ],
+    "category": "Conversores"
+}

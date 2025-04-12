@@ -1,0 +1,25 @@
+{
+  "title": "Convertidor de texto a múltiples formatos",
+  "description": "Ingrese cualquier texto y vea su conversión automática a representaciones BINARIAS, DECIMAL, OCTAL, HEX, BASE64, ASCII, UTF8, URL, UNICODE, MORSE y HTML",
+  "tags": [
+    "conversión",
+    "texto",
+    "binario",
+    "base64",
+    "Unicode",
+    "morse"
+  ],
+  "category": "Herramientas de texto",
+  "input_placeholder": "Escriba o pegue el texto para convertir...",
+  "label_binario": "BINARIO",
+  "label_decimal": "DECIMAL",
+  "label_octal": "OCTAL",
+  "label_hex": "MALEFICIO",
+  "label_base64": "BASE64",
+  "label_ascii": "ASCII",
+  "label_utf8": "UTF8",
+  "label_url": "URL",
+  "label_unicode": "UNICODE",
+  "label_morse": "MORSE",
+  "label_html": "HTML"
+}

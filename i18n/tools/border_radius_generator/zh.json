@@ -1,0 +1,21 @@
+{
+  "title": "圆角生成器",
+  "description": "轻松自定义圆角。快速生成适用于所有或单独角落的 CSS。",
+  "tags": [
+    "border-radius",
+    "圆角边框",
+    "css 半径",
+    "视觉设计",
+    "圆角界面",
+    "css 边框",
+    "视觉样式"
+  ],
+  "category": "设计 / 颜色",
+  "label.topLeft": "左上角",
+  "label.topRight": "右上角",
+  "label.bottomRight": "右下角",
+  "label.bottomLeft": "左下角",
+  "generate": "生成",
+  "copy": "复制",
+  "preview": "预览"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Générateur de Variables CSS",
+  "description": "Créez et visualisez des variables CSS avec des valeurs personnalisées. Génère une structure :root pour une utilisation dans les thèmes et les jetons de design.",
+  "tags": ["variables", "css vars", ":root", "jetons de design", "thèmes"],
+  "category": "Design / Couleurs",
+  "labels": {
+    "addVar": "+ Ajouter une Variable",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "previewText": "Aperçu avec variables appliquées"
+  }
+}

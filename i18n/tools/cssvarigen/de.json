@@ -1,0 +1,12 @@
+{
+    "title": "Gerador de Variáveis CSS",
+    "description": "Crie e visualize variáveis CSS com valores customizados. Gera estrutura em :root para usar em temas e design tokens.",
+    "tags": [
+        "variáveis",
+        "css vars",
+        "root",
+        "design tokens",
+        "temas"
+    ],
+    "category": "Design / Cores"
+}

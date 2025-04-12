@@ -1,0 +1,19 @@
+{
+  "title": "JWT Viewer",
+  "description": "Decode JWT tokens to view the header, payload, and signature. Ideal for debugging, security, and authentication development.",
+  "tags": [
+    "jwt",
+    "view jwt",
+    "decode jwt",
+    "jwt token",
+    "jwt debugger",
+    "analyze jwt",
+    "jwt decoder",
+    "jwt token viewer"
+  ],
+  "category": "Encoders/Decoders",
+  "placeholder": "Paste your JWT here",
+  "decode": "Decode",
+  "error.invalid": "Invalid JWT",
+  "error.structure": "JWT must contain 3 parts separated by dot."
+}

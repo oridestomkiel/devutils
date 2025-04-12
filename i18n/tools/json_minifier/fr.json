@@ -1,0 +1,20 @@
+{
+  "title": "Minificateur JSON",
+  "description": "Supprimez les espaces, les sauts de ligne et les caractères inutiles de votre JSON. Idéal pour réduire la taille des fichiers et optimiser les applications.",
+  "tags": [
+    "minificateur json",
+    "minification json",
+    "réduire json",
+    "compresser json",
+    "json optimisé",
+    "supprimer les espaces json",
+    "json sans formatage"
+  ],
+  "category": "Formateurs / Minificateurs",
+  "minify": "Réduire",
+  "invalidJson": "❌ JSON non valide.",
+  "placeholder": {
+    "input": "Cole seu JSON aqui...",
+    "output": "JSON minificado aparecerá aqui"
+  }
+}

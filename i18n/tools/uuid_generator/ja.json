@@ -1,0 +1,18 @@
+{
+  "title": "UUID ジェネレーター",
+  "description": "複数の出力オプションを使用して一意の UUID (v4 または v1) を生成します。テスト、ログ記録、およびグローバル オブジェクト識別に最適です。",
+  "tags": [
+    "ユーザID",
+    "uuid ジェネレータ",
+    "uuid v4",
+    "uuidv1",
+    "一意の識別子",
+    "バッチUUID"
+  ],
+  "category": "発電機",
+  "uuid_v4": "UUID v4 (ランダム)",
+  "uuid_v1": "UUID v1 (タイムスタンプ)",
+  "quantity_placeholder": "額",
+  "output_placeholder": "生成された UUID がここに表示されます...",
+  "filename": "uuids-{タイムスタンプ}.txt"
+}

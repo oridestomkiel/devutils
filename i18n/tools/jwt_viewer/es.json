@@ -1,0 +1,19 @@
+{
+  "title": "Visor de JWT",
+  "description": "Decodifica tokens JWT para visualizar el encabezado, la carga útil y la firma. Ideal para depuración, seguridad y desarrollo de autenticación.",
+  "tags": [
+    "jwt",
+    "ver jwt",
+    "decodificar jwt",
+    "token jwt",
+    "depurador de jwt",
+    "analizar jwt",
+    "decodificador jwt",
+    "visor de tokens jwt"
+  ],
+  "category": "Codificadores/Decodificadores",
+  "placeholder": "Pegue su JWT aquí",
+  "decode": "Descodificar",
+  "error.invalid": "JWT no válido",
+  "error.structure": "JWT debe contener 3 partes separadas por un punto."
+}

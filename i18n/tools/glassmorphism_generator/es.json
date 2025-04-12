@@ -1,0 +1,20 @@
+{
+  "title": "Generador de glassmorfismo",
+  "description": "Crea efectos de vidrio esmerilado con color, transparencia, desenfoque y bordes. Ideal para paneles y tarjetas de aspecto moderno.",
+  "tags": [
+    "vidriomorfismo",
+    "difuminar",
+    "transparencia",
+    "efecto vidrio",
+    "vidrio esmerilado",
+    "interfaz de usuario moderna",
+    "vidrio visual"
+  ],
+  "category": "Diseño / Colores",
+  "backgroundColor": "Color de fondo",
+  "opacity": "Opacidad",
+  "blur": "Desenfoque (px)",
+  "borderColor": "Color del borde",
+  "borderOpacity": "Opacidad del borde",
+  "previewBackground": "Vista previa de fondo"
+}

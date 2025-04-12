@@ -1,0 +1,19 @@
+{
+  "title": "Zeilenumbrüche in \\n umwandeln",
+  "description": "Konvertiert echte Zeilenumbrüche in das Escape-Format \\n. Ideal für Programmierer, die Texte mit Umbrüchen in Code einfügen möchten.",
+  "tags": [
+    "zeilenumbruch",
+    "escape",
+    "programmierung",
+    "konvertierung",
+    "text",
+    "code"
+  ],
+  "category": "Textwerkzeuge",
+  "label.input": "Text mit Zeilenumbrüchen:",
+  "label.output": "Ergebnis mit \\n:",
+  "placeholder.input": "Geben Sie hier Ihren Text ein oder fügen Sie ihn ein...",
+  "button.convert": "In \\n umwandeln",
+  "button.copy": "Kopieren",
+  "button.clear": "Löschen"
+}

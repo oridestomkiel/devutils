@@ -1,0 +1,13 @@
+{
+    "title": "JSON → BigQuery Schema",
+    "description": "Converta um JSON simples em uma estrutura de schema para BigQuery, incluindo nome, tipo e modo (REQUIRED).",
+    "tags": [
+        "json",
+        "bigquery",
+        "schema",
+        "gcp",
+        "google cloud",
+        "dados"
+    ],
+    "category": "Conversores"
+}

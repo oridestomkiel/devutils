@@ -1,0 +1,21 @@
+{
+  "title": "Convertisseur d'horodatage ↔ date",
+  "description": "Convertissez les horodatages entre différents formats ou systèmes. Idéal pour le développement, la journalisation et la manipulation de dates.",
+  "tags": [
+    "horodatage",
+    "convertir l'horodatage",
+    "heure Unix",
+    "date à horodatage",
+    "format de date",
+    "époque",
+    "date lisible"
+  ],
+  "category": "Dates et heures",
+  "input_placeholder": "Entrez l'horodatage ou la date...",
+  "output_placeholder": "Le résultat apparaîtra ici...",
+  "convert": "Convertir",
+  "format_br": "Date lisible (pt-BR)",
+  "format_iso": "Format ISO 8601",
+  "format_utc": "Date UTC",
+  "instructions": "Accepte les horodatages Unix (secondes) ou les dates telles que <code>2025-03-28 15:00</code>, <code>28/03/2025</code> etc."
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Validateur de Boleto Bancaire",
+  "description": "Validez rapidement les boletos bancaires brésiliens en vérifiant les chiffres de contrôle et la structure du code-barres. Idéal pour les tests, l'automatisation et la vérification des paiements.",
+  "tags": [
+    "validateur de boleto",
+    "valider boleto bancaire",
+    "vérificateur de boleto",
+    "boleto en ligne",
+    "code-barres boleto",
+    "validation boleto",
+    "boleto bancaire"
+  ],
+  "category": "Validateurs",
+  "placeholder": "Saisissez le numéro du boleto",
+  "validate": "Valider le Boleto",
+  "error.length": "❌ Boleto invalide. Doit contenir 47 ou 48 chiffres.",
+  "error.dv": "❌ Chiffres de contrôle invalides. Boleto invalide.",
+  "success": "✅ Boleto valide. Valeur détectée : {valor}"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "JSON → BigQuery スキーマ",
+  "description": "単純な JSON を、名前、タイプ、モードを含む BigQuery のスキーマ構造に変換します (必須)。",
+  "tags": [
+    "json",
+    "ビッグクエリ",
+    "スキーマ",
+    "グーピーシーピー",
+    "グーグルクラウド",
+    "データ"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここにJSONを貼り付けてください...",
+  "convert": "変換する",
+  "invalidJson": "無効なJSONです。"
+}

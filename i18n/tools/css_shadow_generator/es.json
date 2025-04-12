@@ -1,0 +1,25 @@
+{
+  "title": "Generador de Sombras CSS",
+  "description": "Crea sombras personalizadas con control de desplazamiento, desenfoque, expansión y color. Perfecto para resaltar elementos de la UI con estilo.",
+  "tags": [
+    "sombra de caja",
+    "sombra css",
+    "sombra personalizada",
+    "efecto de sombra",
+    "sombras visuales",
+    "css visual",
+    "diseño ui",
+    "elevación ui"
+  ],
+  "category": "Diseño / Colores",
+  "labels": {
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "blur": "Desenfoque",
+    "spread": "Expansión",
+    "color": "Color de la sombra",
+    "generate": "Generar",
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  }
+}

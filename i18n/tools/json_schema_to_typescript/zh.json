@@ -1,0 +1,16 @@
+{
+  "title": "JSON 模式 → TypeScript",
+  "description": "从 JSON Schema 生成完整的 TypeScript 接口，支持枚举、可空值、JSDoc、有界数组等。",
+  "tags": [
+    "json 模式",
+    "打字稿",
+    "界面",
+    "转变",
+    "打字"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 模式粘贴到这里...",
+  "convert": "转变",
+  "invalid": "架构无效。",
+  "invalidJson": "无效的 JSON 模式！"
+}

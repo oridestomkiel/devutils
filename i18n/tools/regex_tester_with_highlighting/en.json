@@ -1,0 +1,21 @@
+{
+  "title": "Regex Tester with Highlighting",
+  "description": "Test your regular expressions in real time with syntax highlighting. Ideal for analyzing patterns, validating strings, and quickly correcting errors.",
+  "tags": [
+    "regex",
+    "regular expressions",
+    "regex test",
+    "regex with highlighting",
+    "validate regex",
+    "analyze patterns",
+    "regex tool"
+  ],
+  "category": "Utilities",
+  "regex_placeholder": "Enter the regex pattern (e.g. \\d+ or /\\w+/gi)",
+  "text_placeholder": "Text where to apply the regex",
+  "test": "Test Regex",
+  "fill_both": "Fill in both fields.",
+  "invalid": "Invalid regex:",
+  "no_match": "No matches found.",
+  "hint": "Use standard JavaScript syntax. Flags like g and i are optional at the end: /default/gi."
+}

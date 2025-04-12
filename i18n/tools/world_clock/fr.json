@@ -1,0 +1,25 @@
+{
+  "title": "Heure mondiale",
+  "description": "Vérifiez l'heure actuelle dans de nombreuses villes du monde ou entrez un fuseau horaire pour obtenir l'heure locale exacte.",
+  "tags": [
+    "heure mondiale",
+    "fuseau horaire",
+    "heure actuelle",
+    "fuseaux horaires",
+    "horloge mondiale",
+    "heure du pays",
+    "date et heure mondiales"
+  ],
+  "category": "Dates et heures",
+  "choose_timezone": "Choisissez un fuseau horaire :",
+  "select_placeholder": "Sélectionnez un fuseau horaire...",
+  "output_placeholder": "Le calendrier apparaîtra ici",
+  "copy": "Copie",
+  "copied": "Copié!",
+  "popular_times": "Horaires populaires :",
+  "loading": "Chargement...",
+  "label_original": "Horaire original :",
+  "label_ptbr": "PT-BR:",
+  "label_offset": "Décalage UTC :",
+  "error_time": "Erreur lors de la récupération de l'heure"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "通貨フォーマッター BRL / USD / EUR",
+  "description": "BRL、USD、EUR形式の通貨を正しい区切り記号と記号でフォーマットします。システムやECサイトで価格を表示するのに最適です。",
+  "tags": [
+    "通貨フォーマッター",
+    "brl 通貨",
+    "usd 通貨",
+    "eur 通貨",
+    "金額をフォーマット",
+    "通貨フォーマット",
+    "フォーマットされた価格",
+    "国際通貨"
+  ],
+  "category": "フォーマッター / 最小化ツール",
+  "placeholder.input": "値を入力してください",
+  "placeholder.output": "フォーマット結果",
+  "option.brl": "レアル (BRL)",
+  "option.usd": "ドル (USD)",
+  "option.eur": "ユーロ (EUR)",
+  "button.format": "フォーマット",
+  "error.invalidValue": "無効な値です。"
+}

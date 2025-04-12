@@ -1,0 +1,21 @@
+{
+  "title": "Encoder/Decoder de URL",
+  "description": "Codifique e decodifique URLs de forma simples e rápida. Ideal para garantir compatibilidade de caracteres em requisições HTTP e links.",
+  "tags": [
+    "url encoder",
+    "url decoder",
+    "codificar url",
+    "decodificar url",
+    "url encode",
+    "url decode",
+    "urls em http"
+  ],
+  "category": "Codificadores / Decodificadores",
+  "placeholder_input": "Texto ou URL",
+  "placeholder_output": "Resultado aqui...",
+  "encode": "Encode",
+  "decode": "Decode",
+  "invalid_url": "URL inválida para decodificação",
+  "download_filename": "url-convertido.txt",
+  "preview_link_label": "Pré-visualização"
+}

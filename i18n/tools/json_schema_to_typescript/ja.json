@@ -1,0 +1,16 @@
+{
+  "title": "JSON スキーマ → TypeScript",
+  "description": "列挙型、null 可能、JSDoc、境界付き配列などをサポートする JSON スキーマから完全な TypeScript インターフェイスを生成します。",
+  "tags": [
+    "JSONスキーマ",
+    "タイプスクリプト",
+    "インタフェース",
+    "変換する",
+    "タイピング"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここに JSON スキーマを貼り付けます...",
+  "convert": "変換する",
+  "invalid": "無効なスキーマです。",
+  "invalidJson": "無効な JSON スキーマです。"
+}

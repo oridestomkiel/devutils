@@ -1,0 +1,35 @@
+<ul class="space-y-2 text-gray-900 dark:text-white">
+  <li>
+    <a href="/index.html" class="hover:underline block">Início</a>
+  </li>
+  <li>
+    <a href="/tools.html" class="hover:underline block">Catálogo</a>
+  </li>
+  <li>
+    <select
+      id="langSelectorMobile"
+      class="bg-white dark:bg-gray-700 text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 text-sm rounded px-2 py-1"
+      onchange="setPreferredLang(this.value)"
+      title="Escolher idioma"
+    >
+      <option value="de">🇩🇪 Deutsch</option>
+      <option value="en">🇺🇸 English</option>
+      <option value="es">🇪🇸 Español</option>
+      <option value="fr">🇫🇷 Français</option>
+      <option value="hi">🇮🇳 हिन्दी (Hindi)</option>
+      <option value="ja">🇯🇵 日本語 (Japonês)</option>
+      <option value="pt">🇧🇷 Português</option>
+      <option value="ru">🇷🇺 Русский</option>
+      <option value="zh">🇨🇳 中文 (Chinês)</option>
+    </select>
+  </li>
+  <li>
+    <a
+      href="javascript:;"
+      onclick="toggleSidebar()"
+      class="hover:underline block"
+    >
+      ⚙️ Configurar
+    </a>
+  </li>
+</ul>

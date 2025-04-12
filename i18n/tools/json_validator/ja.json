@@ -1,0 +1,18 @@
+{
+  "title": "JSON バリデーター",
+  "description": "JSON が有効で適切にフォーマットされているかどうかを確認します。API、構成ファイル、統合テストの構文エラーを検出するのに最適です。",
+  "tags": [
+    "json バリデーター",
+    "有効なJSON",
+    "jsonを検証する",
+    "JSONチェッカー",
+    "JSON のエラー",
+    "JSON構造を検証する",
+    "JSON構文"
+  ],
+  "category": "バリデーター",
+  "placeholder": "JSONを入力または貼り付けます",
+  "validate": "検証",
+  "valid": "✅ 有効な JSON。",
+  "invalid": "❌ 無効"
+}

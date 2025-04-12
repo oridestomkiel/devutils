@@ -1,0 +1,19 @@
+{
+  "title": "Visionneuse JWT",
+  "description": "Décodez les jetons JWT pour visualiser l'en-tête, la charge utile et la signature. Idéal pour le débogage, la sécurité et le développement d'authentification.",
+  "tags": [
+    "jwt",
+    "voir jwt",
+    "décoder jwt",
+    "jeton jwt",
+    "débogueur jwt",
+    "analyser jwt",
+    "décodeur jwt",
+    "visualiseur de jetons jwt"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "placeholder": "Collez votre JWT ici",
+  "decode": "Décoder",
+  "error.invalid": "JWT invalide",
+  "error.structure": "Le JWT doit contenir 3 parties séparées par un point."
+}

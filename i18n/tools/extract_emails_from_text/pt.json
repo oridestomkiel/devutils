@@ -1,0 +1,21 @@
+{
+  "title": "Extrair E-mails de Texto",
+  "description": "Cole qualquer conteúdo de texto e extraia todos os endereços de e-mail encontrados. Organize por ordem alfabética ou por domínio.",
+  "tags": [
+    "e-mail",
+    "extrair",
+    "texto",
+    "ordenar",
+    "domínio",
+    "lista de emails"
+  ],
+  "category": "Ferramentas de Texto",
+  "inputLabel": "Texto de origem:",
+  "placeholder": "Cole aqui o conteúdo com e-mails...",
+  "sortLabel": "Ordenar por:",
+  "sortAlphabetical": "Ordem Alfabética",
+  "sortDomain": "Domínio",
+  "extract": "Extrair e-mails",
+  "outputLabel": "E-mails extraídos:",
+  "download": "Baixar TXT"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Transiciones con múltiples propiedades",
+  "description": "Cree transiciones CSS personalizadas con múltiples propiedades, cada una con su propia duración, retraso y suavizado.",
+  "tags": [
+    "transición",
+    "CSS",
+    "animación",
+    "facilitación",
+    "demora",
+    "multiprop"
+  ],
+  "category": "Diseño / Colores",
+  "preview": "Avance",
+  "duration": "Duración (s)",
+  "delay": "Retraso(s)",
+  "background-color": "Color de fondo",
+  "color": "Color del texto",
+  "transform": "Transformación",
+  "opacity": "Opacidad",
+  "border-radius": "Redondeo",
+  "ease": "facilidad",
+  "linear": "lineal",
+  "ease-in": "entrada fácil",
+  "ease-out": "salida gradual",
+  "ease-in-out": "entrada y salida fáciles"
+}

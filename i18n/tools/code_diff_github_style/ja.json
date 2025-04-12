@@ -1,0 +1,9 @@
+{
+  "title": "コード差分（GitHubスタイル）",
+  "description": "2つのコードブロックを比較し、GitHubスタイルで違いを並べて表示します。",
+  "tags": ["ビジュアル差分", "git", "コード比較", "diff2html"],
+  "category": "解析 / 比較",
+  "placeholder.original": "元のコード...",
+  "placeholder.modified": "変更後のコード...",
+  "compare": "比較"
+}

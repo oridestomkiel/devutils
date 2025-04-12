@@ -1,0 +1,16 @@
+{
+  "title": "JSON → MySQL",
+  "description": "Generate SQL statements to create MySQL tables from JSON. Ideal for rapid prototyping and modeling.",
+  "tags": [
+    "json",
+    "mysql",
+    "sql",
+    "database",
+    "convert",
+    "ddl"
+  ],
+  "category": "Converters",
+  "placeholder": "Paste your JSON here...",
+  "convert": "Convert",
+  "error": "Invalid JSON!"
+}

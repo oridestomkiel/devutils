@@ -1,0 +1,20 @@
+{
+  "title": "Visionneuse d'en-têtes HTTP (requête brute)",
+  "description": "Affichez le contenu brut des en-têtes HTTP des requêtes. Idéal pour le débogage, l'analyse du trafic et le développement web.",
+  "tags": [
+    "en-têtes http",
+    "afficher les en-têtes",
+    "demande brute",
+    "analyse http",
+    "requête http",
+    "visualiseur de requêtes http",
+    "demande de débogage",
+    "inspecter les en-têtes"
+  ],
+  "category": "Réseaux / HTTP",
+  "placeholder": "Collez ici une requête HTTP brute",
+  "analyze": "Pour analyser",
+  "nothingToAnalyze": "Rien à analyser.",
+  "methodAndPath": "Méthode et itinéraire",
+  "headers": "En-têtes"
+}

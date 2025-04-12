@@ -1,0 +1,33 @@
+{
+  "title": "Fourchette de texte par délimiteur",
+  "description": "Divise le texte selon un délimiteur et applique une opération à chaque partie séparément. Idéal pour traiter des lots de données.",
+  "tags": [
+    "fourchette",
+    "lot",
+    "texte",
+    "traitement",
+    "lignes"
+  ],
+  "category": "Utilitaires",
+  "placeholder": "Saisissez les données séparées par une ligne ou un délimiteur...",
+  "delimiter": "Délimiteur",
+  "operation": "Opération",
+  "process": "Processus",
+  "clear": "Pour nettoyer",
+  "fromBase64": "Base64 → Texte",
+  "toBase64": "Texte → Base64",
+  "fromHex": "Hex → Texte",
+  "toHex": "Texte → Hex",
+  "toUrl": "Encodage d'URL",
+  "fromUrl": "Décodage d'URL",
+  "toUpper": "Texte → Majuscules",
+  "toLower": "Texte → Minuscules",
+  "reverse": "Texte inversé",
+  "removeSpaces": "Supprimer les espaces",
+  "removeBreaks": "Supprimer les sauts de ligne",
+  "toBinary": "Texte → Binaire",
+  "fromBinary": "Binaire → Texte",
+  "error_base64": "[Erreur de décodage Base64]",
+  "error_hex": "[Erreur de décodage Hex]",
+  "error_url": "[Erreur de décodage de l'URL]"
+}

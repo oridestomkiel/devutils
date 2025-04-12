@@ -1,0 +1,14 @@
+{
+  "title": "Hash-Generator (MD5, SHA1, SHA224, SHA256 und SHA512)",
+  "description": "Geben Sie einen beliebigen Text ein, um MD5-, SHA1-, SHA224-, SHA256- und SHA512-Hashes automatisch zu generieren. Mit der Option, jeden Hash zu kopieren.",
+  "tags": [
+    "Hash",
+    "md5",
+    "sha",
+    "Verschlüsselung",
+    "Hash-Generator"
+  ],
+  "category": "Textwerkzeuge",
+  "placeholder": "Geben Sie Text ein oder fügen Sie ihn ein, um Hashes zu generieren ...",
+  "uppercase": "In GROSSBUCHSTABEN anzeigen"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "宽高比生成器",
+  "description": "生成 CSS 样式以在视频、图像或响应式容器等元素中保持固定宽高比。",
+  "tags": ["宽高比", "响应式", "css技巧", "比例", "容器", "padding技巧"],
+  "category": "设计 / 颜色",
+  "label.ratio": "宽高比",
+  "label.ratio.custom": "自定义（宽:高）",
+  "label.ratio.mode": "模式",
+  "option.ratio.16_9": "16:9",
+  "option.ratio.4_3": "4:3",
+  "option.ratio.1_1": "1:1",
+  "option.ratio.21_9": "21:9",
+  "option.ratio.custom": "自定义",
+  "option.mode.modern": "aspect-ratio（现代）",
+  "option.mode.fallback": "padding-top（兼容）",
+  "preview.label": "预览"
+}

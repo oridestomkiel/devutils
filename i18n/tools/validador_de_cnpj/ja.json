@@ -1,0 +1,19 @@
+{
+  "title": "CNPJ バリデーター",
+  "description": "CNPJ 番号を迅速かつ正確に検証します。税金申請、事業登録、データ検証に最適です。",
+  "tags": [
+    "cnpj を検証する",
+    "cnpj バリデーター",
+    "有効なcnpj",
+    "cnpjチェッカー",
+    "cnpj ブラジル",
+    "ビジネス文書",
+    "CNPJ 検証"
+  ],
+  "category": "バリデーター",
+  "placeholder_input": "CNPJに入る",
+  "validate": "検証",
+  "valid_cnpj": "✅ 有効な CNPJ。",
+  "invalid_cnpj": "❌ CNPJ が無効です。",
+  "copied": "コピーしました！"
+}

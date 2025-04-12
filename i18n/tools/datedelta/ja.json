@@ -1,0 +1,15 @@
+{
+    "title": "Manipulador de Datas (dias, meses, anos)",
+    "description": "Adicione ou subtraia dias, meses ou anos de uma data com facilidade. Ideal para cálculos de prazos, agendamentos e testes de sistemas.",
+    "tags": [
+        "manipulador de datas",
+        "calcular datas",
+        "somar dias",
+        "subtrair meses",
+        "diferença entre datas",
+        "datas em javascript",
+        "data futura",
+        "data passada"
+    ],
+    "category": "Datas e Horários"
+}

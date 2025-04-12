@@ -1,0 +1,18 @@
+{
+  "title": "Convertisseur Binaire ↔ Décimal",
+  "description": "Convertissez facilement des nombres binaires en décimaux et vice versa. Idéal pour les développeurs, les étudiants et les passionnés de systèmes numériques.",
+  "tags": [
+    "binaire",
+    "décimal",
+    "convertisseur binaire",
+    "convertir binaire en décimal",
+    "décimal en binaire",
+    "calculatrice binaire",
+    "binaire en ligne"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "Entrez un ou plusieurs nombres (binaires ou décimaux) séparés par un espace",
+  "bin.to.dec": "Binaire → Décimal",
+  "dec.to.bin": "Décimal → Binaire",
+  "error.prefix": "Erreur"
+}

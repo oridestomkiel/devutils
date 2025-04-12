@@ -1,0 +1,24 @@
+{
+  "title": "Date Manipulator (days, months, years)",
+  "description": "Easily add or subtract days, months, or years from a date. Ideal for deadline calculations, scheduling, and system testing.",
+  "tags": [
+    "date manipulator",
+    "calculate dates",
+    "add days",
+    "subtract months",
+    "date difference",
+    "dates in javascript",
+    "future date",
+    "past date"
+  ],
+  "category": "Dates and Times",
+  "value": "Value",
+  "days": "Days",
+  "months": "Months",
+  "years": "Years",
+  "add": "Add",
+  "subtract": "Subtract",
+  "calculate": "Calculate",
+  "invalidInput": "❌ Please fill in the date and value.",
+  "resultPlaceholder": "Result will appear here"
+}

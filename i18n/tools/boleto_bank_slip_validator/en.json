@@ -1,0 +1,19 @@
+{
+  "title": "Brazilian Bank Slip Validator",
+  "description": "Quickly validate Brazilian bank slips by checking check digits and barcode structure. Ideal for testing, automation, and payment verification.",
+  "tags": [
+    "boleto validator",
+    "validate bank slip",
+    "bank slip checker",
+    "online boleto",
+    "barcode boleto",
+    "boleto validation",
+    "brazilian bank slip"
+  ],
+  "category": "Validators",
+  "placeholder": "Enter the boleto number",
+  "validate": "Validate Boleto",
+  "error.length": "❌ Invalid boleto. It must contain 47 or 48 digits.",
+  "error.dv": "❌ Invalid check digits. Boleto is not valid.",
+  "success": "✅ Valid boleto. Detected value: {valor}"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "时间戳 ↔ 日期转换器",
+  "description": "在不同的格式或系统之间转换时间戳。非常适合开发、记录和日期操作。",
+  "tags": [
+    "时间戳",
+    "转换时间戳",
+    "unix时间",
+    "日期转时间戳",
+    "日期格式",
+    "纪元时间",
+    "清晰日期"
+  ],
+  "category": "日期和时间",
+  "input_placeholder": "输入时间戳或日期...",
+  "output_placeholder": "结果将显示在这里...",
+  "convert": "转变",
+  "format_br": "清晰日期 (pt-BR)",
+  "format_iso": "ISO 8601 格式",
+  "format_utc": "UTC 日期",
+  "instructions": "接受 Unix 时间戳（秒）或日期，如 <code>2025-03-28 15:00</code>、<code>28/03/2025</code> 等。"
+}

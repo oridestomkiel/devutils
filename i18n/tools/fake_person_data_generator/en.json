@@ -1,0 +1,16 @@
+{
+  "title": "Fictitious Person Data Generator",
+  "description": "Create random data profiles of people for testing and simulations. Select the desired fields and easily export in JSON format.",
+  "tags": [
+    "fictitious data",
+    "people json",
+    "user mock",
+    "data generator",
+    "profile simulation",
+    "API testing"
+  ],
+  "category": "Generators",
+  "amountLabel": "Number of records",
+  "generate": "To generate",
+  "loadError": "Error loading base data."
+}

@@ -1,0 +1,22 @@
+{
+  "title": "GZIP Checker",
+  "description": "Test whether a URL's server has GZIP compression enabled. View response headers in real time.",
+  "tags": [
+    "gzip",
+    "http headers",
+    "compression",
+    "gzip checker",
+    "optimization",
+    "web performance"
+  ],
+  "category": "Networks / HTTP",
+  "placeholder": "https://example.com/arquivo.js",
+  "check": "Check GZIP",
+  "checking": "Checking...",
+  "gzip.enabled": "✅ GZIP is ON — text is being compressed.",
+  "gzip.disabled": "❌ GZIP is NOT enabled — uncompressed response.",
+  "httpHeaders": "HTTP Headers",
+  "error.invalidUrl": "Please enter a valid URL.",
+  "error.checkFailed": "Error while testing",
+  "error.prefix": "Error"
+}

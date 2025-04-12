@@ -1,0 +1,14 @@
+{
+  "title": "Image Cropper",
+  "description": "Upload an image, select the crop area and download only the desired portion. Supports PNG and JPG.",
+  "tags": [
+    "crop",
+    "image",
+    "cut",
+    "editor",
+    "utility image"
+  ],
+  "category": "Images",
+  "download": "Download Clipping",
+  "clear": "To clean"
+}

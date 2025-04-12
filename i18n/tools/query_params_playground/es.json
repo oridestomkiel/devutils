@@ -1,0 +1,21 @@
+{
+  "title": "Área de juegos de parámetros de consulta",
+  "description": "Decodifica, edita y ensambla URLs de forma interactiva. Modifica parámetros, visualiza la URL final y consulta los detalles de la estructura.",
+  "tags": [
+    "URL",
+    "consulta",
+    "parámetros",
+    "patio de juegos",
+    "herramienta"
+  ],
+  "category": "Codificadores/Decodificadores",
+  "placeholder": "Pegue o escriba una URL completa para analizar...",
+  "analyze": "Analizar URL",
+  "add_param": "Agregar parámetro",
+  "open": "Abrir URL",
+  "key": "Llave",
+  "value": "Valor",
+  "remove_key": "Eliminar parámetro",
+  "url_prefix_error": "La URL debe comenzar con http:// o https://",
+  "url_invalid": "URL no válida o incompleta."
+}

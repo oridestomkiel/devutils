@@ -1,0 +1,13 @@
+{
+    "title": "Entropia de Shannon",
+    "description": "Meça a entropia de uma string com base na teoria da informação. Valores mais altos indicam maior aleatoriedade.",
+    "tags": [
+        "entropia",
+        "shannon",
+        "aleatoriedade",
+        "segurança",
+        "compressão",
+        "informação"
+    ],
+    "category": "Análise / Comparação"
+}

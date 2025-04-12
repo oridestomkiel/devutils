@@ -1,0 +1,28 @@
+{
+  "title": "CRON Expression Builder",
+  "description": "Create CRON expressions easily and intuitively. Ideal for scheduling tasks on servers, backend applications, and automations.",
+  "tags": [
+    "cron expression",
+    "cron builder",
+    "task scheduling",
+    "cronjob",
+    "cron generator",
+    "cron linux",
+    "schedule commands",
+    "cron expression tool"
+  ],
+  "category": "Generators",
+  "placeholder.input": "E.g.: */5 * * * *",
+  "button.explain": "Explain",
+  "placeholder.output": "Explanation will appear here",
+  "copied": "Copied!",
+  "invalid": "Invalid expression. Must have 5 fields.",
+  "labels": [
+    "Minute (0-59)",
+    "Hour (0-23)",
+    "Day of Month (1-31)",
+    "Month (1-12)",
+    "Day of Week (0=Sunday to 6=Saturday)"
+  ],
+  "format.hint": "Format: minute hour day-of-month month day-of-week"
+}

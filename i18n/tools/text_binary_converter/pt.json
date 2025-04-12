@@ -1,0 +1,20 @@
+{
+  "title": "Conversor Texto ↔ Binário",
+  "description": "Converta texto para código binário e binário para texto de forma rápida e intuitiva. Ideal para estudos, codificação e decodificação de dados.",
+  "tags": [
+    "texto binário",
+    "conversor binário",
+    "binário para texto",
+    "texto para binário",
+    "decodificador binário",
+    "codificador binário",
+    "binário online"
+  ],
+  "category": "Codificadores / Decodificadores",
+  "placeholder_input": "Digite o texto ou binário separado por espaço",
+  "btn_text_to_bin": "Texto → Binário",
+  "btn_bin_to_text": "Binário → Texto",
+  "copy": "Copiar",
+  "copied": "Copiado!",
+  "error_conversion": "Erro ao converter binário."
+}

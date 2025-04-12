@@ -1,0 +1,21 @@
+{
+  "title": "Data URL Viewer (Base64 Image)",
+  "description": "Paste a Data URL containing an image to preview, get details, and download. Perfect for testing base64 embedded images.",
+  "tags": [
+    "data url",
+    "base64 image",
+    "image viewer",
+    "base64 to image",
+    "convert base64"
+  ],
+  "category": "Images",
+  "placeholder": "Paste the full image Data URL here (data:image/png;base64,...)",
+  "view": "View Image",
+  "download": "Download Image",
+  "clear": "Clear",
+  "invalidFormat": "Invalid format. Use a valid image Data URL.",
+  "imageDetected": "Image detected",
+  "type": "Type",
+  "size": "Size",
+  "dimensions": "Dimensions"
+}

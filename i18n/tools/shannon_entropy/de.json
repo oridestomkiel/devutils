@@ -1,0 +1,19 @@
+{
+  "title": "Shannon-Entropie",
+  "description": "Misst die Entropie einer Zeichenfolge basierend auf der Informationstheorie. Höhere Werte weisen auf eine größere Zufälligkeit hin.",
+  "tags": [
+    "Entropie",
+    "Shannon",
+    "Zufälligkeit",
+    "Sicherheit",
+    "Kompression",
+    "Information"
+  ],
+  "category": "Analyse / Vergleich",
+  "placeholder": "Geben Sie Ihren Inhalt hier ein oder fügen Sie ihn ein ...",
+  "calculate": "Berechnen",
+  "max": "Maximal möglich",
+  "english": "Englischer Text im Allgemeinen",
+  "compressed": "Komprimierte/verschlüsselte Daten",
+  "source": "Quelle"
+}

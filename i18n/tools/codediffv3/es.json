@@ -1,0 +1,12 @@
+{
+    "title": "Diff de Arquivos (Side by Side)",
+    "description": "Compare dois arquivos de texto e visualize as diferenças com layout profissional lado a lado.",
+    "tags": [
+        "comparar arquivos",
+        "diff de texto",
+        "upload",
+        "git style",
+        "diff2html"
+    ],
+    "category": "Análise / Comparação"
+}

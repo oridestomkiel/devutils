@@ -1,0 +1,19 @@
+{
+  "title": "Z-Index 分层生成器",
+  "description": "通过位置和 z-index 可视化和控制元素重叠。非常适合理解 CSS 中的堆叠。",
+  "tags": [
+    "z 索引",
+    "图层",
+    "堆叠",
+    "重叠",
+    "位置",
+    "css 分层"
+  ],
+  "category": "设计/颜色",
+  "layer_label": "层",
+  "position_label": "位置",
+  "zindex_label": "z 索引",
+  "color_label": "颜色",
+  "copy": "复制",
+  "copied": "已复制！"
+}

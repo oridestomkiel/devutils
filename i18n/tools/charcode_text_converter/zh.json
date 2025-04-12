@@ -1,0 +1,22 @@
+{
+  "title": "Charcode ↔ 文本",
+  "description": "将文本转换为 Unicode 字符代码，反之亦然。适用于数据分析、编码和调试。",
+  "tags": [
+    "unicode",
+    "charcode",
+    "转换器",
+    "文本转代码",
+    "从 charcode",
+    "到 charcode"
+  ],
+  "category": "转换器",
+  "mode.to": "文本 → Charcode",
+  "mode.from": "Charcode → 文本",
+  "placeholder": "输入以空格分隔的文本或 Unicode 代码",
+  "convert": "转换",
+  "clear": "清除",
+  "copy": "复制",
+  "error": "将代码转换为文本时出错。",
+  "reference": "Unicode 参考",
+  "link": "平面 (Unicode)"
+}

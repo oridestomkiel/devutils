@@ -1,0 +1,24 @@
+{
+  "title": "Aspect Ratio Generator",
+  "description": "Generate CSS styles to maintain a fixed aspect ratio in elements like videos, images, or responsive containers.",
+  "tags": [
+    "aspect ratio",
+    "responsive",
+    "css hack",
+    "ratio",
+    "container",
+    "padding-hack"
+  ],
+  "category": "Design / Colors",
+  "label.ratio": "Aspect Ratio",
+  "label.ratio.custom": "Custom (width:height)",
+  "label.ratio.mode": "Mode",
+  "option.ratio.16_9": "16:9",
+  "option.ratio.4_3": "4:3",
+  "option.ratio.1_1": "1:1",
+  "option.ratio.21_9": "21:9",
+  "option.ratio.custom": "Custom",
+  "option.mode.modern": "aspect-ratio (modern)",
+  "option.mode.fallback": "padding-top (compatible)",
+  "preview.label": "Preview"
+}

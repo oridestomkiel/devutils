@@ -1,0 +1,26 @@
+{
+  "title": "具有多个属性的过渡",
+  "description": "构建具有多个属性的自定义 CSS 转换，每个属性都有自己的持续时间、延迟和缓和。",
+  "tags": [
+    "过渡",
+    "样式表",
+    "动画片",
+    "宽松",
+    "延迟",
+    "多支柱"
+  ],
+  "category": "设计/颜色",
+  "preview": "预览",
+  "duration": "持续时间（秒）",
+  "delay": "延迟（秒）",
+  "background-color": "背景颜色",
+  "color": "文字颜色",
+  "transform": "转型",
+  "opacity": "不透明度",
+  "border-radius": "四舍五入",
+  "ease": "舒适",
+  "linear": "线性",
+  "ease-in": "缓入",
+  "ease-out": "缓出",
+  "ease-in-out": "缓入缓出"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Text ↔ Binary Converter",
+  "description": "Convert text to binary code and binary to text quickly and intuitively. Ideal for studies, data encoding and decoding.",
+  "tags": [
+    "binary text",
+    "binary converter",
+    "binary to text",
+    "text to binary",
+    "binary decoder",
+    "binary encoder",
+    "binary online"
+  ],
+  "category": "Encoders/Decoders",
+  "placeholder_input": "Enter space-separated text or binary",
+  "btn_text_to_bin": "Text → Binary",
+  "btn_bin_to_text": "Binary → Text",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "error_conversion": "Error converting binary."
+}

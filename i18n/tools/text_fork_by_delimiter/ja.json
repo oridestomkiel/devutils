@@ -1,0 +1,33 @@
+{
+  "title": "区切り文字によるテキストフォーク",
+  "description": "区切り文字に基づいてテキストを分割し、各部分に個別に操作を適用します。データのバッチ処理に最適です。",
+  "tags": [
+    "フォーク",
+    "バッチ",
+    "文章",
+    "処理",
+    "行"
+  ],
+  "category": "ユーティリティ",
+  "placeholder": "線または区切り文字で区切られたデータを入力してください...",
+  "delimiter": "デリミタ",
+  "operation": "手術",
+  "process": "プロセス",
+  "clear": "掃除する",
+  "fromBase64": "Base64 → テキスト",
+  "toBase64": "テキスト → Base64",
+  "fromHex": "16進数 → テキスト",
+  "toHex": "テキスト → 16進数",
+  "toUrl": "URLエンコード",
+  "fromUrl": "URLデコード",
+  "toUpper": "テキスト → 大文字",
+  "toLower": "テキスト → 小文字",
+  "reverse": "テキストを反転",
+  "removeSpaces": "スペースを削除",
+  "removeBreaks": "改行を削除する",
+  "toBinary": "テキスト → バイナリ",
+  "fromBinary": "バイナリ → テキスト",
+  "error_base64": "[Base64のデコードエラー]",
+  "error_hex": "[16進数のデコードエラー]",
+  "error_url": "[URLのデコードエラー]"
+}

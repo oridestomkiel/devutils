@@ -1,0 +1,18 @@
+{
+  "title": "JSON ↔ XML コンバーター",
+  "description": "JSON 形式と XML 形式間でデータを正確に変換します。システム統合、API、構造化データ操作に最適です。",
+  "tags": [
+    "json から xml",
+    "xml から json へ",
+    "json xml コンバーター",
+    "データを変換する",
+    "xml 形式",
+    "json形式",
+    "XML から JSON への変換"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここに JSON または XML を貼り付けます...",
+  "jsonToXml": "JSON → XML",
+  "xmlToJson": "XML → JSON",
+  "error": "変換エラー"
+}

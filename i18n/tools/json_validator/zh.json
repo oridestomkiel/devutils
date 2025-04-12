@@ -1,0 +1,18 @@
+{
+  "title": "JSON 验证器",
+  "description": "检查 JSON 是否有效且格式正确。非常适合检测 API、配置文件和集成测试中的语法错误。",
+  "tags": [
+    "json 验证器",
+    "有效的 json",
+    "验证 json",
+    "json 检查器",
+    "json 错误",
+    "验证 json 结构",
+    "json 语法"
+  ],
+  "category": "验证者",
+  "placeholder": "键入或粘贴 JSON",
+  "validate": "证实",
+  "valid": "✅ 有效的 JSON。",
+  "invalid": "❌ 无效"
+}

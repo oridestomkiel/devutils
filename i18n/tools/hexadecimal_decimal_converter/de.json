@@ -1,0 +1,17 @@
+{
+  "title": "Hexadezimal ↔ Dezimal Konverter",
+  "description": "Konvertieren Sie Werte schnell und einfach zwischen Hexadezimal- und Dezimalzahlen. Ideal für Programmierung, Elektronik und Datenanalyse.",
+  "tags": [
+    "Hexadezimal zu Dezimal",
+    "Dezimal zu Hexadezimal",
+    "Hex-Konverter",
+    "Zahl konvertieren",
+    "Zahlenbasis",
+    "hex dez",
+    "Hex-Rechner"
+  ],
+  "category": "Konverter",
+  "placeholder": "Geben Sie hexadezimal oder dezimal durch Leerzeichen getrennt ein",
+  "hexToDec": "Hex → Dezimal",
+  "decToHex": "Dezimal → Hex"
+}

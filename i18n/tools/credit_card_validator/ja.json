@@ -1,0 +1,13 @@
+{
+  "title": "クレジットカードバリデーター",
+  "description": "カード番号を入力して、Luhnアルゴリズムを使って有効かどうかを確認します。ブランドは自動で判別されます。",
+  "tags": ["カード", "バリデーター", "luhn", "番号", "クレジット", "ブランド"],
+  "category": "ユーティリティ",
+  "label.input": "カード番号：",
+  "placeholder.input": "例：4111 1111 1111 1111",
+  "button.validate": "カードを検証",
+  "result.valid": "✅ 有効",
+  "result.invalid": "❌ 無効",
+  "result.error": "❌ 番号が無効または不完全です。",
+  "brand.unknown": "不明"
+}

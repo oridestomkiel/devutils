@@ -1,0 +1,19 @@
+{
+  "title": "Générateur de défilement instantané",
+  "description": "Créez des carrousels réactifs et des sections à défilement fluide grâce à Scroll-Snap. Génère du code HTML et CSS prêt à l'emploi.",
+  "tags": [
+    "rouleau",
+    "instantané",
+    "défilement-accrochage",
+    "carrousel",
+    "horizontal",
+    "défilement"
+  ],
+  "category": "Design / Couleurs",
+  "direction": "Direction",
+  "horizontal": "Horizontal",
+  "vertical": "Verticale",
+  "behavior": "Comportement",
+  "padding": "Rembourrage de défilement (px)",
+  "gap": "Espace entre les éléments (px)"
+}

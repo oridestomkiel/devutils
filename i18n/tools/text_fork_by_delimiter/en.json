@@ -1,0 +1,33 @@
+{
+  "title": "Text Fork by Delimiter",
+  "description": "Splits text based on a delimiter and applies an operation to each part separately. Ideal for processing batches of data.",
+  "tags": [
+    "fork",
+    "batch",
+    "text",
+    "processing",
+    "lines"
+  ],
+  "category": "Utilities",
+  "placeholder": "Enter data separated by line or delimiter...",
+  "delimiter": "Delimiter",
+  "operation": "Operation",
+  "process": "Process",
+  "clear": "To clean",
+  "fromBase64": "Base64 → Text",
+  "toBase64": "Text → Base64",
+  "fromHex": "Hex → Text",
+  "toHex": "Text → Hex",
+  "toUrl": "URL Encode",
+  "fromUrl": "URL Decode",
+  "toUpper": "Text → Uppercase",
+  "toLower": "Text → Lowercase",
+  "reverse": "Reverse text",
+  "removeSpaces": "Remove spaces",
+  "removeBreaks": "Remove line breaks",
+  "toBinary": "Text → Binary",
+  "fromBinary": "Binary → Text",
+  "error_base64": "[Error decoding Base64]",
+  "error_hex": "[Error decoding Hex]",
+  "error_url": "[Error decoding URL]"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Code-Minifier (HTML, CSS, einfacher JS)",
+  "description": "Entfernt Leerzeichen, Zeilenumbrüche und Kommentare aus HTML-, CSS- und einfachem JavaScript-Code zur Optimierung der Website-Performance.",
+  "tags": [
+    "code minifizieren",
+    "html minifier",
+    "css minifier",
+    "js minifier",
+    "code optimieren",
+    "dateikomprimierung",
+    "codegröße reduzieren",
+    "html css js minifizieren"
+  ],
+  "category": "Formatierer / Minifier",
+  "placeholder.input": "Fügen Sie Ihr HTML, CSS oder JS ein",
+  "placeholder.output": "Minifiziertes Ergebnis",
+  "minify": "Minifizieren",
+  "copy": "Kopieren",
+  "copied": "Kopiert!",
+  "empty": "Nichts zum Minifizieren."
+}

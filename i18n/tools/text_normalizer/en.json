@@ -1,0 +1,17 @@
+{
+  "title": "Text normalizer",
+  "description": "Quickly remove accents, special characters and standardize upper or lower case. Ideal for standardizing data in systems and text processing.",
+  "tags": [
+    "text normalizer",
+    "remove accents",
+    "text without accent",
+    "text standardization",
+    "special characters",
+    "convert uppercase",
+    "convert lowercase"
+  ],
+  "category": "Text Tools",
+  "input_placeholder": "Type or paste your text with accents, symbols, etc...",
+  "output_placeholder": "Normalized text will appear here...",
+  "normalize": "Normalize"
+}

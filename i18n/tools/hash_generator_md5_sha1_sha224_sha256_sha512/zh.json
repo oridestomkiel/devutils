@@ -1,0 +1,14 @@
+{
+  "title": "哈希生成器（MD5、SHA1、SHA224、SHA256 和 SHA512）",
+  "description": "输入任意文本即可自动生成 MD5、SHA1、SHA224、SHA256 和 SHA512 哈希值。可选择复制每个哈希值。",
+  "tags": [
+    "哈希",
+    "md5",
+    "沙",
+    "加密",
+    "哈希生成器"
+  ],
+  "category": "文本工具",
+  "placeholder": "键入或粘贴文本以生成哈希值...",
+  "uppercase": "以大写显示"
+}

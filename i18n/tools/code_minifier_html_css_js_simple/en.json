@@ -1,0 +1,21 @@
+{
+  "title": "Code Minifier (HTML, CSS, Simple JS)",
+  "description": "Remove spaces, line breaks, and comments from HTML, CSS, and simple JavaScript files to optimize your website's performance.",
+  "tags": [
+    "minify code",
+    "html minifier",
+    "css minifier",
+    "js minifier",
+    "optimize code",
+    "file compression",
+    "reduce code size",
+    "minify html css js"
+  ],
+  "category": "Formatters / Minifiers",
+  "placeholder.input": "Paste your HTML, CSS or JS",
+  "placeholder.output": "Minified output",
+  "minify": "Minify",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "empty": "Nothing to minify."
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Générateur de hachage (MD5, SHA1, SHA224, SHA256 et SHA512)",
+  "description": "Saisissez du texte pour générer automatiquement les hachages MD5, SHA1, SHA224, SHA256 et SHA512. Vous pouvez copier chaque hachage.",
+  "tags": [
+    "hacher",
+    "md5",
+    "sha",
+    "cryptage",
+    "générateur de hachage"
+  ],
+  "category": "Outils de texte",
+  "placeholder": "Tapez ou collez du texte pour générer des hachages...",
+  "uppercase": "Afficher en MAJUSCULES"
+}

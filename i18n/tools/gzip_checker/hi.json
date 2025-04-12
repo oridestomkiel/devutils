@@ -1,0 +1,22 @@
+{
+  "title": "GZIP चेकर",
+  "description": "जाँच करें कि URL के सर्वर पर GZIP संपीड़न सक्षम है या नहीं। वास्तविक समय में प्रतिक्रिया शीर्षलेख देखें।",
+  "tags": [
+    "जीज़िप",
+    "http हेडर",
+    "COMPRESSION",
+    "gzip चेकर",
+    "अनुकूलन",
+    "वेब प्रदर्शन"
+  ],
+  "category": "नेटवर्क / HTTP",
+  "placeholder": "https://example.com/arquivo.js",
+  "check": "GZIP जाँचें",
+  "checking": "जाँच हो रही है...",
+  "gzip.enabled": "✅ GZIP चालू है - पाठ संपीड़ित किया जा रहा है।",
+  "gzip.disabled": "❌ GZIP सक्षम नहीं है - असम्पीडित प्रतिक्रिया.",
+  "httpHeaders": "HTTP हेडर",
+  "error.invalidUrl": "क्रुपया मान्य यूआरएल दर्ज करें।",
+  "error.checkFailed": "परीक्षण करते समय त्रुटि",
+  "error.prefix": "गलती"
+}

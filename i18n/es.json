@@ -1,0 +1,2695 @@
+{
+  "address_generator": {
+    "title": "Generador de Direcciones",
+    "description": "Genera una dirección válida de Brasil basada en el estado y opcionalmente la ciudad. Los datos provienen directamente del servicio postal.",
+    "tags": [
+      "cep",
+      "dirección",
+      "generador",
+      "brasil",
+      "código postal"
+    ],
+    "category": "Utilidades",
+    "intro": "Para generar una dirección en Brasil, seleccione el estado y opcionalmente la ciudad, y si desea puntuación en el código postal.",
+    "label.state": "Estado (UF)",
+    "label.city": "Ciudad",
+    "label.city.selectState": "Seleccione el estado",
+    "option.random": "Aleatorio",
+    "option.random.city": "Aleatoria",
+    "label.maskCep": "¿Con puntuación en el código postal?",
+    "yes": "Sí",
+    "no": "No",
+    "generate": "Generar Dirección",
+    "label.result.cep": "Código Postal",
+    "label.result.address": "Dirección",
+    "label.result.neighborhood": "Barrio",
+    "label.result.city": "Ciudad",
+    "label.result.state": "Estado",
+    "label.result.json": "Respuesta completa (JSON)",
+    "json.loading": "⏳ Consultando...",
+    "loading": "⏳ Esperando...",
+    "error": "❌ Error",
+    "error.fetch": "❌ Error al buscar datos"
+  },
+  "advanced_jwt_viewer": {
+    "title": "Visor de JWT (Avanzado)",
+    "description": "Visualiza y valida tokens JWT: encabezado, carga útil, firma y verificación opcional con un secreto. Todo en tiempo real.",
+    "tags": [
+      "jwt",
+      "token",
+      "validación",
+      "decodificar",
+      "autenticación"
+    ],
+    "category": "Codificadores / Decodificadores",
+    "placeholder.jwt": "Pega tu token JWT aquí...",
+    "clear": "Limpiar",
+    "header": "CABECERA",
+    "payload": "CARGA ÚTIL",
+    "copy.header": "Copiar cabecera",
+    "copy.payload": "Copiar carga útil",
+    "signature.title": "Verificación de firma JWT (Opcional)",
+    "signature.placeholder": "Ingresa el secreto para verificar la firma (HS256)",
+    "signature.valid": "✔ Firma válida",
+    "signature.invalid": "✖ Firma inválida",
+    "jwt.valid": "✔ JWT válido",
+    "jwt.invalid": "JWT inválido (estructura o contenido malformado)"
+  },
+  "advanced_qr_code_generator": {
+    "title": "Generador de Código QR Avanzado",
+    "description": "Crea códigos QR personalizables con logotipos, colores y tamaños específicos. Ideal para campañas, marketing y compartir datos.",
+    "tags": [
+      "código qr",
+      "generador de código qr",
+      "código qr avanzado",
+      "código qr con logo",
+      "marketing qr",
+      "qrcode personalizado",
+      "generador qrcode",
+      "compartir datos"
+    ],
+    "category": "Generadores",
+    "placeholder.input": "Texto o URL para generar QR",
+    "label.size": "Tamaño (px)",
+    "label.margin": "Margen",
+    "label.color.dark": "Color oscuro",
+    "label.color.light": "Color claro",
+    "label.logo": "Logo central (URL de imagen)",
+    "placeholder.logo": "https://example.com/logo.png",
+    "export.svg": "Exportar SVG"
+  },
+  "alphabetical_order": {
+    "title": "Ordenar Alfabéticamente",
+    "description": "Herramienta en línea para ordenar una lista alfabéticamente. Copia y pega tu lista de nombres y haz clic en “Ordenar”.",
+    "tags": [
+      "orden",
+      "alfabético",
+      "ordenar",
+      "lista",
+      "texto",
+      "duplicados"
+    ],
+    "category": "Herramientas de Texto",
+    "label.original": "Texto original:",
+    "placeholder.list": "Pega tu lista aquí...",
+    "label.sortType": "Tipo de ordenación:",
+    "option.asc": "Ascendente (A-Z)",
+    "option.desc": "Descendente (Z-A)",
+    "label.separator": "Ordenar por:",
+    "option.linebreak": "Salto de línea",
+    "option.space": "Espacio",
+    "option.comma": "Coma ( , )",
+    "option.semicolon": "Punto y coma ( ; )",
+    "label.removeDuplicates": "¿Eliminar duplicados?",
+    "button.sort": "Ordenar",
+    "label.sorted": "Texto ordenado:",
+    "button.download": "Descargar TXT"
+  },
+  "ascii_encoder_decoder": {
+    "title": "Codificador/Decodificador ASCII",
+    "description": "Convierte texto a códigos ASCII y viceversa de forma rápida y sencilla. Ideal para análisis, pruebas y manipulación de cadenas.",
+    "tags": [
+      "ascii",
+      "convertidor ascii",
+      "decodificar ascii",
+      "codificar ascii",
+      "tabla ascii",
+      "texto a ascii",
+      "ascii a texto"
+    ],
+    "category": "Codificadores / Decodificadores",
+    "converter": "convertidor ascii",
+    "decode": "ASCII → Texto",
+    "encode": "Texto → ASCII",
+    "table": "tabla ascii",
+    "textToAscii": "texto a ascii",
+    "asciiToText": "ascii a texto",
+    "placeholder": "Introduce texto o códigos ASCII separados por espacios",
+    "decodeError": "Error al decodificar. Verifica los números."
+  },
+  "aspect_ratio_generator": {
+    "title": "Generador de Relación de Aspecto",
+    "description": "Genera estilos CSS para mantener una relación de aspecto fija en elementos como videos, imágenes o contenedores responsivos.",
+    "tags": [
+      "relación de aspecto",
+      "responsivo",
+      "truco css",
+      "proporción",
+      "contenedor",
+      "truco de padding"
+    ],
+    "category": "Diseño / Colores",
+    "label.ratio": "Relación de aspecto",
+    "label.ratio.custom": "Personalizado (ancho:alto)",
+    "label.ratio.mode": "Modo",
+    "option.ratio.16_9": "16:9",
+    "option.ratio.4_3": "4:3",
+    "option.ratio.1_1": "1:1",
+    "option.ratio.21_9": "21:9",
+    "option.ratio.custom": "Personalizado",
+    "option.mode.modern": "aspect-ratio (moderno)",
+    "option.mode.fallback": "padding-top (compatible)",
+    "preview.label": "Vista previa"
+  },
+  "base58_encoder_decoder": {
+    "title": "Codificador/Decodificador Base58",
+    "description": "Codifica y decodifica cadenas en Base58 — ideal para aplicaciones blockchain, Bitcoin y sistemas que evitan caracteres ambiguos.",
+    "tags": [
+      "base58",
+      "decodificador base58",
+      "codificador base58",
+      "convertir base58",
+      "base58 bitcoin",
+      "base58 online",
+      "base58 encoder decoder"
+    ],
+    "category": "Codificadores / Decodificadores",
+    "placeholder": "Texto para codificar o Base58 para decodificar",
+    "encode": "Codificar",
+    "decode": "Decodificar",
+    "error.decode": "Error al decodificar"
+  },
+  "base64_encoder_decoder": {
+    "title": "Codificador/Decodificador Base64",
+    "description": "Codifica y decodifica cadenas en Base64 para el manejo seguro de datos en URLs, APIs, archivos y sistemas de autenticación.",
+    "tags": [
+      "base64",
+      "codificador base64",
+      "decodificador base64",
+      "convertir base64",
+      "base64 online",
+      "base64 codificar decodificar",
+      "base64 a texto"
+    ],
+    "category": "Codificadores / Decodificadores",
+    "placeholder": "Ingresa texto",
+    "encode": "Codificar",
+    "decode": "Decodificar",
+    "error.decode": "Texto inválido para decodificación"
+  },
+  "base64_hex_converter": {
+    "title": "Conversor Base64 ↔ Hexadecimal",
+    "description": "Convierte fácilmente entre Base64 y hexadecimal para inspeccionar, codificar o depurar datos binarios en formatos legibles.",
+    "tags": [
+      "base64",
+      "hexadecimal",
+      "conversor base64 a hex",
+      "convertir hex a base64",
+      "base64 hex online",
+      "decodificador base64 hex",
+      "base64 ↔ hex"
+    ],
+    "category": "Codificadores / Decodificadores",
+    "placeholder": "Ingresa Base64 o Hexadecimal",
+    "b64.to.hex": "Base64 → Hex",
+    "hex.to.b64": "Hex → Base64",
+    "error.prefix": "Error"
+  },
+  "base64_to_image_converter": {
+    "title": "Base64 → Imagen",
+    "description": "Pega un código Base64 y visualiza instantáneamente la imagen correspondiente. Útil para probar URIs de datos o depurar contenido incrustado.",
+    "tags": [
+      "base64",
+      "imagen",
+      "decodificar imagen",
+      "convertir base64",
+      "data URI",
+      "ver imagen"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pega aquí el código Base64 completo de la imagen (data:image/png;base64,...)",
+    "preview.label": "Vista previa",
+    "error.invalid": "Base64 inválido o incompleto",
+    "download": "Descargar imagen"
+  },
+  "bcrypt_hash_tool_generate_verify": {
+    "title": "Bcrypt: Generar y Verificar Hash",
+    "description": "Genera hashes seguros con bcrypt y verifica si un texto coincide con un hash existente. Todo en el navegador, sin enviar datos.",
+    "tags": [
+      "bcrypt",
+      "hash",
+      "contraseña",
+      "seguridad",
+      "cifrado",
+      "validación",
+      "verificación"
+    ],
+    "category": "Generadores",
+    "loading": "Cargando biblioteca de cifrado...",
+    "loading.sub": "Espere mientras se cargan los recursos necesarios",
+    "error.load": "Error al cargar la biblioteca necesaria",
+    "error.scope": "La biblioteca se cargó, pero bcrypt no está disponible en el ámbito global.",
+    "error.network": "Error al cargar la biblioteca externa. Verifique su conexión.",
+    "retry": "Intentar de nuevo",
+    "section.generate": "Generar Bcrypt",
+    "label.text": "Texto a hashear:",
+    "label.rounds": "Rondas (factor de coste):",
+    "rounds.low": "Seguridad baja – solo para pruebas",
+    "rounds.medium": "Seguridad media – adecuada para desarrollo",
+    "rounds.high": "Alta seguridad – recomendada para producción",
+    "generate": "Generar",
+    "copiar": "Copiar",
+    "copiado": "¡Copiado!",
+    "generated.with": "Generado con {rounds} rondas.",
+    "section.verify": "Verificar Hash",
+    "label.original": "Texto original:",
+    "label.hash": "Hash Bcrypt:",
+    "verify": "Verificar Hash",
+    "match.ok": "✓ El hash coincide con el texto.",
+    "match.fail": "✗ El hash no coincide.",
+    "match.error": "Error al verificar el hash.",
+    "input.empty": "Ingrese algo para generar el hash.",
+    "input.verify.empty": "Rellene ambos campos para verificar.",
+    "error.gerar": "Error al generar. Intente nuevamente."
+  },
+  "binary_decimal_converter": {
+    "title": "Convertidor Binario ↔ Decimal",
+    "description": "Convierte números binarios a decimales y viceversa de forma sencilla. Ideal para desarrolladores, estudiantes y entusiastas de sistemas digitales.",
+    "tags": [
+      "binario",
+      "decimal",
+      "convertidor binario",
+      "convertir binario a decimal",
+      "decimal a binario",
+      "calculadora binaria",
+      "binario online"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Ingresa uno o más valores (binario o decimal) separados por espacio",
+    "bin.to.dec": "Binario → Decimal",
+    "dec.to.bin": "Decimal → Binario",
+    "error.prefix": "Error"
+  },
+  "boleto_bank_slip_validator": {
+    "title": "Validador de Boletos Bancarios",
+    "description": "Valida rápidamente boletos bancarios brasileños verificando dígitos y estructura del código de barras. Ideal para pruebas, automatización y verificación de pagos.",
+    "tags": [
+      "validador de boletos",
+      "validar boleto bancario",
+      "verificador de boleto",
+      "boleto online",
+      "código de barras boleto",
+      "validación de boleto",
+      "boleto bancario"
+    ],
+    "category": "Validadores",
+    "placeholder": "Ingresa el número del boleto",
+    "validate": "Validar Boleto",
+    "error.length": "❌ Boleto inválido. Debe tener 47 o 48 dígitos.",
+    "error.dv": "❌ Dígitos verificadores inválidos. Boleto no válido.",
+    "success": "✅ Boleto válido. Valor detectado: {valor}"
+  },
+  "border_radius_generator": {
+    "title": "Generador de Border Radius",
+    "description": "Personaliza bordes redondeados fácilmente. Genera CSS rápidamente para todos los bordes o individualmente.",
+    "tags": [
+      "border-radius",
+      "borde redondeado",
+      "radio css",
+      "diseño visual",
+      "ui redondeada",
+      "borde css",
+      "estilo visual"
+    ],
+    "category": "Diseño / Colores",
+    "label.topLeft": "Superior Izquierda",
+    "label.topRight": "Superior Derecha",
+    "label.bottomRight": "Inferior Derecha",
+    "label.bottomLeft": "Inferior Izquierda",
+    "generate": "Generar",
+    "copy": "Copiar",
+    "preview": "Vista previa"
+  },
+  "camelcase_snake_case_kebab_case_converter": {
+    "title": "Convertidor CamelCase ↔ snake_case ↔ kebab-case",
+    "description": "Convierte fácilmente entre formatos CamelCase, snake_case y kebab-case. Ideal para estandarizar variables, nombres de archivos y APIs.",
+    "tags": [
+      "camelcase",
+      "snake_case",
+      "kebab-case",
+      "convertidor de formato",
+      "conversión de texto",
+      "camel a snake",
+      "snake a kebab",
+      "kebab a camel",
+      "conversor de case"
+    ],
+    "category": "Convertidores",
+    "placeholder.input": "Escribe un texto en cualquier formato",
+    "label.camel": "CamelCase:",
+    "label.snake": "snake_case:",
+    "label.kebab": "kebab-case:"
+  },
+  "charcode_text_converter": {
+    "title": "Charcode ↔ Texto",
+    "description": "Convierte texto a códigos de caracteres Unicode y viceversa. Útil para análisis, codificación y depuración de datos.",
+    "tags": [
+      "unicode",
+      "charcode",
+      "convertidor",
+      "texto a código",
+      "de charcode",
+      "a charcode"
+    ],
+    "category": "Convertidores",
+    "mode.to": "Texto → Charcode",
+    "mode.from": "Charcode → Texto",
+    "placeholder": "Introduce texto o códigos Unicode separados por espacios",
+    "convert": "Convertir",
+    "clear": "Limpiar",
+    "copy": "Copiar",
+    "error": "Error al convertir los códigos en texto.",
+    "reference": "Referencia Unicode",
+    "link": "Plano (Unicode)"
+  },
+  "code_chat_with_deepseek": {
+    "title": "Chat de Código con DeepSeek",
+    "description": "Chatea con un modelo local especializado en programación. Ideal para dudas rápidas y generación de código.",
+    "tags": [
+      "chat",
+      "programación",
+      "deepseek",
+      "asistente",
+      "código"
+    ],
+    "category": "Asistentes",
+    "placeholder.input": "Escribe tu duda de programación aquí...",
+    "send": "Enviar",
+    "clear": "Limpiar"
+  },
+  "code_diff_github_style": {
+    "title": "Diff de Código (Estilo GitHub)",
+    "description": "Compara dos bloques de código y visualiza las diferencias lado a lado al estilo GitHub.",
+    "tags": [
+      "diff visual",
+      "git",
+      "comparar código",
+      "diff2html"
+    ],
+    "category": "Análisis / Comparación",
+    "placeholder.original": "Código original...",
+    "placeholder.modified": "Código modificado...",
+    "compare": "Comparar"
+  },
+  "code_diff_unified": {
+    "title": "Diff de Código (Unificado)",
+    "description": "Visualiza las diferencias entre bloques de código en un formato unificado, similar al terminal de Git.",
+    "tags": [
+      "diff",
+      "unificado",
+      "git",
+      "línea por línea",
+      "comparación de código"
+    ],
+    "category": "Análisis / Comparación",
+    "placeholder.original": "Código original...",
+    "placeholder.modified": "Código modificado...",
+    "compare": "Comparar"
+  },
+  "code_minifier_html_css_js_simple": {
+    "title": "Minificador de Código (HTML, CSS, JS simple)",
+    "description": "Elimina espacios, saltos de línea y comentarios de archivos HTML, CSS y JavaScript simples para optimizar el rendimiento de tu sitio.",
+    "tags": [
+      "minificar código",
+      "minificador html",
+      "minificador css",
+      "minificador js",
+      "optimizar código",
+      "compresión de archivos",
+      "reducir tamaño código",
+      "minificar html css js"
+    ],
+    "category": "Formateadores / Minificadores",
+    "placeholder.input": "Pega tu HTML, CSS o JS",
+    "placeholder.output": "Resultado minificado",
+    "minify": "Minificar",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "empty": "Nada que minificar."
+  },
+  "color_converter_hex_rgb_hsl": {
+    "title": "Convertidor de Colores (HEX, RGB, HSL)",
+    "description": "Convierte colores entre formatos HEX, RGB y HSL de forma fácil y precisa. Ideal para diseñadores, desarrolladores y proyectos web.",
+    "tags": [
+      "convertidor de colores",
+      "hex a rgb",
+      "rgb a hex",
+      "hsl a rgb",
+      "conversión de colores",
+      "hex rgb hsl",
+      "herramienta de colores",
+      "utilidad de color"
+    ],
+    "category": "Convertidores",
+    "placeholder.input": "#3498db o rgb(52,152,219)",
+    "button.convert": "Convertir",
+    "button.copy": "Copiar",
+    "output.invalid": "Formato inválido. Usa #RRGGBB o rgb(r,g,b)",
+    "output.label.hex": "HEX",
+    "output.label.rgb": "RGB",
+    "output.label.hsl": "HSL"
+  },
+  "color_palette_generator": {
+    "title": "Generador de Paletas de Colores",
+    "description": "Crea paletas de colores armoniosas automáticamente. Perfecto para diseñadores, desarrolladores y proyectos que requieren identidad visual coherente.",
+    "tags": [
+      "paleta de colores",
+      "generador de paleta",
+      "combinación de colores",
+      "herramienta de diseño",
+      "colores armoniosos",
+      "paleta para diseño",
+      "generar colores",
+      "herramienta de paletas"
+    ],
+    "category": "Diseño / Colores",
+    "button.generate": "Generar",
+    "button.copy": "Copiar",
+    "placeholder.colors": "Los colores generados aparecerán aquí"
+  },
+  "convert_line_breaks_to_n": {
+    "title": "Convertir Saltos de Línea a \\n",
+    "description": "Convierte saltos de línea reales al formato escapado \\n. Ideal para programadores que copian texto con saltos a código.",
+    "tags": [
+      "salto de línea",
+      "escape",
+      "programación",
+      "conversión",
+      "texto",
+      "código"
+    ],
+    "category": "Herramientas de Texto",
+    "label.input": "Texto con saltos de línea:",
+    "label.output": "Resultado con \\n:",
+    "placeholder.input": "Escribe o pega tu texto aquí...",
+    "button.convert": "Convertir a \\n",
+    "button.copy": "Copiar",
+    "button.clear": "Limpiar"
+  },
+  "credit_card_generator": {
+    "title": "Gerador de Cartão de Crédito",
+    "description": "Gere números de cartão válidos para testes e desenvolvimento. Suporta múltiplas bandeiras e gera CVV e validade aleatórios.",
+    "tags": [
+      "cartão",
+      "gerador",
+      "luhn",
+      "bandeira",
+      "crédito",
+      "testes"
+    ],
+    "category": "Geradores"
+  },
+  "credit_card_validator": {
+    "title": "Validador de Tarjeta de Crédito",
+    "description": "Ingresa un número de tarjeta y verifica si es válido usando el algoritmo de Luhn. Detecta la marca automáticamente.",
+    "tags": [
+      "tarjeta",
+      "validador",
+      "luhn",
+      "número",
+      "crédito",
+      "marca"
+    ],
+    "category": "Utilidades",
+    "label.input": "Número de Tarjeta:",
+    "placeholder.input": "Ej: 4111 1111 1111 1111",
+    "button.validate": "Validar Tarjeta",
+    "result.valid": "✅ Válido",
+    "result.invalid": "❌ Inválido",
+    "result.error": "❌ Número inválido o incompleto.",
+    "brand.unknown": "Desconocida"
+  },
+  "cron_expression_builder": {
+    "title": "Constructor de Expresiones CRON",
+    "description": "Crea expresiones CRON de manera sencilla e intuitiva. Ideal para programar tareas en servidores, aplicaciones backend y automatizaciones.",
+    "tags": [
+      "expresión cron",
+      "constructor cron",
+      "programación de tareas",
+      "cronjob",
+      "generador de cron",
+      "cron linux",
+      "agendar comandos",
+      "herramienta de cron"
+    ],
+    "category": "Generadores",
+    "placeholder.input": "Ej: */5 * * * *",
+    "button.explain": "Explicar",
+    "placeholder.output": "La explicación aparecerá aquí",
+    "copied": "¡Copiado!",
+    "invalid": "Expresión inválida. Debe tener 5 campos.",
+    "labels": [
+      "Minuto (0-59)",
+      "Hora (0-23)",
+      "Día del Mes (1-31)",
+      "Mes (1-12)",
+      "Día de la Semana (0=Domingo a 6=Sábado)"
+    ],
+    "format.hint": "Formato: minuto hora día-del-mes mes día-de-la-semana"
+  },
+  "css_animation_generator": {
+    "title": "Generador de Animaciones CSS",
+    "description": "Crea animaciones CSS con diferentes tipos de movimiento, control de duración, easing, retardo y repetición. Visualiza una vista previa y copia el CSS.",
+    "tags": [
+      "animación css",
+      "keyframes",
+      "animación web",
+      "easing",
+      "bucle",
+      "diseño interactivo"
+    ],
+    "category": "Diseño / Colores",
+    "animationType": "Tipo de animación",
+    "categories": {
+      "basic": "🎯 Básicas",
+      "slides": "📦 Deslizamientos",
+      "dynamic": "🤸 Dinámicas",
+      "visual": "🧼 Visuales",
+      "loop": "🔁 Bucle / Idle"
+    },
+    "options": {
+      "fade": "Desvanecer",
+      "scale": "Escalar (Zoom)",
+      "rotate": "Rotar",
+      "slide-left": "Deslizar a la izquierda",
+      "slide-right": "Deslizar a la derecha",
+      "slide-up": "Deslizar hacia arriba",
+      "slide-down": "Deslizar hacia abajo",
+      "bounce": "Rebote",
+      "shake": "Sacudir",
+      "flip": "Giro Y",
+      "flip-x": "Giro X",
+      "blur-in": "Aparecer con desenfoque",
+      "opacity-pulse": "Pulso de opacidad",
+      "zoom-in": "Zoom In",
+      "zoom-out": "Zoom Out",
+      "float": "Flotar",
+      "wave": "Onda",
+      "pulse": "Pulso"
+    }
+  },
+  "css_button_generator": {
+    "title": "Generador de Botones CSS",
+    "description": "Crea botones personalizados con color, relleno, borde, sombra y efecto hover. Ideal para componentes de UI reutilizables.",
+    "tags": [
+      "botón css",
+      "botón",
+      "hover",
+      "sombra",
+      "radio de borde",
+      "botón ui",
+      "componente visual"
+    ],
+    "category": "Diseño / Colores",
+    "labels": {
+      "bg": "Color de fondo",
+      "text": "Color del texto",
+      "paddingY": "Relleno (vertical)",
+      "paddingX": "Relleno (horizontal)",
+      "radius": "Radio del borde",
+      "shadowColor": "Color de la sombra",
+      "shadowOpacity": "Opacidad de la sombra",
+      "offsetX": "Desplazamiento X",
+      "offsetY": "Desplazamiento Y",
+      "blur": "Desenfoque",
+      "spread": "Expansión",
+      "hover": "Color al pasar",
+      "copy": "Copiar",
+      "preview": "Botón de ejemplo",
+      "copied": "¡Copiado!"
+    }
+  },
+  "css_clamp_generator": {
+    "title": "Generador de clamp() CSS",
+    "description": "Crea valores CSS responsivos con clamp() ajustando mínimo, ideal y máximo. Útil para fuentes, espacios y diseños fluidos.",
+    "tags": [
+      "clamp",
+      "tamaño de fuente responsivo",
+      "padding responsivo",
+      "css responsivo",
+      "vw rem clamp",
+      "diseño fluido"
+    ],
+    "category": "Diseño / Colores",
+    "labels": {
+      "min": "Valor Mínimo",
+      "ideal": "Valor Ideal (vw)",
+      "max": "Valor Máximo",
+      "property": "Propiedad CSS",
+      "generate": "Generar",
+      "copy": "Copiar",
+      "preview": "Texto de Ejemplo",
+      "copied": "¡Copiado!"
+    }
+  },
+  "css_filters_generator": {
+    "title": "Generador de Filtros CSS",
+    "description": "Ajusta filtros visuales como desenfoque, brillo, contraste, saturación y más. Vista previa en tiempo real en imagen y texto.",
+    "tags": [
+      "filtro",
+      "filtros css",
+      "efecto visual",
+      "imagen",
+      "texto"
+    ],
+    "category": "Diseño / Colores",
+    "labels": {
+      "blur": "Desenfoque",
+      "brightness": "Brillo",
+      "contrast": "Contraste",
+      "grayscale": "Escala de grises",
+      "hue": "Rotación de tono",
+      "invert": "Invertir",
+      "sepia": "Sepia",
+      "saturate": "Saturación",
+      "copy": "Copiar",
+      "refresh": "🔄 Nueva Imagen",
+      "upload": "📁 Usar Imagen Local",
+      "previewText": "Vista previa del texto",
+      "copied": "¡Copiado!"
+    }
+  },
+  "css_gradient_generator": {
+    "title": "Generador de Gradientes CSS",
+    "description": "Crea gradientes CSS personalizados de forma visual e intuitiva. Ideal para embellecer tu sitio web con transiciones suaves de color.",
+    "tags": [
+      "gradientes css",
+      "generador de gradientes",
+      "fondo css",
+      "colores degradados",
+      "css gradient",
+      "degradado personalizado",
+      "estilo visual",
+      "fondo con gradiente"
+    ],
+    "category": "Diseño / Colores",
+    "labels": {
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "direction": "Dirección",
+      "generate": "Generar",
+      "copy": "Copiar",
+      "copied": "¡Copiado!"
+    }
+  },
+  "css_shadow_generator": {
+    "title": "Generador de Sombras CSS",
+    "description": "Crea sombras personalizadas con control de desplazamiento, desenfoque, expansión y color. Perfecto para resaltar elementos de la UI con estilo.",
+    "tags": [
+      "sombra de caja",
+      "sombra css",
+      "sombra personalizada",
+      "efecto de sombra",
+      "sombras visuales",
+      "css visual",
+      "diseño ui",
+      "elevación ui"
+    ],
+    "category": "Diseño / Colores",
+    "labels": {
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "blur": "Desenfoque",
+      "spread": "Expansión",
+      "color": "Color de la sombra",
+      "generate": "Generar",
+      "copy": "Copiar",
+      "copied": "¡Copiado!"
+    }
+  },
+  "css_variables_generator": {
+    "title": "Generador de Variables CSS",
+    "description": "Crea y visualiza variables CSS con valores personalizados. Genera una estructura :root para usar en temas y tokens de diseño.",
+    "tags": [
+      "variables",
+      "css vars",
+      ":root",
+      "tokens de diseño",
+      "temas"
+    ],
+    "category": "Diseño / Colores",
+    "labels": {
+      "addVar": "+ Agregar Variable",
+      "copy": "Copiar",
+      "copied": "¡Copiado!",
+      "previewText": "Vista previa con variables aplicadas"
+    }
+  },
+  "csv_data_matrix_generator": {
+    "title": "Generador de Datos/Matriz CSV",
+    "description": "Genera datos ficticios en formato de matriz para archivos CSV. Perfecto para pruebas, prototipos, hojas de cálculo e importaciones de datos.",
+    "tags": [
+      "generador de csv",
+      "datos ficticios",
+      "generador csv",
+      "matriz de datos",
+      "datos de prueba",
+      "generar tabla csv",
+      "datos simulados"
+    ],
+    "category": "Generadores",
+    "labels": {
+      "generate": "Generar",
+      "copy": "Copiar",
+      "copied": "¡Copiado!",
+      "download": "Descargar CSV",
+      "placeholder": "El CSV generado aparecerá aquí"
+    }
+  },
+  "csv_json_converter": {
+    "title": "Conversor CSV ↔ JSON",
+    "description": "Convierte archivos CSV a JSON y viceversa fácilmente. Útil para integración de datos, APIs y manipulación de archivos.",
+    "tags": [
+      "conversor csv json",
+      "csv a json",
+      "json a csv",
+      "conversión de datos",
+      "transformar csv en json",
+      "convertir archivos",
+      "datos estructurados"
+    ],
+    "category": "Conversores",
+    "labels": {
+      "placeholderInput": "Pega aquí CSV o JSON...",
+      "placeholderOutput": "El resultado se mostrará aquí",
+      "csvToJson": "CSV → JSON",
+      "jsonToCsv": "JSON → CSV",
+      "copy": "Copiar",
+      "copied": "¡Copiado!",
+      "error": "Error"
+    }
+  },
+  "csv_to_json_converter": {
+    "title": "Conversor CSV → JSON",
+    "description": "Convierte datos de archivos CSV al formato JSON de forma rápida y práctica. Ideal para APIs, pruebas y manipulación de datos estructurados.",
+    "tags": [
+      "csv a json",
+      "conversor csv",
+      "convertir csv a json",
+      "datos estructurados",
+      "transformar csv",
+      "conversión de archivos",
+      "csv json"
+    ],
+    "category": "Conversores",
+    "placeholderInput": "Pega los datos CSV aquí (primera fila = encabezados)",
+    "placeholderOutput": "El resultado JSON aparecerá aquí",
+    "convertBtn": "Convertir",
+    "copyBtn": "Copiar",
+    "copiedMsg": "¡Copiado!",
+    "errorPrefix": "Error"
+  },
+  "curl_to_code_converter": {
+    "title": "cURL a Código",
+    "description": "Convierte comandos cURL en fragmentos de código en los lenguajes más populares: JavaScript, Python, PHP, Node.js, Go y más.",
+    "tags": [
+      "curl",
+      "http",
+      "api",
+      "conversión",
+      "ansible",
+      "csharp",
+      "dart",
+      "elixir",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "lua",
+      "node",
+      "objc",
+      "perl",
+      "php",
+      "python",
+      "r",
+      "ruby",
+      "rust",
+      "swift",
+      "wget"
+    ],
+    "category": "Conversores",
+    "label.curl": "Comando cURL:",
+    "label.language": "Lenguaje:",
+    "label.output": "Código Generado:",
+    "placeholder.curl": "curl https://api.ejemplo.com ...",
+    "button.convert": "Convertir",
+    "error.invalid": "Por favor, introduce un comando válido que empiece por curl",
+    "error.empty": "Error: respuesta vacía.",
+    "error.failed": "No se pudo convertir"
+  },
+  "currency_formatter_brl_usd_eur": {
+    "title": "Formateador de moneda BRL / USD / EUR",
+    "description": "Da formato a valores monetarios en los estándares BRL, USD y EUR con los separadores y símbolos correctos. Ideal para mostrar precios en sistemas y comercios electrónicos.",
+    "tags": [
+      "formateador de moneda",
+      "moneda brl",
+      "moneda usd",
+      "moneda eur",
+      "formatear valores",
+      "formato monetario",
+      "precio formateado",
+      "moneda internacional"
+    ],
+    "category": "Formateadores / Minificadores",
+    "placeholder.input": "Introduce un valor",
+    "placeholder.output": "Resultado formateado",
+    "option.brl": "Real (BRL)",
+    "option.usd": "Dólar (USD)",
+    "option.eur": "Euro (EUR)",
+    "button.format": "Formatear",
+    "error.invalidValue": "Valor no válido."
+  },
+  "data_url_base64_image_viewer": {
+    "title": "Visor de Data URL (Imagen Base64)",
+    "description": "Pega una Data URL que contenga una imagen para verla, obtener detalles y descargarla. Ideal para probar imágenes incrustadas en base64.",
+    "tags": [
+      "data url",
+      "imagen base64",
+      "visor de imágenes",
+      "base64 a imagen",
+      "convertir base64"
+    ],
+    "category": "Imágenes",
+    "placeholder": "Pega aquí la URL Data completa de la imagen (data:image/png;base64,...)",
+    "view": "Ver imagen",
+    "download": "Descargar imagen",
+    "clear": "Limpiar",
+    "invalidFormat": "Formato inválido. Usa una Data URL de imagen válida.",
+    "imageDetected": "Imagen detectada",
+    "type": "Tipo",
+    "size": "Tamaño",
+    "dimensions": "Dimensiones"
+  },
+  "date_difference_calculator": {
+    "title": "Calculadora de Diferencia de Fechas",
+    "description": "Calcula la diferencia entre dos fechas en días, meses o años. Ideal para plazos, control de vencimientos y cálculo de tiempo.",
+    "tags": [
+      "diferencia de fechas",
+      "calcular fechas",
+      "cuántos días entre fechas",
+      "días entre fechas",
+      "calculadora de tiempo",
+      "tiempo entre fechas",
+      "contar días"
+    ],
+    "category": "Fechas y Horarios",
+    "startDate": "Fecha Inicial",
+    "endDate": "Fecha Final",
+    "calculate": "Calcular",
+    "invalidDates": "Rellena correctamente ambas fechas.",
+    "difference": "Diferencia",
+    "days": "días",
+    "hours": "horas",
+    "minutes": "minutos",
+    "resultPlaceholder": "El resultado aparecerá aquí"
+  },
+  "date_handler_days_months_years": {
+    "title": "Manipulador de Fechas (días, meses, años)",
+    "description": "Suma o resta días, meses o años a una fecha fácilmente. Ideal para cálculos de plazos, programación y pruebas de sistemas.",
+    "tags": [
+      "manipulador de fechas",
+      "calcular fechas",
+      "sumar días",
+      "restar meses",
+      "diferencia de fechas",
+      "fechas en javascript",
+      "fecha futura",
+      "fecha pasada"
+    ],
+    "category": "Fechas y Horarios",
+    "value": "Valor",
+    "days": "Días",
+    "months": "Meses",
+    "years": "Años",
+    "add": "Sumar",
+    "subtract": "Restar",
+    "calculate": "Calcular",
+    "invalidInput": "❌ Rellena la fecha y el valor.",
+    "resultPlaceholder": "El resultado aparecerá aquí"
+  },
+  "date_to_timestamp_converter": {
+    "title": "Convertidor de Fecha a Timestamp",
+    "description": "Convierte una fecha/hora al formato de timestamp Unix de forma simple y rápida. Ideal para programación, bases de datos y depuración.",
+    "tags": [
+      "fecha a timestamp",
+      "timestamp unix",
+      "convertir timestamp",
+      "hora epoch",
+      "tiempo unix",
+      "conversión de fechas"
+    ],
+    "category": "Fechas y Horarios",
+    "label": "Fecha a Timestamp (Unix)",
+    "convert": "Convertir",
+    "placeholder": "El timestamp generado aparecerá aquí",
+    "error": "❌ Fecha inválida."
+  },
+  "decimal_text_converter": {
+    "title": "Conversor Decimal ↔ Texto",
+    "description": "Convierte fácilmente números decimales a texto y texto a decimales. Útil para codificación, pruebas y manipulación de datos.",
+    "tags": [
+      "decimal a texto",
+      "texto a decimal",
+      "conversión decimal",
+      "convertir número a texto",
+      "ascii decimal",
+      "representación decimal",
+      "conversor de números"
+    ],
+    "category": "Codificadores / Decodificadores",
+    "placeholder": "Introduce texto o decimales separados por espacio",
+    "outputPlaceholder": "El resultado aparecerá aquí",
+    "textToDecimal": "Texto → Decimal",
+    "decimalToText": "Decimal → Texto",
+    "decodeError": "Error al convertir decimal a texto."
+  },
+  "escape_unescape_backslashes": {
+    "title": "Escapar/Desescapar Barras Invertidas",
+    "description": "Convierte caracteres especiales como saltos de línea (\\n), tabulaciones (\\t), comillas y otros en cadenas escapadas o viceversa.",
+    "tags": [
+      "escape",
+      "unescape",
+      "barra invertida",
+      "texto",
+      "cadena"
+    ],
+    "category": "Herramientas de Texto",
+    "escape": "Escapar",
+    "unescape": "Desescapar",
+    "inputLabel": "Entrada:",
+    "outputLabel": "Resultado:",
+    "convert": "Convertir"
+  },
+  "extract_emails_from_text": {
+    "title": "Extraer correos electrónicos del texto",
+    "description": "Pegue cualquier contenido de texto y extraiga todas las direcciones de correo electrónico encontradas. Organice alfabéticamente o por dominio.",
+    "tags": [
+      "correo electrónico",
+      "extraer",
+      "texto",
+      "ordenar",
+      "dominio",
+      "lista de correos electrónicos"
+    ],
+    "category": "Herramientas de texto",
+    "inputLabel": "Texto de origen:",
+    "placeholder": "Pegue aquí el contenido con correos electrónicos...",
+    "sortLabel": "Ordenar por:",
+    "sortAlphabetical": "Orden alfabético",
+    "sortDomain": "Dominio",
+    "extract": "Extraer correos electrónicos",
+    "outputLabel": "Correos electrónicos extraídos:",
+    "download": "Descargar TXT"
+  },
+  "fake_name_email_phone_generator": {
+    "title": "Generador de Nombre + Email + Teléfono falso",
+    "description": "Genera combinaciones ficticias de nombres, correos electrónicos y teléfonos para pruebas, simulaciones y completar formularios. Ideal para entornos de desarrollo.",
+    "tags": [
+      "generador de datos falsos",
+      "nombre falso",
+      "email ficticio",
+      "teléfono aleatorio",
+      "datos para prueba",
+      "generar identidad falsa",
+      "simulación de registro"
+    ],
+    "category": "Generadores",
+    "quantity": "Cantidad",
+    "emailDomain": "Dominio del email",
+    "generate": "Generar",
+    "outputPlaceholder": "El resultado aparecerá aquí",
+    "errorInput": "❌ Verifica la cantidad y el dominio."
+  },
+  "fake_person_data_generator": {
+    "title": "Generador de datos de personas ficticias",
+    "description": "Crea perfiles de datos aleatorios de personas para pruebas y simulaciones. Selecciona los campos que desees y expórtalos fácilmente en formato JSON.",
+    "tags": [
+      "datos ficticios",
+      "personas json",
+      "usuario simulado",
+      "generador de datos",
+      "simulación de perfil",
+      "Pruebas de API"
+    ],
+    "category": "Generadores",
+    "amountLabel": "Número de registros",
+    "generate": "Para generar",
+    "loadError": "Error al cargar datos base."
+  },
+  "file_diff_side_by_side": {
+    "title": "Diferencia de archivos (lado a lado)",
+    "description": "Compare dos archivos de texto y vea las diferencias con un diseño profesional uno al lado del otro.",
+    "tags": [
+      "comparar archivos",
+      "diferencia de texto",
+      "subir",
+      "estilo git",
+      "diferencia2html"
+    ],
+    "category": "Análisis / Comparación",
+    "originalFile": "Archivo original:",
+    "modifiedFile": "Archivo modificado:",
+    "compare": "Comparar",
+    "alertMissingFiles": "Seleccione los dos archivos para comparar."
+  },
+  "flex_grid_layout_generator": {
+    "title": "Generador de diseño flexible/cuadrícula",
+    "description": "Crea diseños rápidamente con Flexbox o Grid. Ajusta la alineación, el espaciado y la vista previa en tiempo real con ejemplos.",
+    "tags": [
+      "caja flexible",
+      "diseño de cuadrícula",
+      "pantalla flexible",
+      "cuadrícula CSS",
+      "alineación CSS",
+      "brecha",
+      "justificar-contenido",
+      "elementos de alineación"
+    ],
+    "category": "Generadores",
+    "layoutType": "Tipo de diseño",
+    "gap": "Brecha",
+    "justify": "Justificar",
+    "align": "Alinear"
+  },
+  "generate_analyze_uuid_ulid_nanoid": {
+    "title": "Generar y analizar UUID/ULID/Nano ID",
+    "description": "Genere identificadores únicos (UUID, ULID, Nano ID) e inspeccione su estructura y validez. Todo local en su navegador.",
+    "tags": [
+      "UUID",
+      "ulid",
+      "nanoide",
+      "identificador",
+      "seguridad",
+      "generador"
+    ],
+    "category": "Generadores",
+    "type": "Tipo de identificación:",
+    "amount": "Cantidad:",
+    "lowercase": "Convertir a minúsculas",
+    "generate": "Para generar",
+    "analyzeTitle": "Analizar identificador",
+    "analyze": "Para analizar",
+    "placeholder": "Pegar un UUID, ULID o Nano ID",
+    "uuidValid": "UUID válido",
+    "version": "Versión",
+    "variant": "Variante",
+    "uuidRfc": "RFC 4122 (estándar)",
+    "ulidValid": "ULID válido",
+    "nanoidValid": "Nano ID válido",
+    "invalidID": "Identificación no válida o no reconocida.",
+    "unknown": "Desconocido"
+  },
+  "gerador_de_cnpj": {
+    "title": "Generador CNPJ",
+    "description": "Genere números CNPJ válidos para pruebas y desarrollo. Ahora compatible con múltiplos y ramificaciones.",
+    "tags": [
+      "generador cnpj",
+      "cnpj válido",
+      "cnpj para pruebas",
+      "cnpj falso",
+      "Número CNPJ",
+      "simulador de cnpj",
+      "prueba de la empresa",
+      "rama",
+      "múltiple"
+    ],
+    "category": "Generadores",
+    "format": "Formato con máscara",
+    "generate": "Para generar",
+    "generateMultiple": "Generar múltiplos",
+    "simulateBranch": "Simular matriz CNPJ + Sucursales",
+    "placeholder": "Los CNPJ generados aparecerán aquí"
+  },
+  "gerador_de_cpf": {
+    "title": "Generador de CPF",
+    "description": "Genere CPF válidos con o sin formato. Ideal para pruebas de formularios y registros.",
+    "tags": [
+      "generador de cpf",
+      "cpf válido",
+      "Simulador de CPF",
+      "prueba de formularios"
+    ],
+    "category": "Generadores",
+    "placeholder": "Los CPF generados aparecerán aquí"
+  },
+  "gerador_de_rg": {
+    "title": "Generador de RG aleatorio",
+    "description": "Genera números de identificación ficticios para pruebas y desarrollo. Útil para simulaciones y validaciones de documentos en entornos de prueba.",
+    "tags": [
+      "generador rg",
+      "identificación falsa",
+      "rg para pruebas",
+      "documentos ficticios",
+      "simulador rg",
+      "identidad falsa",
+      "generar rg"
+    ],
+    "category": "Generadores",
+    "generate": "Para generar"
+  },
+  "glassmorphism_generator": {
+    "title": "Generador de glassmorfismo",
+    "description": "Crea efectos de vidrio esmerilado con color, transparencia, desenfoque y bordes. Ideal para paneles y tarjetas de aspecto moderno.",
+    "tags": [
+      "vidriomorfismo",
+      "difuminar",
+      "transparencia",
+      "efecto vidrio",
+      "vidrio esmerilado",
+      "interfaz de usuario moderna",
+      "vidrio visual"
+    ],
+    "category": "Diseño / Colores",
+    "backgroundColor": "Color de fondo",
+    "opacity": "Opacidad",
+    "blur": "Desenfoque (px)",
+    "borderColor": "Color del borde",
+    "borderOpacity": "Opacidad del borde",
+    "previewBackground": "Vista previa de fondo"
+  },
+  "gzip_checker": {
+    "title": "Comprobador de GZIP",
+    "description": "Comprueba si el servidor de una URL tiene habilitada la compresión GZIP. Visualiza los encabezados de respuesta en tiempo real.",
+    "tags": [
+      "gzip",
+      "encabezados http",
+      "compresión",
+      "comprobador de gzip",
+      "mejoramiento",
+      "rendimiento web"
+    ],
+    "category": "Redes / HTTP",
+    "placeholder": "https://ejemplo.com/arquivo.js",
+    "check": "Comprobar GZIP",
+    "checking": "De cheques...",
+    "gzip.enabled": "✅ GZIP está activado: el texto se comprime.",
+    "gzip.disabled": "❌ GZIP NO está habilitado: respuesta sin comprimir.",
+    "httpHeaders": "Encabezados HTTP",
+    "error.invalidUrl": "Introduzca una URL válida.",
+    "error.checkFailed": "Error durante la prueba",
+    "error.prefix": "Error"
+  },
+  "hash_generator_md5_sha1_sha224_sha256_sha512": {
+    "title": "Generador de hash (MD5, SHA1, SHA224, SHA256 y SHA512)",
+    "description": "Introduce cualquier texto para generar automáticamente hashes MD5, SHA1, SHA224, SHA256 y SHA512. Puedes copiarlos todos.",
+    "tags": [
+      "picadillo",
+      "md5",
+      "sha",
+      "cifrado",
+      "generador de hash"
+    ],
+    "category": "Herramientas de texto",
+    "placeholder": "Escriba o pegue texto para generar hashes...",
+    "uppercase": "Mostrar en MAYÚSCULAS"
+  },
+  "hash_generator_md5_sha256": {
+    "title": "Generador de hash (MD5/SHA256)",
+    "description": "Genere rápidamente hashes MD5 o SHA256 a partir de cualquier texto. Ideal para seguridad, comprobación de integridad y desarrollo.",
+    "tags": [
+      "generador de hash",
+      "md5",
+      "sha256",
+      "cifrado",
+      "hash de texto",
+      "seguridad de datos",
+      "comprobación de integridad",
+      "generar md5",
+      "generar sha256"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "placeholder": "Texto a generar",
+    "resultPlaceholder": "El resultado aparecerá aquí"
+  },
+  "hello_world_in_multiple_languages": {
+    "title": "Hola mundo en varios idiomas",
+    "description": "Vea el clásico \"Hola Mundo\" en docenas de lenguajes de programación. Ideal para aprender o para despertar la curiosidad.",
+    "tags": [
+      "Hola Mundo",
+      "lenguajes de programación",
+      "ejemplo de código",
+      "educativo",
+      "códigos básicos",
+      "generador de código"
+    ],
+    "category": "Servicios públicos",
+    "selectPlaceholder": "Elige un idioma"
+  },
+  "hex_base64_converter": {
+    "title": "Convertidor de hexadecimal a base64",
+    "description": "Convierte datos entre formatos hexadecimales y Base64 fácilmente. Ideal para codificar, proteger y manipular datos binarios.",
+    "tags": [
+      "hexadecimal a base64",
+      "base64 a hexadecimal",
+      "convertidor de datos",
+      "codificación base64",
+      "codificación hexadecimal",
+      "convertir base64 hexadecimal",
+      "convertidor base64"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "placeholder": "Introduzca un valor hexadecimal o base64",
+    "outputPlaceholder": "El resultado aparecerá aquí",
+    "hexToBase64": "Hexadecimal → Base64",
+    "base64ToHex": "Base64 → Hex"
+  },
+  "hex_encoder_decoder": {
+    "title": "Codificador/decodificador HEX",
+    "description": "Convierte texto a hexadecimal y de hexadecimal a texto fácilmente. Ideal para depuración, codificación y manipulación de datos.",
+    "tags": [
+      "hexadecimal",
+      "texto a hexadecimal",
+      "hexadecimal a texto",
+      "codificar hexadecimal",
+      "decodificar hexadecimal",
+      "convertidor hexadecimal",
+      "herramienta hexagonal",
+      "cadena hexadecimal"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "placeholder": "Introduzca texto o código HEX",
+    "resultPlaceholder": "El resultado aparecerá aquí",
+    "encode": "Texto → HEX",
+    "decode": "HEX → Texto"
+  },
+  "hex_text_converter": {
+    "title": "Convertidor de hexadecimal a texto",
+    "description": "Convierte valores hexadecimales a texto y texto a hexadecimal con precisión. Útil para codificación, depuración y manipulación de cadenas.",
+    "tags": [
+      "hexadecimal a texto",
+      "texto a hexadecimal",
+      "convertidor hexadecimal",
+      "cadena a hexadecimal",
+      "decodificar hexadecimal",
+      "codificar texto",
+      "convertir hexadecimal"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "placeholder": "Introduzca texto o valor hexadecimal",
+    "textToHex": "Texto → Hex",
+    "hexToText": "Hex → Texto"
+  },
+  "hexadecimal_decimal_converter": {
+    "title": "Convertidor de hexadecimal a decimal",
+    "description": "Convierte valores hexadecimales a decimales de forma rápida y sencilla. Ideal para programación, electrónica y análisis de datos.",
+    "tags": [
+      "hexadecimal a decimal",
+      "decimal a hexadecimal",
+      "convertidor hexadecimal",
+      "convertir número",
+      "base numérica",
+      "dec. hexadecimal",
+      "calculadora hexadecimal"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Ingrese hexadecimal o decimal separado por espacio",
+    "hexToDec": "Hexadecimal → Decimal",
+    "decToHex": "Decimal → Hex"
+  },
+  "hexdump_text_converter": {
+    "title": "Volcado hexadecimal ↔ Texto",
+    "description": "Convierte texto a volcado hexadecimal o recupera texto original de un volcado hexadecimal formateado.",
+    "tags": [
+      "volcado hexadecimal",
+      "maleficio",
+      "ASCII",
+      "binario",
+      "depurar",
+      "analizador",
+      "convertidor"
+    ],
+    "category": "Convertidores",
+    "toHexdump": "Texto → Volcado hexadecimal",
+    "fromHexdump": "Hexdump → Texto",
+    "placeholder": "Escribe o pega el contenido...",
+    "convert": "Convertir"
+  },
+  "hmac_generator_sha1_sha256_sha512": {
+    "title": "Generador HMAC (SHA-1, SHA-256, SHA-512)",
+    "description": "Genere códigos HMAC con algoritmos SHA-1, SHA-256 o SHA-512 usando una clave secreta. Ideal para autenticación, API y seguridad de datos.",
+    "tags": [
+      "generador de hmac",
+      "hmac sha1",
+      "hmac sha256",
+      "hmac sha512",
+      "seguridad de la API",
+      "cifrado hmac",
+      "firma digital",
+      "hash con clave"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "message": "Mensaje",
+    "secretKey": "Clave secreta",
+    "generate": "Para generar"
+  },
+  "html_entity_encode_decode": {
+    "title": "Codificación/decodificación de entidades HTML",
+    "description": "Convierte fragmentos de HTML en entidades o decodifica a texto normal. Útil para la seguridad y la vista previa del código.",
+    "tags": [
+      "html",
+      "entidad",
+      "codificar",
+      "descodificar",
+      "xss",
+      "conversión"
+    ],
+    "category": "Herramientas de texto",
+    "encode": "Codificar",
+    "decode": "Descodificar",
+    "input": "Prohibido",
+    "output": "Salida",
+    "convert": "Convertir"
+  },
+  "html_viewer": {
+    "title": "Visor HTML",
+    "description": "Visualiza, edita y formatea código HTML con vista previa en vivo. Incluye autocompletado, cierre automático de etiquetas y marcador de posición inteligente.",
+    "tags": [
+      "html",
+      "visualización",
+      "avance",
+      "web",
+      "Interfaz"
+    ],
+    "category": "Servicios públicos",
+    "example": "Ejemplo",
+    "format": "Formato",
+    "placeholder": "Escriba o pegue su HTML aquí"
+  },
+  "http_error_simulator": {
+    "title": "Simulador de errores HTTP",
+    "description": "Simule códigos de error HTTP como 404, 500, 403 y otros para probar el comportamiento de la aplicación y las respuestas del frontend.",
+    "tags": [
+      "simulador http",
+      "Error http",
+      "error de prueba 404",
+      "simular el error 500",
+      "códigos http",
+      "respuesta http falsa",
+      "depuración de API",
+      "código de estado http"
+    ],
+    "category": "Redes / HTTP",
+    "label": "Código HTTP para simular",
+    "placeholder": "Ejemplo: 404",
+    "simulate": "Simular",
+    "invalidCode": "Código inválido.",
+    "status": "Estado",
+    "viewFull": "Ver respuesta completa",
+    "error": "Error al simular:"
+  },
+  "http_headers_viewer_raw_request": {
+    "title": "Visor de encabezados HTTP (solicitud sin procesar)",
+    "description": "Visualice el contenido sin procesar de los encabezados HTTP en las solicitudes. Ideal para depuración, análisis de tráfico y desarrollo web.",
+    "tags": [
+      "encabezados http",
+      "encabezados de vista",
+      "solicitud sin procesar",
+      "análisis http",
+      "solicitud http",
+      "Visor de solicitudes http",
+      "solicitud de depuración",
+      "inspeccionar encabezados"
+    ],
+    "category": "Redes / HTTP",
+    "placeholder": "Pegue aquí una solicitud HTTP sin procesar",
+    "analyze": "Para analizar",
+    "nothingToAnalyze": "Nada que analizar.",
+    "methodAndPath": "Método y ruta",
+    "headers": "Encabezados"
+  },
+  "image_cropper": {
+    "title": "Recortador de imágenes",
+    "description": "Sube una imagen, selecciona el área de recorte y descarga solo la parte deseada. Compatible con PNG y JPG.",
+    "tags": [
+      "cultivo",
+      "imagen",
+      "cortar",
+      "editor",
+      "imagen de utilidad"
+    ],
+    "category": "Imágenes",
+    "download": "Descargar recorte",
+    "clear": "Para limpiar"
+  },
+  "image_to_base64_converter": {
+    "title": "Imagen → Base64",
+    "description": "Convierte rápidamente archivos de imagen a cadenas Base64. Ideal para incrustar en HTML, CSS o JSON.",
+    "tags": [
+      "base64",
+      "convertir imagen",
+      "imagen a base64",
+      "img a base64",
+      "URI de fecha",
+      "incrustar imagen",
+      "imagen en línea"
+    ],
+    "category": "Convertidores",
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  },
+  "image_to_data_url_base64": {
+    "title": "Imagen → Fecha URL (Base64)",
+    "description": "Selecciona una imagen de tu dispositivo para convertirla automáticamente a una URL de datos base64. Útil para incrustar imágenes en HTML o CSS.",
+    "tags": [
+      "imagen a base64",
+      "URL de la imagen hasta la fecha",
+      "convertir imagen",
+      "base64",
+      "fecha uri"
+    ],
+    "category": "Imágenes",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "download": "Descargar imagen",
+    "clear": "Para limpiar"
+  },
+  "json_formatter": {
+    "title": "Formateador JSON",
+    "description": "Formatee sus datos JSON para que sean más legibles y organizados. Ideal para desarrolladores que trabajan con API y frameworks complejos.",
+    "tags": [
+      "formateador json",
+      "JSON legible",
+      "embellecer json",
+      "embellecedor json",
+      "JSON con sangría",
+      "json organizado",
+      "herramienta json"
+    ],
+    "category": "Formateadores / Minificadores",
+    "format": "Formato JSON"
+  },
+  "json_minifier": {
+    "title": "Minificador de JSON",
+    "description": "Elimina espacios, saltos de línea y caracteres innecesarios de tu JSON. Ideal para reducir el tamaño de archivo y optimizar aplicaciones.",
+    "tags": [
+      "minificador de JSON",
+      "minificar json",
+      "reducir json",
+      "comprimir json",
+      "json optimizado",
+      "eliminar espacios json",
+      "json sin formato"
+    ],
+    "category": "Formateadores / Minificadores",
+    "minify": "Minificar",
+    "invalidJson": "❌ JSON no válido.",
+    "placeholder": {
+      "input": "Cole seu JSON aqui...",
+      "output": "JSON minificado aparecerá aqui"
+    }
+  },
+  "json_prettifier": {
+    "title": "Formateador JSON (Prettifier)",
+    "description": "Mantenga sus archivos JSON legibles y organizados con sangría automática. Ideal para lectura, depuración y desarrollo.",
+    "tags": [
+      "formateador json",
+      "embellecedor json",
+      "embellecer json",
+      "formato json",
+      "sangría json",
+      "embellecer json",
+      "embellecedor json"
+    ],
+    "category": "Formateadores / Minificadores",
+    "format": "Formato",
+    "error": "Error",
+    "placeholder": {
+      "input": "Digite ou cole um JSON"
+    }
+  },
+  "json_schema_to_openapi": {
+    "title": "Esquema JSON → OpenAPI",
+    "description": "Convierte un esquema JSON válido al formato OpenAPI 3.0. Ajusta campos como \"nullable\", elimina \"$schema\" y aplica el formato correcto para su uso en las API.",
+    "tags": [
+      "esquema json",
+      "API abierta",
+      "convertir",
+      "diseño de API",
+      "especulación"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su esquema JSON aquí...",
+    "convert": "Convertir",
+    "error": "Error",
+    "invalidJson": "JSON no válido."
+  },
+  "json_schema_to_typescript": {
+    "title": "Esquema JSON → TypeScript",
+    "description": "Genere interfaces TypeScript completas a partir del esquema JSON con soporte para enumeraciones, valores nulos, JSDoc, matrices delimitadas y más.",
+    "tags": [
+      "esquema json",
+      "mecanografiado",
+      "interfaz",
+      "convertir",
+      "mecanografía"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su esquema JSON aquí...",
+    "convert": "Convertir",
+    "invalid": "Esquema inválido.",
+    "invalidJson": "¡Esquema JSON no válido!"
+  },
+  "json_to_bigquery_schema": {
+    "title": "JSON → Esquema de BigQuery",
+    "description": "Convierte JSON simple en una estructura de esquema para BigQuery, incluido el nombre, el tipo y el modo (OBLIGATORIO).",
+    "tags": [
+      "json",
+      "BigQuery",
+      "esquema",
+      "gcp",
+      "nube de Google",
+      "datos"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su JSON aquí...",
+    "convert": "Convertir",
+    "invalidJson": "¡JSON no válido!"
+  },
+  "json_to_csv_converter": {
+    "title": "Convertidor de JSON a CSV",
+    "description": "Convierte fácilmente datos JSON a formato CSV. Ideal para exportaciones, hojas de cálculo y manipulación de datos estructurados.",
+    "tags": [
+      "json a csv",
+      "convertir json",
+      "convertidor de datos",
+      "json csv",
+      "exportar json",
+      "transformar json a csv",
+      "datos estructurados"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegar el JSON (matriz de objetos)",
+    "delimiter": "Delimitador",
+    "useQuotes": "Utilice comillas",
+    "convert": "Convertir",
+    "errorNotArray": "JSON debe ser una matriz de objetos.",
+    "errorPrefix": "Error:"
+  },
+  "json_to_flow_types": {
+    "title": "JSON → Tipos de flujo",
+    "description": "Convierte objetos JSON a tipos estáticos de flujo. Útil para validar estructuras JavaScript con tipos opcionales.",
+    "tags": [
+      "json",
+      "fluir",
+      "mecanografía",
+      "Javascript",
+      "tipo de flujo",
+      "tipos"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su JSON aquí...",
+    "convert": "Convertir",
+    "error": "¡JSON no válido!"
+  },
+  "json_to_graphql": {
+    "title": "JSON → GraphQL",
+    "description": "Genera automáticamente tipos GraphQL a partir de JSON. Útil para crear rápidamente esquemas de API.",
+    "tags": [
+      "json",
+      "Graphql",
+      "esquema",
+      "convertir",
+      "tipos"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su JSON aquí...",
+    "convert": "Convertir",
+    "error": "¡JSON no válido!"
+  },
+  "json_to_json_schema": {
+    "title": "JSON → Esquema JSON",
+    "description": "Genera automáticamente esquemas JSON a partir de un objeto JSON válido. Útil para validación, documentación y contratos de API.",
+    "tags": [
+      "json",
+      "esquema",
+      "validación",
+      "API",
+      "contrato",
+      "esquema json"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su JSON aquí...",
+    "convert": "Convertir",
+    "error": "¡JSON no válido!"
+  },
+  "json_to_mongoose_schema": {
+    "title": "JSON → Esquema Mongoose",
+    "description": "Genera automáticamente esquemas Mongoose a partir de JSON. Útil para modelar rápidamente documentos MongoDB.",
+    "tags": [
+      "json",
+      "mangosta",
+      "esquema",
+      "mongo",
+      "modelado"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su JSON aquí...",
+    "convert": "Convertir",
+    "error": "¡JSON no válido!"
+  },
+  "json_to_mysql": {
+    "title": "JSON → MySQL",
+    "description": "Genera sentencias SQL para crear tablas MySQL a partir de JSON. Ideal para prototipado y modelado rápido.",
+    "tags": [
+      "json",
+      "MySQL",
+      "SQL",
+      "base de datos",
+      "convertir",
+      "ddl"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su JSON aquí...",
+    "convert": "Convertir",
+    "error": "¡JSON no válido!"
+  },
+  "json_to_typescript": {
+    "title": "JSON → TypeScript",
+    "description": "Convierte automáticamente JSON a interfaces TypeScript, con tipificación y estructura sólidas basadas en los datos proporcionados.",
+    "tags": [
+      "json",
+      "mecanografiado",
+      "convertir",
+      "interfaz",
+      "tipos"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue su JSON aquí...",
+    "convert": "Convertir",
+    "error": "¡JSON no válido!"
+  },
+  "json_to_xml_converter": {
+    "title": "Convertidor JSON ↔ XML",
+    "description": "Convierte datos entre formatos JSON y XML con precisión. Ideal para integraciones de sistemas, API y manipulación de datos estructurados.",
+    "tags": [
+      "json a xml",
+      "xml a json",
+      "convertidor json xml",
+      "convertir datos",
+      "formato xml",
+      "formato json",
+      "transformar xml json"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue JSON o XML aquí...",
+    "jsonToXml": "JSON → XML",
+    "xmlToJson": "XML → JSON",
+    "error": "Error al convertir"
+  },
+  "json_to_yaml_converter": {
+    "title": "Convertidor JSON → YAML",
+    "description": "Convierte archivos JSON a formato YAML de forma fácil y eficiente. Ideal para configuración de sistemas, API e infraestructura como código.",
+    "tags": [
+      "json a yaml",
+      "convertir json",
+      "json yaml",
+      "conversión de datos",
+      "estructura yaml",
+      "configuración de yaml",
+      "transformar json a yaml"
+    ],
+    "category": "Convertidores",
+    "placeholder": "Pegue JSON aquí...",
+    "convert": "Convertir",
+    "error": "Error al convertir"
+  },
+  "json_validator": {
+    "title": "Validador JSON",
+    "description": "Comprueba si JSON es válido y tiene el formato correcto. Ideal para detectar errores de sintaxis en API, archivos de configuración y pruebas de integración.",
+    "tags": [
+      "validador json",
+      "json válido",
+      "verificar json",
+      "verificador de JSON",
+      "error en json",
+      "validar la estructura json",
+      "sintaxis json"
+    ],
+    "category": "Validadores",
+    "placeholder": "Escriba o pegue un JSON",
+    "validate": "Validar",
+    "valid": "✅ JSON válido.",
+    "invalid": "❌ No válido"
+  },
+  "jwt_generator": {
+    "title": "Generador JWT",
+    "description": "Crea tokens JWT personalizados con encabezado, carga útil y secreto. Ideal para pruebas con HS256.",
+    "tags": [
+      "jwt",
+      "simbólico",
+      "generar jwt",
+      "prueba jwt",
+      "cifrado"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "payload": "Carga útil (JSON)",
+    "header": "Encabezado (opcional)",
+    "secret": "Secreto (HS256)",
+    "secretPlaceholder": "Introduzca el secreto...",
+    "outputLabel": "Token JWT",
+    "invalidPayload": "Carga útil no válida",
+    "invalidHeader": "Encabezado no válido",
+    "secretRequired": "Secreto obligatorio"
+  },
+  "jwt_viewer": {
+    "title": "Visor de JWT",
+    "description": "Decodifica tokens JWT para visualizar el encabezado, la carga útil y la firma. Ideal para depuración, seguridad y desarrollo de autenticación.",
+    "tags": [
+      "jwt",
+      "ver jwt",
+      "decodificar jwt",
+      "token jwt",
+      "depurador de jwt",
+      "analizar jwt",
+      "decodificador jwt",
+      "visor de tokens jwt"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "placeholder": "Pegue su JWT aquí",
+    "decode": "Descodificar",
+    "error.invalid": "JWT no válido",
+    "error.structure": "JWT debe contener 3 partes separadas por un punto."
+  },
+  "lorem_ipsum_generator": {
+    "title": "Generador de Lorem Ipsum",
+    "description": "Genere texto de relleno estándar de Lorem Ipsum para usar como marcadores de posición en diseños, maquetaciones y pruebas de contenido.",
+    "tags": [
+      "lorem ipsum",
+      "texto ficticio",
+      "generador de texto",
+      "texto para el diseño",
+      "marcador de posición de contenido",
+      "texto simulado",
+      "contenido de la prueba"
+    ],
+    "category": "Generadores",
+    "paragraphs": "Párrafos",
+    "words": "Palabras",
+    "bytes": "Bytes",
+    "lists": "Liza",
+    "startWithLorem": "Empiece con \"Lorem ipsum dolor sit amet...\"",
+    "error.loading": "Error al cargar el texto de Lorem Ipsum.",
+    "loremIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc purus, gravida non dignissim iaculis, pretium sed metus. Quisque faucibus, lacus a vulputate fermentum, lacus erat feugiat risus, non fringilla ligula eros eu sem. Integer consectetur, sem suscipit pellentesque auctor, neque velit fermentum mi, id elementum eros felis at nisi. Aenean consectetur gravida dui, vel porta diam aliquam et. Aliquam volutpat, lectus ut convallis vestibulum, ligula leo fringilla neque, non fringilla just tortor non purus. Proin consequat erat vitae tellus pharetra, in malesuada eros rutrum. Entero sed massa dignissim, efficitur eros vitae, rhoncus nisi. Sed gravida rutrum es incluso venenatis."
+  },
+  "magic_analyzer": {
+    "title": "Analizador mágico",
+    "description": "Detecta y analiza datos automáticamente, sugiriendo operaciones útiles como decodificación, descompresión o interpretación basadas en entropía, patrones y formato.",
+    "tags": [
+      "ser",
+      "detectar",
+      "descodificar",
+      "análisis",
+      "elegante",
+      "magia"
+    ],
+    "category": "Análisis / Comparación",
+    "placeholder": "Pegue aquí datos sospechosos (Base64, Hex, JWT, cargas útiles...)",
+    "crib": "Expresión regular (Crib)",
+    "cribPlaceholder": "Opcional: Ingrese una expresión regular para filtrar los resultados",
+    "depth": "Profundidad del análisis recursivo",
+    "intensive": "Modo intensivo (fuerza bruta ligera de ROT13 y XOR)",
+    "entropy": "Entropía",
+    "ascii": "Parece texto ASCII",
+    "printable": "Personajes imprimibles",
+    "maybeBase64": "Posible Base64 válido",
+    "maybeHex": "Posible hexadecimal",
+    "validJson": "JSON válido",
+    "jwtDecoded": "JWT detectado y decodificado",
+    "gzipDecoded": "GZIP decodificado exitosamente",
+    "cribFound": "Cuna encontrada con expresiones regulares",
+    "cribNotFound": "No se encontró cuna usando expresiones regulares",
+    "rot13Json": "ROT13 aplicado → JSON válido",
+    "xorJson": "XOR con clave → JSON válido"
+  },
+  "markdown_to_html_preview": {
+    "title": "Markdown → Vista previa HTML",
+    "description": "Previsualiza la representación del texto Markdown convertido a HTML en tiempo real. Ideal para escritores, desarrolladores y creadores de contenido.",
+    "tags": [
+      "Markdown a HTML",
+      "vista previa de rebajas",
+      "renderizar markdown",
+      "visor de rebajas",
+      "vista previa en vivo de Markdown",
+      "convertir rebajas",
+      "html desde markdown"
+    ],
+    "category": "Convertidores",
+    "placeholder": "# Título\\n\\nAlgún texto *markdown*."
+  },
+  "markdown_to_html_tags": {
+    "title": "Markdown → HTML (Etiquetas)",
+    "description": "Convierte Markdown a HTML puro mostrando solo las etiquetas HTML generadas. Ideal para desarrolladores e integración de contenido.",
+    "tags": [
+      "Markdown a HTML",
+      "Markdown a HTML",
+      "convertir rebajas",
+      "salida de etiqueta html",
+      "rebajas brutas",
+      "ver html de rebajas"
+    ],
+    "category": "Convertidores",
+    "placeholder": "# Título\n\nTexto *markdown*."
+  },
+  "mercosul_plate_generator": {
+    "title": "Generador de placas del Mercosur",
+    "description": "Genere placas según el estándar del Mercosur (AAA1A23) o convierta placas antiguas al nuevo modelo. Ideal para pruebas y simulaciones.",
+    "tags": [
+      "Placa del Mercosur",
+      "generador de placas",
+      "nuevo modelo",
+      "placa de Brasil",
+      "simulador de tablero",
+      "placa de conversión",
+      "placa de exportación"
+    ],
+    "category": "Generadores",
+    "quantity": "Cantidad:",
+    "convert_label": "Convertir placa antigua (ABC1234):",
+    "convert_placeholder": "Ejemplo: BRA1234",
+    "convert_button": "Convertir",
+    "export_csv": "Exportar CSV"
+  },
+  "multiple_property_transitions": {
+    "title": "Transiciones con múltiples propiedades",
+    "description": "Cree transiciones CSS personalizadas con múltiples propiedades, cada una con su propia duración, retraso y suavizado.",
+    "tags": [
+      "transición",
+      "CSS",
+      "animación",
+      "facilitación",
+      "demora",
+      "multiprop"
+    ],
+    "category": "Diseño / Colores",
+    "preview": "Avance",
+    "duration": "Duración (s)",
+    "delay": "Retraso(s)",
+    "background-color": "Color de fondo",
+    "color": "Color del texto",
+    "transform": "Transformación",
+    "opacity": "Opacidad",
+    "border-radius": "Redondeo",
+    "ease": "facilidad",
+    "linear": "lineal",
+    "ease-in": "entrada fácil",
+    "ease-out": "salida gradual",
+    "ease-in-out": "entrada y salida fáciles"
+  },
+  "neon_effect_generator": {
+    "title": "Generador de efectos de neón",
+    "description": "Crea efectos de texto de neón con múltiples capas de sombras. Ideal para interfaces estilizadas, títulos llamativos o el modo hacker.",
+    "tags": [
+      "neón",
+      "sombra de texto",
+      "efecto de brillo",
+      "visual cibernético",
+      "brillo de la interfaz de usuario",
+      "modo hacker"
+    ],
+    "category": "Diseño / Colores",
+    "color_label": "Color neón",
+    "intensity_label": "Intensidad",
+    "preview_text": "Texto de neón"
+  },
+  "online_ping": {
+    "title": "Ping en línea",
+    "description": "Envía paquetes de prueba a un dominio o IP para comprobar si el host es accesible. Ideal para diagnósticos de red y latencia.",
+    "tags": [
+      "ping en línea",
+      "prueba de red",
+      "estado latente",
+      "comprobar la conexión",
+      "servidor de ping",
+      "ping de DNS",
+      "prueba de IP"
+    ],
+    "category": "Redes / HTTP",
+    "input_label": "Introduzca el dominio o IP:",
+    "input_placeholder": "ej.: google.com",
+    "send_ping": "Enviar ping",
+    "result_label": "Resultado:",
+    "waiting": "Esperar..."
+  },
+  "open_ports_checker": {
+    "title": "Comprobador de puertos abiertos",
+    "description": "Escanee puertos específicos o perfiles preparados de un servidor remoto para detectar servicios activos (HTTP, SSH, bases de datos, etc.).",
+    "tags": [
+      "escáner de puertos",
+      "verificador de puertos",
+      "Redes / HTTP",
+      "seguridad",
+      "http",
+      "ssh",
+      "MySQL"
+    ],
+    "category": "Redes / HTTP",
+    "host_placeholder": "p. ej. scanme.nmap.org",
+    "ports_placeholder": "Puertos (p. ej. 22, 80, 443)",
+    "profile_web": "Web",
+    "profile_security": "Seguridad",
+    "profile_db": "Base de datos",
+    "scan": "Escanear",
+    "scanning": "Exploración...",
+    "error_fill_fields": "Complete el host y al menos un puerto.",
+    "host_label": "Anfitrión",
+    "port_open": "Puerta abierta",
+    "port_closed": "Puerta cerrada",
+    "scan_error": "Error de escaneo"
+  },
+  "overlay_generator": {
+    "title": "Generador de superposiciones",
+    "description": "Cree superposiciones visuales con color, opacidad y modo de fusión para aplicar sobre imágenes, banners o secciones destacadas.",
+    "tags": [
+      "cubrir",
+      "mezcla",
+      "fondo",
+      "modo de mezcla",
+      "efecto",
+      "elemento visual CSS"
+    ],
+    "category": "Diseño / Colores",
+    "overlay_color": "Color de superposición",
+    "opacity": "Opacidad",
+    "blend_mode": "Modo de fusión",
+    "new_image": "Nueva imagen",
+    "upload_local": "Usar imagen local"
+  },
+  "placeholder_image_generator": {
+    "title": "Generador de imágenes de marcador de posición",
+    "description": "Genera imágenes personalizadas para usarlas como marcadores de posición en pruebas y diseños. Elige libremente colores, texto y dimensiones.",
+    "tags": [
+      "marcador de posición",
+      "imagen",
+      "generador",
+      "prueba",
+      "lorem",
+      "píxel"
+    ],
+    "category": "Imágenes",
+    "width": "Ancho",
+    "height": "Altura",
+    "font_size": "Tamaño del texto",
+    "background_color": "Color de fondo",
+    "text_color": "Color del texto",
+    "format": "Formato",
+    "text": "Texto",
+    "placeholder_text_default": "Generador de marcadores de posición",
+    "generate": "Para generar",
+    "download_image": "Descargar imagen"
+  },
+  "qr_code_reader_image": {
+    "title": "Lector de código QR (imagen)",
+    "description": "Sube una imagen con código QR para decodificar el contenido. Muestra el texto incrustado y permite copiarlo con un solo clic.",
+    "tags": [
+      "código QR",
+      "lector QR",
+      "imagen",
+      "escáner",
+      "decodificar qr"
+    ],
+    "category": "Imágenes",
+    "svg_not_supported": "El formato SVG no es compatible. Utilice PNG o JPG.",
+    "no_qr_found": "No se detectó ningún código QR."
+  },
+  "query_params_playground": {
+    "title": "Área de juegos de parámetros de consulta",
+    "description": "Decodifica, edita y ensambla URLs de forma interactiva. Modifica parámetros, visualiza la URL final y consulta los detalles de la estructura.",
+    "tags": [
+      "URL",
+      "consulta",
+      "parámetros",
+      "patio de juegos",
+      "herramienta"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "placeholder": "Pegue o escriba una URL completa para analizar...",
+    "analyze": "Analizar URL",
+    "add_param": "Agregar parámetro",
+    "open": "Abrir URL",
+    "key": "Llave",
+    "value": "Valor",
+    "remove_key": "Eliminar parámetro",
+    "url_prefix_error": "La URL debe comenzar con http:// o https://",
+    "url_invalid": "URL no válida o incompleta."
+  },
+  "random_email_list_generator": {
+    "title": "Generador de listas de correo electrónico aleatorias",
+    "description": "Genere direcciones de correo electrónico ficticias para realizar pruebas, simular registros y validar formularios. Ideal para entornos de desarrollo.",
+    "tags": [
+      "generador de correo electrónico",
+      "correos electrónicos aleatorios",
+      "correo electrónico falso",
+      "lista de correo electrónico",
+      "correos electrónicos para pruebas",
+      "correo electrónico ficticio",
+      "correo electrónico para desarrollo"
+    ],
+    "category": "Generadores",
+    "quantity_placeholder": "Número de correos electrónicos",
+    "domain_placeholder": "Dominio (p. ej. gmail.com)",
+    "generate": "Para generar",
+    "output_placeholder": "Los correos electrónicos generados aparecerán aquí",
+    "error_input": "Verificar cantidad y dominio."
+  },
+  "random_number_picker": {
+    "title": "Selector de números aleatorios",
+    "description": "Selector de números online gratuito. Selecciona el rango y haz clic en el número del sorteo. También puedes usarlo para realizar sorteos en Facebook, Instagram y otras redes sociales.",
+    "tags": [
+      "sorteo de premios",
+      "aleatorio",
+      "aleatorio",
+      "número",
+      "Facebook",
+      "Instagram"
+    ],
+    "category": "Servicios públicos",
+    "instruction": "Ingrese el rango de números y haga clic en dibujar:",
+    "min_label": "Mínimo",
+    "max_label": "Máximo",
+    "draw_button": "Número de sorteo",
+    "result_label": "Número generado:",
+    "invalid_range": "Rango no válido"
+  },
+  "random_password_generator": {
+    "title": "Generador de contraseñas aleatorias",
+    "description": "Crea contraseñas seguras y fuertes de forma aleatoria. Ideal para proteger cuentas y datos confidenciales.",
+    "tags": [
+      "contraseña aleatoria",
+      "generador de contraseñas",
+      "contraseña segura",
+      "generador de contraseñas",
+      "seguridad de datos",
+      "generar contraseñas",
+      "protección de la cuenta"
+    ],
+    "category": "Generadores",
+    "length": "Tamaño",
+    "include_symbols": "Incluir símbolos",
+    "include_numbers": "Incluir números",
+    "include_uppercase": "Incluir letras mayúsculas",
+    "include_lowercase": "Incluir minúsculas",
+    "generate": "Para generar",
+    "click_to_generate": "Haga clic en generar",
+    "select_one_type": "Seleccione al menos un tipo de personaje"
+  },
+  "random_person_picker": {
+    "title": "La gente dibuja",
+    "description": "Pega una lista de nombres, elige el separador y el número de ganadores. Sorteo rápido y divertido para rifas, sorteos y decisiones aleatorias.",
+    "tags": [
+      "sorteo de premios",
+      "gente",
+      "nombres",
+      "lista",
+      "aleatorio",
+      "divertido"
+    ],
+    "category": "Servicios públicos"
+  },
+  "random_text_generator_with_emojis": {
+    "title": "Generador de texto aleatorio con emojis",
+    "description": "Crea texto divertido y aleatorio con emojis. Ideal para pruebas visuales, marcadores creativos y contenido de muestra.",
+    "tags": [
+      "texto aleatorio",
+      "generador de emojis",
+      "texto con emojis",
+      "marcador de posición divertido",
+      "generador de emojis",
+      "Lorem ipsum con emojis",
+      "generar texto creativo"
+    ],
+    "category": "Generadores",
+    "paragraphs": "Párrafos",
+    "style": "Estilo",
+    "casual": "Casual",
+    "tech": "Tecnología",
+    "funny": "Bromeó",
+    "mix": "Mezclado",
+    "generate": "Para generar",
+    "placeholder": "El resultado aparecerá aquí"
+  },
+  "regex_tester": {
+    "title": "Comprobador de expresiones regulares",
+    "description": "Pruebe sus expresiones regulares en tiempo real. Ideal para analizar patrones, validar cadenas y corregir rápidamente errores de sintaxis.",
+    "tags": [
+      "expresiones regulares",
+      "expresiones regulares",
+      "prueba de expresiones regulares",
+      "comprobador de expresiones regulares",
+      "validar expresiones regulares",
+      "analizar patrones",
+      "herramienta de expresiones regulares"
+    ],
+    "category": "Servicios públicos",
+    "regex_placeholder": "Introduzca la expresión regular...",
+    "text_placeholder": "Texto para probar...",
+    "test": "Prueba",
+    "matches_singular": "ocurrencia encontrada",
+    "matches_plural": "ocurrencias encontradas",
+    "no_match": "No se encontraron ocurrencias.",
+    "error_prefix": "Error en la expresión regular:"
+  },
+  "regex_tester_with_highlighting": {
+    "title": "Probador de expresiones regulares con resaltado",
+    "description": "Pruebe sus expresiones regulares en tiempo real con resaltado de sintaxis. Ideal para analizar patrones, validar cadenas y corregir errores rápidamente.",
+    "tags": [
+      "expresiones regulares",
+      "expresiones regulares",
+      "prueba de expresiones regulares",
+      "expresiones regulares con resaltado",
+      "validar expresiones regulares",
+      "analizar patrones",
+      "herramienta de expresiones regulares"
+    ],
+    "category": "Servicios públicos",
+    "regex_placeholder": "Introduzca el patrón de expresión regular (por ejemplo, \\d+ o /\\w+/gi)",
+    "text_placeholder": "Texto donde aplicar la expresión regular",
+    "test": "Expresión regular de prueba",
+    "fill_both": "Rellene ambos campos.",
+    "invalid": "Expresión regular no válida:",
+    "no_match": "No se encontraron coincidencias.",
+    "hint": "Utilice la sintaxis estándar de JavaScript. Los indicadores como \"g\" e \"i\" son opcionales al final: /default/gi."
+  },
+  "remove_duplicate_lines": {
+    "title": "Eliminar filas duplicadas",
+    "description": "Pega tu texto y elimina automáticamente las líneas duplicadas. Ideal para organizar listas y contenido rápidamente.",
+    "tags": [
+      "eliminar duplicados",
+      "líneas claras",
+      "duplicado",
+      "líneas repetidas"
+    ],
+    "category": "Herramientas de texto",
+    "input_label": "Texto con posibles duplicados:",
+    "input_placeholder": "Pegue su contenido aquí...",
+    "remove_button": "Eliminar duplicados",
+    "output_label": "Resultado sin duplicados:",
+    "download": "Descargar TXT"
+  },
+  "rgba_color_generator": {
+    "title": "Generador de color RGBA",
+    "description": "Ajuste el color y la opacidad para generar fácilmente valores rgba() o hexadecimales con alfa. Ideal para superposiciones CSS y transparencia.",
+    "tags": [
+      "RGBA",
+      "alfa hexadecimal",
+      "transparencia",
+      "opacidad",
+      "color RGBA",
+      "color CSS"
+    ],
+    "category": "Diseño / Colores",
+    "color_label": "Color",
+    "opacity_label": "Opacidad",
+    "generate": "Para generar"
+  },
+  "scroll_snap_generator": {
+    "title": "Generador de desplazamientos rápidos",
+    "description": "Crea carruseles responsivos y secciones con desplazamiento fluido con scroll-snap. Genera HTML y CSS listos para usar.",
+    "tags": [
+      "voluta",
+      "quebrar",
+      "desplazamiento rápido",
+      "carrusel",
+      "horizontal",
+      "desplazamiento"
+    ],
+    "category": "Diseño / Colores",
+    "direction": "Dirección",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "behavior": "Comportamiento",
+    "padding": "Relleno de desplazamiento (px)",
+    "gap": "Espacio entre elementos (px)"
+  },
+  "shannon_entropy": {
+    "title": "Entropía de Shannon",
+    "description": "Mide la entropía de una cuerda según la teoría de la información. Valores más altos indican mayor aleatoriedad.",
+    "tags": [
+      "entropía",
+      "Shannon",
+      "aleatoriedad",
+      "seguridad",
+      "compresión",
+      "información"
+    ],
+    "category": "Análisis / Comparación",
+    "placeholder": "Escribe o pega tu contenido aquí...",
+    "calculate": "Calcular",
+    "max": "Máximo posible",
+    "english": "Texto en inglés en general",
+    "compressed": "Datos comprimidos/encriptados",
+    "source": "Fuente"
+  },
+  "system_information": {
+    "title": "Información del sistema",
+    "description": "Muestra detalles sobre el entorno del usuario, incluido el sistema operativo, el navegador y otra información relevante.",
+    "tags": [
+      "Sistema operativo",
+      "navegador",
+      "información del usuario"
+    ],
+    "category": "Servicios públicos",
+    "title_os": "Mi sistema operativo",
+    "title_browser": "Mi navegador",
+    "os_label": "Sistema operativo",
+    "screen_label": "Resolución de pantalla",
+    "browser_label": "Navegador",
+    "browser_version": "Versión"
+  },
+  "text_binary_converter": {
+    "title": "Convertidor de texto ↔ binario",
+    "description": "Convierte texto a código binario y de binario a texto de forma rápida e intuitiva. Ideal para estudios, codificación y decodificación de datos.",
+    "tags": [
+      "texto binario",
+      "convertidor binario",
+      "binario a texto",
+      "texto a binario",
+      "decodificador binario",
+      "codificador binario",
+      "binario en línea"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "placeholder_input": "Introduzca texto separado por espacios o binario",
+    "btn_text_to_bin": "Texto → Binario",
+    "btn_bin_to_text": "Binario → Texto",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "error_conversion": "Error al convertir binario."
+  },
+  "text_fork_by_delimiter": {
+    "title": "Bifurcación de texto por delimitador",
+    "description": "Divide el texto según un delimitador y aplica una operación a cada parte por separado. Ideal para procesar lotes de datos.",
+    "tags": [
+      "tenedor",
+      "lote",
+      "texto",
+      "tratamiento",
+      "pauta"
+    ],
+    "category": "Servicios públicos",
+    "placeholder": "Introduzca datos separados por línea o delimitador...",
+    "delimiter": "Delimitador",
+    "operation": "Operación",
+    "process": "Proceso",
+    "clear": "Para limpiar",
+    "fromBase64": "Base64 → Texto",
+    "toBase64": "Texto → Base64",
+    "fromHex": "Hex → Texto",
+    "toHex": "Texto → Hex",
+    "toUrl": "Codificación de URL",
+    "fromUrl": "Descodificación de URL",
+    "toUpper": "Texto → Mayúsculas",
+    "toLower": "Texto → Minúsculas",
+    "reverse": "Texto inverso",
+    "removeSpaces": "Eliminar espacios",
+    "removeBreaks": "Eliminar saltos de línea",
+    "toBinary": "Texto → Binario",
+    "fromBinary": "Binario → Texto",
+    "error_base64": "[Error al decodificar Base64]",
+    "error_hex": "[Error al decodificar Hex]",
+    "error_url": "[Error al decodificar la URL]"
+  },
+  "text_normalizer": {
+    "title": "Normalizador de texto",
+    "description": "Elimine rápidamente acentos y caracteres especiales, y estandarice mayúsculas y minúsculas. Ideal para estandarizar datos en sistemas y procesamiento de texto.",
+    "tags": [
+      "normalizador de texto",
+      "eliminar acentos",
+      "texto sin acento",
+      "estandarización de textos",
+      "caracteres especiales",
+      "convertir mayúsculas",
+      "convertir a minúsculas"
+    ],
+    "category": "Herramientas de texto",
+    "input_placeholder": "Escriba o pegue su texto con acentos, símbolos, etc.",
+    "output_placeholder": "Aquí aparecerá el texto normalizado...",
+    "normalize": "Normalizar"
+  },
+  "text_shadow_generator": {
+    "title": "Generador de sombras de texto",
+    "description": "Crea sombras para texto con control de color, desplazamiento y desenfoque. Ideal para añadir énfasis o profundidad a títulos y elementos de la interfaz de usuario.",
+    "tags": [
+      "sombra de texto",
+      "sombra de texto",
+      "texto CSS",
+      "efecto visual",
+      "difuminar",
+      "título destacado"
+    ],
+    "category": "Diseño / Colores",
+    "shadow_color": "Color de la sombra",
+    "blur": "Desenfoque (px)",
+    "offset_x": "Desplazamiento horizontal (X)",
+    "offset_y": "Desplazamiento vertical (Y)",
+    "preview_text": "Texto con sombra"
+  },
+  "text_to_binary_converter": {
+    "title": "Convertidor de texto ↔ binario",
+    "description": "Convierte texto a binario y de binario a texto fácilmente. Ideal para depuración, pruebas y manipulación de datos.",
+    "tags": [
+      "binario",
+      "texto a binario",
+      "binario a texto",
+      "convertidor binario",
+      "codificar binario",
+      "decodificar binario",
+      "texto binario"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "input_placeholder": "Introduzca texto separado por espacios o binario",
+    "output_placeholder": "El resultado binario o texto aparecerá aquí...",
+    "text_to_binary": "Texto → Binario",
+    "binary_to_text": "Binario → Texto"
+  },
+  "text_to_multiple_formats_converter": {
+    "title": "Convertidor de texto a múltiples formatos",
+    "description": "Ingrese cualquier texto y vea su conversión automática a representaciones BINARIAS, DECIMAL, OCTAL, HEX, BASE64, ASCII, UTF8, URL, UNICODE, MORSE y HTML",
+    "tags": [
+      "conversión",
+      "texto",
+      "binario",
+      "base64",
+      "Unicode",
+      "morse"
+    ],
+    "category": "Herramientas de texto",
+    "input_placeholder": "Escriba o pegue el texto para convertir...",
+    "label_binario": "BINARIO",
+    "label_decimal": "DECIMAL",
+    "label_octal": "OCTAL",
+    "label_hex": "MALEFICIO",
+    "label_base64": "BASE64",
+    "label_ascii": "ASCII",
+    "label_utf8": "UTF8",
+    "label_url": "URL",
+    "label_unicode": "UNICODE",
+    "label_morse": "MORSE",
+    "label_html": "HTML"
+  },
+  "timestamp_to_date_converter": {
+    "title": "Marca de tiempo ↔ Conversor de fecha",
+    "description": "Convierte marcas de tiempo entre diferentes formatos o sistemas. Ideal para desarrollo, registro y manipulación de fechas.",
+    "tags": [
+      "marca de tiempo",
+      "convertir marca de tiempo",
+      "tiempo de Unix",
+      "fecha a marca de tiempo",
+      "formato de fecha",
+      "época",
+      "fecha legible"
+    ],
+    "category": "Fechas y horarios",
+    "input_placeholder": "Introduzca la marca de tiempo o la fecha...",
+    "output_placeholder": "El resultado aparecerá aquí...",
+    "convert": "Convertir",
+    "format_br": "Fecha legible (pt-BR)",
+    "format_iso": "Formato ISO 8601",
+    "format_utc": "Fecha UTC",
+    "instructions": "Acepta marcas de tiempo Unix (segundos) o fechas como <code>2025-03-28 15:00</code>, <code>28/03/2025</code>, etc."
+  },
+  "unicode_to_text_converter": {
+    "title": "Convertidor de Unicode ↔ Texto",
+    "description": "Convierte caracteres Unicode en texto legible y viceversa. Ideal para internacionalización, codificación y manipulación de cadenas.",
+    "tags": [
+      "Unicode",
+      "texto a Unicode",
+      "Unicode a texto",
+      "UTF-8",
+      "hexadecimal",
+      "acentos",
+      "o",
+      "codificación Unicode"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "input_placeholder": "Introduzca texto escapado o Unicode (\\uXXXX, \\xXX)",
+    "output_placeholder": "El resultado aparece aquí...",
+    "convert_unicode": "Texto → Unicode",
+    "convert_text": "Unicode → Texto",
+    "option_unicode": "\\uXXXX",
+    "option_utf8": "\\xXX",
+    "option_hex": "Sólo hexadecimal",
+    "filter_all": "Convertir todo",
+    "filter_accents": "Sólo acentos",
+    "filter_specials": "Sólo caracteres especiales",
+    "filter_cedilla": "Sólo ç"
+  },
+  "unit_converter": {
+    "title": "Convertidor de unidades",
+    "description": "Convierte unidades de forma inteligente y práctica. Ideal para mediciones en pantalla, distancia, temperatura, tiempo y más.",
+    "tags": [
+      "convertidor de unidades",
+      "convertir medidas",
+      "px a rem",
+      "km hasta mí",
+      "Celsius Fahrenheit",
+      "convertir peso",
+      "tiempo"
+    ],
+    "category": "Convertidores",
+    "input_placeholder": "Introduzca el valor...",
+    "output_placeholder": "El resultado aparece aquí...",
+    "convert": "Convertir",
+    "invalid_input": "Introduzca un valor válido.",
+    "conversions": {
+      "Pixels ↔ Rem (base 16)": "Pixels ↔ Rem (base 16)",
+      "Celsius ↔ Fahrenheit": "Celsius ↔ Fahrenheit",
+      "Km ↔ Milhas": "Km ↔ Milhas",
+      "Metros ↔ Pés": "Metros ↔ Pés",
+      "Kg ↔ Libras": "Kg ↔ Libras",
+      "Horas ↔ Minutos ↔ Segundos": "Horas ↔ Minutos ↔ Segundos",
+      "Centímetros ↔ Polegadas": "Centímetros ↔ Polegadas",
+      "Minutos ↔ Segundos": "Minutos ↔ Segundos",
+      "Dias ↔ Horas": "Dias ↔ Horas",
+      "Litros ↔ Galões (US)": "Litros ↔ Galões (US)",
+      "Litros ↔ Mililitros": "Litros ↔ Mililitros",
+      "Joules ↔ Calorias": "Joules ↔ Calorias",
+      "Watts ↔ Cavalos de potência": "Watts ↔ Cavalos de potência",
+      "Bytes ↔ KB ↔ MB": "Bytes ↔ KB ↔ MB",
+      "MB ↔ GB": "MB ↔ GB",
+      "Hectares ↔ Metros²": "Hectares ↔ Metros²",
+      "m² ↔ pés²": "m² ↔ pés²",
+      "Bar ↔ Pascal": "Bar ↔ Pascal"
+    }
+  },
+  "url_encoder_decoder": {
+    "title": "Codificador/decodificador de URL",
+    "description": "Codifique y decodifique URLs de forma rápida y sencilla. Ideal para garantizar la compatibilidad de caracteres en solicitudes HTTP y enlaces.",
+    "tags": [
+      "codificador de URL",
+      "decodificador de URL",
+      "codificación de URL",
+      "decodificar URL",
+      "codificación de URL",
+      "decodificación de URL",
+      "URL en http"
+    ],
+    "category": "Codificadores/Decodificadores",
+    "placeholder_input": "Texto o URL",
+    "placeholder_output": "Resultado aquí...",
+    "encode": "Codificar",
+    "decode": "Descodificar",
+    "invalid_url": "URL no válida para decodificación",
+    "download_filename": "url-convertida.txt",
+    "preview_link_label": "Avance"
+  },
+  "uuid_generator": {
+    "title": "Generador de UUID",
+    "description": "Genere UUID únicos (v4 o v1) con múltiples opciones de salida. Ideal para pruebas, registro e identificación global de objetos.",
+    "tags": [
+      "UUID",
+      "generador de UUID",
+      "UUID v4",
+      "UUID v1",
+      "identificador único",
+      "UUID del lote"
+    ],
+    "category": "Generadores",
+    "uuid_v4": "UUID v4 (aleatorio)",
+    "uuid_v1": "UUID v1 (marca de tiempo)",
+    "quantity_placeholder": "Cantidad",
+    "output_placeholder": "Los UUID generados aparecerán aquí...",
+    "filename": "uuids-{marca de tiempo}.txt"
+  },
+  "validador_de_cnpj": {
+    "title": "Validador del CNPJ",
+    "description": "Valide los números CNPJ con rapidez y precisión. Ideal para solicitudes de impuestos, registros comerciales y verificación de datos.",
+    "tags": [
+      "validar cnpj",
+      "validador cnpj",
+      "cnpj válido",
+      "Comprobador de cnpj",
+      "cnpj brasil",
+      "documento comercial",
+      "Validación del CNPJ"
+    ],
+    "category": "Validadores",
+    "placeholder_input": "Entra en el CNPJ",
+    "validate": "Validar",
+    "valid_cnpj": "✅ CNPJ válido.",
+    "invalid_cnpj": "❌ CNPJ inválido.",
+    "copied": "¡Copiado!"
+  },
+  "validador_de_cpf": {
+    "title": "Validador CPF",
+    "description": "Valide números CPF con rapidez y precisión. Ideal para sistemas de registro, validación de usuarios y aplicaciones tributarias.",
+    "tags": [
+      "validador cpf",
+      "validar cpf",
+      "cpf válido",
+      "comprobador de cpf",
+      "validación cpf",
+      "documento personal",
+      "CPF Brasil"
+    ],
+    "category": "Validadores"
+  },
+  "vehicle_plate_generator": {
+    "title": "Generador de matrículas",
+    "description": "Genere matrículas válidas según el estado y elija si desea incluir puntuación. Ideal para pruebas y simulaciones.",
+    "tags": [
+      "generador de placas",
+      "matrícula",
+      "simulador de tablero",
+      "placa con estado",
+      "plato con máscara"
+    ],
+    "category": "Generadores",
+    "label_quantity": "Cantidad:",
+    "label_state": "Estado:",
+    "label_mask": "Con puntuación (p. ej. ABC-1234)",
+    "any_state": "Cualquier",
+    "generate": "Para generar",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "error_loading": "Error al cargar los datos de la matrícula.",
+    "no_data": "SIN DATOS"
+  },
+  "what_is_my_ip": {
+    "title": "¿Cual es mi IP?",
+    "description": "Descubra su dirección IP actual y el DNS inverso correspondiente. Ideal para diagnóstico de red, seguridad y verificación de conexión.",
+    "tags": [
+      "mi ip",
+      "encontrar ip",
+      "¿Cuál es mi IP?",
+      "IP pública",
+      "DNS inverso",
+      "IP externa",
+      "mi dirección IP"
+    ],
+    "category": "Redes / HTTP",
+    "intro": "IP (Protocolo de Internet) es una dirección única asignada a cada dispositivo conectado a Internet.",
+    "ip_label": "Mi dirección IP en este momento es:",
+    "dns_label": "DNS inverso:",
+    "loading": "Cargando...",
+    "hostname_na": "No disponible",
+    "error_ip": "Error al obtener la IP",
+    "error_dns": "Error al obtener DNS",
+    "ip_types": "Hay dos tipos principales de direcciones IP:",
+    "ipv4": "IPv4: 4 grupos de números (ej: 192.168.0.1)",
+    "ipv6": "IPv6: más largo, con letras y números (ej: 2001:0db8:85a3::8a2e:0370:7334)",
+    "copied": "¡Copiado!"
+  },
+  "word_character_line_sentence_counter": {
+    "title": "Contador de palabras, caracteres, líneas y oraciones",
+    "description": "Cuenta el número de palabras, caracteres, líneas y oraciones de un texto. Ideal para comprobar límites en formularios, artículos y redes sociales.",
+    "tags": [
+      "contador de palabras",
+      "contador de caracteres",
+      "contar líneas",
+      "contar oraciones",
+      "límite de texto",
+      "análisis de texto"
+    ],
+    "category": "Herramientas de texto",
+    "placeholder": "Escribe o pega tu texto aquí...",
+    "words": "📝 Palabras",
+    "chars": "🔡 Caracteres (con espacios)",
+    "chars_no_space": "🔡 Caracteres (sin espacios)",
+    "lines": "📏 Líneas",
+    "sentences": "Frases"
+  },
+  "world_clock": {
+    "title": "Hora mundial",
+    "description": "Compruebe la hora actual en muchas ciudades alrededor del mundo o ingrese una zona horaria para obtener la hora local exacta.",
+    "tags": [
+      "hora mundial",
+      "huso horario",
+      "hora actual",
+      "zonas horarias",
+      "reloj mundial",
+      "hora del país",
+      "fecha y hora globales"
+    ],
+    "category": "Fechas y horarios",
+    "choose_timezone": "Elija una zona horaria:",
+    "select_placeholder": "Seleccione una zona horaria...",
+    "output_placeholder": "El horario aparecerá aquí",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "popular_times": "Horarios populares:",
+    "loading": "Cargando...",
+    "label_original": "Horario original:",
+    "label_ptbr": "PT-BR:",
+    "label_offset": "Desplazamiento UTC:",
+    "error_time": "Error al obtener la hora"
+  },
+  "yaml_to_json_converter": {
+    "title": "Convertidor YAML → JSON",
+    "description": "Convierte archivos YAML a formato JSON de forma fácil y eficiente. Ideal para configuraciones, API y manipulación de datos estructurados.",
+    "tags": [
+      "yaml a json",
+      "convertir yaml",
+      "convertidor de datos",
+      "yaml json",
+      "formato json",
+      "transformar yaml a json",
+      "datos estructurados"
+    ],
+    "category": "Convertidores",
+    "placeholder_input": "Pegue YAML aquí...",
+    "placeholder_output": "Resultado JSON aquí...",
+    "convert": "Convertir",
+    "copied": "¡Copiado!",
+    "download_filename": "convertido.json"
+  },
+  "yaml_to_json_to_yaml_converter": {
+    "title": "Convertidor YAML ↔ JSON",
+    "description": "Convierte archivos YAML a formato JSON y viceversa de forma sencilla y eficiente. Ideal para desarrolladores que trabajan con configuración y manipulación de datos.",
+    "tags": [
+      "yaml a json",
+      "json a yaml",
+      "convertidor yaml json",
+      "convertir datos",
+      "estructura de configuración",
+      "yaml json",
+      "configuración de API"
+    ],
+    "category": "Convertidores",
+    "placeholder_input": "Pegue YAML o JSON aquí...",
+    "placeholder_output": "Resultado...",
+    "yaml_to_json": "YAML → JSON",
+    "json_to_yaml": "JSON → YAML",
+    "copied": "¡Copiado!",
+    "download_filename_yaml": "convertido.yaml",
+    "download_filename_json": "convertido.json"
+  },
+  "zindex_layering_generator": {
+    "title": "Generador de capas de índice Z",
+    "description": "Visualice y controle la superposición de elementos con la posición y el índice Z. Ideal para comprender el apilamiento en CSS.",
+    "tags": [
+      "índice z",
+      "capas",
+      "apilado",
+      "superposición",
+      "posición",
+      "capas de CSS"
+    ],
+    "category": "Diseño / Colores",
+    "layer_label": "Capa",
+    "position_label": "posición",
+    "zindex_label": "índice z",
+    "color_label": "Color",
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  }
+}

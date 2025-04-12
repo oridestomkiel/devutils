@@ -1,0 +1,18 @@
+{
+  "title": "Base64 Encoder/Decoder",
+  "description": "Encode and decode strings in Base64 for secure data handling in URLs, APIs, files, and authentication systems.",
+  "tags": [
+    "base64",
+    "base64 encoder",
+    "base64 decoder",
+    "convert base64",
+    "base64 online",
+    "base64 encode decode",
+    "base64 to text"
+  ],
+  "category": "Encoders / Decoders",
+  "placeholder": "Enter text",
+  "encode": "Encode",
+  "decode": "Decode",
+  "error.decode": "Invalid text for decoding"
+}

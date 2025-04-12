@@ -1,0 +1,19 @@
+{
+  "title": "Generador de Nombre + Email + Teléfono falso",
+  "description": "Genera combinaciones ficticias de nombres, correos electrónicos y teléfonos para pruebas, simulaciones y completar formularios. Ideal para entornos de desarrollo.",
+  "tags": [
+    "generador de datos falsos",
+    "nombre falso",
+    "email ficticio",
+    "teléfono aleatorio",
+    "datos para prueba",
+    "generar identidad falsa",
+    "simulación de registro"
+  ],
+  "category": "Generadores",
+  "quantity": "Cantidad",
+  "emailDomain": "Dominio del email",
+  "generate": "Generar",
+  "outputPlaceholder": "El resultado aparecerá aquí",
+  "errorInput": "❌ Verifica la cantidad y el dominio."
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Query Params Playground",
+  "description": "Decodifique, edite e monte URLs interativamente. Modifique parâmetros, visualize a URL final e veja detalhes da estrutura.",
+  "tags": ["url", "query", "params", "playground", "ferramenta"],
+  "category": "Codificadores / Decodificadores",
+  "placeholder": "Cole ou digite uma URL completa para análise...",
+  "analyze": "Analisar URL",
+  "add_param": "Adicionar Param",
+  "open": "Abrir URL",
+  "key": "Chave",
+  "value": "Valor",
+  "remove_key": "Remover parâmetro",
+  "url_prefix_error": "A URL deve começar com http:// ou https://",
+  "url_invalid": "URL inválida ou incompleta."
+}

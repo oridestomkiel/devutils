@@ -1,0 +1,14 @@
+{
+  "title": "QR-Code-Leser (Bild)",
+  "description": "Laden Sie ein Bild mit QR-Code hoch, um den Inhalt zu entschlüsseln. Zeigt den eingebetteten Text an und ermöglicht das Kopieren mit einem Klick.",
+  "tags": [
+    "QR-Code",
+    "QR-Leser",
+    "Bild",
+    "Scanner",
+    "QR dekodieren"
+  ],
+  "category": "Bilder",
+  "svg_not_supported": "Das SVG-Format wird nicht unterstützt. Bitte verwenden Sie PNG oder JPG.",
+  "no_qr_found": "Kein QR-Code erkannt."
+}

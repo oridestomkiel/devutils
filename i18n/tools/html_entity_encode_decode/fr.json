@@ -1,0 +1,18 @@
+{
+  "title": "Encodage/décodage d'entité HTML",
+  "description": "Convertissez des extraits HTML en entités ou décodez-les en texte normal. Utile pour la sécurité et la prévisualisation du code.",
+  "tags": [
+    "HTML",
+    "entité",
+    "encoder",
+    "décoder",
+    "xss",
+    "conversion"
+  ],
+  "category": "Outils de texte",
+  "encode": "Encoder",
+  "decode": "Décoder",
+  "input": "Interdit",
+  "output": "Sortie",
+  "convert": "Convertir"
+}

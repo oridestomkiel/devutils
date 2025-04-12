@@ -1,0 +1,24 @@
+{
+  "title": "Seitenverhältnis-Generator",
+  "description": "Erstellen Sie CSS-Stile, um ein festes Seitenverhältnis für Elemente wie Videos, Bilder oder responsive Container beizubehalten.",
+  "tags": [
+    "seitenverhältnis",
+    "responsiv",
+    "css-hack",
+    "verhältnis",
+    "container",
+    "padding-hack"
+  ],
+  "category": "Design / Farben",
+  "label.ratio": "Seitenverhältnis",
+  "label.ratio.custom": "Benutzerdefiniert (Breite:Höhe)",
+  "label.ratio.mode": "Modus",
+  "option.ratio.16_9": "16:9",
+  "option.ratio.4_3": "4:3",
+  "option.ratio.1_1": "1:1",
+  "option.ratio.21_9": "21:9",
+  "option.ratio.custom": "Benutzerdefiniert",
+  "option.mode.modern": "aspect-ratio (modern)",
+  "option.mode.fallback": "padding-top (kompatibel)",
+  "preview.label": "Vorschau"
+}

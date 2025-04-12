@@ -1,0 +1,16 @@
+{
+  "title": "JSON スキーマ → OpenAPI",
+  "description": "有効な JSON スキーマを OpenAPI 3.0 形式に変換します。「nullable」などのフィールドを調整し、「$schema」を削除して、API で使用できるように正しくフォーマットします。",
+  "tags": [
+    "JSONスキーマ",
+    "オープンAPI",
+    "変換する",
+    "API設計",
+    "スペック"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここに JSON スキーマを貼り付けます...",
+  "convert": "変換する",
+  "error": "エラー",
+  "invalidJson": "無効なJSONです。"
+}

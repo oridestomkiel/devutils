@@ -1,0 +1,44 @@
+{
+  "title": "Générateur d’Animations CSS",
+  "description": "Créez des animations CSS avec différents types de mouvement, durée, easing, délai et répétition. Prévisualisez et copiez le CSS.",
+
+  "tags": [
+    "animation css",
+    "keyframes",
+    "animation web",
+    "easing",
+    "boucle",
+    "design interactif"
+  ],
+  "category": "Design / Couleurs",
+  "animationType": "Type d’animation",
+
+  "categories": {
+    "basic": "🎯 Basiques",
+    "slides": "📦 Glissements",
+    "dynamic": "🤸 Dynamiques",
+    "visual": "🧼 Visuelles",
+    "loop": "🔁 Boucle / Attente"
+  },
+
+  "options": {
+    "fade": "Apparaître",
+    "scale": "Agrandir (Zoom)",
+    "rotate": "Rotation",
+    "slide-left": "Glisser à gauche",
+    "slide-right": "Glisser à droite",
+    "slide-up": "Glisser vers le haut",
+    "slide-down": "Glisser vers le bas",
+    "bounce": "Rebond",
+    "shake": "Secouer",
+    "flip": "Retourner Y",
+    "flip-x": "Retourner X",
+    "blur-in": "Apparaître flou",
+    "opacity-pulse": "Pulsation d’opacité",
+    "zoom-in": "Zoom avant",
+    "zoom-out": "Zoom arrière",
+    "float": "Flotter",
+    "wave": "Vague",
+    "pulse": "Pulsation"
+  }
+}

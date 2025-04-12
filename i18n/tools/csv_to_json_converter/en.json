@@ -1,0 +1,20 @@
+{
+  "title": "CSV → JSON Converter",
+  "description": "Quickly and easily convert CSV file data into JSON format. Ideal for APIs, testing, and structured data manipulation.",
+  "tags": [
+    "csv to json",
+    "csv converter",
+    "convert csv to json",
+    "structured data",
+    "transform csv",
+    "file conversion",
+    "csv json"
+  ],
+  "category": "Converters",
+  "placeholderInput": "Paste CSV data here (first row = headers)",
+  "placeholderOutput": "JSON result will appear here",
+  "convertBtn": "Convert",
+  "copyBtn": "Copy",
+  "copiedMsg": "Copied!",
+  "errorPrefix": "Error"
+}

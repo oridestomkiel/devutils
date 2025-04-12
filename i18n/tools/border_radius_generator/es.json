@@ -1,0 +1,21 @@
+{
+  "title": "Generador de Border Radius",
+  "description": "Personaliza bordes redondeados fácilmente. Genera CSS rápidamente para todos los bordes o individualmente.",
+  "tags": [
+    "border-radius",
+    "borde redondeado",
+    "radio css",
+    "diseño visual",
+    "ui redondeada",
+    "borde css",
+    "estilo visual"
+  ],
+  "category": "Diseño / Colores",
+  "label.topLeft": "Superior Izquierda",
+  "label.topRight": "Superior Derecha",
+  "label.bottomRight": "Inferior Derecha",
+  "label.bottomLeft": "Inferior Izquierda",
+  "generate": "Generar",
+  "copy": "Copiar",
+  "preview": "Vista previa"
+}

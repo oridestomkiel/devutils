@@ -1,0 +1,16 @@
+{
+  "title": "JSON → Esquema de BigQuery",
+  "description": "Convierte JSON simple en una estructura de esquema para BigQuery, incluido el nombre, el tipo y el modo (OBLIGATORIO).",
+  "tags": [
+    "json",
+    "BigQuery",
+    "esquema",
+    "gcp",
+    "nube de Google",
+    "datos"
+  ],
+  "category": "Convertidores",
+  "placeholder": "Pegue su JSON aquí...",
+  "convert": "Convertir",
+  "invalidJson": "¡JSON no válido!"
+}

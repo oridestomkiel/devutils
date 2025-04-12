@@ -1,0 +1,20 @@
+{
+  "title": "Visor de encabezados HTTP (solicitud sin procesar)",
+  "description": "Visualice el contenido sin procesar de los encabezados HTTP en las solicitudes. Ideal para depuración, análisis de tráfico y desarrollo web.",
+  "tags": [
+    "encabezados http",
+    "encabezados de vista",
+    "solicitud sin procesar",
+    "análisis http",
+    "solicitud http",
+    "Visor de solicitudes http",
+    "solicitud de depuración",
+    "inspeccionar encabezados"
+  ],
+  "category": "Redes / HTTP",
+  "placeholder": "Pegue aquí una solicitud HTTP sin procesar",
+  "analyze": "Para analizar",
+  "nothingToAnalyze": "Nada que analizar.",
+  "methodAndPath": "Método y ruta",
+  "headers": "Encabezados"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Scroll Snap Generator",
+  "description": "Erstellen Sie responsive Karussells und leichtgängige Scroll-Abschnitte mit Scroll-Snap. Generiert gebrauchsfertiges HTML und CSS.",
+  "tags": [
+    "scrollen",
+    "Schnappschuss",
+    "Scroll-Snap",
+    "Karussell",
+    "horizontal",
+    "Scrollen"
+  ],
+  "category": "Design / Farben",
+  "direction": "Richtung",
+  "horizontal": "Horizontal",
+  "vertical": "Vertikal",
+  "behavior": "Verhalten",
+  "padding": "Scroll-Padding (px)",
+  "gap": "Abstand zwischen Elementen (px)"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "按字母顺序排序",
+  "description": "在线工具可将列表按字母顺序排序。复制并粘贴您的名称列表，然后点击“排序”。",
+  "tags": ["顺序", "字母", "排序", "列表", "文本", "重复项"],
+  "category": "文本工具",
+  "label.original": "原始文本：",
+  "placeholder.list": "在此粘贴您的列表...",
+  "label.sortType": "排序类型：",
+  "option.asc": "升序 (A-Z)",
+  "option.desc": "降序 (Z-A)",
+  "label.separator": "按此排序：",
+  "option.linebreak": "换行符",
+  "option.space": "空格",
+  "option.comma": "逗号 ( , )",
+  "option.semicolon": "分号 ( ; )",
+  "label.removeDuplicates": "删除重复项？",
+  "button.sort": "排序",
+  "label.sorted": "排序后的文本：",
+  "button.download": "下载 TXT"
+}

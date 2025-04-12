@@ -1,0 +1,16 @@
+{
+  "title": "JSON स्कीमा → टाइपस्क्रिप्ट",
+  "description": "JSON स्कीमा से enums, nullables, JSDoc, bounded arrays, और अधिक के लिए समर्थन के साथ पूर्ण TypeScript इंटरफेस उत्पन्न करें।",
+  "tags": [
+    "JSON स्कीमा",
+    "टाइपप्रति",
+    "इंटरफ़ेस",
+    "बदलना",
+    "टाइपिंग"
+  ],
+  "category": "कन्वर्टर्स",
+  "placeholder": "अपना JSON स्कीमा यहां चिपकाएं...",
+  "convert": "बदलना",
+  "invalid": "अमान्य स्कीमा.",
+  "invalidJson": "अमान्य JSON स्कीमा!"
+}

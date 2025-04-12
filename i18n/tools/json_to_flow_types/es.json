@@ -1,0 +1,16 @@
+{
+  "title": "JSON → Tipos de flujo",
+  "description": "Convierte objetos JSON a tipos estáticos de flujo. Útil para validar estructuras JavaScript con tipos opcionales.",
+  "tags": [
+    "json",
+    "fluir",
+    "mecanografía",
+    "Javascript",
+    "tipo de flujo",
+    "tipos"
+  ],
+  "category": "Convertidores",
+  "placeholder": "Pegue su JSON aquí...",
+  "convert": "Convertir",
+  "error": "¡JSON no válido!"
+}

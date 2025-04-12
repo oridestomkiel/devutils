@@ -1,0 +1,15 @@
+{
+  "title": "JSON → GraphQL",
+  "description": "JSON から GraphQL タイプを自動的に生成します。API スキーマをすばやく構築するのに役立ちます。",
+  "tags": [
+    "json",
+    "グラフQL",
+    "スキーマ",
+    "変換する",
+    "種類"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここにJSONを貼り付けてください...",
+  "convert": "変換する",
+  "error": "無効なJSONです。"
+}

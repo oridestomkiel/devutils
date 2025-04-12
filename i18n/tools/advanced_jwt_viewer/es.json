@@ -1,0 +1,18 @@
+{
+  "title": "Visor de JWT (Avanzado)",
+  "description": "Visualiza y valida tokens JWT: encabezado, carga útil, firma y verificación opcional con un secreto. Todo en tiempo real.",
+  "tags": ["jwt", "token", "validación", "decodificar", "autenticación"],
+  "category": "Codificadores / Decodificadores",
+  "placeholder.jwt": "Pega tu token JWT aquí...",
+  "clear": "Limpiar",
+  "header": "CABECERA",
+  "payload": "CARGA ÚTIL",
+  "copy.header": "Copiar cabecera",
+  "copy.payload": "Copiar carga útil",
+  "signature.title": "Verificación de firma JWT (Opcional)",
+  "signature.placeholder": "Ingresa el secreto para verificar la firma (HS256)",
+  "signature.valid": "✔ Firma válida",
+  "signature.invalid": "✖ Firma inválida",
+  "jwt.valid": "✔ JWT válido",
+  "jwt.invalid": "JWT inválido (estructura o contenido malformado)"
+}

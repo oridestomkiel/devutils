@@ -1,0 +1,16 @@
+{
+  "title": "JSON → Schéma JSON",
+  "description": "Générez automatiquement des schémas JSON à partir d'un objet JSON valide. Utile pour la validation, la documentation et les contrats d'API.",
+  "tags": [
+    "json",
+    "schéma",
+    "validation",
+    "API",
+    "contracter",
+    "schéma json"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "Collez votre JSON ici...",
+  "convert": "Convertir",
+  "error": "JSON non valide !"
+}

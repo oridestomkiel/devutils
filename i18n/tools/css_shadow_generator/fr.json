@@ -1,0 +1,25 @@
+{
+  "title": "Générateur d'Ombres CSS",
+  "description": "Créez des ombres personnalisées avec contrôle du décalage, du flou, de l'étalement et de la couleur. Parfait pour mettre en valeur les éléments UI avec style.",
+  "tags": [
+    "ombre portée",
+    "ombre css",
+    "ombre personnalisée",
+    "effet d'ombre",
+    "ombres visuelles",
+    "css visuel",
+    "design ui",
+    "élévation ui"
+  ],
+  "category": "Design / Couleurs",
+  "labels": {
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "blur": "Flou",
+    "spread": "Propagation",
+    "color": "Couleur de l'ombre",
+    "generate": "Générer",
+    "copy": "Copier",
+    "copied": "Copié !"
+  }
+}

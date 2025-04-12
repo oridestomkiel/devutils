@@ -1,0 +1,18 @@
+{
+  "title": "Codificador/Decodificador Base58",
+  "description": "Codifica y decodifica cadenas en Base58 — ideal para aplicaciones blockchain, Bitcoin y sistemas que evitan caracteres ambiguos.",
+  "tags": [
+    "base58",
+    "decodificador base58",
+    "codificador base58",
+    "convertir base58",
+    "base58 bitcoin",
+    "base58 online",
+    "base58 encoder decoder"
+  ],
+  "category": "Codificadores / Decodificadores",
+  "placeholder": "Texto para codificar o Base58 para decodificar",
+  "encode": "Codificar",
+  "decode": "Decodificar",
+  "error.decode": "Error al decodificar"
+}

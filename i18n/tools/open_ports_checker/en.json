@@ -1,0 +1,26 @@
+{
+  "title": "Open Port Checker",
+  "description": "Scan specific ports or ready-made profiles of a remote server to detect active services (HTTP, SSH, databases, etc).",
+  "tags": [
+    "port scanner",
+    "port checker",
+    "Networks / HTTP",
+    "security",
+    "http",
+    "ssh",
+    "mysql"
+  ],
+  "category": "Networks / HTTP",
+  "host_placeholder": "e.g. scanme.nmap.org",
+  "ports_placeholder": "Ports (e.g. 22,80,443)",
+  "profile_web": "Web",
+  "profile_security": "Security",
+  "profile_db": "Database",
+  "scan": "Scan",
+  "scanning": "Scanning...",
+  "error_fill_fields": "Fill in the host and at least one port.",
+  "host_label": "Host",
+  "port_open": "Open Door",
+  "port_closed": "Closed Door",
+  "scan_error": "Error scanning"
+}

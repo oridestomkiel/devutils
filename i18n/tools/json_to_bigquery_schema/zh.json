@@ -1,0 +1,16 @@
+{
+  "title": "JSON → BigQuery 架构",
+  "description": "将简单的 JSON 转换为 BigQuery 的架构结构，包括名称、类型和模式（必需）。",
+  "tags": [
+    "json",
+    "大查询",
+    "架构",
+    "通用控制协议",
+    "谷歌云",
+    "数据"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 粘贴到这里...",
+  "convert": "转变",
+  "invalidJson": "无效的 JSON！"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "JWT 生成器",
+  "description": "使用标头、有效负载和密钥创建自定义 JWT 令牌。非常适合使用 HS256 进行测试。",
+  "tags": [
+    "智威汤逊",
+    "令牌",
+    "生成jwt",
+    "测试 jwt",
+    "加密"
+  ],
+  "category": "编码器/解码器",
+  "payload": "有效载荷（JSON）",
+  "header": "标头（可选）",
+  "secret": "秘密 (HS256)",
+  "secretPlaceholder": "输入秘密...",
+  "outputLabel": "JWT 令牌",
+  "invalidPayload": "无效载荷",
+  "invalidHeader": "无效标头",
+  "secretRequired": "必守秘密"
+}

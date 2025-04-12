@@ -1,0 +1,11 @@
+{
+  "title": "Escapar/Desescapar Barras Invertidas",
+  "description": "Convierte caracteres especiales como saltos de línea (\\n), tabulaciones (\\t), comillas y otros en cadenas escapadas o viceversa.",
+  "tags": ["escape", "unescape", "barra invertida", "texto", "cadena"],
+  "category": "Herramientas de Texto",
+  "escape": "Escapar",
+  "unescape": "Desescapar",
+  "inputLabel": "Entrada:",
+  "outputLabel": "Resultado:",
+  "convert": "Convertir"
+}

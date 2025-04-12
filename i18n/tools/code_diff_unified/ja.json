@@ -1,0 +1,9 @@
+{
+  "title": "コード差分（統合表示）",
+  "description": "コードブロックの差分を統合形式で表示。Git ターミナル出力に似ています。",
+  "tags": ["diff", "統合", "git", "行単位", "コード比較"],
+  "category": "解析 / 比較",
+  "placeholder.original": "元のコード...",
+  "placeholder.modified": "変更されたコード...",
+  "compare": "比較"
+}

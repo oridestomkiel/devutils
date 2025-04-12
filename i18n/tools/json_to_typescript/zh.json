@@ -1,0 +1,15 @@
+{
+  "title": "JSON → TypeScript",
+  "description": "根据提供的数据自动将 JSON 转换为 TypeScript 接口，具有强类型和结构。",
+  "tags": [
+    "json",
+    "打字稿",
+    "转变",
+    "界面",
+    "类型"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 粘贴到这里...",
+  "convert": "转变",
+  "error": "无效的 JSON！"
+}

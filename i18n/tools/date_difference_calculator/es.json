@@ -1,0 +1,23 @@
+{
+  "title": "Calculadora de Diferencia de Fechas",
+  "description": "Calcula la diferencia entre dos fechas en días, meses o años. Ideal para plazos, control de vencimientos y cálculo de tiempo.",
+  "tags": [
+    "diferencia de fechas",
+    "calcular fechas",
+    "cuántos días entre fechas",
+    "días entre fechas",
+    "calculadora de tiempo",
+    "tiempo entre fechas",
+    "contar días"
+  ],
+  "category": "Fechas y Horarios",
+  "startDate": "Fecha Inicial",
+  "endDate": "Fecha Final",
+  "calculate": "Calcular",
+  "invalidDates": "Rellena correctamente ambas fechas.",
+  "difference": "Diferencia",
+  "days": "días",
+  "hours": "horas",
+  "minutes": "minutos",
+  "resultPlaceholder": "El resultado aparecerá aquí"
+}

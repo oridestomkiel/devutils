@@ -1,0 +1,21 @@
+{
+  "title": "ボーダー半径ジェネレーター",
+  "description": "角を簡単にカスタマイズ。すべての角や個別にCSSを素早く生成できます。",
+  "tags": [
+    "border-radius",
+    "丸みを帯びた境界線",
+    "css 半径",
+    "ビジュアルデザイン",
+    "丸いUI",
+    "cssボーダー",
+    "視覚スタイル"
+  ],
+  "category": "デザイン / 色",
+  "label.topLeft": "左上",
+  "label.topRight": "右上",
+  "label.bottomRight": "右下",
+  "label.bottomLeft": "左下",
+  "generate": "生成",
+  "copy": "コピー",
+  "preview": "プレビュー"
+}

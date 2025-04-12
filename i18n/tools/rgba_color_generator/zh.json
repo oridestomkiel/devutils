@@ -1,0 +1,16 @@
+{
+  "title": "RGBA 颜色生成器",
+  "description": "调整颜色和不透明度以轻松生成 rgba() 或带有 alpha 的十六进制值。非常适合 CSS 叠加和透明度。",
+  "tags": [
+    "RGBA 格式",
+    "十六进制阿尔法",
+    "透明度",
+    "不透明度",
+    "rgba 颜色",
+    "css 颜色"
+  ],
+  "category": "设计/颜色",
+  "color_label": "颜色",
+  "opacity_label": "不透明度",
+  "generate": "生成"
+}

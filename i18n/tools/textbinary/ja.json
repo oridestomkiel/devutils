@@ -1,0 +1,14 @@
+{
+    "title": "Conversor Texto ↔ Binário",
+    "description": "Converta texto para binário e binário para texto de maneira simples. Ideal para depuração, testes e manipulação de dados.",
+    "tags": [
+        "binário",
+        "texto para binário",
+        "binário para texto",
+        "conversor binário",
+        "codificar binário",
+        "decodificar binário",
+        "texto binário"
+    ],
+    "category": "Codificadores / Decodificadores"
+}

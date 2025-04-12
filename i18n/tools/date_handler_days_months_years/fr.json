@@ -1,0 +1,24 @@
+{
+  "title": "Manipulateur de Dates (jours, mois, années)",
+  "description": "Ajoutez ou soustrayez facilement des jours, mois ou années à une date. Idéal pour les délais, la planification et les tests systèmes.",
+  "tags": [
+    "manipulateur de dates",
+    "calculer les dates",
+    "ajouter des jours",
+    "soustraire des mois",
+    "différence de dates",
+    "dates en javascript",
+    "date future",
+    "date passée"
+  ],
+  "category": "Dates et Heures",
+  "value": "Valeur",
+  "days": "Jours",
+  "months": "Mois",
+  "years": "Années",
+  "add": "Ajouter",
+  "subtract": "Soustraire",
+  "calculate": "Calculer",
+  "invalidInput": "❌ Veuillez remplir la date et la valeur.",
+  "resultPlaceholder": "Le résultat s'affichera ici"
+}

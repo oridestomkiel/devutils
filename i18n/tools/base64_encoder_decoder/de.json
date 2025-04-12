@@ -1,0 +1,18 @@
+{
+  "title": "Base64-Kodierer/Dekodierer",
+  "description": "Kodieren und dekodieren Sie Zeichenketten in Base64 für eine sichere Datenverarbeitung in URLs, APIs, Dateien und Authentifizierungssystemen.",
+  "tags": [
+    "base64",
+    "base64 kodierer",
+    "base64 dekodierer",
+    "base64 konvertieren",
+    "base64 online",
+    "base64 kodieren dekodieren",
+    "base64 zu text"
+  ],
+  "category": "Kodierer / Dekodierer",
+  "placeholder": "Text eingeben",
+  "encode": "Kodieren",
+  "decode": "Dekodieren",
+  "error.decode": "Ungültiger Text für die Dekodierung"
+}

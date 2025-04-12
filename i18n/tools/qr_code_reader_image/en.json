@@ -1,0 +1,14 @@
+{
+  "title": "QR Code Reader (Image)",
+  "description": "Upload an image with QR Code to decode the content. Shows the text embedded and allows copying with one click.",
+  "tags": [
+    "qr code",
+    "qr reader",
+    "image",
+    "scanner",
+    "decode qr"
+  ],
+  "category": "Images",
+  "svg_not_supported": "SVG format is not supported. Please use PNG or JPG.",
+  "no_qr_found": "No QR Code detected."
+}

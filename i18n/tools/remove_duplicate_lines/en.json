@@ -1,0 +1,16 @@
+{
+  "title": "Remove Duplicate Rows",
+  "description": "Paste your text and automatically remove duplicate lines. Ideal for cleaning up lists and quickly organizing content.",
+  "tags": [
+    "remove duplicates",
+    "clear lines",
+    "duplicated",
+    "repeated lines"
+  ],
+  "category": "Text Tools",
+  "input_label": "Text with possible duplicates:",
+  "input_placeholder": "Paste your content here...",
+  "remove_button": "Remove duplicates",
+  "output_label": "Result without duplicates:",
+  "download": "Download TXT"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Date to Timestamp Converter",
+  "description": "Convert a date/time to Unix timestamp format quickly and easily. Ideal for programming, databases, and debugging.",
+  "tags": [
+    "date to timestamp",
+    "unix timestamp",
+    "convert timestamp",
+    "epoch time",
+    "unix time",
+    "date conversion"
+  ],
+  "category": "Dates and Times",
+  "label": "Date to Timestamp (Unix)",
+  "convert": "Convert",
+  "placeholder": "Generated timestamp will appear here",
+  "error": "❌ Invalid date."
+}

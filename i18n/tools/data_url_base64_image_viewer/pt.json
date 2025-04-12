@@ -1,0 +1,21 @@
+{
+  "title": "Visualizador de Data URL (Imagem Base64)",
+  "description": "Cole um Data URL contendo uma imagem para visualizar, obter detalhes e baixar. Ideal para testar imagens embutidas em base64.",
+  "tags": [
+    "data url",
+    "imagem base64",
+    "visualizador de imagem",
+    "base64 para imagem",
+    "converter base64"
+  ],
+  "category": "Imagens",
+  "placeholder": "Cole aqui o código Data URL completo da imagem (data:image/png;base64,...)",
+  "view": "Visualizar imagem",
+  "download": "Baixar imagem",
+  "clear": "Limpar",
+  "invalidFormat": "Formato inválido. Use um Data URL de imagem válido.",
+  "imageDetected": "Imagem detectada",
+  "type": "Tipo",
+  "size": "Tamanho",
+  "dimensions": "Dimensões"
+}

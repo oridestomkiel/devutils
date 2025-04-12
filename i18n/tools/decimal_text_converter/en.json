@@ -1,0 +1,19 @@
+{
+  "title": "Decimal ↔ Text Converter",
+  "description": "Easily convert decimal numbers to text and text to decimal. Useful for encoding, testing, and data manipulation.",
+  "tags": [
+    "decimal to text",
+    "text to decimal",
+    "decimal conversion",
+    "convert number to text",
+    "ascii decimal",
+    "decimal representation",
+    "number converter"
+  ],
+  "category": "Encoders / Decoders",
+  "placeholder": "Enter text or decimals separated by space",
+  "outputPlaceholder": "Result will appear here",
+  "textToDecimal": "Text → Decimal",
+  "decimalToText": "Decimal → Text",
+  "decodeError": "Error converting decimal to text."
+}

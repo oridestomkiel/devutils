@@ -1,0 +1,13 @@
+{
+    "title": "Converter Quebras de Linha para \\\\n",
+    "description": "Converte quebras de linha reais para o formato escape \\\\n. Ideal para programadores que precisam copiar textos com quebras para código.",
+    "tags": [
+        "quebra de linha",
+        "escape",
+        "programação",
+        "conversão",
+        "texto",
+        "código"
+    ],
+    "category": "Ferramentas de Texto"
+}

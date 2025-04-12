@@ -1,0 +1,19 @@
+{
+  "title": "Z-Index-Layering-Generator",
+  "description": "Visualisieren und steuern Sie Elementüberlappungen mit Position und Z-Index. Ideal zum Verständnis des Stackings in CSS.",
+  "tags": [
+    "Z-Index",
+    "Schichten",
+    "Stapeln",
+    "überlappen",
+    "Position",
+    "CSS-Schichtung"
+  ],
+  "category": "Design / Farben",
+  "layer_label": "Schicht",
+  "position_label": "Position",
+  "zindex_label": "Z-Index",
+  "color_label": "Farbe",
+  "copy": "Kopie",
+  "copied": "Kopiert!"
+}

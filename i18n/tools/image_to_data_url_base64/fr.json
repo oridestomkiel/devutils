@@ -1,0 +1,16 @@
+{
+  "title": "Image → URL de la date (Base64)",
+  "description": "Sélectionnez une image sur votre appareil pour la convertir automatiquement en URL de données base64. Utile pour intégrer des images en HTML ou CSS.",
+  "tags": [
+    "image en base64",
+    "URL de l'image à ce jour",
+    "convertir une image",
+    "base64",
+    "date uri"
+  ],
+  "category": "Images",
+  "copy": "Copie",
+  "copied": "Copié!",
+  "download": "Télécharger l'image",
+  "clear": "Pour nettoyer"
+}

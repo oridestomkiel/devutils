@@ -1,0 +1,12 @@
+{
+    "title": "Gerador de Placas de Automóveis",
+    "description": "Gere placas de veículos válidas com base no estado e escolha se deseja incluir pontuação. Ideal para testes e simulações.",
+    "tags": [
+        "gerador de placas",
+        "placa de carro",
+        "simulador de placa",
+        "placa com estado",
+        "placa com máscara"
+    ],
+    "category": "Geradores"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Gerador de UUID",
+  "description": "Gere UUIDs únicos (v4 ou v1) com opção de múltiplos resultados. Ideal para testes, registros e identificação global de objetos.",
+  "tags": [
+    "uuid",
+    "gerador de uuid",
+    "uuid v4",
+    "uuid v1",
+    "identificador único",
+    "uuid em lote"
+  ],
+  "category": "Geradores",
+  "uuid_v4": "UUID v4 (aleatório)",
+  "uuid_v1": "UUID v1 (timestamp)",
+  "quantity_placeholder": "Quantidade",
+  "output_placeholder": "UUIDs gerados aparecerão aqui...",
+  "filename": "uuids-{timestamp}.txt"
+}

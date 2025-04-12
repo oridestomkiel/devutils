@@ -1,0 +1,26 @@
+{
+  "title": "Vérificateur de port ouvert",
+  "description": "Analysez des ports spécifiques ou des profils prêts à l'emploi d'un serveur distant pour détecter les services actifs (HTTP, SSH, bases de données, etc.).",
+  "tags": [
+    "scanner de ports",
+    "vérificateur de port",
+    "Réseaux / HTTP",
+    "sécurité",
+    "http",
+    "ssh",
+    "MySQL"
+  ],
+  "category": "Réseaux / HTTP",
+  "host_placeholder": "par exemple scanme.nmap.org",
+  "ports_placeholder": "Ports (par exemple 22, 80, 443)",
+  "profile_web": "Web",
+  "profile_security": "Sécurité",
+  "profile_db": "Base de données",
+  "scan": "Balayage",
+  "scanning": "Balayage...",
+  "error_fill_fields": "Renseignez l'hôte et au moins un port.",
+  "host_label": "Hôte",
+  "port_open": "Porte ouverte",
+  "port_closed": "Porte fermée",
+  "scan_error": "Erreur lors de la numérisation"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "アルファベット順に並べる",
+  "description": "リストをアルファベット順に並べるオンラインツールです。名前のリストを貼り付け、「並べ替え」をクリックしてください。",
+  "tags": ["順番", "アルファベット", "並べ替え", "リスト", "テキスト", "重複"],
+  "category": "テキストツール",
+  "label.original": "元のテキスト：",
+  "placeholder.list": "ここにリストを貼り付けてください...",
+  "label.sortType": "並べ替えタイプ：",
+  "option.asc": "昇順 (A-Z)",
+  "option.desc": "降順 (Z-A)",
+  "label.separator": "並べ替え基準：",
+  "option.linebreak": "改行",
+  "option.space": "スペース",
+  "option.comma": "コンマ ( , )",
+  "option.semicolon": "セミコロン ( ; )",
+  "label.removeDuplicates": "重複を削除しますか？",
+  "button.sort": "並べ替え",
+  "label.sorted": "並べ替え後のテキスト：",
+  "button.download": "TXTをダウンロード"
+}

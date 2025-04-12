@@ -1,0 +1,16 @@
+{
+  "title": "Generador de efectos de neón",
+  "description": "Crea efectos de texto de neón con múltiples capas de sombras. Ideal para interfaces estilizadas, títulos llamativos o el modo hacker.",
+  "tags": [
+    "neón",
+    "sombra de texto",
+    "efecto de brillo",
+    "visual cibernético",
+    "brillo de la interfaz de usuario",
+    "modo hacker"
+  ],
+  "category": "Diseño / Colores",
+  "color_label": "Color neón",
+  "intensity_label": "Intensidad",
+  "preview_text": "Texto de neón"
+}

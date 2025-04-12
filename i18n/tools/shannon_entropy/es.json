@@ -1,0 +1,19 @@
+{
+  "title": "Entropía de Shannon",
+  "description": "Mide la entropía de una cuerda según la teoría de la información. Valores más altos indican mayor aleatoriedad.",
+  "tags": [
+    "entropía",
+    "Shannon",
+    "aleatoriedad",
+    "seguridad",
+    "compresión",
+    "información"
+  ],
+  "category": "Análisis / Comparación",
+  "placeholder": "Escribe o pega tu contenido aquí...",
+  "calculate": "Calcular",
+  "max": "Máximo posible",
+  "english": "Texto en inglés en general",
+  "compressed": "Datos comprimidos/encriptados",
+  "source": "Fuente"
+}

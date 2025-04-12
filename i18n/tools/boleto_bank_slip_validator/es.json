@@ -1,0 +1,19 @@
+{
+  "title": "Validador de Boletos Bancarios",
+  "description": "Valida rápidamente boletos bancarios brasileños verificando dígitos y estructura del código de barras. Ideal para pruebas, automatización y verificación de pagos.",
+  "tags": [
+    "validador de boletos",
+    "validar boleto bancario",
+    "verificador de boleto",
+    "boleto online",
+    "código de barras boleto",
+    "validación de boleto",
+    "boleto bancario"
+  ],
+  "category": "Validadores",
+  "placeholder": "Ingresa el número del boleto",
+  "validate": "Validar Boleto",
+  "error.length": "❌ Boleto inválido. Debe tener 47 o 48 dígitos.",
+  "error.dv": "❌ Dígitos verificadores inválidos. Boleto no válido.",
+  "success": "✅ Boleto válido. Valor detectado: {valor}"
+}

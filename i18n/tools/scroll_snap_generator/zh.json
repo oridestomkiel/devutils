@@ -1,0 +1,19 @@
+{
+  "title": "滚动捕捉生成器",
+  "description": "使用 scroll-snap 构建响应式轮播和平滑滚动部分。生成可立即使用的 HTML 和 CSS。",
+  "tags": [
+    "滚动",
+    "折断",
+    "滚动捕捉",
+    "旋转木马",
+    "水平的",
+    "滚动"
+  ],
+  "category": "设计/颜色",
+  "direction": "方向",
+  "horizontal": "水平的",
+  "vertical": "垂直的",
+  "behavior": "行为",
+  "padding": "滚动填充 (px)",
+  "gap": "项目之间的间隙（px）"
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Conversor de Data para Timestamp",
+    "description": "Converta uma data/hora para o formato de timestamp Unix de forma simples e rápida. Ideal para programação, bancos de dados e depuração.",
+    "tags": [
+        "data para timestamp",
+        "timestamp unix",
+        "converter timestamp",
+        "epoch time",
+        "tempo unix",
+        "conversão de datas"
+    ],
+    "category": "Datas e Horários"
+}

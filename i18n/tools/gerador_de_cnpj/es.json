@@ -1,0 +1,21 @@
+{
+  "title": "Generador CNPJ",
+  "description": "Genere números CNPJ válidos para pruebas y desarrollo. Ahora compatible con múltiplos y ramificaciones.",
+  "tags": [
+    "generador cnpj",
+    "cnpj válido",
+    "cnpj para pruebas",
+    "cnpj falso",
+    "Número CNPJ",
+    "simulador de cnpj",
+    "prueba de la empresa",
+    "rama",
+    "múltiple"
+  ],
+  "category": "Generadores",
+  "format": "Formato con máscara",
+  "generate": "Para generar",
+  "generateMultiple": "Generar múltiplos",
+  "simulateBranch": "Simular matriz CNPJ + Sucursales",
+  "placeholder": "Los CNPJ generados aparecerán aquí"
+}

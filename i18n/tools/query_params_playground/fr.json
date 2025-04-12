@@ -1,0 +1,21 @@
+{
+  "title": "Aire de jeux des paramètres de requête",
+  "description": "Décodez, modifiez et assemblez des URL de manière interactive. Modifiez les paramètres, visualisez l'URL finale et consultez les détails de la structure.",
+  "tags": [
+    "URL",
+    "requête",
+    "paramètres",
+    "aire de jeux",
+    "outil"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "placeholder": "Collez ou saisissez une URL complète pour l'analyse...",
+  "analyze": "Analyser l'URL",
+  "add_param": "Ajouter un paramètre",
+  "open": "Ouvrir l'URL",
+  "key": "Clé",
+  "value": "Valeur",
+  "remove_key": "Supprimer le paramètre",
+  "url_prefix_error": "L'URL doit commencer par http:// ou https://",
+  "url_invalid": "URL invalide ou incomplète."
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Manipulador de Fechas (días, meses, años)",
+  "description": "Suma o resta días, meses o años a una fecha fácilmente. Ideal para cálculos de plazos, programación y pruebas de sistemas.",
+  "tags": [
+    "manipulador de fechas",
+    "calcular fechas",
+    "sumar días",
+    "restar meses",
+    "diferencia de fechas",
+    "fechas en javascript",
+    "fecha futura",
+    "fecha pasada"
+  ],
+  "category": "Fechas y Horarios",
+  "value": "Valor",
+  "days": "Días",
+  "months": "Meses",
+  "years": "Años",
+  "add": "Sumar",
+  "subtract": "Restar",
+  "calculate": "Calcular",
+  "invalidInput": "❌ Rellena la fecha y el valor.",
+  "resultPlaceholder": "El resultado aparecerá aquí"
+}

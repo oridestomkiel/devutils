@@ -1,0 +1,18 @@
+{
+  "title": "Codificador/Decodificador Base64",
+  "description": "Codifique e decodifique strings em Base64 para manipulação segura de dados em URLs, APIs, arquivos e sistemas de autenticação.",
+  "tags": [
+    "base64",
+    "codificador base64",
+    "decodificador base64",
+    "converter base64",
+    "base64 online",
+    "base64 encode decode",
+    "base64 para texto"
+  ],
+  "category": "Codificadores / Decodificadores",
+  "placeholder": "Digite o texto",
+  "encode": "Encode",
+  "decode": "Decode",
+  "error.decode": "Texto inválido para decodificação"
+}

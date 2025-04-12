@@ -1,0 +1,19 @@
+{
+  "title": "Mercosur-Plattengenerator",
+  "description": "Erstellen Sie Kennzeichen im Mercosur-Standard (AAA1A23) oder konvertieren Sie alte Kennzeichen in das neue Modell. Ideal für Tests und Simulationen.",
+  "tags": [
+    "Mercosur-Platte",
+    "Plattengenerator",
+    "neues Modell",
+    "Brasilien Platte",
+    "Brettsimulator",
+    "Platte konvertieren",
+    "Ausfuhrkennzeichen"
+  ],
+  "category": "Generatoren",
+  "quantity": "Menge:",
+  "convert_label": "Altes Kennzeichen umbauen (ABC1234):",
+  "convert_placeholder": "Beispiel: BRA1234",
+  "convert_button": "Konvertieren",
+  "export_csv": "CSV exportieren"
+}

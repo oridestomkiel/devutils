@@ -1,0 +1,21 @@
+{
+  "title": "E-Mails aus Text extrahieren",
+  "description": "Fügen Sie beliebigen Text ein und extrahieren Sie alle gefundenen E-Mail-Adressen. Organisieren Sie alphabetisch oder nach Domain.",
+  "tags": [
+    "E-Mail",
+    "extrahieren",
+    "Text",
+    "sortieren",
+    "Domain",
+    "E-Mail-Liste"
+  ],
+  "category": "Textwerkzeuge",
+  "inputLabel": "Quelltext:",
+  "placeholder": "Fügen Sie hier den Inhalt mit E-Mails ein...",
+  "sortLabel": "Sortieren nach:",
+  "sortAlphabetical": "Alphabetische Reihenfolge",
+  "sortDomain": "Domain",
+  "extract": "E-Mails extrahieren",
+  "outputLabel": "Extrahierte E-Mails:",
+  "download": "TXT herunterladen"
+}

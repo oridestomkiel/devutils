@@ -1,0 +1,20 @@
+{
+  "title": "CSV → JSONコンバーター",
+  "description": "CSVファイルのデータをJSON形式にすばやく簡単に変換します。API、テスト、構造化データの操作に最適です。",
+  "tags": [
+    "csv から json",
+    "csv コンバーター",
+    "csv を json に変換",
+    "構造化データ",
+    "csv 変換",
+    "ファイル変換",
+    "csv json"
+  ],
+  "category": "コンバーター",
+  "placeholderInput": "ここにCSVデータを貼り付けてください（1行目 = ヘッダー）",
+  "placeholderOutput": "JSONの結果がここに表示されます",
+  "convertBtn": "変換",
+  "copyBtn": "コピー",
+  "copiedMsg": "コピーされました！",
+  "errorPrefix": "エラー"
+}

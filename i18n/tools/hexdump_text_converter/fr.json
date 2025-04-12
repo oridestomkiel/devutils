@@ -1,0 +1,18 @@
+{
+  "title": "Hexdump ↔ Texte",
+  "description": "Convertissez du texte en hexdump ou récupérez le texte d'origine à partir d'un hexdump formaté.",
+  "tags": [
+    "vidage hexadécimal",
+    "hexagone",
+    "ascii",
+    "binaire",
+    "déboguer",
+    "analyseur",
+    "convertisseur"
+  ],
+  "category": "Convertisseurs",
+  "toHexdump": "Texte → Hexdump",
+  "fromHexdump": "Hexdump → Texte",
+  "placeholder": "Tapez ou collez le contenu...",
+  "convert": "Convertir"
+}

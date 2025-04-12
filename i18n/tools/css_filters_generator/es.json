@@ -1,0 +1,21 @@
+{
+  "title": "Generador de Filtros CSS",
+  "description": "Ajusta filtros visuales como desenfoque, brillo, contraste, saturación y más. Vista previa en tiempo real en imagen y texto.",
+  "tags": ["filtro", "filtros css", "efecto visual", "imagen", "texto"],
+  "category": "Diseño / Colores",
+  "labels": {
+    "blur": "Desenfoque",
+    "brightness": "Brillo",
+    "contrast": "Contraste",
+    "grayscale": "Escala de grises",
+    "hue": "Rotación de tono",
+    "invert": "Invertir",
+    "sepia": "Sepia",
+    "saturate": "Saturación",
+    "copy": "Copiar",
+    "refresh": "🔄 Nueva Imagen",
+    "upload": "📁 Usar Imagen Local",
+    "previewText": "Vista previa del texto",
+    "copied": "¡Copiado!"
+  }
+}

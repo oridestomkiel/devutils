@@ -1,0 +1,14 @@
+{
+  "title": "Markdown → HTML (Etiquetas)",
+  "description": "Convierte Markdown a HTML puro mostrando solo las etiquetas HTML generadas. Ideal para desarrolladores e integración de contenido.",
+  "tags": [
+    "Markdown a HTML",
+    "Markdown a HTML",
+    "convertir rebajas",
+    "salida de etiqueta html",
+    "rebajas brutas",
+    "ver html de rebajas"
+  ],
+  "category": "Convertidores",
+  "placeholder": "# Título\n\nTexto *markdown*."
+}

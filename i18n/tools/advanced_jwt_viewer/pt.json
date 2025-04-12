@@ -1,0 +1,18 @@
+{
+  "title": "Visualizador de JWT (Avançado)",
+  "description": "Visualize e valide tokens JWT: header, payload, assinatura e verificação opcional com segredo. Tudo em tempo real.",
+  "tags": ["jwt", "token", "validação", "decodificar", "autenticação"],
+  "category": "Codificadores / Decodificadores",
+  "placeholder.jwt": "Cole seu token JWT aqui...",
+  "clear": "Limpar",
+  "header": "HEADER",
+  "payload": "PAYLOAD",
+  "copy.header": "Copiar Header",
+  "copy.payload": "Copiar Payload",
+  "signature.title": "JWT Signature Verification (Opcional)",
+  "signature.placeholder": "Digite o segredo para verificar a assinatura (HS256)",
+  "signature.valid": "✔ Assinatura válida",
+  "signature.invalid": "✖ Assinatura inválida",
+  "jwt.valid": "✔ JWT válido",
+  "jwt.invalid": "JWT inválido (estrutura ou conteúdo malformado)"
+}

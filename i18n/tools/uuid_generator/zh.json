@@ -1,0 +1,18 @@
+{
+  "title": "UUID 生成器",
+  "description": "生成具有多种输出选项的唯一 UUID（v4 或 v1）。非常适合测试、日志记录和全局对象识别。",
+  "tags": [
+    "唯一标识",
+    "uuid 生成器",
+    "uuid v4",
+    "uuid v1",
+    "唯一标识符",
+    "批次 uuid"
+  ],
+  "category": "生成器",
+  "uuid_v4": "UUID v4（随机）",
+  "uuid_v1": "UUID v1（时间戳）",
+  "quantity_placeholder": "数量",
+  "output_placeholder": "生成的 UUID 将显示在这里...",
+  "filename": "uuids-{时间戳}.txt"
+}

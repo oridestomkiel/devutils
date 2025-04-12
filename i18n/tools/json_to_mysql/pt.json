@@ -1,0 +1,9 @@
+{
+  "title": "JSON → MySQL",
+  "description": "Gere declarações SQL para criar tabelas MySQL com base em um JSON. Ideal para protótipos e modelagem rápida.",
+  "tags": ["json", "mysql", "sql", "banco de dados", "converter", "ddl"],
+  "category": "Conversores",
+  "placeholder": "Cole seu JSON aqui...",
+  "convert": "Converter",
+  "error": "JSON inválido!"
+}

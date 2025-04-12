@@ -1,0 +1,16 @@
+{
+  "title": "Générateur d'effet néon",
+  "description": "Créez des effets de texte néon à l'aide de plusieurs calques d'ombres. Idéal pour des interfaces stylisées, des titres accrocheurs ou un mode hacker.",
+  "tags": [
+    "néon",
+    "ombre du texte",
+    "effet lumineux",
+    "cyber visuel",
+    "lueur de l'interface utilisateur",
+    "mode hacker"
+  ],
+  "category": "Design / Couleurs",
+  "color_label": "Couleur néon",
+  "intensity_label": "Intensité",
+  "preview_text": "Texte au néon"
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title id="headTitle">Ferramenta - DevUtils</title>
+    <meta
+      id="metaDescription"
+      name="description"
+      content="Ferramentas rápidas, úteis e sem rastreio."
+    />
+    <meta
+      id="ogTitle"
+      property="og:title"
+      content="DevUtils - Ferramentas para Devs"
+    />
+    <meta
+      id="ogDescription"
+      property="og:description"
+      content="Ferramentas rápidas, úteis e sem rastreio."
+    />
+    <meta
+      id="twitterTitle"
+      name="twitter:title"
+      content="DevUtils - Ferramentas para Devs"
+    />
+    <meta
+      id="twitterDescription"
+      name="twitter:description"
+      content="Ferramentas rápidas, úteis e sem rastreio."
+    />
+
+    <meta name="author" content="DevUtils" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:image"
+      content="https://devutils.tools/assets/images/logo.png"
+    />
+    <meta property="og:url" content="https://devutils.tools/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://devutils.tools/assets/images/logo.png"
+    />
+
+    <link rel="icon" href="https://devutils.tools/ico.png" />
+
+    
+    <script type="module" crossorigin src="/devutils/assets/tool.js"></script>
+    <link rel="modulepreload" crossorigin href="/devutils/assets/include-partial-7efd5659.js">
+    <link rel="modulepreload" crossorigin href="/devutils/assets/index-5cc212ea.js">
+    <link rel="stylesheet" href="/devutils/assets/include-partial-4fc1f28a.css">
+  </head>
+
+  <body
+    class="pt-20 bg-white text-gray-900 dark:bg-gray-900 dark:text-white font-sans"
+  >
+    <header
+      class="fixed top-0 w-full z-50 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white p-4 shadow"
+    >
+      <div
+        class="mx-auto flex items-center justify-between"
+        id="header-placeholder"
+      ></div>
+    </header>
+
+    <nav
+      id="mobileMenu"
+      class="bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white p-4 hidden border-t border-gray-200 dark:border-gray-700 md:hidden"
+    ></nav>
+
+    <main class="mx-auto mt-4 mb-4 p-4 max-w-5xl" id="toolContainer">
+      <p class="text-gray-500 dark:text-gray-400" data-i18n="tool.loading">
+        Carregando ferramenta...
+      </p>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+      document.getElementById("menuBtn")?.addEventListener("click", () => {
+        document.getElementById("mobileMenu")?.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "title": "Base64 编码器/解码器",
+  "description": "对字符串进行 Base64 编码和解码，用于 URL、API、文件和身份验证系统中的安全数据处理。",
+  "tags": [
+    "base64",
+    "base64 编码器",
+    "base64 解码器",
+    "base64 转换",
+    "base64 在线",
+    "base64 编码 解码",
+    "base64 转文本"
+  ],
+  "category": "编码器 / 解码器",
+  "placeholder": "输入文本",
+  "encode": "编码",
+  "decode": "解码",
+  "error.decode": "无法解码的文本"
+}

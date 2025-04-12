@@ -1,0 +1,18 @@
+{
+  "title": "Base64 ↔ Hexadecimal Converter",
+  "description": "Easily convert between Base64 and hexadecimal to inspect, encode, or debug binary data in readable formats.",
+  "tags": [
+    "base64",
+    "hexadecimal",
+    "base64 to hex converter",
+    "convert hex to base64",
+    "base64 hex online",
+    "base64 hex decoder",
+    "base64 ↔ hex"
+  ],
+  "category": "Encoders / Decoders",
+  "placeholder": "Enter Base64 or Hexadecimal",
+  "b64.to.hex": "Base64 → Hex",
+  "hex.to.b64": "Hex → Base64",
+  "error.prefix": "Error"
+}

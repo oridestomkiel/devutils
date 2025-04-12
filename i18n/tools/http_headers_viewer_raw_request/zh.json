@@ -1,0 +1,20 @@
+{
+  "title": "HTTP 标头查看器（原始请求）",
+  "description": "查看请求中 HTTP 标头的原始内容。非常适合调试、流量分析和 Web 开发。",
+  "tags": [
+    "http 标头",
+    "查看标题",
+    "原始请求",
+    "http分析",
+    "http 请求",
+    "http 请求查看器",
+    "请求调试",
+    "检查标题"
+  ],
+  "category": "网络/HTTP",
+  "placeholder": "在此处粘贴原始 HTTP 请求",
+  "analyze": "分析",
+  "nothingToAnalyze": "没什么可分析的。",
+  "methodAndPath": "方法与路线",
+  "headers": "标头"
+}

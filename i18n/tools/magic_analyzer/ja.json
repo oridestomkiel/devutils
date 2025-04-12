@@ -1,0 +1,30 @@
+{
+  "title": "マジックアナライザー",
+  "description": "データを自動的に検出して分析し、エントロピー、パターン、形式に基づいてデコード、解凍、解釈などの便利な操作を提案します。",
+  "tags": [
+    "自己",
+    "検出する",
+    "デコード",
+    "分析",
+    "頭いい",
+    "魔法"
+  ],
+  "category": "分析 / 比較",
+  "placeholder": "疑わしいデータをここに貼り付けます (Base64、Hex、JWT、ペイロードなど)",
+  "crib": "正規表現（Crib）",
+  "cribPlaceholder": "オプション: 結果をフィルタリングするための正規表現を入力します",
+  "depth": "再帰分析の深さ",
+  "intensive": "集中モード（ROT13とXORの軽いブルートフォース）",
+  "entropy": "エントロピ",
+  "ascii": "ASCIIテキストのように見える",
+  "printable": "印刷可能な文字",
+  "maybeBase64": "有効なBase64",
+  "maybeHex": "16進数可能",
+  "validJson": "有効なJSON",
+  "jwtDecoded": "JWTが検出されデコードされました",
+  "gzipDecoded": "GZIP が正常にデコードされました",
+  "cribFound": "正規表現で見つかったベビーベッド",
+  "cribNotFound": "正規表現を使用してもベビーベッドが見つからない",
+  "rot13Json": "ROT13 を適用 → 有効な JSON",
+  "xorJson": "キーとのXOR → 有効なJSON"
+}

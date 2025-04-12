@@ -1,0 +1,19 @@
+{
+  "title": "Ping Online",
+  "description": "Send test packets to a domain or IP and see if the host is reachable. Ideal for network and latency diagnostics.",
+  "tags": [
+    "online ping",
+    "network test",
+    "latency",
+    "check connection",
+    "ping server",
+    "dns ping",
+    "ip test"
+  ],
+  "category": "Networks / HTTP",
+  "input_label": "Enter domain or IP:",
+  "input_placeholder": "ex: google.com",
+  "send_ping": "Send Ping",
+  "result_label": "Result:",
+  "waiting": "Wait..."
+}

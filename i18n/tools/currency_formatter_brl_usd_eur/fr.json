@@ -1,0 +1,22 @@
+{
+  "title": "Formateur de monnaie BRL / USD / EUR",
+  "description": "Formatez les valeurs monétaires selon les normes BRL, USD et EUR avec les bons séparateurs et symboles. Idéal pour afficher les prix dans les systèmes et les e-commerces.",
+  "tags": [
+    "formateur de monnaie",
+    "monnaie brl",
+    "monnaie usd",
+    "monnaie eur",
+    "formater valeurs",
+    "formatage monétaire",
+    "prix formaté",
+    "monnaie internationale"
+  ],
+  "category": "Formateurs / Minifieurs",
+  "placeholder.input": "Entrez la valeur",
+  "placeholder.output": "Résultat formaté",
+  "option.brl": "Réal (BRL)",
+  "option.usd": "Dollar (USD)",
+  "option.eur": "Euro (EUR)",
+  "button.format": "Formater",
+  "error.invalidValue": "Valeur invalide."
+}

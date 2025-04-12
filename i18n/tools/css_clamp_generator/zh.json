@@ -1,0 +1,23 @@
+{
+  "title": "CSS clamp() 生成器",
+  "description": "通过设置最小值、理想值和最大值，使用 clamp() 创建响应式 CSS 值。适用于字体、间距和流式元素。",
+  "tags": [
+    "clamp",
+    "响应式字体大小",
+    "响应式 padding",
+    "响应式 css",
+    "vw rem clamp",
+    "流式设计"
+  ],
+  "category": "设计 / 颜色",
+  "labels": {
+    "min": "最小值",
+    "ideal": "理想值 (vw)",
+    "max": "最大值",
+    "property": "CSS 属性",
+    "generate": "生成",
+    "copy": "复制",
+    "preview": "示例文本",
+    "copied": "已复制！"
+  }
+}

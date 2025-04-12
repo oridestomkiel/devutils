@@ -1,0 +1,19 @@
+{
+  "title": "Gerador de Placas Mercosul",
+  "description": "Gere placas no padrão Mercosul (AAA1A23) ou converta placas antigas para o novo modelo. Ideal para testes e simulações.",
+  "tags": [
+    "placa mercosul",
+    "gerador de placas",
+    "novo modelo",
+    "placa brasil",
+    "simulador placa",
+    "converter placa",
+    "exportar placa"
+  ],
+  "category": "Geradores",
+  "quantity": "Quantidade:",
+  "convert_label": "Converter placa antiga (ABC1234):",
+  "convert_placeholder": "Ex: BRA1234",
+  "convert_button": "Converter",
+  "export_csv": "Exportar CSV"
+}

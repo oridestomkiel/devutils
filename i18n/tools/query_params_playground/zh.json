@@ -1,0 +1,21 @@
+{
+  "title": "查询参数游乐场",
+  "description": "以交互方式解码、编辑和组装 URL。修改参数、查看最终 URL 并查看结构详细信息。",
+  "tags": [
+    "网址",
+    "询问",
+    "参数",
+    "操场",
+    "工具"
+  ],
+  "category": "编码器/解码器",
+  "placeholder": "粘贴或输入完整的 URL 以供分析...",
+  "analyze": "分析 URL",
+  "add_param": "添加参数",
+  "open": "打开 URL",
+  "key": "钥匙",
+  "value": "价值",
+  "remove_key": "删除参数",
+  "url_prefix_error": "URL 必须以 http:// 或 https:// 开头",
+  "url_invalid": "URL 无效或不完整。"
+}

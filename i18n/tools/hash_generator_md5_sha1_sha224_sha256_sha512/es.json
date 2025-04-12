@@ -1,0 +1,14 @@
+{
+  "title": "Generador de hash (MD5, SHA1, SHA224, SHA256 y SHA512)",
+  "description": "Introduce cualquier texto para generar automáticamente hashes MD5, SHA1, SHA224, SHA256 y SHA512. Puedes copiarlos todos.",
+  "tags": [
+    "picadillo",
+    "md5",
+    "sha",
+    "cifrado",
+    "generador de hash"
+  ],
+  "category": "Herramientas de texto",
+  "placeholder": "Escriba o pegue texto para generar hashes...",
+  "uppercase": "Mostrar en MAYÚSCULAS"
+}

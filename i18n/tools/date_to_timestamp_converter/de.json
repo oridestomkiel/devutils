@@ -1,0 +1,17 @@
+{
+  "title": "Datum-zu-Timestamp-Konverter",
+  "description": "Konvertiere ein Datum/Uhrzeit schnell und einfach in das Unix-Timestamp-Format. Ideal für Programmierung, Datenbanken und Debugging.",
+  "tags": [
+    "datum zu timestamp",
+    "unix-timestamp",
+    "timestamp konvertieren",
+    "epochenzeit",
+    "unix-zeit",
+    "datumsumwandlung"
+  ],
+  "category": "Daten und Zeiten",
+  "label": "Datum zu Timestamp (Unix)",
+  "convert": "Konvertieren",
+  "placeholder": "Generierter Timestamp wird hier angezeigt",
+  "error": "❌ Ungültiges Datum."
+}

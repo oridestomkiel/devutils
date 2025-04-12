@@ -1,0 +1,25 @@
+{
+  "title": "世界时间",
+  "description": "查看世界各地多个城市的当前时间，或输入时区以获取准确的当地时间。",
+  "tags": [
+    "世界时间",
+    "时区",
+    "当前时间",
+    "时区",
+    "世界时钟",
+    "乡村时间",
+    "全球日期和时间"
+  ],
+  "category": "日期和时间",
+  "choose_timezone": "选择时区：",
+  "select_placeholder": "选择时区...",
+  "output_placeholder": "时间表将显示在这里",
+  "copy": "复制",
+  "copied": "已复制！",
+  "popular_times": "热门时间：",
+  "loading": "加载中...",
+  "label_original": "原计划：",
+  "label_ptbr": "PT-BR：",
+  "label_offset": "UTC 偏移量：",
+  "error_time": "获取时间错误"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Visualiseur JWT (Avancé)",
+  "description": "Visualisez et validez les jetons JWT : en-tête, charge utile, signature et vérification optionnelle avec un secret. Le tout en temps réel.",
+  "tags": ["jwt", "token", "validation", "décoder", "authentification"],
+  "category": "Encodeurs / Décodeurs",
+  "placeholder.jwt": "Collez votre jeton JWT ici...",
+  "clear": "Effacer",
+  "header": "EN-TÊTE",
+  "payload": "CHARGE UTILE",
+  "copy.header": "Copier l'en-tête",
+  "copy.payload": "Copier la charge utile",
+  "signature.title": "Vérification de signature JWT (Optionnel)",
+  "signature.placeholder": "Entrez le secret pour vérifier la signature (HS256)",
+  "signature.valid": "✔ Signature valide",
+  "signature.invalid": "✖ Signature invalide",
+  "jwt.valid": "✔ JWT valide",
+  "jwt.invalid": "JWT invalide (structure ou contenu mal formé)"
+}

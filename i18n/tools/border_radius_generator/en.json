@@ -1,0 +1,21 @@
+{
+  "title": "Border Radius Generator",
+  "description": "Easily customize rounded borders. Quickly generate CSS with variations for all corners or individually.",
+  "tags": [
+    "border-radius",
+    "rounded border",
+    "css radius",
+    "visual design",
+    "rounded ui",
+    "css border",
+    "visual style"
+  ],
+  "category": "Design / Colors",
+  "label.topLeft": "Top Left",
+  "label.topRight": "Top Right",
+  "label.bottomRight": "Bottom Right",
+  "label.bottomLeft": "Bottom Left",
+  "generate": "Generate",
+  "copy": "Copy",
+  "preview": "Preview"
+}

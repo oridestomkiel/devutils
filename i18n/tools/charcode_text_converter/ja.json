@@ -1,0 +1,22 @@
+{
+  "title": "Charcode ↔ テキスト",
+  "description": "テキストをUnicode文字コードに、またその逆にも変換します。データの分析、エンコード、デバッグに便利です。",
+  "tags": [
+    "unicode",
+    "charcode",
+    "コンバーター",
+    "テキストからコードへ",
+    "charcodeから",
+    "charcodeへ"
+  ],
+  "category": "コンバーター",
+  "mode.to": "テキスト → Charcode",
+  "mode.from": "Charcode → テキスト",
+  "placeholder": "テキストまたはスペースで区切られたUnicodeコードを入力してください",
+  "convert": "変換",
+  "clear": "クリア",
+  "copy": "コピー",
+  "error": "コードをテキストに変換中にエラーが発生しました。",
+  "reference": "Unicodeリファレンス",
+  "link": "プレーン (Unicode)"
+}

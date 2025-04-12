@@ -1,0 +1,21 @@
+{
+  "title": "Zeitstempel ↔ Datumskonverter",
+  "description": "Konvertieren Sie Zeitstempel zwischen verschiedenen Formaten oder Systemen. Ideal für Entwicklung, Protokollierung und Datumsmanipulation.",
+  "tags": [
+    "Zeitstempel",
+    "Zeitstempel konvertieren",
+    "Unix-Zeit",
+    "Datum in Zeitstempel",
+    "Datumsformat",
+    "Epochenzeit",
+    "lesbares Datum"
+  ],
+  "category": "Termine und Uhrzeiten",
+  "input_placeholder": "Geben Sie den Zeitstempel oder das Datum ein...",
+  "output_placeholder": "Das Ergebnis wird hier angezeigt ...",
+  "convert": "Konvertieren",
+  "format_br": "Lesbares Datum (pt-BR)",
+  "format_iso": "ISO 8601-Format",
+  "format_utc": "UTC-Datum",
+  "instructions": "Akzeptiert Unix-Zeitstempel (Sekunden) oder Daten wie <code>2025-03-28 15:00</code>, <code>28/03/2025</code> usw."
+}

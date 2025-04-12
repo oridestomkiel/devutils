@@ -1,0 +1,25 @@
+{
+  "title": "What is my IP?",
+  "description": "Find out your current IP address and the corresponding reverse DNS. Ideal for network diagnostics, security and connection verification.",
+  "tags": [
+    "my ip",
+    "find ip",
+    "what is my ip",
+    "public ip",
+    "reverse dns",
+    "external ip",
+    "my ip address"
+  ],
+  "category": "Networks / HTTP",
+  "intro": "IP (Internet Protocol) is a unique address assigned to each device connected to the internet.",
+  "ip_label": "My IP address at the moment is:",
+  "dns_label": "Reverse DNS:",
+  "loading": "Loading...",
+  "hostname_na": "Not available",
+  "error_ip": "Error getting IP",
+  "error_dns": "Error getting DNS",
+  "ip_types": "There are two main types of IP addresses:",
+  "ipv4": "IPv4: 4 groups of numbers (ex: 192.168.0.1)",
+  "ipv6": "IPv6: longer, with letters and numbers (ex: 2001:0db8:85a3::8a2e:0370:7334)",
+  "copied": "Copied!"
+}

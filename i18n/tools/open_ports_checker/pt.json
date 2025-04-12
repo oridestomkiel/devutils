@@ -1,0 +1,26 @@
+{
+  "title": "Verificador de Portas Abertas",
+  "description": "Escaneie portas específicas ou perfis prontos de um servidor remoto para detectar serviços ativos (HTTP, SSH, bancos de dados, etc).",
+  "tags": [
+    "port scanner",
+    "verificador de portas",
+    "Redes / HTTP",
+    "segurança",
+    "http",
+    "ssh",
+    "mysql"
+  ],
+  "category": "Redes / HTTP",
+  "host_placeholder": "ex: scanme.nmap.org",
+  "ports_placeholder": "Portas (ex: 22,80,443)",
+  "profile_web": "Web",
+  "profile_security": "Segurança",
+  "profile_db": "Banco de Dados",
+  "scan": "Escanear",
+  "scanning": "Escaneando...",
+  "error_fill_fields": "Preencha o host e pelo menos uma porta.",
+  "host_label": "Host",
+  "port_open": "Porta Aberta",
+  "port_closed": "Porta Fechada",
+  "scan_error": "Erro ao escanear"
+}

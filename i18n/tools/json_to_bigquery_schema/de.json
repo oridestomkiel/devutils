@@ -1,0 +1,16 @@
+{
+  "title": "JSON → BigQuery-Schema",
+  "description": "Konvertieren Sie einfaches JSON in eine Schemastruktur für BigQuery, einschließlich Name, Typ und Modus (ERFORDERLICH).",
+  "tags": [
+    "json",
+    "große Abfrage",
+    "Schema",
+    "gcp",
+    "Google Cloud",
+    "Daten"
+  ],
+  "category": "Konverter",
+  "placeholder": "Fügen Sie Ihr JSON hier ein ...",
+  "convert": "Konvertieren",
+  "invalidJson": "Ungültiges JSON!"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Générateur de disposition Flex/Grid",
+  "description": "Créez rapidement des mises en page avec Flexbox ou Grid. Ajustez l'alignement, l'espacement et prévisualisez en temps réel grâce à des exemples.",
+  "tags": [
+    "boîte flexible",
+    "disposition de la grille",
+    "écran flexible",
+    "grille CSS",
+    "alignement CSS",
+    "écart",
+    "justifier le contenu",
+    "aligner-les-éléments"
+  ],
+  "category": "Générateurs",
+  "layoutType": "Type de mise en page",
+  "gap": "Écart",
+  "justify": "Justifier",
+  "align": "Aligner"
+}

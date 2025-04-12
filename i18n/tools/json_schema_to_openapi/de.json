@@ -1,0 +1,16 @@
+{
+  "title": "JSON-Schema → OpenAPI",
+  "description": "Konvertiert ein gültiges JSON-Schema in das OpenAPI 3.0-Format. Passt Felder wie „nullable“ an, entfernt „$schema“ und formatiert korrekt für die Verwendung in APIs.",
+  "tags": [
+    "JSON-Schema",
+    "OpenAPI",
+    "konvertieren",
+    "API-Design",
+    "Spezifikation"
+  ],
+  "category": "Konverter",
+  "placeholder": "Fügen Sie hier Ihr JSON-Schema ein ...",
+  "convert": "Konvertieren",
+  "error": "Fehler",
+  "invalidJson": "Ungültiges JSON."
+}

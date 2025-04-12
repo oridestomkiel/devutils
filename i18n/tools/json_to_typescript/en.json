@@ -1,0 +1,15 @@
+{
+  "title": "JSON → TypeScript",
+  "description": "Automatically convert JSON to TypeScript interfaces, with strong typing and structure based on the data provided.",
+  "tags": [
+    "json",
+    "typescript",
+    "convert",
+    "interface",
+    "types"
+  ],
+  "category": "Converters",
+  "placeholder": "Paste your JSON here...",
+  "convert": "Convert",
+  "error": "Invalid JSON!"
+}

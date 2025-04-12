@@ -1,0 +1,15 @@
+{
+  "title": "Visor HTML",
+  "description": "Visualiza, edita y formatea código HTML con vista previa en vivo. Incluye autocompletado, cierre automático de etiquetas y marcador de posición inteligente.",
+  "tags": [
+    "html",
+    "visualización",
+    "avance",
+    "web",
+    "Interfaz"
+  ],
+  "category": "Servicios públicos",
+  "example": "Ejemplo",
+  "format": "Formato",
+  "placeholder": "Escriba o pegue su HTML aquí"
+}

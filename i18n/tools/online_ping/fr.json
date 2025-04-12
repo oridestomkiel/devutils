@@ -1,0 +1,19 @@
+{
+  "title": "Ping en ligne",
+  "description": "Envoyez des paquets de test à un domaine ou à une adresse IP pour vérifier si l'hôte est accessible. Idéal pour les diagnostics réseau et de latence.",
+  "tags": [
+    "ping en ligne",
+    "test de réseau",
+    "latence",
+    "vérifier la connexion",
+    "serveur ping",
+    "ping DNS",
+    "test IP"
+  ],
+  "category": "Réseaux / HTTP",
+  "input_label": "Entrez le domaine ou l'IP :",
+  "input_placeholder": "ex : google.com",
+  "send_ping": "Envoyer un ping",
+  "result_label": "Résultat:",
+  "waiting": "Attendez..."
+}

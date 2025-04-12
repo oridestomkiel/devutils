@@ -1,0 +1,20 @@
+{
+  "title": "Conversor CamelCase ↔ snake_case ↔ kebab-case",
+  "description": "Converta facilmente entre os formatos CamelCase, snake_case e kebab-case. Ideal para padronização de variáveis, nomes de arquivos e APIs.",
+  "tags": [
+    "camelcase",
+    "snake_case",
+    "kebab-case",
+    "conversor de formato",
+    "conversão de texto",
+    "camel para snake",
+    "snake para kebab",
+    "kebab para camel",
+    "case converter"
+  ],
+  "category": "Conversores",
+  "placeholder.input": "Digite um texto em qualquer formato",
+  "label.camel": "CamelCase:",
+  "label.snake": "snake_case:",
+  "label.kebab": "kebab-case:"
+}

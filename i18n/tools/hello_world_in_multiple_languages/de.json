@@ -1,0 +1,14 @@
+{
+  "title": "Hallo Welt in mehreren Sprachen",
+  "description": "Sehen Sie sich das klassische „Hello World“ in Dutzenden von Programmiersprachen an. Ideal zum Lernen oder aus Neugier.",
+  "tags": [
+    "Hallo Welt",
+    "Programmiersprachen",
+    "Codebeispiel",
+    "lehrreich",
+    "Grundcodes",
+    "Codegenerator"
+  ],
+  "category": "Dienstprogramme",
+  "selectPlaceholder": "Wählen Sie eine Sprache"
+}

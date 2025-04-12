@@ -1,0 +1,6 @@
+{
+  "title": "CPF生成器",
+  "description": "生成带掩码或不带掩码的有效CPF号码。非常适合测试表单。",
+  "tags": ["cpf生成器", "有效cpf", "表单测试"],
+  "category": "生成器"
+}

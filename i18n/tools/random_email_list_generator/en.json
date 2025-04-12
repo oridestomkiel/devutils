@@ -1,0 +1,19 @@
+{
+  "title": "Random Email List Generator",
+  "description": "Generate dummy email addresses for testing, mock registrations, and form validation. Perfect for development environments.",
+  "tags": [
+    "email generator",
+    "random emails",
+    "fake email",
+    "email list",
+    "emails for testing",
+    "fictitious email",
+    "email for development"
+  ],
+  "category": "Generators",
+  "quantity_placeholder": "Number of emails",
+  "domain_placeholder": "Domain (e.g. gmail.com)",
+  "generate": "To generate",
+  "output_placeholder": "Generated emails will appear here",
+  "error_input": "Check quantity and domain."
+}

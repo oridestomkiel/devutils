@@ -1,0 +1,18 @@
+{
+  "title": "Générateur de hachage (MD5/SHA256)",
+  "description": "Générez rapidement des hachages MD5 ou SHA256 à partir de n'importe quel texte. Idéal pour la sécurité, la vérification d'intégrité et le développement.",
+  "tags": [
+    "générateur de hachage",
+    "md5",
+    "sha256",
+    "cryptage",
+    "hachage de texte",
+    "sécurité des données",
+    "contrôle d'intégrité",
+    "générer md5",
+    "générer sha256"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "placeholder": "Texte à générer",
+  "resultPlaceholder": "Le résultat apparaîtra ici"
+}

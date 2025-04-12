@@ -1,0 +1,13 @@
+{
+    "title": "JSON → JSON Schema",
+    "description": "Gere schemas JSON automaticamente a partir de um objeto JSON válido. Útil para validação, documentação e contratos de API.",
+    "tags": [
+        "json",
+        "schema",
+        "validação",
+        "api",
+        "contrato",
+        "json-schema"
+    ],
+    "category": "Conversores"
+}

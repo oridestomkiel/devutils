@@ -1,0 +1,20 @@
+{
+  "title": "Glasmorphismus-Generator",
+  "description": "Kreieren Sie Milchglaseffekte mit Farbe, Transparenz, Unschärfe und Rändern. Ideal für modern wirkende Tafeln und Karten.",
+  "tags": [
+    "Glasmorphismus",
+    "verwischen",
+    "Transparenz",
+    "Glaseffekt",
+    "Milchglas",
+    "moderne Benutzeroberfläche",
+    "Sichtglas"
+  ],
+  "category": "Design / Farben",
+  "backgroundColor": "Hintergrundfarbe",
+  "opacity": "Opazität",
+  "blur": "Unschärfe (px)",
+  "borderColor": "Rahmenfarbe",
+  "borderOpacity": "Kantenopazität",
+  "previewBackground": "Hintergrundvorschau"
+}

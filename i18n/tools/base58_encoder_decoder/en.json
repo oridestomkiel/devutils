@@ -1,0 +1,18 @@
+{
+  "title": "Base58 Encoder/Decoder",
+  "description": "Encode and decode strings in Base58 — ideal for blockchain applications, Bitcoin, and systems that avoid ambiguous characters.",
+  "tags": [
+    "base58",
+    "base58 decoder",
+    "base58 encoder",
+    "convert base58",
+    "base58 bitcoin",
+    "base58 online",
+    "base58 encoder decoder"
+  ],
+  "category": "Encoders / Decoders",
+  "placeholder": "Text to encode or Base58 to decode",
+  "encode": "Encode",
+  "decode": "Decode",
+  "error.decode": "Error decoding"
+}

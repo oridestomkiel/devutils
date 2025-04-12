@@ -1,0 +1,23 @@
+{
+  "title": "Конвертер CSV ↔ JSON",
+  "description": "Легко конвертируйте файлы CSV в JSON и наоборот. Полезно для интеграции данных, API и работы с файлами.",
+  "tags": [
+    "конвертер csv json",
+    "csv в json",
+    "json в csv",
+    "конвертация данных",
+    "преобразовать csv в json",
+    "конвертация файлов",
+    "структурированные данные"
+  ],
+  "category": "Конвертеры",
+  "labels": {
+    "placeholderInput": "Вставьте сюда CSV или JSON...",
+    "placeholderOutput": "Результат появится здесь",
+    "csvToJson": "CSV → JSON",
+    "jsonToCsv": "JSON → CSV",
+    "copy": "Копировать",
+    "copied": "Скопировано!",
+    "error": "Ошибка"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Gerador de CNPJ",
+  "description": "Gere números de CNPJ válidos para testes e desenvolvimento. Agora com suporte a múltiplos e filialização.",
+  "tags": [
+    "gerador de cnpj",
+    "cnpj válido",
+    "cnpj para teste",
+    "cnpj fake",
+    "número de cnpj",
+    "simulador de cnpj",
+    "teste de empresas",
+    "filial",
+    "múltiplos"
+  ],
+  "category": "Geradores",
+  "format": "Formatar com máscara",
+  "generate": "Gerar",
+  "generateMultiple": "Gerar múltiplos",
+  "simulateBranch": "Simular CNPJ Pai + Filiais",
+  "placeholder": "CNPJs gerados aparecerão aqui"
+}

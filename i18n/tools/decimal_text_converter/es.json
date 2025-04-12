@@ -1,0 +1,19 @@
+{
+  "title": "Conversor Decimal ↔ Texto",
+  "description": "Convierte fácilmente números decimales a texto y texto a decimales. Útil para codificación, pruebas y manipulación de datos.",
+  "tags": [
+    "decimal a texto",
+    "texto a decimal",
+    "conversión decimal",
+    "convertir número a texto",
+    "ascii decimal",
+    "representación decimal",
+    "conversor de números"
+  ],
+  "category": "Codificadores / Decodificadores",
+  "placeholder": "Introduce texto o decimales separados por espacio",
+  "outputPlaceholder": "El resultado aparecerá aquí",
+  "textToDecimal": "Texto → Decimal",
+  "decimalToText": "Decimal → Texto",
+  "decodeError": "Error al convertir decimal a texto."
+}

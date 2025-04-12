@@ -1,0 +1,18 @@
+{
+  "title": "Générateur de superposition",
+  "description": "Créez des superpositions visuelles avec couleur, opacité et mode de fusion à appliquer sur des images, des bannières ou des sections en vedette.",
+  "tags": [
+    "recouvrir",
+    "mélange",
+    "arrière-plan",
+    "mode mix-blend",
+    "effet",
+    "visuel CSS"
+  ],
+  "category": "Design / Couleurs",
+  "overlay_color": "Couleur de superposition",
+  "opacity": "Opacité",
+  "blend_mode": "Mode de fusion",
+  "new_image": "Nouvelle image",
+  "upload_local": "Utiliser l'image locale"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "オープンポートチェッカー",
+  "description": "リモート サーバーの特定のポートまたは既成のプロファイルをスキャンして、アクティブなサービス (HTTP、SSH、データベースなど) を検出します。",
+  "tags": [
+    "ポートスキャナー",
+    "ポートチェッカー",
+    "ネットワーク / HTTP",
+    "安全",
+    "http",
+    "ssh",
+    "マイスク"
+  ],
+  "category": "ネットワーク / HTTP",
+  "host_placeholder": "例: scanme.nmap.org",
+  "ports_placeholder": "ポート (例: 22,80,443)",
+  "profile_web": "ウェブ",
+  "profile_security": "安全",
+  "profile_db": "データベース",
+  "scan": "スキャン",
+  "scanning": "走査...",
+  "error_fill_fields": "ホストと少なくとも 1 つのポートを入力します。",
+  "host_label": "ホスト",
+  "port_open": "オープンドア",
+  "port_closed": "閉ざされた扉",
+  "scan_error": "スキャンエラー"
+}

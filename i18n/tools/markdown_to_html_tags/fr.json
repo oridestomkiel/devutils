@@ -1,0 +1,14 @@
+{
+  "title": "Markdown → HTML (balises)",
+  "description": "Convertissez du Markdown en HTML brut en affichant uniquement les balises HTML générées. Idéal pour les développeurs et l'intégration de contenu.",
+  "tags": [
+    "Markdown vers HTML",
+    "Markdown vers HTML",
+    "convertir le markdown",
+    "sortie de balise HTML",
+    "démarque brute",
+    "afficher le code HTML Markdown"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "# Titre\n\nDu texte *markdown*."
+}

@@ -1,0 +1,23 @@
+{
+  "title": "CSS clamp() Generator",
+  "description": "Create responsive CSS values using clamp() by setting min, ideal, and max. Useful for fonts, spacing, and fluid elements.",
+  "tags": [
+    "clamp",
+    "responsive font-size",
+    "responsive padding",
+    "responsive css",
+    "vw rem clamp",
+    "fluid design"
+  ],
+  "category": "Design / Colors",
+  "labels": {
+    "min": "Minimum Value",
+    "ideal": "Ideal Value (vw)",
+    "max": "Maximum Value",
+    "property": "CSS Property",
+    "generate": "Generate",
+    "copy": "Copy",
+    "preview": "Example Text",
+    "copied": "Copied!"
+  }
+}

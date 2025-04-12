@@ -1,0 +1,15 @@
+{
+    "title": "Viewer de Headers HTTP (Raw Request)",
+    "description": "Visualize o conteúdo bruto de headers HTTP em requisições. Ideal para debug, análise de tráfego e desenvolvimento web.",
+    "tags": [
+        "headers http",
+        "visualizar headers",
+        "raw request",
+        "análise http",
+        "requisição http",
+        "http request viewer",
+        "debug de requisição",
+        "inspecionar headers"
+    ],
+    "category": "Redes / HTTP"
+}

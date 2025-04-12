@@ -1,0 +1,19 @@
+{
+  "title": "Validator für brasilianische Bankbelege",
+  "description": "Validieren Sie schnell brasilianische Bankbelege, indem Sie Prüfziffern und Barcode-Struktur überprüfen. Ideal für Tests, Automatisierung und Zahlungsprüfung.",
+  "tags": [
+    "boleto-validator",
+    "bankbeleg validieren",
+    "bankbeleg-prüfer",
+    "boleto online",
+    "barcode boleto",
+    "boleto-validierung",
+    "brasilianischer bankbeleg"
+  ],
+  "category": "Validatoren",
+  "placeholder": "Geben Sie die Boleto-Nummer ein",
+  "validate": "Boleto validieren",
+  "error.length": "❌ Ungültiger Boleto. Muss 47 oder 48 Ziffern enthalten.",
+  "error.dv": "❌ Ungültige Prüfziffern. Boleto ist ungültig.",
+  "success": "✅ Gültiger Boleto. Erkannter Wert: {valor}"
+}

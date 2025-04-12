@@ -1,0 +1,25 @@
+{
+  "title": "Gerador de Sombras CSS",
+  "description": "Monte sombras personalizadas com controle de deslocamento, blur, spread e cor. Ideal para destacar elementos de UI com estilo.",
+  "tags": [
+    "box-shadow",
+    "css shadow",
+    "sombra personalizada",
+    "efeito sombra",
+    "sombras visuais",
+    "css visual",
+    "design ui",
+    "ui elevation"
+  ],
+  "category": "Design / Cores",
+  "labels": {
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "blur": "Desfoque (blur)",
+    "spread": "Espalhamento (spread)",
+    "color": "Cor da sombra",
+    "generate": "Gerar",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Diff de Código (Unificado)",
+    "description": "Visualize diferenças entre blocos de código em formato unificado, semelhante ao terminal Git.",
+    "tags": [
+        "diff",
+        "unificado",
+        "git",
+        "linha a linha",
+        "comparação de código"
+    ],
+    "category": "Análise / Comparação"
+}

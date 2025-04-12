@@ -1,0 +1,21 @@
+{
+  "title": "Générateur de Border Radius",
+  "description": "Personnalisez facilement les bords arrondis. Générez rapidement du CSS pour tous les coins ou individuellement.",
+  "tags": [
+    "border-radius",
+    "bord arrondi",
+    "rayon css",
+    "design visuel",
+    "ui arrondie",
+    "bordure css",
+    "style visuel"
+  ],
+  "category": "Design / Couleurs",
+  "label.topLeft": "Haut Gauche",
+  "label.topRight": "Haut Droit",
+  "label.bottomRight": "Bas Droit",
+  "label.bottomLeft": "Bas Gauche",
+  "generate": "Générer",
+  "copy": "Copier",
+  "preview": "Aperçu"
+}

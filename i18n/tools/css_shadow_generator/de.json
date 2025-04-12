@@ -1,0 +1,25 @@
+{
+  "title": "CSS-Schatten-Generator",
+  "description": "Erstelle benutzerdefinierte Schatten mit Steuerung von Versatz, Unschärfe, Ausbreitung und Farbe. Perfekt, um UI-Elemente stilvoll hervorzuheben.",
+  "tags": [
+    "box-schatten",
+    "css schatten",
+    "benutzerdefinierter schatten",
+    "schatteneffekt",
+    "visuelle schatten",
+    "visuelles css",
+    "ui design",
+    "ui erhebung"
+  ],
+  "category": "Design / Farben",
+  "labels": {
+    "horizontal": "Horizontal",
+    "vertical": "Vertikal",
+    "blur": "Unschärfe",
+    "spread": "Ausbreitung",
+    "color": "Schattenfarbe",
+    "generate": "Generieren",
+    "copy": "Kopieren",
+    "copied": "Kopiert!"
+  }
+}

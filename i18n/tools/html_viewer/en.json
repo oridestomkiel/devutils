@@ -1,0 +1,15 @@
+{
+  "title": "HTML Viewer",
+  "description": "View, edit, and format HTML code with live preview. Includes autocomplete, automatic tag closing, and smart placeholder.",
+  "tags": [
+    "html",
+    "visualization",
+    "preview",
+    "web",
+    "frontend"
+  ],
+  "category": "Utilities",
+  "example": "Example",
+  "format": "Format",
+  "placeholder": "Type or paste your HTML here"
+}

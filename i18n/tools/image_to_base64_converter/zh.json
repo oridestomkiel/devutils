@@ -1,0 +1,16 @@
+{
+  "title": "图片 → Base64",
+  "description": "快速将图像文件转换为 Base64 字符串。非常适合嵌入 HTML、CSS 或 JSON。",
+  "tags": [
+    "base64",
+    "转换图像",
+    "图像转为 base64",
+    "图片转base64",
+    "日期 URI",
+    "嵌入图片",
+    "内嵌图像"
+  ],
+  "category": "转换器",
+  "copy": "复制",
+  "copied": "已复制！"
+}

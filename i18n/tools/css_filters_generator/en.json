@@ -1,0 +1,21 @@
+{
+  "title": "CSS Filters Generator",
+  "description": "Adjust visual filters like blur, brightness, contrast, saturation, and more. Preview in real time on image and text.",
+  "tags": ["filter", "css filters", "visual effect", "image", "text"],
+  "category": "Design / Colors",
+  "labels": {
+    "blur": "Blur",
+    "brightness": "Brightness",
+    "contrast": "Contrast",
+    "grayscale": "Grayscale",
+    "hue": "Hue-Rotate",
+    "invert": "Invert",
+    "sepia": "Sepia",
+    "saturate": "Saturation",
+    "copy": "Copy",
+    "refresh": "🔄 New Image",
+    "upload": "📁 Use Local Image",
+    "previewText": "Text Preview",
+    "copied": "Copied!"
+  }
+}

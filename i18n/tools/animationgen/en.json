@@ -1,0 +1,41 @@
+{
+  "title": "CSS Animation Generator",
+  "description": "Create CSS animations with different movement types, control duration, easing, delay, and repetition. Preview and copy the CSS.",
+  "tags": [
+    "css animation",
+    "keyframes",
+    "web animation",
+    "easing",
+    "loop",
+    "interactive design"
+  ],
+  "category": "Design / Colors",
+  "animationType": "Animation Type",
+  "categories": {
+    "basic": "🎯 Basic",
+    "slides": "📦 Slides",
+    "dynamic": "🤸 Dynamic",
+    "visual": "🧼 Visual",
+    "loop": "🔁 Loop / Idle"
+  },
+  "options": {
+    "fade": "Fade In",
+    "scale": "Scale (Zoom)",
+    "rotate": "Rotate",
+    "slide-left": "Slide Left",
+    "slide-right": "Slide Right",
+    "slide-up": "Slide Up",
+    "slide-down": "Slide Down",
+    "bounce": "Bounce",
+    "shake": "Shake",
+    "flip": "Flip Y",
+    "flip-x": "Flip X",
+    "blur-in": "Blur In",
+    "opacity-pulse": "Opacity Pulse",
+    "zoom-in": "Zoom In",
+    "zoom-out": "Zoom Out",
+    "float": "Float",
+    "wave": "Wave",
+    "pulse": "Pulse"
+  }
+}

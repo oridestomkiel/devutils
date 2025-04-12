@@ -1,0 +1,17 @@
+{
+  "title": "Textnormalisierer",
+  "description": "Entfernen Sie schnell Akzente und Sonderzeichen und standardisieren Sie Groß- und Kleinschreibung. Ideal für die Standardisierung von Daten in Systemen und der Textverarbeitung.",
+  "tags": [
+    "Textnormalisierer",
+    "Akzente entfernen",
+    "Text ohne Akzent",
+    "Textstandardisierung",
+    "Sonderzeichen",
+    "Großbuchstaben umwandeln",
+    "Kleinschreibung umwandeln"
+  ],
+  "category": "Textwerkzeuge",
+  "input_placeholder": "Geben Sie Ihren Text mit Akzenten, Symbolen usw. ein oder fügen Sie ihn ein.",
+  "output_placeholder": "Hier wird normalisierter Text angezeigt ...",
+  "normalize": "Normalisieren"
+}

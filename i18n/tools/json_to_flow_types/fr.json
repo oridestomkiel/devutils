@@ -1,0 +1,16 @@
+{
+  "title": "JSON → Types de flux",
+  "description": "Convertissez les objets JSON en typage statique de type Flow. Utile pour valider les structures JavaScript avec typage optionnel.",
+  "tags": [
+    "json",
+    "couler",
+    "dactylographie",
+    "JavaScript",
+    "type de flux",
+    "types"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "Collez votre JSON ici...",
+  "convert": "Convertir",
+  "error": "JSON non valide !"
+}

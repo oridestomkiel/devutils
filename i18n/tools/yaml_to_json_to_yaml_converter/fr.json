@@ -1,0 +1,21 @@
+{
+  "title": "Convertisseur YAML ↔ JSON",
+  "description": "Convertissez vos fichiers YAML au format JSON et inversement de manière simple et efficace. Idéal pour les développeurs travaillant sur la configuration et la manipulation de données.",
+  "tags": [
+    "yaml vers json",
+    "json vers yaml",
+    "convertisseur yaml json",
+    "convertir des données",
+    "structure de configuration",
+    "yaml json",
+    "configuration de l'API"
+  ],
+  "category": "Convertisseurs",
+  "placeholder_input": "Collez YAML ou JSON ici...",
+  "placeholder_output": "Résultat...",
+  "yaml_to_json": "YAML → JSON",
+  "json_to_yaml": "JSON → YAML",
+  "copied": "Copié!",
+  "download_filename_yaml": "converti.yaml",
+  "download_filename_json": "converti.json"
+}

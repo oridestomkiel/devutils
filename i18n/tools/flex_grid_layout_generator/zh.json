@@ -1,0 +1,19 @@
+{
+  "title": "Flex/Grid 布局生成器",
+  "description": "使用 Flexbox 或 Grid 快速构建布局。使用示例实时调整对齐、间距和预览。",
+  "tags": [
+    "弹性盒子",
+    "网格布局",
+    "柔性显示屏",
+    "CSS 网格",
+    "css 对齐",
+    "差距",
+    "对齐内容",
+    "对齐项目"
+  ],
+  "category": "生成器",
+  "layoutType": "布局类型",
+  "gap": "差距",
+  "justify": "证明合法",
+  "align": "对齐"
+}

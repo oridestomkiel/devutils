@@ -1,0 +1,23 @@
+{
+  "title": "Générateur de clamp() CSS",
+  "description": "Générez des valeurs CSS responsives avec clamp() en définissant les valeurs minimale, idéale et maximale. Utile pour les polices, espacements et éléments fluides.",
+  "tags": [
+    "clamp",
+    "taille de police responsive",
+    "padding responsive",
+    "css responsive",
+    "vw rem clamp",
+    "design fluide"
+  ],
+  "category": "Design / Couleurs",
+  "labels": {
+    "min": "Valeur Minimale",
+    "ideal": "Valeur Idéale (vw)",
+    "max": "Valeur Maximale",
+    "property": "Propriété CSS",
+    "generate": "Générer",
+    "copy": "Copier",
+    "preview": "Texte d’Exemple",
+    "copied": "Copié !"
+  }
+}

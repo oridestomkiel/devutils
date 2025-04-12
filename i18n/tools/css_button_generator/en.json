@@ -1,0 +1,31 @@
+{
+  "title": "CSS Button Generator",
+  "description": "Create custom buttons with color, padding, border, shadow, and hover state. Ideal for building reusable UI components.",
+  "tags": [
+    "css button",
+    "button",
+    "hover",
+    "shadow",
+    "border-radius",
+    "ui button",
+    "visual component"
+  ],
+  "category": "Design / Colors",
+  "labels": {
+    "bg": "Background Color",
+    "text": "Text Color",
+    "paddingY": "Padding (vertical)",
+    "paddingX": "Padding (horizontal)",
+    "radius": "Border Radius",
+    "shadowColor": "Shadow Color",
+    "shadowOpacity": "Shadow Opacity",
+    "offsetX": "Offset X",
+    "offsetY": "Offset Y",
+    "blur": "Blur",
+    "spread": "Spread",
+    "hover": "Hover Color",
+    "copy": "Copy",
+    "preview": "Preview Button",
+    "copied": "Copied!"
+  }
+}

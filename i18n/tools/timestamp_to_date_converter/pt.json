@@ -1,0 +1,21 @@
+{
+  "title": "Conversor de Timestamp ↔ Data",
+  "description": "Converta timestamps entre diferentes formatos ou sistemas. Ideal para desenvolvimento, registros de logs e manipulação de datas.",
+  "tags": [
+    "timestamp",
+    "converter timestamp",
+    "unix time",
+    "data para timestamp",
+    "formato de data",
+    "epoch time",
+    "data legível"
+  ],
+  "category": "Datas e Horários",
+  "input_placeholder": "Digite timestamp ou data...",
+  "output_placeholder": "Resultado aparecerá aqui...",
+  "convert": "Converter",
+  "format_br": "Data legível (pt-BR)",
+  "format_iso": "Formato ISO 8601",
+  "format_utc": "Data UTC",
+  "instructions": "Aceita timestamp Unix (segundos) ou datas como <code>2025-03-28 15:00</code>, <code>28/03/2025</code> etc."
+}

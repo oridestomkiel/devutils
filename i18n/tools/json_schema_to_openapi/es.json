@@ -1,0 +1,16 @@
+{
+  "title": "Esquema JSON → OpenAPI",
+  "description": "Convierte un esquema JSON válido al formato OpenAPI 3.0. Ajusta campos como \"nullable\", elimina \"$schema\" y aplica el formato correcto para su uso en las API.",
+  "tags": [
+    "esquema json",
+    "API abierta",
+    "convertir",
+    "diseño de API",
+    "especulación"
+  ],
+  "category": "Convertidores",
+  "placeholder": "Pegue su esquema JSON aquí...",
+  "convert": "Convertir",
+  "error": "Error",
+  "invalidJson": "JSON no válido."
+}

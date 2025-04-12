@@ -1,0 +1,21 @@
+{
+  "title": "Encodeur/décodeur d'URL",
+  "description": "Encodez et décodez les URL rapidement et facilement. Idéal pour garantir la compatibilité des caractères dans les requêtes et liens HTTP.",
+  "tags": [
+    "encodeur d'URL",
+    "décodeur d'URL",
+    "codage d'URL",
+    "décoder l'URL",
+    "codage d'URL",
+    "décodage d'URL",
+    "URL en http"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "placeholder_input": "Texte ou URL",
+  "placeholder_output": "Résultat ici...",
+  "encode": "Encoder",
+  "decode": "Décoder",
+  "invalid_url": "URL non valide pour le décodage",
+  "download_filename": "url-convertie.txt",
+  "preview_link_label": "Aperçu"
+}

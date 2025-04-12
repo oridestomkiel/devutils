@@ -1,0 +1,21 @@
+{
+  "title": "Timestamp ↔ Date Converter",
+  "description": "Convert timestamps between different formats or systems. Ideal for development, logging, and date manipulation.",
+  "tags": [
+    "timestamp",
+    "convert timestamp",
+    "unix time",
+    "date to timestamp",
+    "date format",
+    "epoch time",
+    "legible date"
+  ],
+  "category": "Dates and Times",
+  "input_placeholder": "Enter timestamp or date...",
+  "output_placeholder": "Result will appear here...",
+  "convert": "Convert",
+  "format_br": "Legible date (pt-BR)",
+  "format_iso": "ISO 8601 format",
+  "format_utc": "UTC date",
+  "instructions": "Accepts Unix timestamp (seconds) or dates like <code>2025-03-28 15:00</code>, <code>28/03/2025</code> etc."
+}

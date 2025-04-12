@@ -1,0 +1,12 @@
+{
+  "title": "Gerador de Cartão de Crédito",
+  "description": "Gere números de cartão válidos para testes e desenvolvimento. Suporta múltiplas bandeiras e gera CVV e validade aleatórios.",
+  "tags": ["cartão", "gerador", "luhn", "bandeira", "crédito", "testes"],
+  "category": "Geradores",
+  "label.selectBrand": "Selecione a bandeira:",
+  "label.number": "Número do Cartão:",
+  "label.expiry": "Data de Validade:",
+  "label.cvv": "CVV:",
+  "button.generate": "Gerar",
+  "copied": "Copiado!"
+}

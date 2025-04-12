@@ -1,0 +1,22 @@
+{
+  "title": "Charcode ↔ Texto",
+  "description": "Convierte texto a códigos de caracteres Unicode y viceversa. Útil para análisis, codificación y depuración de datos.",
+  "tags": [
+    "unicode",
+    "charcode",
+    "convertidor",
+    "texto a código",
+    "de charcode",
+    "a charcode"
+  ],
+  "category": "Convertidores",
+  "mode.to": "Texto → Charcode",
+  "mode.from": "Charcode → Texto",
+  "placeholder": "Introduce texto o códigos Unicode separados por espacios",
+  "convert": "Convertir",
+  "clear": "Limpiar",
+  "copy": "Copiar",
+  "error": "Error al convertir los códigos en texto.",
+  "reference": "Referencia Unicode",
+  "link": "Plano (Unicode)"
+}

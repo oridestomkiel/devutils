@@ -1,0 +1,21 @@
+{
+  "title": "Regular Expression Tester",
+  "description": "Test your regular expressions in real time. Ideal for analyzing patterns, validating strings and quickly correcting syntax errors.",
+  "tags": [
+    "regex",
+    "regular expressions",
+    "regex test",
+    "regex tester",
+    "validate regex",
+    "analyze patterns",
+    "regex tool"
+  ],
+  "category": "Utilities",
+  "regex_placeholder": "Enter the regex...",
+  "text_placeholder": "Text to test...",
+  "test": "Test",
+  "matches_singular": "occurrence found",
+  "matches_plural": "occurrences found",
+  "no_match": "No occurrences found.",
+  "error_prefix": "Error in regex:"
+}

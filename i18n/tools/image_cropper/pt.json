@@ -1,0 +1,8 @@
+{
+  "title": "Cortador de Imagem (Crop)",
+  "description": "Envie uma imagem, selecione a área de recorte e baixe apenas o trecho desejado. Suporta PNG e JPG.",
+  "tags": ["crop", "imagem", "recortar", "editor", "imagem utilitário"],
+  "category": "Imagens",
+  "download": "Baixar Recorte",
+  "clear": "Limpar"
+}

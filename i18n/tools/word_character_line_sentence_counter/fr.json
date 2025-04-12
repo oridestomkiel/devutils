@@ -1,0 +1,19 @@
+{
+  "title": "Compteur de mots, de caractères, de lignes et de phrases",
+  "description": "Comptez le nombre de mots, de caractères, de lignes et de phrases dans un texte. Idéal pour vérifier les limites des formulaires, des articles et des réseaux sociaux.",
+  "tags": [
+    "compteur de mots",
+    "compteur de caractères",
+    "compter les lignes",
+    "compter les phrases",
+    "limite de texte",
+    "analyse de texte"
+  ],
+  "category": "Outils de texte",
+  "placeholder": "Tapez ou collez votre texte ici...",
+  "words": "📝 Mots",
+  "chars": "🔡 Caractères (avec espaces)",
+  "chars_no_space": "🔡 Caractères (sans espaces)",
+  "lines": "📏 Lignes",
+  "sentences": "🧩 Phrases"
+}

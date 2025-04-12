@@ -1,0 +1,16 @@
+{
+  "title": "Neon Effect Generator",
+  "description": "Create neon text effects using multiple shadow layers. Ideal for stylized interfaces, eye-catching titles or hacker mode.",
+  "tags": [
+    "neon",
+    "text-shadow",
+    "glow effect",
+    "cyber visual",
+    "ui glow",
+    "hacker mode"
+  ],
+  "category": "Design / Colors",
+  "color_label": "Neon Color",
+  "intensity_label": "Intensity",
+  "preview_text": "Neon Text"
+}

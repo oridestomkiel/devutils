@@ -1,0 +1,22 @@
+{
+  "title": "随机密码生成器",
+  "description": "随机创建强大而安全的密码。非常适合保护敏感帐户和数据。",
+  "tags": [
+    "随机密码",
+    "密码生成器",
+    "强密码",
+    "密码生成器",
+    "数据安全",
+    "生成密码",
+    "帐户保护"
+  ],
+  "category": "生成器",
+  "length": "尺寸",
+  "include_symbols": "包括符号",
+  "include_numbers": "包括数字",
+  "include_uppercase": "包括大写字母",
+  "include_lowercase": "包括小写",
+  "generate": "生成",
+  "click_to_generate": "点击生成",
+  "select_one_type": "请选择至少一种字符类型"
+}

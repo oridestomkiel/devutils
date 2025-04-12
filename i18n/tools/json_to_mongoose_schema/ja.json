@@ -1,0 +1,15 @@
+{
+  "title": "JSON → Mongoose スキーマ",
+  "description": "JSON から Mongoose スキーマを自動的に生成します。MongoDB ドキュメントをすばやくモデル化するのに役立ちます。",
+  "tags": [
+    "json",
+    "マングース",
+    "スキーマ",
+    "モンゴ",
+    "モデリング"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここにJSONを貼り付けてください...",
+  "convert": "変換する",
+  "error": "無効なJSONです。"
+}

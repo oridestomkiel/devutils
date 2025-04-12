@@ -1,0 +1,22 @@
+{
+  "title": "颜色转换器（HEX, RGB, HSL）",
+  "description": "轻松准确地在 HEX、RGB 和 HSL 格式之间转换颜色。非常适合设计师、开发人员和 Web 项目。",
+  "tags": [
+    "颜色转换器",
+    "hex 转 rgb",
+    "rgb 转 hex",
+    "hsl 转 rgb",
+    "颜色转换",
+    "hex rgb hsl",
+    "颜色工具",
+    "配色工具"
+  ],
+  "category": "转换器",
+  "placeholder.input": "#3498db 或 rgb(52,152,219)",
+  "button.convert": "转换",
+  "button.copy": "复制",
+  "output.invalid": "格式无效。请使用 #RRGGBB 或 rgb(r,g,b)",
+  "output.label.hex": "HEX",
+  "output.label.rgb": "RGB",
+  "output.label.hsl": "HSL"
+}

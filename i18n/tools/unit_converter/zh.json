@@ -1,0 +1,38 @@
+{
+  "title": "单位换算器",
+  "description": "智能便捷地转换单位。非常适合屏幕测量、距离、温度、时间等。",
+  "tags": [
+    "单位换算器",
+    "转换测量值",
+    "px 至 rem",
+    "距离我公里",
+    "摄氏度 华氏度",
+    "换算重量",
+    "时间"
+  ],
+  "category": "转换器",
+  "input_placeholder": "输入值...",
+  "output_placeholder": "结果出现在这里...",
+  "convert": "转变",
+  "invalid_input": "请输入有效值。",
+  "conversions": {
+    "Pixels ↔ Rem (base 16)": "Pixels ↔ Rem (base 16)",
+    "Celsius ↔ Fahrenheit": "Celsius ↔ Fahrenheit",
+    "Km ↔ Milhas": "Km ↔ Milhas",
+    "Metros ↔ Pés": "Metros ↔ Pés",
+    "Kg ↔ Libras": "Kg ↔ Libras",
+    "Horas ↔ Minutos ↔ Segundos": "Horas ↔ Minutos ↔ Segundos",
+    "Centímetros ↔ Polegadas": "Centímetros ↔ Polegadas",
+    "Minutos ↔ Segundos": "Minutos ↔ Segundos",
+    "Dias ↔ Horas": "Dias ↔ Horas",
+    "Litros ↔ Galões (US)": "Litros ↔ Galões (US)",
+    "Litros ↔ Mililitros": "Litros ↔ Mililitros",
+    "Joules ↔ Calorias": "Joules ↔ Calorias",
+    "Watts ↔ Cavalos de potência": "Watts ↔ Cavalos de potência",
+    "Bytes ↔ KB ↔ MB": "Bytes ↔ KB ↔ MB",
+    "MB ↔ GB": "MB ↔ GB",
+    "Hectares ↔ Metros²": "Hectares ↔ Metros²",
+    "m² ↔ pés²": "m² ↔ pés²",
+    "Bar ↔ Pascal": "Bar ↔ Pascal"
+  }
+}

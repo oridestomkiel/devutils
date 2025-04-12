@@ -1,0 +1,12 @@
+{
+    "title": "Gerador de Endereço",
+    "description": "Gere um endereço válido do Brasil com base em estado e cidade (opcional). A base vem diretamente dos Correios.",
+    "tags": [
+        "cep",
+        "endereço",
+        "gerador",
+        "brasil",
+        "código postal"
+    ],
+    "category": "Utilitários"
+}
