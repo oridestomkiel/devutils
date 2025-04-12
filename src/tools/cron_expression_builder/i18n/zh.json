@@ -1,0 +1,28 @@
+{
+  "title": "CRON 表达式生成器",
+  "description": "轻松直观地创建 CRON 表达式。适用于服务器、后端应用程序和自动化任务调度。",
+  "tags": [
+    "cron 表达式",
+    "cron 构建器",
+    "任务调度",
+    "cronjob",
+    "cron 生成器",
+    "cron linux",
+    "命令调度",
+    "cron 工具"
+  ],
+  "category": "生成器",
+  "placeholder.input": "示例：*/5 * * * *",
+  "button.explain": "解释",
+  "placeholder.output": "解释将在此处显示",
+  "copied": "已复制！",
+  "invalid": "表达式无效。应包含 5 个字段。",
+  "labels": [
+    "分钟 (0–59)",
+    "小时 (0–23)",
+    "日期 (1–31)",
+    "月份 (1–12)",
+    "星期几 (0=星期日 到 6=星期六)"
+  ],
+  "format.hint": "格式：分钟 小时 日 月 星期"
+}

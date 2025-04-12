@@ -1,0 +1,15 @@
+{
+  "title": "Markdown → Aperçu HTML",
+  "description": "Prévisualisez en temps réel le rendu du texte Markdown converti en HTML. Idéal pour les rédacteurs, développeurs et créateurs de contenu.",
+  "tags": [
+    "Markdown vers HTML",
+    "aperçu de la démarque",
+    "rendu Markdown",
+    "visionneuse de démarques",
+    "aperçu en direct de Markdown",
+    "convertir le markdown",
+    "HTML à partir de Markdown"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "# Titre\\n\\nDu texte *markdown*."
+}

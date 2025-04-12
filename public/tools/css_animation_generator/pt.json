@@ -1,0 +1,44 @@
+{
+  "title": "Gerador de Animações CSS",
+  "description": "Monte animações CSS com diferentes tipos de movimento, controle de duração, easing, delay e repetição. Veja o preview e copie o CSS.",
+
+  "tags": [
+    "css animation",
+    "keyframes",
+    "animação web",
+    "easing",
+    "loop",
+    "design interativo"
+  ],
+  "category": "Design / Cores",
+  "animationType": "Tipo de animação",
+
+  "categories": {
+    "basic": "🎯 Básicas",
+    "slides": "📦 Slides",
+    "dynamic": "🤸 Dinâmicas",
+    "visual": "🧼 Visuais",
+    "loop": "🔁 Loop / Idle"
+  },
+
+  "options": {
+    "fade": "Fade In",
+    "scale": "Scale (Zoom)",
+    "rotate": "Rotate",
+    "slide-left": "Slide Left",
+    "slide-right": "Slide Right",
+    "slide-up": "Slide Up",
+    "slide-down": "Slide Down",
+    "bounce": "Bounce",
+    "shake": "Shake",
+    "flip": "Flip Y",
+    "flip-x": "Flip X",
+    "blur-in": "Blur In",
+    "opacity-pulse": "Opacity Pulse",
+    "zoom-in": "Zoom In",
+    "zoom-out": "Zoom Out",
+    "float": "Float",
+    "wave": "Wave",
+    "pulse": "Pulse"
+  }
+}

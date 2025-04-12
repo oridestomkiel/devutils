@@ -1,0 +1,19 @@
+{
+  "title": "JWT 查看器",
+  "description": "解码 JWT 令牌以查看标头、有效负载和签名。非常适合调试、安全和身份验证开发。",
+  "tags": [
+    "智威汤逊",
+    "查看 jwt",
+    "解码 jwt",
+    "jwt 令牌",
+    "jwt 调试器",
+    "分析jwt",
+    "jwt解码器",
+    "jwt 令牌查看器"
+  ],
+  "category": "编码器/解码器",
+  "placeholder": "在此处粘贴您的 JWT",
+  "decode": "解码",
+  "error.invalid": "JWT 无效",
+  "error.structure": "JWT 必须包含 3 个由点分隔的部分。"
+}

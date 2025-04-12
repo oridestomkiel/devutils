@@ -1,0 +1,19 @@
+{
+  "title": "Generador de placas del Mercosur",
+  "description": "Genere placas según el estándar del Mercosur (AAA1A23) o convierta placas antiguas al nuevo modelo. Ideal para pruebas y simulaciones.",
+  "tags": [
+    "Placa del Mercosur",
+    "generador de placas",
+    "nuevo modelo",
+    "placa de Brasil",
+    "simulador de tablero",
+    "placa de conversión",
+    "placa de exportación"
+  ],
+  "category": "Generadores",
+  "quantity": "Cantidad:",
+  "convert_label": "Convertir placa antigua (ABC1234):",
+  "convert_placeholder": "Ejemplo: BRA1234",
+  "convert_button": "Convertir",
+  "export_csv": "Exportar CSV"
+}

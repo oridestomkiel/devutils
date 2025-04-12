@@ -1,0 +1,21 @@
+{
+  "title": "CNPJ-Generator",
+  "description": "Generieren Sie gültige CNPJ-Nummern für Test und Entwicklung. Jetzt mit Unterstützung für Vielfache und Verzweigungen.",
+  "tags": [
+    "CNPJ-Generator",
+    "gültiges cnpj",
+    "cnpj zum Testen",
+    "gefälschtes cnpj",
+    "CNPJ-Nummer",
+    "cnpj-Simulator",
+    "Firmentest",
+    "Zweig",
+    "mehrere"
+  ],
+  "category": "Generatoren",
+  "format": "Format mit Maske",
+  "generate": "Um zu generieren",
+  "generateMultiple": "Vielfache generieren",
+  "simulateBranch": "Simulieren Sie übergeordnete CNPJ + Zweige",
+  "placeholder": "Generierte CNPJs werden hier angezeigt"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "JWTビューア（高度）",
+  "description": "JWTトークンを表示および検証します: ヘッダー、ペイロード、署名、そしてシークレットを用いたオプションの検証。すべてリアルタイムで。",
+  "tags": ["jwt", "トークン", "バリデーション", "デコード", "認証"],
+  "category": "エンコーダー / デコーダー",
+  "placeholder.jwt": "ここにJWTトークンを貼り付けてください...",
+  "clear": "クリア",
+  "header": "ヘッダー",
+  "payload": "ペイロード",
+  "copy.header": "ヘッダーをコピー",
+  "copy.payload": "ペイロードをコピー",
+  "signature.title": "JWT署名検証（オプション）",
+  "signature.placeholder": "署名を検証するための秘密を入力してください (HS256)",
+  "signature.valid": "✔ 有効な署名",
+  "signature.invalid": "✖ 無効な署名",
+  "jwt.valid": "✔ 有効なJWT",
+  "jwt.invalid": "無効なJWT（形式不正または内容不正）"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "HMAC 生成器（SHA-1、SHA-256、SHA-512）",
+  "description": "使用密钥通过 SHA-1、SHA-256 或 SHA-512 算法生成 HMAC 代码。非常适合身份验证、API 和数据安全。",
+  "tags": [
+    "hmac 生成器",
+    "哈希表",
+    "hmac sha256",
+    "hmac sha512",
+    "API 安全",
+    "hmac 加密",
+    "数字签名",
+    "带键的哈希"
+  ],
+  "category": "编码器/解码器",
+  "message": "信息",
+  "secretKey": "密钥",
+  "generate": "生成"
+}

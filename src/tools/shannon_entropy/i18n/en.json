@@ -1,0 +1,19 @@
+{
+  "title": "Shannon Entropy",
+  "description": "Measure the entropy of a string based on information theory. Higher values indicate greater randomness.",
+  "tags": [
+    "entropy",
+    "shannon",
+    "randomness",
+    "security",
+    "compression",
+    "information"
+  ],
+  "category": "Analysis / Comparison",
+  "placeholder": "Type or paste your content here...",
+  "calculate": "Calculate",
+  "max": "Maximum possible",
+  "english": "English text generally",
+  "compressed": "Compressed/encrypted data",
+  "source": "Source"
+}

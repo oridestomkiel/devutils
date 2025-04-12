@@ -1,0 +1,18 @@
+{
+  "title": "Overlay Generator",
+  "description": "Create visual overlays with color, opacity, and blend mode to apply over images, banners, or featured sections.",
+  "tags": [
+    "overlay",
+    "blend",
+    "background",
+    "mix-blend-mode",
+    "effect",
+    "css visual"
+  ],
+  "category": "Design / Colors",
+  "overlay_color": "Overlay Color",
+  "opacity": "Opacity",
+  "blend_mode": "Blend Mode",
+  "new_image": "New Image",
+  "upload_local": "Use local image"
+}

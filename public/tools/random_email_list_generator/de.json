@@ -1,0 +1,19 @@
+{
+  "title": "Zufallsgenerator für E-Mail-Listen",
+  "description": "Generieren Sie Dummy-E-Mail-Adressen für Tests, simulierte Registrierungen und die Formularvalidierung. Ideal für Entwicklungsumgebungen.",
+  "tags": [
+    "E-Mail-Generator",
+    "zufällige E-Mails",
+    "gefälschte E-Mail",
+    "E-Mail-Liste",
+    "E-Mails zum Testen",
+    "fiktive E-Mail",
+    "E-Mail für die Entwicklung"
+  ],
+  "category": "Generatoren",
+  "quantity_placeholder": "Anzahl der E-Mails",
+  "domain_placeholder": "Domäne (z. B. gmail.com)",
+  "generate": "Um zu generieren",
+  "output_placeholder": "Generierte E-Mails werden hier angezeigt",
+  "error_input": "Überprüfen Sie Menge und Domäne."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Transitions à propriétés multiples",
+  "description": "Créez des transitions CSS personnalisées avec plusieurs propriétés, chacune avec sa propre durée, son propre délai et son propre assouplissement.",
+  "tags": [
+    "transition",
+    "CSS",
+    "animation",
+    "assouplissement",
+    "retard",
+    "multi-hélices"
+  ],
+  "category": "Design / Couleurs",
+  "preview": "Aperçu",
+  "duration": "Durée (s)",
+  "delay": "Retard(s)",
+  "background-color": "Couleur d'arrière-plan",
+  "color": "Couleur du texte",
+  "transform": "Transformation",
+  "opacity": "Opacité",
+  "border-radius": "Arrondi",
+  "ease": "facilité",
+  "linear": "linéaire",
+  "ease-in": "facilité d'entrée",
+  "ease-out": "sortie facile",
+  "ease-in-out": "entrée-sortie faciles"
+}

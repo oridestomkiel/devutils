@@ -1,0 +1,26 @@
+{
+  "title": "Convertisseur Unicode ↔ Texte",
+  "description": "Convertissez les caractères Unicode en texte lisible et inversement. Idéal pour l'internationalisation, l'encodage et la manipulation de chaînes.",
+  "tags": [
+    "Unicode",
+    "texte en unicode",
+    "Unicode en texte",
+    "utf-8",
+    "hexadécimal",
+    "accents",
+    "w",
+    "codage Unicode"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "input_placeholder": "Saisissez du texte échappé ou Unicode (\\uXXXX, \\xXX)",
+  "output_placeholder": "Le résultat apparaît ici...",
+  "convert_unicode": "Texte → Unicode",
+  "convert_text": "Unicode → Texte",
+  "option_unicode": "\\uXXXX",
+  "option_utf8": "\\xXX",
+  "option_hex": "Hex seulement",
+  "filter_all": "Convertir tout",
+  "filter_accents": "Accents uniquement",
+  "filter_specials": "Caractères spéciaux uniquement",
+  "filter_cedilla": "Seulement ç"
+}

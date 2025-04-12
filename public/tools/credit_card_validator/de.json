@@ -1,0 +1,13 @@
+{
+  "title": "Kreditkartenprüfer",
+  "description": "Geben Sie eine Kartennummer ein und prüfen Sie, ob sie mit dem Luhn-Algorithmus gültig ist. Die Marke wird automatisch erkannt.",
+  "tags": ["karte", "prüfer", "luhn", "nummer", "kredit", "anbieter"],
+  "category": "Dienstprogramme",
+  "label.input": "Kartennummer:",
+  "placeholder.input": "z. B.: 4111 1111 1111 1111",
+  "button.validate": "Karte prüfen",
+  "result.valid": "✅ Gültig",
+  "result.invalid": "❌ Ungültig",
+  "result.error": "❌ Ungültige oder unvollständige Nummer.",
+  "brand.unknown": "Unbekannt"
+}

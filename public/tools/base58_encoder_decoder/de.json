@@ -1,0 +1,18 @@
+{
+  "title": "Base58-Kodierer/Dekodierer",
+  "description": "Kodieren und dekodieren Sie Zeichenketten in Base58 – ideal für Blockchain-Anwendungen, Bitcoin und Systeme, die mehrdeutige Zeichen vermeiden.",
+  "tags": [
+    "base58",
+    "base58 dekodierer",
+    "base58 kodierer",
+    "base58 konvertieren",
+    "base58 bitcoin",
+    "base58 online",
+    "base58 encoder decoder"
+  ],
+  "category": "Kodierer / Dekodierer",
+  "placeholder": "Text zum Kodieren oder Base58 zum Dekodieren",
+  "encode": "Kodieren",
+  "decode": "Dekodieren",
+  "error.decode": "Fehler beim Dekodieren"
+}

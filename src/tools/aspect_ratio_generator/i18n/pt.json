@@ -1,0 +1,24 @@
+{
+  "title": "Gerador de Aspect Ratio",
+  "description": "Gere estilos CSS para manter uma proporção fixa em elementos, como vídeos, imagens ou containers responsivos.",
+  "tags": [
+    "aspect ratio",
+    "responsivo",
+    "css hack",
+    "proporção",
+    "container",
+    "padding-hack"
+  ],
+  "category": "Design / Cores",
+  "label.ratio": "Proporção",
+  "label.ratio.custom": "Custom (largura:altura)",
+  "label.ratio.mode": "Modo",
+  "option.ratio.16_9": "16:9",
+  "option.ratio.4_3": "4:3",
+  "option.ratio.1_1": "1:1",
+  "option.ratio.21_9": "21:9",
+  "option.ratio.custom": "Personalizado",
+  "option.mode.modern": "aspect-ratio (moderno)",
+  "option.mode.fallback": "padding-top (compatível)",
+  "preview.label": "Preview"
+}

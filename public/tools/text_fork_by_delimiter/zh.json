@@ -1,0 +1,33 @@
+{
+  "title": "按分隔符分叉文本",
+  "description": "根据分隔符拆分文本并对每个部分分别应用操作。非常适合处理批量数据。",
+  "tags": [
+    "叉",
+    "批",
+    "文本",
+    "加工",
+    "线"
+  ],
+  "category": "实用工具",
+  "placeholder": "输入用行或分隔符分隔的数据...",
+  "delimiter": "分隔符",
+  "operation": "手术",
+  "process": "过程",
+  "clear": "清洁",
+  "fromBase64": "Base64 → 文本",
+  "toBase64": "文本 → Base64",
+  "fromHex": "十六进制 → 文本",
+  "toHex": "文本 → 十六进制",
+  "toUrl": "URL 编码",
+  "fromUrl": "URL 解码",
+  "toUpper": "文字 → 大写",
+  "toLower": "文字 → 小写",
+  "reverse": "反转文本",
+  "removeSpaces": "删除空格",
+  "removeBreaks": "删除换行符",
+  "toBinary": "文本 → 二进制",
+  "fromBinary": "二进制 → 文本",
+  "error_base64": "[Base64解码错误]",
+  "error_hex": "[十六进制解码错误]",
+  "error_url": "[解码 URL 错误]"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "ASCII 编码器/解码器",
+  "description": "快速轻松地将文本转换为 ASCII 码，或从 ASCII 码转换回文本。非常适合分析、测试和字符串处理。",
+  "tags": [
+    "ascii",
+    "ascii 转换器",
+    "ascii 解码",
+    "ascii 编码",
+    "ascii 表",
+    "文本转 ascii",
+    "ascii 转文本"
+  ],
+  "category": "编码器 / 解码器",
+  "converter": "ascii 转换器",
+  "decode": "ASCII → 文本",
+  "encode": "文本 → ASCII",
+  "table": "ascii 表",
+  "textToAscii": "文本转 ascii",
+  "asciiToText": "ascii 转文本",
+  "placeholder": "请输入文本或以空格分隔的 ASCII 码",
+  "decodeError": "解码错误。请检查数字。"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "占位符图像生成器",
+  "description": "生成自定义图像以用作测试和布局中的占位符。自由选择颜色、文本和尺寸。",
+  "tags": [
+    "占位符",
+    "图像",
+    "发电机",
+    "测试",
+    "乱码",
+    "像素"
+  ],
+  "category": "图片",
+  "width": "宽度",
+  "height": "高度",
+  "font_size": "文字大小",
+  "background_color": "背景颜色",
+  "text_color": "文本颜色",
+  "format": "格式",
+  "text": "文本",
+  "placeholder_text_default": "占位符生成器",
+  "generate": "生成",
+  "download_image": "下载图片"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Проверка GZIP",
+  "description": "Проверьте, включено ли сжатие GZIP на сервере URL. Просматривайте заголовки ответов в реальном времени.",
+  "tags": [
+    "gzip",
+    "http-заголовки",
+    "сжатие",
+    "gzip-проверка",
+    "оптимизация",
+    "веб-производительность"
+  ],
+  "category": "Сети / HTTP",
+  "placeholder": "https://example.com/arquivo.js",
+  "check": "Проверить GZIP",
+  "checking": "Проверка...",
+  "gzip.enabled": "✅ GZIP ВКЛЮЧЕН — текст сжимается.",
+  "gzip.disabled": "❌ GZIP НЕ включен — несжатый ответ.",
+  "httpHeaders": "HTTP-заголовки",
+  "error.invalidUrl": "Введите действительный URL-адрес.",
+  "error.checkFailed": "Ошибка при тестировании",
+  "error.prefix": "Ошибка"
+}

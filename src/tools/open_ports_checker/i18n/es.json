@@ -1,0 +1,26 @@
+{
+  "title": "Comprobador de puertos abiertos",
+  "description": "Escanee puertos específicos o perfiles preparados de un servidor remoto para detectar servicios activos (HTTP, SSH, bases de datos, etc.).",
+  "tags": [
+    "escáner de puertos",
+    "verificador de puertos",
+    "Redes / HTTP",
+    "seguridad",
+    "http",
+    "ssh",
+    "MySQL"
+  ],
+  "category": "Redes / HTTP",
+  "host_placeholder": "p. ej. scanme.nmap.org",
+  "ports_placeholder": "Puertos (p. ej. 22, 80, 443)",
+  "profile_web": "Web",
+  "profile_security": "Seguridad",
+  "profile_db": "Base de datos",
+  "scan": "Escanear",
+  "scanning": "Exploración...",
+  "error_fill_fields": "Complete el host y al menos un puerto.",
+  "host_label": "Anfitrión",
+  "port_open": "Puerta abierta",
+  "port_closed": "Puerta cerrada",
+  "scan_error": "Error de escaneo"
+}

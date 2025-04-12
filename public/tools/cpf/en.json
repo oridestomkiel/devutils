@@ -1,0 +1,6 @@
+{
+  "title": "CPF Generator",
+  "description": "Generate valid CPF numbers with or without mask. Great for testing forms.",
+  "tags": ["cpf generator", "valid cpf", "form testing"],
+  "category": "Generators"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Calculateur de Différence de Dates",
+  "description": "Calculez la différence entre deux dates en jours, mois ou années. Idéal pour les délais, les échéances et le suivi du temps.",
+  "tags": [
+    "différence de dates",
+    "calculer les dates",
+    "combien de jours entre deux dates",
+    "jours entre les dates",
+    "calculateur de temps",
+    "temps entre les dates",
+    "compter les jours"
+  ],
+  "category": "Dates et Heures",
+  "startDate": "Date de début",
+  "endDate": "Date de fin",
+  "calculate": "Calculer",
+  "invalidDates": "Veuillez remplir correctement les deux dates.",
+  "difference": "Différence",
+  "days": "jours",
+  "hours": "heures",
+  "minutes": "minutes",
+  "resultPlaceholder": "Le résultat s'affichera ici"
+}

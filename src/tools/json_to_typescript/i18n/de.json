@@ -1,0 +1,15 @@
+{
+  "title": "JSON → TypeScript",
+  "description": "Konvertieren Sie JSON automatisch in TypeScript-Schnittstellen mit starker Typisierung und Struktur basierend auf den bereitgestellten Daten.",
+  "tags": [
+    "json",
+    "Typoskript",
+    "konvertieren",
+    "Schnittstelle",
+    "Typen"
+  ],
+  "category": "Konverter",
+  "placeholder": "Fügen Sie Ihr JSON hier ein ...",
+  "convert": "Konvertieren",
+  "error": "Ungültiges JSON!"
+}

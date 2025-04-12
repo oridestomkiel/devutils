@@ -1,0 +1,19 @@
+{
+  "title": "Wort-, Zeichen-, Zeilen- und Satzzähler",
+  "description": "Zählen Sie die Anzahl der Wörter, Zeichen, Zeilen und Sätze in einem Text. Ideal zum Überprüfen von Grenzwerten in Formularen, Artikeln und sozialen Netzwerken.",
+  "tags": [
+    "Wortzähler",
+    "Zeichenzähler",
+    "Zeilen zählen",
+    "Sätze zählen",
+    "Textlimit",
+    "Textanalyse"
+  ],
+  "category": "Textwerkzeuge",
+  "placeholder": "Geben Sie Ihren Text hier ein oder fügen Sie ihn ein ...",
+  "words": "📝 Wörter",
+  "chars": "🔡 Zeichen (mit Leerzeichen)",
+  "chars_no_space": "🔡 Zeichen (keine Leerzeichen)",
+  "lines": "📏 Linien",
+  "sentences": "🧩 Sätze"
+}

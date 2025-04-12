@@ -4,9 +4,11 @@
   "description": "Frontend para DevUtils utilizando Vite, Vanilla JS e Tailwind CSS",
   "main": "index.html",
   "scripts": {
+    "build:i18n": "node scripts/build-i18n.cjs",
+    "build:copy-public": "cp -r public/tools* dist/i18n/",
     "dev": "vite",
     "preview": "vite preview",
-    "build": "vite build"
+    "build": "npm run build:i18n && vite build && npm run build:copy-public && vite preview"
   },
   "type": "module",
   "author": "Orides Tomkiel",

@@ -1,0 +1,18 @@
+{
+  "title": "Générateur d'ombre de texte",
+  "description": "Créez des ombres pour le texte grâce aux contrôles de couleur, de décalage et de flou. Idéal pour accentuer ou accentuer les titres et les éléments d'interface.",
+  "tags": [
+    "ombre du texte",
+    "ombre du texte",
+    "texte CSS",
+    "effet visuel",
+    "se brouiller",
+    "titre en surbrillance"
+  ],
+  "category": "Design / Couleurs",
+  "shadow_color": "Couleur de l'ombre",
+  "blur": "Flou (px)",
+  "offset_x": "Décalage horizontal (X)",
+  "offset_y": "Décalage vertical (Y)",
+  "preview_text": "Texte avec ombre"
+}

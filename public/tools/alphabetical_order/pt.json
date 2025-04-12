@@ -1,0 +1,20 @@
+{
+  "title": "Colocar em Ordem Alfabética",
+  "description": "Ferramenta online para colocar uma lista em ordem alfabética. Copie e cole a lista com os nomes que quer organizar alfabeticamente e depois clique em “Ordenar”.",
+  "tags": ["ordem", "alfabética", "ordenar", "lista", "texto", "duplicados"],
+  "category": "Ferramentas de Texto",
+  "label.original": "Texto original:",
+  "placeholder.list": "Cole sua lista aqui...",
+  "label.sortType": "Tipo de ordenação:",
+  "option.asc": "Ascendente (A-Z)",
+  "option.desc": "Descendente (Z-A)",
+  "label.separator": "Ordenar por:",
+  "option.linebreak": "Quebra de Linha",
+  "option.space": "Espaço",
+  "option.comma": "Vírgula ( , )",
+  "option.semicolon": "Ponto e Vírgula ( ; )",
+  "label.removeDuplicates": "Remover Duplicados?",
+  "button.sort": "Ordenar",
+  "label.sorted": "Texto ordenado:",
+  "button.download": "Baixar TXT"
+}

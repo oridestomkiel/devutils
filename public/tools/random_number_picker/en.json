@@ -1,0 +1,19 @@
+{
+  "title": "Random Number Picker",
+  "description": "Free online number picker. Select the range and click on draw number. You can also use it to make draws on Facebook, Instagram and other social networks.",
+  "tags": [
+    "prize draw",
+    "random",
+    "random",
+    "number",
+    "facebook",
+    "Instagram"
+  ],
+  "category": "Utilities",
+  "instruction": "Enter the number range and click draw:",
+  "min_label": "Minimum",
+  "max_label": "Maximum",
+  "draw_button": "Draw number",
+  "result_label": "Number generated:",
+  "invalid_range": "Invalid range"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Image → Date URL (Base64)",
+  "description": "Select an image from your device to automatically convert it to a base64 Data URL. Useful for embedding images in HTML or CSS.",
+  "tags": [
+    "image to base64",
+    "image to date url",
+    "convert image",
+    "base64",
+    "date uri"
+  ],
+  "category": "Images",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "download": "Download image",
+  "clear": "To clean"
+}

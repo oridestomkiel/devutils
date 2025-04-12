@@ -1,0 +1,19 @@
+{
+  "title": "南方共同市场板材发生器",
+  "description": "生成符合南方共同市场标准 (AAA1A23) 的车牌或将旧车牌转换为新型号。非常适合测试和模拟。",
+  "tags": [
+    "南方共同市场板块",
+    "平板发生器",
+    "新模型",
+    "巴西板块",
+    "棋盘模拟器",
+    "转换板",
+    "出口板块"
+  ],
+  "category": "生成器",
+  "quantity": "数量：",
+  "convert_label": "转换旧车牌（ABC1234）：",
+  "convert_placeholder": "例如：BRA1234",
+  "convert_button": "转变",
+  "export_csv": "导出 CSV"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Hexdump ↔ Text",
+  "description": "Convert text to hexdump or recover original text from a formatted hexdump.",
+  "tags": [
+    "hexdump",
+    "hex",
+    "ascii",
+    "binary",
+    "debug",
+    "analyzer",
+    "converter"
+  ],
+  "category": "Converters",
+  "toHexdump": "Text → Hexdump",
+  "fromHexdump": "Hexdump → Text",
+  "placeholder": "Type or paste the content...",
+  "convert": "Convert"
+}

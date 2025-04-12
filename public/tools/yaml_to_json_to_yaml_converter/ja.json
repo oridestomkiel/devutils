@@ -1,0 +1,21 @@
+{
+  "title": "YAML ↔ JSON コンバーター",
+  "description": "YAML ファイルを JSON 形式に、またはその逆の変換を簡単かつ効率的に実行します。構成やデータ操作に携わる開発者に最適です。",
+  "tags": [
+    "yaml から json へ",
+    "json から yaml へ",
+    "yaml json コンバーター",
+    "データを変換する",
+    "構成構造",
+    "ヤムJSON",
+    "API 設定"
+  ],
+  "category": "コンバーター",
+  "placeholder_input": "ここに YAML または JSON を貼り付けます...",
+  "placeholder_output": "結果...",
+  "yaml_to_json": "YAML → JSON",
+  "json_to_yaml": "JSON → YAML",
+  "copied": "コピーしました！",
+  "download_filename_yaml": "変換された.yaml",
+  "download_filename_json": "変換された.json"
+}

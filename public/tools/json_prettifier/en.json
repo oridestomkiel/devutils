@@ -1,0 +1,19 @@
+{
+  "title": "JSON Formatter (Prettifier)",
+  "description": "Keep your JSON files readable and organized with automatic indentation. Ideal for reading, debugging, and development.",
+  "tags": [
+    "json formatter",
+    "json prettifier",
+    "beautify json",
+    "json formatted",
+    "json indentation",
+    "prettify json",
+    "json beautifier"
+  ],
+  "category": "Formatters / Minifiers",
+  "format": "Format",
+  "error": "Error",
+  "placeholder": {
+    "input": "Digite ou cole um JSON"
+  }
+}

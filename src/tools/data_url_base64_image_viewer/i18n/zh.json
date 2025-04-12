@@ -1,0 +1,21 @@
+{
+  "title": "Data URL 查看器（Base64图像）",
+  "description": "粘贴包含图像的 Data URL 以预览、获取详细信息并下载。适合测试嵌入的 base64 图像。",
+  "tags": [
+    "data url",
+    "base64图像",
+    "图像查看器",
+    "base64转图像",
+    "转换base64"
+  ],
+  "category": "图像",
+  "placeholder": "在此粘贴完整的图像 Data URL（data:image/png;base64,...）",
+  "view": "查看图像",
+  "download": "下载图像",
+  "clear": "清除",
+  "invalidFormat": "格式无效。请使用有效的图像 Data URL。",
+  "imageDetected": "检测到图像",
+  "type": "类型",
+  "size": "大小",
+  "dimensions": "尺寸"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Normalisateur de texte",
+  "description": "Supprimez rapidement les accents et les caractères spéciaux, et normalisez les majuscules et les minuscules. Idéal pour normaliser les données dans les systèmes et le traitement de texte.",
+  "tags": [
+    "normalisateur de texte",
+    "supprimer les accents",
+    "texte sans accent",
+    "normalisation des textes",
+    "caractères spéciaux",
+    "convertir en majuscules",
+    "convertir en minuscules"
+  ],
+  "category": "Outils de texte",
+  "input_placeholder": "Tapez ou collez votre texte avec des accents, des symboles, etc...",
+  "output_placeholder": "Le texte normalisé apparaîtra ici...",
+  "normalize": "Normaliser"
+}

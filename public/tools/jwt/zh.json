@@ -1,0 +1,15 @@
+{
+    "title": "Visualizador de JWT",
+    "description": "Decode tokens JWT para visualizar o header, payload e assinatura. Ideal para depuração, segurança e desenvolvimento de autenticação.",
+    "tags": [
+        "jwt",
+        "visualizar jwt",
+        "decode jwt",
+        "token jwt",
+        "jwt debugger",
+        "analisar jwt",
+        "jwt decoder",
+        "jwt token viewer"
+    ],
+    "category": "Codificadores / Decodificadores"
+}

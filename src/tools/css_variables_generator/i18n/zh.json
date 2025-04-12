@@ -1,0 +1,12 @@
+{
+  "title": "CSS变量生成器",
+  "description": "创建并可视化具有自定义值的CSS变量。生成 :root 结构以用于主题和设计令牌。",
+  "tags": ["变量", "css变量", ":root", "设计令牌", "主题"],
+  "category": "设计 / 颜色",
+  "labels": {
+    "addVar": "+ 添加变量",
+    "copy": "复制",
+    "copied": "已复制！",
+    "previewText": "带已应用变量的预览"
+  }
+}

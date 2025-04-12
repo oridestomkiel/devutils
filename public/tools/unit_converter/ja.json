@@ -1,0 +1,38 @@
+{
+  "title": "単位換算",
+  "description": "単位をインテリジェントかつ便利に変換します。画面の測定、距離、温度、時間などに最適です。",
+  "tags": [
+    "単位変換",
+    "測定値を変換する",
+    "px から rem へ",
+    "キロまで",
+    "摂氏華氏",
+    "重量を変換する",
+    "時間"
+  ],
+  "category": "コンバーター",
+  "input_placeholder": "値を入力してください...",
+  "output_placeholder": "結果はここに表示されます...",
+  "convert": "変換する",
+  "invalid_input": "有効な値を入力してください。",
+  "conversions": {
+    "Pixels ↔ Rem (base 16)": "Pixels ↔ Rem (base 16)",
+    "Celsius ↔ Fahrenheit": "Celsius ↔ Fahrenheit",
+    "Km ↔ Milhas": "Km ↔ Milhas",
+    "Metros ↔ Pés": "Metros ↔ Pés",
+    "Kg ↔ Libras": "Kg ↔ Libras",
+    "Horas ↔ Minutos ↔ Segundos": "Horas ↔ Minutos ↔ Segundos",
+    "Centímetros ↔ Polegadas": "Centímetros ↔ Polegadas",
+    "Minutos ↔ Segundos": "Minutos ↔ Segundos",
+    "Dias ↔ Horas": "Dias ↔ Horas",
+    "Litros ↔ Galões (US)": "Litros ↔ Galões (US)",
+    "Litros ↔ Mililitros": "Litros ↔ Mililitros",
+    "Joules ↔ Calorias": "Joules ↔ Calorias",
+    "Watts ↔ Cavalos de potência": "Watts ↔ Cavalos de potência",
+    "Bytes ↔ KB ↔ MB": "Bytes ↔ KB ↔ MB",
+    "MB ↔ GB": "MB ↔ GB",
+    "Hectares ↔ Metros²": "Hectares ↔ Metros²",
+    "m² ↔ pés²": "m² ↔ pés²",
+    "Bar ↔ Pascal": "Bar ↔ Pascal"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "JWT-Viewer (Erweitert)",
+  "description": "JWT-Tokens anzeigen und validieren: Header, Payload, Signatur und optionale Überprüfung mit einem Geheimnis. Alles in Echtzeit.",
+  "tags": ["jwt", "token", "validierung", "dekodieren", "authentifizierung"],
+  "category": "Encoder / Decoder",
+  "placeholder.jwt": "Fügen Sie hier Ihren JWT-Token ein...",
+  "clear": "Leeren",
+  "header": "HEADER",
+  "payload": "PAYLOAD",
+  "copy.header": "Header kopieren",
+  "copy.payload": "Payload kopieren",
+  "signature.title": "JWT-Signaturprüfung (Optional)",
+  "signature.placeholder": "Geben Sie das Geheimnis ein, um die Signatur zu überprüfen (HS256)",
+  "signature.valid": "✔ Gültige Signatur",
+  "signature.invalid": "✖ Ungültige Signatur",
+  "jwt.valid": "✔ Gültiger JWT",
+  "jwt.invalid": "Ungültiger JWT (fehlerhafte Struktur oder Inhalt)"
+}
+

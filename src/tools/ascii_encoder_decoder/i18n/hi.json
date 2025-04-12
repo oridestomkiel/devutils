@@ -1,0 +1,22 @@
+{
+  "title": "ASCII एन्कोडर/डिकोडर",
+  "description": "पाठ को ASCII कोड में और वापस सरल और तेज़ी से बदलें। विश्लेषण, परीक्षण और स्ट्रिंग हेरफेर के लिए आदर्श।",
+  "tags": [
+    "ascii",
+    "ascii कनवर्टर",
+    "ascii डिकोड करें",
+    "ascii एन्कोड करें",
+    "ascii तालिका",
+    "पाठ से ascii",
+    "ascii से पाठ"
+  ],
+  "category": "एन्कोडर / डिकोडर",
+  "converter": "ascii कनवर्टर",
+  "decode": "ASCII → टेक्स्ट",
+  "encode": "टेक्स्ट → ASCII",
+  "table": "ascii तालिका",
+  "textToAscii": "पाठ से ascii",
+  "asciiToText": "ascii से पाठ",
+  "placeholder": "पाठ या ASCII कोड स्पेस से अलग करके दर्ज करें",
+  "decodeError": "डिकोड करने में त्रुटि। कृपया संख्याएं जांचें।"
+}

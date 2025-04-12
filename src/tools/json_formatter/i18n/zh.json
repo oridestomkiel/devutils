@@ -1,0 +1,15 @@
+{
+  "title": "JSON 格式化程序",
+  "description": "格式化您的 JSON 数据，使其更易读、更井然有序。非常适合使用复杂 API 和框架的开发人员。",
+  "tags": [
+    "json 格式化程序",
+    "可读 JSON",
+    "美化 json",
+    "json 美化器",
+    "缩进的 json",
+    "有组织的 json",
+    "json 工具"
+  ],
+  "category": "格式化程序/压缩程序",
+  "format": "格式化 JSON"
+}

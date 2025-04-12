@@ -1,0 +1,23 @@
+{
+  "title": "高级二维码生成器",
+  "description": "创建可自定义的二维码，包括标志、颜色和特定尺寸。非常适合活动、营销和数据共享。",
+  "tags": [
+    "二维码",
+    "二维码生成器",
+    "高级二维码",
+    "带logo的二维码",
+    "二维码营销",
+    "自定义qrcode",
+    "qrcode生成器",
+    "数据共享"
+  ],
+  "category": "生成器",
+  "placeholder.input": "用于生成二维码的文本或网址",
+  "label.size": "尺寸 (px)",
+  "label.margin": "边距",
+  "label.color.dark": "深色",
+  "label.color.light": "浅色",
+  "label.logo": "中心Logo（图片URL）",
+  "placeholder.logo": "https://example.com/logo.png",
+  "export.svg": "导出SVG"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Base58 编码器/解码器",
+  "description": "将字符串进行 Base58 编码和解码 — 适用于区块链、比特币及避免模糊字符的系统。",
+  "tags": [
+    "base58",
+    "base58 解码器",
+    "base58 编码器",
+    "base58 转换",
+    "base58 比特币",
+    "base58 在线",
+    "base58 编解码器"
+  ],
+  "category": "编码器 / 解码器",
+  "placeholder": "输入要编码的文本或要解码的 Base58",
+  "encode": "编码",
+  "decode": "解码",
+  "error.decode": "解码错误"
+}

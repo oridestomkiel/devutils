@@ -1,0 +1,19 @@
+{
+  "title": "JSON フォーマッタ (整形ツール)",
+  "description": "自動インデントにより、JSON ファイルを読みやすく整理された状態に保ちます。読み取り、デバッグ、開発に最適です。",
+  "tags": [
+    "jsonフォーマッタ",
+    "json 整形ツール",
+    "json を美しくする",
+    "json形式",
+    "json インデント",
+    "JSONを美しくする",
+    "json 整形ツール"
+  ],
+  "category": "フォーマッタ/ミニファイア",
+  "format": "形式",
+  "error": "エラー",
+  "placeholder": {
+    "input": "Digite ou cole um JSON"
+  }
+}

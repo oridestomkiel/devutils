@@ -1,0 +1,14 @@
+{
+    "title": "Hexdump ↔ Texto",
+    "description": "Converta texto para hexdump ou recupere texto original a partir de um hexdump formatado.",
+    "tags": [
+        "hexdump",
+        "hex",
+        "ascii",
+        "binário",
+        "debug",
+        "analisador",
+        "conversor"
+    ],
+    "category": "Conversores"
+}

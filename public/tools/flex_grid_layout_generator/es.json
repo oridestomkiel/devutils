@@ -1,0 +1,19 @@
+{
+  "title": "Generador de diseño flexible/cuadrícula",
+  "description": "Crea diseños rápidamente con Flexbox o Grid. Ajusta la alineación, el espaciado y la vista previa en tiempo real con ejemplos.",
+  "tags": [
+    "caja flexible",
+    "diseño de cuadrícula",
+    "pantalla flexible",
+    "cuadrícula CSS",
+    "alineación CSS",
+    "brecha",
+    "justificar-contenido",
+    "elementos de alineación"
+  ],
+  "category": "Generadores",
+  "layoutType": "Tipo de diseño",
+  "gap": "Brecha",
+  "justify": "Justificar",
+  "align": "Alinear"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Gerador de Text Shadow",
+  "description": "Crie sombras para textos com controle de cor, offset e desfoque. Ideal para dar destaque ou profundidade a títulos e elementos de UI.",
+  "tags": [
+    "text-shadow",
+    "sombra de texto",
+    "css texto",
+    "efeito visual",
+    "blur",
+    "destaque de título"
+  ],
+  "category": "Design / Cores",
+  "shadow_color": "Cor da sombra",
+  "blur": "Desfoque (px)",
+  "offset_x": "Offset Horizontal (X)",
+  "offset_y": "Offset Vertical (Y)",
+  "preview_text": "Texto com Sombra"
+}

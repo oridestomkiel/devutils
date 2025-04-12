@@ -1,0 +1,26 @@
+{
+  "title": "Unicode ↔ テキストコンバーター",
+  "description": "Unicode 文字を読み取り可能なテキストに変換したり、その逆を行ったりします。国際化、エンコード、文字列操作に最適です。",
+  "tags": [
+    "ユニコード",
+    "テキストをUnicodeに変換する",
+    "ユニコードからテキストへ",
+    "utf-8",
+    "16進数",
+    "アクセント",
+    "わ",
+    "ユニコードエンコーディング"
+  ],
+  "category": "エンコーダー/デコーダー",
+  "input_placeholder": "エスケープされたテキストまたは Unicode (\\uXXXX、\\xXX) を入力してください",
+  "output_placeholder": "結果はここに表示されます...",
+  "convert_unicode": "テキスト → Unicode",
+  "convert_text": "Unicode → テキスト",
+  "option_unicode": "\\uXXXX",
+  "option_utf8": "\\xXX",
+  "option_hex": "16進数のみ",
+  "filter_all": "すべてを変換",
+  "filter_accents": "アクセントのみ",
+  "filter_specials": "特殊文字のみ",
+  "filter_cedilla": "çのみ"
+}

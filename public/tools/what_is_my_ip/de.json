@@ -1,0 +1,25 @@
+{
+  "title": "Was ist meine IP?",
+  "description": "Ermitteln Sie Ihre aktuelle IP-Adresse und den zugehörigen Reverse-DNS. Ideal für Netzwerkdiagnose, Sicherheit und Verbindungsüberprüfung.",
+  "tags": [
+    "meine IP",
+    "IP finden",
+    "Was ist meine IP",
+    "öffentliche IP",
+    "Reverse-DNS",
+    "externe IP",
+    "meine IP-Adresse"
+  ],
+  "category": "Netzwerke / HTTP",
+  "intro": "IP (Internet Protocol) ist eine eindeutige Adresse, die jedem mit dem Internet verbundenen Gerät zugewiesen wird.",
+  "ip_label": "Meine IP-Adresse lautet derzeit:",
+  "dns_label": "Reverse-DNS:",
+  "loading": "Laden...",
+  "hostname_na": "Nicht verfügbar",
+  "error_ip": "Fehler beim Abrufen der IP",
+  "error_dns": "Fehler beim Abrufen des DNS",
+  "ip_types": "Es gibt zwei Haupttypen von IP-Adressen:",
+  "ipv4": "IPv4: 4 Zahlengruppen (Beispiel: 192.168.0.1)",
+  "ipv6": "IPv6: länger, mit Buchstaben und Zahlen (Beispiel: 2001:0db8:85a3::8a2e:0370:7334)",
+  "copied": "Kopiert!"
+}

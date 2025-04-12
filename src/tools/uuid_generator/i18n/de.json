@@ -1,0 +1,18 @@
+{
+  "title": "UUID-Generator",
+  "description": "Generieren Sie eindeutige UUIDs (v4 oder v1) mit verschiedenen Ausgabeoptionen. Ideal für Tests, Protokollierung und globale Objektidentifikation.",
+  "tags": [
+    "UUID",
+    "UUID-Generator",
+    "UUID v4",
+    "UUID v1",
+    "eindeutige Kennung",
+    "Batch-UUID"
+  ],
+  "category": "Generatoren",
+  "uuid_v4": "UUID v4 (zufällig)",
+  "uuid_v1": "UUID v1 (Zeitstempel)",
+  "quantity_placeholder": "Menge",
+  "output_placeholder": "Generierte UUIDs werden hier angezeigt ...",
+  "filename": "uuids-{Zeitstempel}.txt"
+}

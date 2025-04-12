@@ -1,0 +1,18 @@
+{
+  "title": "Binary ↔ Decimal Converter",
+  "description": "Convert binary numbers to decimal and vice versa easily. Ideal for developers, students, and digital systems enthusiasts.",
+  "tags": [
+    "binary",
+    "decimal",
+    "binary converter",
+    "convert binary to decimal",
+    "decimal to binary",
+    "binary calculator",
+    "binary online"
+  ],
+  "category": "Converters",
+  "placeholder": "Enter one or more values (binary or decimal) separated by space",
+  "bin.to.dec": "Binary → Decimal",
+  "dec.to.bin": "Decimal → Binary",
+  "error.prefix": "Error"
+}

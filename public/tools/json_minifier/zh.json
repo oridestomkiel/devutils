@@ -1,0 +1,20 @@
+{
+  "title": "JSON 压缩工具",
+  "description": "从 JSON 中删除空格、换行符和不必要的字符。非常适合减小文件大小和优化应用程序。",
+  "tags": [
+    "json 压缩工具",
+    "json 压缩",
+    "减少 json",
+    "压缩 json",
+    "优化 json",
+    "删除 json 空格",
+    "json 未格式化"
+  ],
+  "category": "格式化程序/压缩程序",
+  "minify": "缩小",
+  "invalidJson": "❌ 无效的 JSON。",
+  "placeholder": {
+    "input": "Cole seu JSON aqui...",
+    "output": "JSON minificado aparecerá aqui"
+  }
+}

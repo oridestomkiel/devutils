@@ -1,0 +1,16 @@
+{
+  "title": "JSON → JSON スキーマ",
+  "description": "有効な JSON オブジェクトから JSON スキーマを自動的に生成します。検証、ドキュメント、API 契約に役立ちます。",
+  "tags": [
+    "json",
+    "スキーマ",
+    "検証",
+    "アピ",
+    "契約",
+    "jsonスキーマ"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここにJSONを貼り付けてください...",
+  "convert": "変換する",
+  "error": "無効なJSONです。"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Markdown → HTML (标签)",
+  "description": "通过仅显示生成的 HTML 标签将 Markdown 转换为原始 HTML。非常适合开发人员和内容集成。",
+  "tags": [
+    "markdown 转 html",
+    "markdown 转 html",
+    "转换 markdown",
+    "html 标签输出",
+    "原始降价",
+    "查看 markdown html"
+  ],
+  "category": "转换器",
+  "placeholder": "# 标题\n\n一些 *markdown* 文本。"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Generador de sombras de texto",
+  "description": "Crea sombras para texto con control de color, desplazamiento y desenfoque. Ideal para añadir énfasis o profundidad a títulos y elementos de la interfaz de usuario.",
+  "tags": [
+    "sombra de texto",
+    "sombra de texto",
+    "texto CSS",
+    "efecto visual",
+    "difuminar",
+    "título destacado"
+  ],
+  "category": "Diseño / Colores",
+  "shadow_color": "Color de la sombra",
+  "blur": "Desenfoque (px)",
+  "offset_x": "Desplazamiento horizontal (X)",
+  "offset_y": "Desplazamiento vertical (Y)",
+  "preview_text": "Texto con sombra"
+}

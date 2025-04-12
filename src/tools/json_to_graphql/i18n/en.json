@@ -1,0 +1,15 @@
+{
+  "title": "JSON → GraphQL",
+  "description": "Automatically generate GraphQL types from JSON. Useful for quickly building API schemas.",
+  "tags": [
+    "json",
+    "graphql",
+    "schema",
+    "convert",
+    "types"
+  ],
+  "category": "Converters",
+  "placeholder": "Paste your JSON here...",
+  "convert": "Convert",
+  "error": "Invalid JSON!"
+}

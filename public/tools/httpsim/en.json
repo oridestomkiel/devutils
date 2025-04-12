@@ -1,0 +1,15 @@
+{
+    "title": "Simulador de erro HTTP",
+    "description": "Simule códigos de erro HTTP como 404, 500, 403 e outros para testar comportamentos de aplicações e respostas de front-end.",
+    "tags": [
+        "simulador de http",
+        "erro http",
+        "testar erro 404",
+        "simular erro 500",
+        "códigos http",
+        "resposta http falsa",
+        "debug de api",
+        "http status code"
+    ],
+    "category": "Redes / HTTP"
+}

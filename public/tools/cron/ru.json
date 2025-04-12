@@ -1,0 +1,15 @@
+{
+    "title": "Construtor de Expressões CRON",
+    "description": "Crie expressões CRON de forma simples e intuitiva. Ideal para agendar tarefas em servidores, aplicações backend e automações.",
+    "tags": [
+        "expressão cron",
+        "cron builder",
+        "agendamento de tarefas",
+        "cronjob",
+        "gerador de cron",
+        "cron linux",
+        "agendar comandos",
+        "cron expression"
+    ],
+    "category": "Geradores"
+}

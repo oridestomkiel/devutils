@@ -1,0 +1,19 @@
+{
+  "title": "Générateur de listes de courrier électronique aléatoires",
+  "description": "Générez des adresses e-mail factices pour les tests, les inscriptions fictives et la validation des formulaires. Idéal pour les environnements de développement.",
+  "tags": [
+    "générateur d'e-mails",
+    "e-mails aléatoires",
+    "faux e-mail",
+    "liste de diffusion",
+    "e-mails pour les tests",
+    "e-mail fictif",
+    "courrier électronique pour le développement"
+  ],
+  "category": "Générateurs",
+  "quantity_placeholder": "Nombre d'e-mails",
+  "domain_placeholder": "Domaine (par exemple gmail.com)",
+  "generate": "Pour générer",
+  "output_placeholder": "Les e-mails générés apparaîtront ici",
+  "error_input": "Vérifiez la quantité et le domaine."
+}

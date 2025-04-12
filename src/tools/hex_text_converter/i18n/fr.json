@@ -1,0 +1,17 @@
+{
+  "title": "Convertisseur Hex ↔ Texte",
+  "description": "Convertissez les valeurs hexadécimales en texte et inversement. Utile pour le codage, le débogage et la manipulation de chaînes.",
+  "tags": [
+    "hexadécimal en texte",
+    "texte en hexadécimal",
+    "convertisseur hexadécimal",
+    "chaîne en hexadécimal",
+    "décoder l'hexagone",
+    "encoder du texte",
+    "convertir hexadécimal"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "placeholder": "Entrez du texte ou une valeur hexadécimale",
+  "textToHex": "Texte → Hex",
+  "hexToText": "Hex → Texte"
+}

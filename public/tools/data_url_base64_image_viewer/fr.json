@@ -1,0 +1,21 @@
+{
+  "title": "Visionneuse de Data URL (Image Base64)",
+  "description": "Collez une URL de données contenant une image pour l'afficher, obtenir des détails et la télécharger. Idéal pour tester des images en base64 intégrées.",
+  "tags": [
+    "url de données",
+    "image base64",
+    "visionneuse d'image",
+    "base64 en image",
+    "convertir base64"
+  ],
+  "category": "Images",
+  "placeholder": "Collez ici l'URL de données complète de l'image (data:image/png;base64,...)",
+  "view": "Afficher l'image",
+  "download": "Télécharger l'image",
+  "clear": "Effacer",
+  "invalidFormat": "Format invalide. Utilisez une Data URL d'image valide.",
+  "imageDetected": "Image détectée",
+  "type": "Type",
+  "size": "Taille",
+  "dimensions": "Dimensions"
+}

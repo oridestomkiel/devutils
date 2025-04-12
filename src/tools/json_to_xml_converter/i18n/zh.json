@@ -1,0 +1,18 @@
+{
+  "title": "JSON ↔ XML 转换器",
+  "description": "准确地在 JSON 和 XML 格式之间转换数据。非常适合系统集成、API 和结构化数据操作。",
+  "tags": [
+    "json 转 xml",
+    "xml 转 json",
+    "json xml 转换器",
+    "转换数据",
+    "xml 格式",
+    "json 格式",
+    "xml 转换为 json"
+  ],
+  "category": "转换器",
+  "placeholder": "在此处粘贴 JSON 或 XML...",
+  "jsonToXml": "JSON → XML",
+  "xmlToJson": "XML → JSON",
+  "error": "转换错误"
+}

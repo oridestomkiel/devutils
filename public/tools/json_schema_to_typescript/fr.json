@@ -1,0 +1,16 @@
+{
+  "title": "Schéma JSON → TypeScript",
+  "description": "Générez des interfaces TypeScript complètes à partir du schéma JSON avec prise en charge des énumérations, des valeurs nullables, de JSDoc, des tableaux délimités, etc.",
+  "tags": [
+    "schéma json",
+    "manuscrit",
+    "interface",
+    "convertir",
+    "dactylographie"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "Collez votre schéma JSON ici...",
+  "convert": "Convertir",
+  "invalid": "Schéma non valide.",
+  "invalidJson": "Schéma JSON non valide !"
+}

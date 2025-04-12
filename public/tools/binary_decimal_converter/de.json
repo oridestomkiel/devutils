@@ -1,0 +1,18 @@
+{
+  "title": "Binär ↔ Dezimal Umrechner",
+  "description": "Konvertieren Sie Binärzahlen in Dezimalzahlen und umgekehrt – einfach und praktisch. Ideal für Entwickler, Studenten und Technikbegeisterte.",
+  "tags": [
+    "binär",
+    "dezimal",
+    "binärkonverter",
+    "binär in dezimal umwandeln",
+    "dezimal in binär",
+    "binärrechner",
+    "binär online"
+  ],
+  "category": "Konverter",
+  "placeholder": "Geben Sie einen oder mehrere Werte (binär oder dezimal) durch Leerzeichen getrennt ein",
+  "bin.to.dec": "Binär → Dezimal",
+  "dec.to.bin": "Dezimal → Binär",
+  "error.prefix": "Fehler"
+}

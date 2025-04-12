@@ -1,0 +1,16 @@
+{
+  "title": "RGBA Color Generator",
+  "description": "Adjust color and opacity to easily generate rgba() or hexadecimal values with alpha. Ideal for CSS overlays and transparency.",
+  "tags": [
+    "rgba",
+    "hex alpha",
+    "transparency",
+    "opacity",
+    "rgba color",
+    "css color"
+  ],
+  "category": "Design / Colors",
+  "color_label": "Color",
+  "opacity_label": "Opacity",
+  "generate": "To generate"
+}

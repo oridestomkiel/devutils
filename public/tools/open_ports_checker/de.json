@@ -1,0 +1,26 @@
+{
+  "title": "Öffnen Sie den Port Checker",
+  "description": "Scannen Sie bestimmte Ports oder vorgefertigte Profile eines Remote-Servers, um aktive Dienste (HTTP, SSH, Datenbanken usw.) zu erkennen.",
+  "tags": [
+    "Portscanner",
+    "Port-Checker",
+    "Netzwerke / HTTP",
+    "Sicherheit",
+    "http",
+    "ssh",
+    "MySQL"
+  ],
+  "category": "Netzwerke / HTTP",
+  "host_placeholder": "z.B. scanme.nmap.org",
+  "ports_placeholder": "Ports (z. B. 22,80,443)",
+  "profile_web": "Web",
+  "profile_security": "Sicherheit",
+  "profile_db": "Datenbank",
+  "scan": "Scan",
+  "scanning": "Scannen...",
+  "error_fill_fields": "Geben Sie den Host und mindestens einen Port ein.",
+  "host_label": "Gastgeber",
+  "port_open": "Offene Tür",
+  "port_closed": "Geschlossene Tür",
+  "scan_error": "Fehler beim Scannen"
+}

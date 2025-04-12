@@ -1,0 +1,19 @@
+{
+  "title": "JSON 格式化程序 (Prettifier)",
+  "description": "使用自动缩进保持 JSON 文件的可读性和有序性。非常适合阅读、调试和开发。",
+  "tags": [
+    "json 格式化程序",
+    "json 美化器",
+    "美化 json",
+    "json 格式",
+    "json 缩进",
+    "美化 json",
+    "json 美化器"
+  ],
+  "category": "格式化程序/压缩程序",
+  "format": "格式",
+  "error": "错误",
+  "placeholder": {
+    "input": "Digite ou cole um JSON"
+  }
+}

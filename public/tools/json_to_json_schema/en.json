@@ -1,0 +1,16 @@
+{
+  "title": "JSON → JSON Schema",
+  "description": "Automatically generate JSON schemas from a valid JSON object. Useful for validation, documentation, and API contracts.",
+  "tags": [
+    "json",
+    "schema",
+    "validation",
+    "api",
+    "contract",
+    "json-schema"
+  ],
+  "category": "Converters",
+  "placeholder": "Paste your JSON here...",
+  "convert": "Convert",
+  "error": "Invalid JSON!"
+}

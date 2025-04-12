@@ -1,0 +1,23 @@
+{
+  "title": "Placeholder Image Generator",
+  "description": "Generate custom images to use as placeholders in tests and layouts. Choose colors, text, and dimensions freely.",
+  "tags": [
+    "placeholder",
+    "image",
+    "generator",
+    "test",
+    "lorem",
+    "pixel"
+  ],
+  "category": "Images",
+  "width": "Width",
+  "height": "Height",
+  "font_size": "Text size",
+  "background_color": "Background color",
+  "text_color": "Text color",
+  "format": "Format",
+  "text": "Text",
+  "placeholder_text_default": "Placeholder Generator",
+  "generate": "To generate",
+  "download_image": "Download image"
+}

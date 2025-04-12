@@ -1,0 +1,14 @@
+{
+    "title": "Verificador de Portas Abertas",
+    "description": "Escaneie portas específicas ou perfis prontos de um servidor remoto para detectar serviços ativos (HTTP, SSH, bancos de dados, etc).",
+    "tags": [
+        "port scanner",
+        "verificador de portas",
+        "Redes / HTTP",
+        "segurança",
+        "http",
+        "ssh",
+        "mysql"
+    ],
+    "category": "Redes / HTTP"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "UUID / ULID / Nano ID の生成と解析",
+  "description": "一意の識別子 (UUID、ULID、Nano ID) を生成し、その構造と有効性を検査します。すべてブラウザ内でローカルに実行されます。",
+  "tags": [
+    "ユーザID",
+    "ウリド",
+    "ナノイド",
+    "識別子",
+    "安全",
+    "ジェネレータ"
+  ],
+  "category": "発電機",
+  "type": "IDタイプ:",
+  "amount": "額：",
+  "lowercase": "小文字に変換",
+  "generate": "生成する",
+  "analyzeTitle": "識別子を分析",
+  "analyze": "分析する",
+  "placeholder": "UUID、ULID、またはNano IDを貼り付けます",
+  "uuidValid": "有効なUUID",
+  "version": "バージョン",
+  "variant": "変異体",
+  "uuidRfc": "RFC 4122 (標準)",
+  "ulidValid": "有効なULID",
+  "nanoidValid": "有効なナノID",
+  "invalidID": "無効または認識されない ID。",
+  "unknown": "未知"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Generador de Datos/Matriz CSV",
+  "description": "Genera datos ficticios en formato de matriz para archivos CSV. Perfecto para pruebas, prototipos, hojas de cálculo e importaciones de datos.",
+  "tags": [
+    "generador de csv",
+    "datos ficticios",
+    "generador csv",
+    "matriz de datos",
+    "datos de prueba",
+    "generar tabla csv",
+    "datos simulados"
+  ],
+  "category": "Generadores",
+  "labels": {
+    "generate": "Generar",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "download": "Descargar CSV",
+    "placeholder": "El CSV generado aparecerá aquí"
+  }
+}

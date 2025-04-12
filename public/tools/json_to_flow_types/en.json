@@ -1,0 +1,16 @@
+{
+  "title": "JSON → Flow Types",
+  "description": "Convert JSON objects to static Flow-style typing. Useful for validating JavaScript structures with optional typing.",
+  "tags": [
+    "json",
+    "flow",
+    "typing",
+    "javascript",
+    "flowtype",
+    "types"
+  ],
+  "category": "Converters",
+  "placeholder": "Paste your JSON here...",
+  "convert": "Convert",
+  "error": "Invalid JSON!"
+}

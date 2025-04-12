@@ -1,0 +1,15 @@
+{
+  "title": "Generador de RG aleatorio",
+  "description": "Genera números de identificación ficticios para pruebas y desarrollo. Útil para simulaciones y validaciones de documentos en entornos de prueba.",
+  "tags": [
+    "generador rg",
+    "identificación falsa",
+    "rg para pruebas",
+    "documentos ficticios",
+    "simulador rg",
+    "identidad falsa",
+    "generar rg"
+  ],
+  "category": "Generadores",
+  "generate": "Para generar"
+}

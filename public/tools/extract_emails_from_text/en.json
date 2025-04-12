@@ -1,0 +1,14 @@
+{
+  "title": "Extract Emails from Text",
+  "description": "Paste any text content and extract all email addresses found. Organize alphabetically or by domain.",
+  "tags": ["email", "extract", "text", "sort", "domain", "email list"],
+  "category": "Text Tools",
+  "inputLabel": "Source text:",
+  "placeholder": "Paste here the content with emails...",
+  "sortLabel": "Sort by:",
+  "sortAlphabetical": "Alphabetical Order",
+  "sortDomain": "Domain",
+  "extract": "Extract emails",
+  "outputLabel": "Extracted emails:",
+  "download": "Download TXT"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Hex ↔ Base64-Konverter",
+  "description": "Konvertieren Sie Daten mühelos zwischen Hexadezimal- und Base64-Formaten. Ideal zum Kodieren, Sichern und Bearbeiten von Binärdaten.",
+  "tags": [
+    "Hex zu Base64",
+    "Base64 in Hex",
+    "Datenkonverter",
+    "Base64-Kodierung",
+    "Hexadezimalkodierung",
+    "Hexadezimalwert in Base64 konvertieren",
+    "Base64-Konverter"
+  ],
+  "category": "Encoder/Decoder",
+  "placeholder": "Geben Sie den Hex- oder Base64-Wert ein",
+  "outputPlaceholder": "Das Ergebnis wird hier angezeigt",
+  "hexToBase64": "Hex → Base64",
+  "base64ToHex": "Base64 → Hex"
+}

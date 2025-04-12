@@ -1,0 +1,21 @@
+{
+  "title": "Marca de tiempo ↔ Conversor de fecha",
+  "description": "Convierte marcas de tiempo entre diferentes formatos o sistemas. Ideal para desarrollo, registro y manipulación de fechas.",
+  "tags": [
+    "marca de tiempo",
+    "convertir marca de tiempo",
+    "tiempo de Unix",
+    "fecha a marca de tiempo",
+    "formato de fecha",
+    "época",
+    "fecha legible"
+  ],
+  "category": "Fechas y horarios",
+  "input_placeholder": "Introduzca la marca de tiempo o la fecha...",
+  "output_placeholder": "El resultado aparecerá aquí...",
+  "convert": "Convertir",
+  "format_br": "Fecha legible (pt-BR)",
+  "format_iso": "Formato ISO 8601",
+  "format_utc": "Fecha UTC",
+  "instructions": "Acepta marcas de tiempo Unix (segundos) o fechas como <code>2025-03-28 15:00</code>, <code>28/03/2025</code>, etc."
+}

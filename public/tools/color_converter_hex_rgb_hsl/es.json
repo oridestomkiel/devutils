@@ -1,0 +1,22 @@
+{
+  "title": "Convertidor de Colores (HEX, RGB, HSL)",
+  "description": "Convierte colores entre formatos HEX, RGB y HSL de forma fácil y precisa. Ideal para diseñadores, desarrolladores y proyectos web.",
+  "tags": [
+    "convertidor de colores",
+    "hex a rgb",
+    "rgb a hex",
+    "hsl a rgb",
+    "conversión de colores",
+    "hex rgb hsl",
+    "herramienta de colores",
+    "utilidad de color"
+  ],
+  "category": "Convertidores",
+  "placeholder.input": "#3498db o rgb(52,152,219)",
+  "button.convert": "Convertir",
+  "button.copy": "Copiar",
+  "output.invalid": "Formato inválido. Usa #RRGGBB o rgb(r,g,b)",
+  "output.label.hex": "HEX",
+  "output.label.rgb": "RGB",
+  "output.label.hsl": "HSL"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Generador de Gradientes CSS",
+  "description": "Crea gradientes CSS personalizados de forma visual e intuitiva. Ideal para embellecer tu sitio web con transiciones suaves de color.",
+  "tags": [
+    "gradientes css",
+    "generador de gradientes",
+    "fondo css",
+    "colores degradados",
+    "css gradient",
+    "degradado personalizado",
+    "estilo visual",
+    "fondo con gradiente"
+  ],
+  "category": "Diseño / Colores",
+  "labels": {
+    "color1": "Color 1",
+    "color2": "Color 2",
+    "direction": "Dirección",
+    "generate": "Generar",
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  }
+}

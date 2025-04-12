@@ -1,0 +1,19 @@
+{
+  "title": "Word, character, line and sentence counter",
+  "description": "Count the number of words, characters, lines and sentences in a text. Ideal for checking limits in forms, articles and social networks.",
+  "tags": [
+    "word counter",
+    "character counter",
+    "count lines",
+    "count sentences",
+    "text limit",
+    "text analysis"
+  ],
+  "category": "Text Tools",
+  "placeholder": "Type or paste your text here...",
+  "words": "📝 Words",
+  "chars": "🔡 Characters (with spaces)",
+  "chars_no_space": "🔡 Characters (no spaces)",
+  "lines": "📏 Lines",
+  "sentences": "🧩 Phrases"
+}

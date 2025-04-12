@@ -1,0 +1,26 @@
+{
+  "title": "Übergänge mit mehreren Eigenschaften",
+  "description": "Erstellen Sie benutzerdefinierte CSS-Übergänge mit mehreren Eigenschaften, jeweils mit eigener Dauer, Verzögerung und Beschleunigung.",
+  "tags": [
+    "Übergang",
+    "CSS",
+    "Animation",
+    "Lockerung",
+    "Verzögerung",
+    "Mehrfachstütze"
+  ],
+  "category": "Design / Farben",
+  "preview": "Vorschau",
+  "duration": "Dauer (s)",
+  "delay": "Verzögerung (s)",
+  "background-color": "Hintergrundfarbe",
+  "color": "Textfarbe",
+  "transform": "Transformation",
+  "opacity": "Opazität",
+  "border-radius": "Rundung",
+  "ease": "Leichtigkeit",
+  "linear": "linear",
+  "ease-in": "Eingewöhnung",
+  "ease-out": "Ausruhen",
+  "ease-in-out": "Ein- und Aussteigen"
+}

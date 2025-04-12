@@ -1,0 +1,38 @@
+{
+  "title": "Конвертер единиц",
+  "description": "Конвертируйте единицы разумно и удобно. Идеально подходит для экранных измерений, расстояния, температуры, времени и многого другого.",
+  "tags": [
+    "конвертер единиц",
+    "преобразовать измерения",
+    "пикс в рем",
+    "км до меня",
+    "Цельсий Фаренгейт",
+    "преобразовать вес",
+    "время"
+  ],
+  "category": "Конвертеры",
+  "input_placeholder": "Введите значение...",
+  "output_placeholder": "Результат появится здесь...",
+  "convert": "Конвертировать",
+  "invalid_input": "Введите допустимое значение.",
+  "conversions": {
+    "Pixels ↔ Rem (base 16)": "Pixels ↔ Rem (base 16)",
+    "Celsius ↔ Fahrenheit": "Celsius ↔ Fahrenheit",
+    "Km ↔ Milhas": "Km ↔ Milhas",
+    "Metros ↔ Pés": "Metros ↔ Pés",
+    "Kg ↔ Libras": "Kg ↔ Libras",
+    "Horas ↔ Minutos ↔ Segundos": "Horas ↔ Minutos ↔ Segundos",
+    "Centímetros ↔ Polegadas": "Centímetros ↔ Polegadas",
+    "Minutos ↔ Segundos": "Minutos ↔ Segundos",
+    "Dias ↔ Horas": "Dias ↔ Horas",
+    "Litros ↔ Galões (US)": "Litros ↔ Galões (US)",
+    "Litros ↔ Mililitros": "Litros ↔ Mililitros",
+    "Joules ↔ Calorias": "Joules ↔ Calorias",
+    "Watts ↔ Cavalos de potência": "Watts ↔ Cavalos de potência",
+    "Bytes ↔ KB ↔ MB": "Bytes ↔ KB ↔ MB",
+    "MB ↔ GB": "MB ↔ GB",
+    "Hectares ↔ Metros²": "Hectares ↔ Metros²",
+    "m² ↔ pés²": "m² ↔ pés²",
+    "Bar ↔ Pascal": "Bar ↔ Pascal"
+  }
+}

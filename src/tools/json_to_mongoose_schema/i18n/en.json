@@ -1,0 +1,15 @@
+{
+  "title": "JSON → Mongoose Schema",
+  "description": "Automatically generate Mongoose schemas from JSON. Useful for quickly modeling MongoDB documents.",
+  "tags": [
+    "json",
+    "mongoose",
+    "schema",
+    "mongo",
+    "modeling"
+  ],
+  "category": "Converters",
+  "placeholder": "Paste your JSON here...",
+  "convert": "Convert",
+  "error": "Invalid JSON!"
+}

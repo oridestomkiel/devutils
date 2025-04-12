@@ -1,0 +1,16 @@
+{
+  "title": "Supprimer les lignes en double",
+  "description": "Collez votre texte et supprimez automatiquement les doublons. Idéal pour nettoyer vos listes et organiser rapidement votre contenu.",
+  "tags": [
+    "supprimer les doublons",
+    "lignes claires",
+    "dupliqué",
+    "lignes répétées"
+  ],
+  "category": "Outils de texte",
+  "input_label": "Texte avec doublons possibles :",
+  "input_placeholder": "Collez votre contenu ici...",
+  "remove_button": "Supprimer les doublons",
+  "output_label": "Résultat sans doublons :",
+  "download": "Télécharger TXT"
+}

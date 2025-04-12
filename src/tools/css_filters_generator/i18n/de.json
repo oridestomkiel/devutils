@@ -1,0 +1,21 @@
+{
+  "title": "CSS Filter Generator",
+  "description": "Passe visuelle Filter wie Unschärfe, Helligkeit, Kontrast, Sättigung und mehr an. Vorschau in Echtzeit für Bild und Text.",
+  "tags": ["filter", "css filter", "visueller effekt", "bild", "text"],
+  "category": "Design / Farben",
+  "labels": {
+    "blur": "Unschärfe",
+    "brightness": "Helligkeit",
+    "contrast": "Kontrast",
+    "grayscale": "Graustufen",
+    "hue": "Farbton-Drehung",
+    "invert": "Invertieren",
+    "sepia": "Sepia",
+    "saturate": "Sättigung",
+    "copy": "Kopieren",
+    "refresh": "🔄 Neues Bild",
+    "upload": "📁 Lokales Bild verwenden",
+    "previewText": "Textvorschau",
+    "copied": "Kopiert!"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "GZIP 检查器",
+  "description": "测试 URL 的服务器是否启用了 GZIP 压缩。实时查看响应标头。",
+  "tags": [
+    "压缩",
+    "http 标头",
+    "压缩",
+    "gzip 检查器",
+    "优化",
+    "网络性能"
+  ],
+  "category": "网络/HTTP",
+  "placeholder": "https://example.com/arquivo.js",
+  "check": "检查 GZIP",
+  "checking": "检查...",
+  "gzip.enabled": "✅ GZIP 已打开 — 文本正在被压缩。",
+  "gzip.disabled": "❌ GZIP 未启用 — 未压缩的响应。",
+  "httpHeaders": "HTTP 标头",
+  "error.invalidUrl": "请输入有效的 URL。",
+  "error.checkFailed": "测试时出错",
+  "error.prefix": "错误"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Z-Index Layering Generator",
+  "description": "Visualize and control element overlap with position and z-index. Ideal for understanding stacking in CSS.",
+  "tags": [
+    "z-index",
+    "layers",
+    "stacking",
+    "overlap",
+    "position",
+    "css layering"
+  ],
+  "category": "Design / Colors",
+  "layer_label": "Layer",
+  "position_label": "position",
+  "zindex_label": "z-index",
+  "color_label": "Color",
+  "copy": "Copy",
+  "copied": "Copied!"
+}

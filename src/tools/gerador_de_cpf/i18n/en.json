@@ -1,0 +1,12 @@
+{
+  "title": "CPF Generator",
+  "description": "Generate valid CPFs with or without formatting. Ideal for form testing and registrations.",
+  "tags": [
+    "cpf generator",
+    "valid cpf",
+    "CPF simulator",
+    "forms test"
+  ],
+  "category": "Generators",
+  "placeholder": "Generated CPFs will appear here"
+}

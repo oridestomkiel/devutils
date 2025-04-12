@@ -1,0 +1,19 @@
+{
+  "title": "Generator für falschen Namen + E-Mail + Telefon",
+  "description": "Generieren Sie fiktive Kombinationen aus Namen, E-Mail-Adressen und Telefonnummern für Tests, Simulationen und Formulare. Ideal für Entwicklungsumgebungen.",
+  "tags": [
+    "Fake-Datengenerator",
+    "falscher Name",
+    "fiktive E-Mail",
+    "zufällige Telefonnummer",
+    "Testdaten",
+    "gefälschte Identität generieren",
+    "Registrierungssimulation"
+  ],
+  "category": "Generatoren",
+  "quantity": "Menge",
+  "emailDomain": "E-Mail-Domain",
+  "generate": "Generieren",
+  "outputPlaceholder": "Ergebnis erscheint hier",
+  "errorInput": "❌ Überprüfen Sie Menge und Domain."
+}

@@ -1,0 +1,23 @@
+{
+  "title": "एडवांस्ड QR कोड जनरेटर",
+  "description": "लोगो, रंग और विशिष्ट आकारों के साथ अनुकूलन योग्य QR कोड बनाएं। अभियानों, मार्केटिंग और डेटा साझा करने के लिए आदर्श।",
+  "tags": [
+    "qr कोड",
+    "qr कोड जनरेटर",
+    "एडवांस्ड qr कोड",
+    "लोगो वाला qr कोड",
+    "qr मार्केटिंग",
+    "कस्टमाइज्ड qrcode",
+    "qrcode जनरेटर",
+    "डेटा साझा करना"
+  ],
+  "category": "जनरेटर",
+  "placeholder.input": "QR जनरेट करने के लिए टेक्स्ट या URL",
+  "label.size": "आकार (px)",
+  "label.margin": "मार्जिन",
+  "label.color.dark": "गहरे रंग",
+  "label.color.light": "हल्का रंग",
+  "label.logo": "केंद्रीय लोगो (इमेज URL)",
+  "placeholder.logo": "https://example.com/logo.png",
+  "export.svg": "SVG निर्यात करें"
+}

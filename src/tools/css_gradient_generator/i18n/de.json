@@ -1,0 +1,23 @@
+{
+  "title": "CSS-Gradienten-Generator",
+  "description": "Erstelle benutzerdefinierte CSS-Verläufe visuell und intuitiv. Ideal, um deiner Website mit sanften Farbübergängen Stil zu verleihen.",
+  "tags": [
+    "css verläufe",
+    "gradient generator",
+    "css hintergrund",
+    "farbverlauf",
+    "css gradient",
+    "benutzerdefinierter verlauf",
+    "visueller stil",
+    "hintergrund mit verlauf"
+  ],
+  "category": "Design / Farben",
+  "labels": {
+    "color1": "Farbe 1",
+    "color2": "Farbe 2",
+    "direction": "Richtung",
+    "generate": "Generieren",
+    "copy": "Kopieren",
+    "copied": "Kopiert!"
+  }
+}

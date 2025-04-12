@@ -1,0 +1,19 @@
+{
+  "title": "Convertir Saltos de Línea a \\n",
+  "description": "Convierte saltos de línea reales al formato escapado \\n. Ideal para programadores que copian texto con saltos a código.",
+  "tags": [
+    "salto de línea",
+    "escape",
+    "programación",
+    "conversión",
+    "texto",
+    "código"
+  ],
+  "category": "Herramientas de Texto",
+  "label.input": "Texto con saltos de línea:",
+  "label.output": "Resultado con \\n:",
+  "placeholder.input": "Escribe o pega tu texto aquí...",
+  "button.convert": "Convertir a \\n",
+  "button.copy": "Copiar",
+  "button.clear": "Limpiar"
+}

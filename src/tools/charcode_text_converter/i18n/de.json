@@ -1,0 +1,22 @@
+{
+  "title": "Charcode ↔ Text",
+  "description": "Konvertieren Sie Text in Unicode-Zeichencodes und umgekehrt. Nützlich für Datenanalyse, Codierung und Debugging.",
+  "tags": [
+    "unicode",
+    "charcode",
+    "konverter",
+    "text zu code",
+    "von charcode",
+    "zu charcode"
+  ],
+  "category": "Konverter",
+  "mode.to": "Text → Charcode",
+  "mode.from": "Charcode → Text",
+  "placeholder": "Text oder Unicode-Codes durch Leerzeichen getrennt eingeben",
+  "convert": "Konvertieren",
+  "clear": "Löschen",
+  "copy": "Kopieren",
+  "error": "Fehler beim Konvertieren der Codes in Text.",
+  "reference": "Unicode-Referenz",
+  "link": "Ebene (Unicode)"
+}

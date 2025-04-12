@@ -1,0 +1,22 @@
+{
+  "title": "Générateur de mot de passe aléatoire",
+  "description": "Créez des mots de passe forts et sécurisés de manière aléatoire. Idéal pour protéger vos comptes et données sensibles.",
+  "tags": [
+    "mot de passe aléatoire",
+    "générateur de mot de passe",
+    "mot de passe fort",
+    "générateur de mot de passe",
+    "sécurité des données",
+    "générer des mots de passe",
+    "protection du compte"
+  ],
+  "category": "Générateurs",
+  "length": "Taille",
+  "include_symbols": "Inclure des symboles",
+  "include_numbers": "Inclure des nombres",
+  "include_uppercase": "Inclure des lettres majuscules",
+  "include_lowercase": "Inclure les minuscules",
+  "generate": "Pour générer",
+  "click_to_generate": "Cliquez sur générer",
+  "select_one_type": "Sélectionnez au moins un type de caractère"
+}

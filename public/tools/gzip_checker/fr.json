@@ -1,0 +1,22 @@
+{
+  "title": "Vérificateur GZIP",
+  "description": "Vérifiez si la compression GZIP est activée sur le serveur d'une URL. Consultez les en-têtes de réponse en temps réel.",
+  "tags": [
+    "gzip",
+    "en-têtes http",
+    "compression",
+    "vérificateur gzip",
+    "optimisation",
+    "performances Web"
+  ],
+  "category": "Réseaux / HTTP",
+  "placeholder": "https://example.com/arquivo.js",
+  "check": "Vérifiez GZIP",
+  "checking": "Vérification...",
+  "gzip.enabled": "✅ GZIP est activé — le texte est en cours de compression.",
+  "gzip.disabled": "❌ GZIP n'est PAS activé — réponse non compressée.",
+  "httpHeaders": "En-têtes HTTP",
+  "error.invalidUrl": "Veuillez entrer une URL valide.",
+  "error.checkFailed": "Erreur lors du test",
+  "error.prefix": "Erreur"
+}

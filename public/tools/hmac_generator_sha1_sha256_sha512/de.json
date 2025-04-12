@@ -1,0 +1,18 @@
+{
+  "title": "HMAC-Generator (SHA-1, SHA-256, SHA-512)",
+  "description": "Generieren Sie HMAC-Codes mit SHA-1-, SHA-256- oder SHA-512-Algorithmen mithilfe eines geheimen Schlüssels. Ideal für Authentifizierung, APIs und Datensicherheit.",
+  "tags": [
+    "HMAC-Generator",
+    "hmac sha1",
+    "hmac sha256",
+    "hmac sha512",
+    "API-Sicherheit",
+    "HMAC-Verschlüsselung",
+    "digitale Signatur",
+    "Hash mit Schlüssel"
+  ],
+  "category": "Encoder/Decoder",
+  "message": "Nachricht",
+  "secretKey": "Geheimer Schlüssel",
+  "generate": "Um zu generieren"
+}

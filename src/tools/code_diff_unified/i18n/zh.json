@@ -1,0 +1,9 @@
+{
+  "title": "代码差异对比（统一格式）",
+  "description": "以统一格式查看代码块之间的差异，类似于 Git 终端输出。",
+  "tags": ["diff", "统一", "git", "逐行", "代码比较"],
+  "category": "分析 / 比较",
+  "placeholder.original": "原始代码...",
+  "placeholder.modified": "修改后的代码...",
+  "compare": "比较"
+}

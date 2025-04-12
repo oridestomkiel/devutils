@@ -1,0 +1,18 @@
+{
+  "title": "HTML Entity Encode/Decode",
+  "description": "Convert HTML snippets to entities or decode to regular text. Useful for security and code preview.",
+  "tags": [
+    "html",
+    "entity",
+    "encode",
+    "decode",
+    "xss",
+    "conversion"
+  ],
+  "category": "Text Tools",
+  "encode": "Encode",
+  "decode": "Decode",
+  "input": "Prohibited",
+  "output": "Exit",
+  "convert": "Convert"
+}

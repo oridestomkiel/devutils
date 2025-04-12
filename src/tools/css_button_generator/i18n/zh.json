@@ -1,0 +1,23 @@
+{
+  "title": "CSS 按钮生成器",
+  "description": "自定义按钮样式，包括颜色、内边距、边框、阴影和悬停状态。适用于构建可重用的 UI 组件。",
+  "tags": ["css 按钮", "按钮", "悬停", "阴影", "圆角", "ui 按钮", "可视化组件"],
+  "category": "设计 / 颜色",
+  "labels": {
+    "bg": "背景颜色",
+    "text": "文本颜色",
+    "paddingY": "垂直内边距",
+    "paddingX": "水平内边距",
+    "radius": "边框圆角",
+    "shadowColor": "阴影颜色",
+    "shadowOpacity": "阴影不透明度",
+    "offsetX": "X 偏移",
+    "offsetY": "Y 偏移",
+    "blur": "模糊",
+    "spread": "扩展",
+    "hover": "悬停颜色",
+    "copy": "复制",
+    "preview": "按钮预览",
+    "copied": "已复制！"
+  }
+}

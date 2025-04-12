@@ -1,0 +1,18 @@
+{
+  "title": "Textschattengenerator",
+  "description": "Erstellen Sie Schatten für Text mit Farb-, Versatz- und Unschärfesteuerung. Ideal, um Titeln und UI-Elementen mehr Betonung oder Tiefe zu verleihen.",
+  "tags": [
+    "Textschatten",
+    "Textschatten",
+    "CSS-Text",
+    "visueller Effekt",
+    "verwischen",
+    "Titelhervorhebung"
+  ],
+  "category": "Design / Farben",
+  "shadow_color": "Schattenfarbe",
+  "blur": "Unschärfe (px)",
+  "offset_x": "Horizontaler Versatz (X)",
+  "offset_y": "Vertikaler Versatz (Y)",
+  "preview_text": "Text mit Schatten"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Base64 → Imagem",
+  "description": "Cole um código Base64 e visualize instantaneamente a imagem correspondente. Útil para testar data URIs ou debug de embutidos.",
+  "tags": [
+    "base64",
+    "imagem",
+    "decodificar imagem",
+    "converter base64",
+    "data URI",
+    "ver imagem"
+  ],
+  "category": "Conversores",
+  "placeholder": "Cole aqui o código Base64 completo da imagem (data:image/png;base64,...)",
+  "preview.label": "Pré-visualização",
+  "error.invalid": "Base64 inválido ou incompleto",
+  "download": "Baixar imagem"
+}

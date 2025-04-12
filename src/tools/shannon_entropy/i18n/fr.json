@@ -1,0 +1,19 @@
+{
+  "title": "Entropie de Shannon",
+  "description": "Mesurer l'entropie d'une chaîne de caractères selon la théorie de l'information. Des valeurs plus élevées indiquent un caractère aléatoire plus important.",
+  "tags": [
+    "entropie",
+    "Shannon",
+    "caractère aléatoire",
+    "sécurité",
+    "compression",
+    "information"
+  ],
+  "category": "Analyse / Comparaison",
+  "placeholder": "Tapez ou collez votre contenu ici...",
+  "calculate": "Calculer",
+  "max": "Maximum possible",
+  "english": "Texte anglais en général",
+  "compressed": "Données compressées/cryptées",
+  "source": "Source"
+}

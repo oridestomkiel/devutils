@@ -1,0 +1,22 @@
+{
+  "title": "GZIP チェッカー",
+  "description": "URL のサーバーで GZIP 圧縮が有効になっているかどうかをテストします。応答ヘッダーをリアルタイムで表示します。",
+  "tags": [
+    "圧縮",
+    "http ヘッダー",
+    "圧縮",
+    "gzip チェッカー",
+    "最適化",
+    "ウェブパフォーマンス"
+  ],
+  "category": "ネットワーク / HTTP",
+  "placeholder": "https://example.com/arquivo.js",
+  "check": "GZIPをチェック",
+  "checking": "チェック中...",
+  "gzip.enabled": "✅ GZIP がオン — テキストが圧縮されています。",
+  "gzip.disabled": "❌ GZIP が有効になっていません — 圧縮されていない応答。",
+  "httpHeaders": "HTTP ヘッダー",
+  "error.invalidUrl": "有効な URL を入力してください。",
+  "error.checkFailed": "テスト中にエラーが発生しました",
+  "error.prefix": "エラー"
+}

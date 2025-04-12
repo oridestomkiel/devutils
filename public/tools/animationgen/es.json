@@ -1,0 +1,41 @@
+{
+  "title": "Generador de Animaciones CSS",
+  "description": "Crea animaciones CSS con diferentes tipos de movimiento, controla la duración, la aceleración, el retraso y la repetición. Previsualiza y copia el CSS.",
+  "tags": [
+    "animación css",
+    "fotogramas clave",
+    "animación web",
+    "aceleración",
+    "bucle",
+    "diseño interactivo"
+  ],
+  "category": "Diseño / Colores",
+  "animationType": "Tipo de Animación",
+  "categories": {
+    "basic": "🎯 Básicas",
+    "slides": "📦 Deslizamientos",
+    "dynamic": "🤸 Dinámicas",
+    "visual": "🧼 Visuales",
+    "loop": "🔁 Bucle / Inactivo"
+  },
+  "options": {
+    "fade": "Aparecer",
+    "scale": "Escalar (Zoom)",
+    "rotate": "Rotar",
+    "slide-left": "Deslizar a la Izquierda",
+    "slide-right": "Deslizar a la Derecha",
+    "slide-up": "Deslizar hacia Arriba",
+    "slide-down": "Deslizar hacia Abajo",
+    "bounce": "Rebotar",
+    "shake": "Sacudir",
+    "flip": "Voltear Y",
+    "flip-x": "Voltear X",
+    "blur-in": "Desenfocar",
+    "opacity-pulse": "Pulso de Opacidad",
+    "zoom-in": "Acercar",
+    "zoom-out": "Alejar",
+    "float": "Flotar",
+    "wave": "Onda",
+    "pulse": "Pulso"
+  }
+}

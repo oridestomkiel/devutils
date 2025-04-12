@@ -1,0 +1,17 @@
+{
+  "title": "Convertisseur Date vers Timestamp",
+  "description": "Convertissez une date/heure au format timestamp Unix simplement et rapidement. Idéal pour la programmation, les bases de données et le débogage.",
+  "tags": [
+    "date vers timestamp",
+    "timestamp unix",
+    "convertir timestamp",
+    "heure epoch",
+    "temps unix",
+    "conversion de date"
+  ],
+  "category": "Dates et Heures",
+  "label": "Date vers Timestamp (Unix)",
+  "convert": "Convertir",
+  "placeholder": "Le timestamp généré s'affichera ici",
+  "error": "❌ Date invalide."
+}

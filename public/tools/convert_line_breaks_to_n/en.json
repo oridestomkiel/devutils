@@ -1,0 +1,12 @@
+{
+  "title": "Convert Line Breaks to \\n",
+  "description": "Convert real line breaks into escaped \\n format. Ideal for programmers who need to copy text with breaks into code.",
+  "tags": ["line break", "escape", "programming", "conversion", "text", "code"],
+  "category": "Text Tools",
+  "label.input": "Text with line breaks:",
+  "label.output": "Result with \\n:",
+  "placeholder.input": "Type or paste your text here...",
+  "button.convert": "Convert to \\n",
+  "button.copy": "Copy",
+  "button.clear": "Clear"
+}

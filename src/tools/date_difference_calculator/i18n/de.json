@@ -1,0 +1,23 @@
+{
+  "title": "Datumsdifferenz-Rechner",
+  "description": "Berechne den Unterschied zwischen zwei Daten in Tagen, Monaten oder Jahren. Ideal für Fristen, Ablaufüberwachung und Zeitberechnung.",
+  "tags": [
+    "datumsdifferenz",
+    "daten berechnen",
+    "wie viele tage zwischen daten",
+    "tage zwischen daten",
+    "zeitrechner",
+    "zeit zwischen daten",
+    "tage zählen"
+  ],
+  "category": "Daten und Zeiten",
+  "startDate": "Anfangsdatum",
+  "endDate": "Enddatum",
+  "calculate": "Berechnen",
+  "invalidDates": "Bitte beide Daten korrekt ausfüllen.",
+  "difference": "Differenz",
+  "days": "Tage",
+  "hours": "Stunden",
+  "minutes": "Minuten",
+  "resultPlaceholder": "Ergebnis erscheint hier"
+}

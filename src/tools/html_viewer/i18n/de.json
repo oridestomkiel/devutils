@@ -1,0 +1,15 @@
+{
+  "title": "HTML-Viewer",
+  "description": "HTML-Code anzeigen, bearbeiten und formatieren mit Live-Vorschau. Beinhaltet Autovervollständigung, automatisches Tag-Schließen und intelligente Platzhalter.",
+  "tags": [
+    "html",
+    "Visualisierung",
+    "Vorschau",
+    "Web",
+    "Frontend"
+  ],
+  "category": "Dienstprogramme",
+  "example": "Beispiel",
+  "format": "Format",
+  "placeholder": "Geben Sie hier Ihren HTML-Code ein oder fügen Sie ihn ein"
+}

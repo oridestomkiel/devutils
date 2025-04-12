@@ -1,0 +1,21 @@
+{
+  "title": "コード最小化ツール（HTML、CSS、簡易JS）",
+  "description": "HTML、CSS、シンプルなJavaScriptのスペース、改行、コメントを削除して、サイトのパフォーマンスを最適化します。",
+  "tags": [
+    "コード圧縮",
+    "html 最小化",
+    "css 最小化",
+    "js 最小化",
+    "コード最適化",
+    "ファイル圧縮",
+    "コードサイズ削減",
+    "html css js 圧縮"
+  ],
+  "category": "フォーマッタ / 最小化ツール",
+  "placeholder.input": "HTML、CSS または JS を貼り付けてください",
+  "placeholder.output": "最小化された出力",
+  "minify": "最小化",
+  "copy": "コピー",
+  "copied": "コピーしました！",
+  "empty": "最小化する内容がありません。"
+}

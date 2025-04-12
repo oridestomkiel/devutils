@@ -1,0 +1,23 @@
+{
+  "title": "高度なQRコードジェネレーター",
+  "description": "ロゴ、色、特定のサイズでカスタマイズ可能なQRコードを作成します。キャンペーン、マーケティング、データ共有に最適です。",
+  "tags": [
+    "qrコード",
+    "qrコードジェネレーター",
+    "高度なqrコード",
+    "ロゴ付きqrコード",
+    "qrマーケティング",
+    "カスタマイズqrcode",
+    "qrcodeジェネレーター",
+    "データ共有"
+  ],
+  "category": "ジェネレーター",
+  "placeholder.input": "QRを生成するテキストまたはURL",
+  "label.size": "サイズ (px)",
+  "label.margin": "マージン",
+  "label.color.dark": "暗い色",
+  "label.color.light": "明るい色",
+  "label.logo": "中央ロゴ（画像URL）",
+  "placeholder.logo": "https://example.com/logo.png",
+  "export.svg": "SVGをエクスポート"
+}

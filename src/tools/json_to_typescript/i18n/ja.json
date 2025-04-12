@@ -1,0 +1,15 @@
+{
+  "title": "JSON → TypeScript",
+  "description": "提供されたデータに基づいて、強力な型付けと構造を使用して、JSON を TypeScript インターフェースに自動的に変換します。",
+  "tags": [
+    "json",
+    "タイプスクリプト",
+    "変換する",
+    "インタフェース",
+    "種類"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここにJSONを貼り付けてください...",
+  "convert": "変換する",
+  "error": "無効なJSONです。"
+}

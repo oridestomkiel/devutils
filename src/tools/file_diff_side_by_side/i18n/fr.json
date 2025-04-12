@@ -1,0 +1,16 @@
+{
+  "title": "Comparaison de fichiers (côte à côte)",
+  "description": "Comparez deux fichiers texte et visualisez les différences grâce à une mise en page côte à côte professionnelle.",
+  "tags": [
+    "comparer des fichiers",
+    "différence de texte",
+    "télécharger",
+    "style git",
+    "diff2html"
+  ],
+  "category": "Analyse / Comparaison",
+  "originalFile": "Fichier original :",
+  "modifiedFile": "Fichier modifié:",
+  "compare": "Comparer",
+  "alertMissingFiles": "Sélectionnez les deux fichiers à comparer."
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Probador de expresiones regulares con resaltado",
+  "description": "Pruebe sus expresiones regulares en tiempo real con resaltado de sintaxis. Ideal para analizar patrones, validar cadenas y corregir errores rápidamente.",
+  "tags": [
+    "expresiones regulares",
+    "expresiones regulares",
+    "prueba de expresiones regulares",
+    "expresiones regulares con resaltado",
+    "validar expresiones regulares",
+    "analizar patrones",
+    "herramienta de expresiones regulares"
+  ],
+  "category": "Servicios públicos",
+  "regex_placeholder": "Introduzca el patrón de expresión regular (por ejemplo, \\d+ o /\\w+/gi)",
+  "text_placeholder": "Texto donde aplicar la expresión regular",
+  "test": "Expresión regular de prueba",
+  "fill_both": "Rellene ambos campos.",
+  "invalid": "Expresión regular no válida:",
+  "no_match": "No se encontraron coincidencias.",
+  "hint": "Utilice la sintaxis estándar de JavaScript. Los indicadores como \"g\" e \"i\" son opcionales al final: /default/gi."
+}

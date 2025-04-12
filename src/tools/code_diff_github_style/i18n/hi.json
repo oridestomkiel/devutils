@@ -1,0 +1,9 @@
+{
+  "title": "कोड डिफ (GitHub स्टाइल)",
+  "description": "दो कोड ब्लॉकों की तुलना करें और GitHub स्टाइल में अंतर को साइड बाय साइड देखें।",
+  "tags": ["विज़ुअल डिफ", "git", "कोड तुलना", "diff2html"],
+  "category": "विश्लेषण / तुलना",
+  "placeholder.original": "मूल कोड...",
+  "placeholder.modified": "संशोधित कोड...",
+  "compare": "तुलना करें"
+}

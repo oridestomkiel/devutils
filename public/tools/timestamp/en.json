@@ -1,0 +1,14 @@
+{
+    "title": "Conversor de Timestamp ↔ Data",
+    "description": "Converta timestamps entre diferentes formatos ou sistemas. Ideal para desenvolvimento, registros de logs e manipulação de datas.",
+    "tags": [
+        "timestamp",
+        "converter timestamp",
+        "unix time",
+        "data para timestamp",
+        "formato de data",
+        "epoch time",
+        "data legível"
+    ],
+    "category": "Datas e Horários"
+}

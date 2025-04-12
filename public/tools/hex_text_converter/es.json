@@ -1,0 +1,17 @@
+{
+  "title": "Convertidor de hexadecimal a texto",
+  "description": "Convierte valores hexadecimales a texto y texto a hexadecimal con precisión. Útil para codificación, depuración y manipulación de cadenas.",
+  "tags": [
+    "hexadecimal a texto",
+    "texto a hexadecimal",
+    "convertidor hexadecimal",
+    "cadena a hexadecimal",
+    "decodificar hexadecimal",
+    "codificar texto",
+    "convertir hexadecimal"
+  ],
+  "category": "Codificadores/Decodificadores",
+  "placeholder": "Introduzca texto o valor hexadecimal",
+  "textToHex": "Texto → Hex",
+  "hexToText": "Hex → Texto"
+}

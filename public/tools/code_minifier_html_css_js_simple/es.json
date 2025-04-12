@@ -1,0 +1,21 @@
+{
+  "title": "Minificador de Código (HTML, CSS, JS simple)",
+  "description": "Elimina espacios, saltos de línea y comentarios de archivos HTML, CSS y JavaScript simples para optimizar el rendimiento de tu sitio.",
+  "tags": [
+    "minificar código",
+    "minificador html",
+    "minificador css",
+    "minificador js",
+    "optimizar código",
+    "compresión de archivos",
+    "reducir tamaño código",
+    "minificar html css js"
+  ],
+  "category": "Formateadores / Minificadores",
+  "placeholder.input": "Pega tu HTML, CSS o JS",
+  "placeholder.output": "Resultado minificado",
+  "minify": "Minificar",
+  "copy": "Copiar",
+  "copied": "¡Copiado!",
+  "empty": "Nada que minificar."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Eliminar filas duplicadas",
+  "description": "Pega tu texto y elimina automáticamente las líneas duplicadas. Ideal para organizar listas y contenido rápidamente.",
+  "tags": [
+    "eliminar duplicados",
+    "líneas claras",
+    "duplicado",
+    "líneas repetidas"
+  ],
+  "category": "Herramientas de texto",
+  "input_label": "Texto con posibles duplicados:",
+  "input_placeholder": "Pegue su contenido aquí...",
+  "remove_button": "Eliminar duplicados",
+  "output_label": "Resultado sin duplicados:",
+  "download": "Descargar TXT"
+}

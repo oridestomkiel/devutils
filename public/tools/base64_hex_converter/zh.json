@@ -1,0 +1,18 @@
+{
+  "title": "Base64 ↔ 十六进制转换器",
+  "description": "轻松在 Base64 和十六进制之间转换，用于检查、编码或调试可读格式的二进制数据。",
+  "tags": [
+    "base64",
+    "十六进制",
+    "base64 转 hex",
+    "hex 转 base64",
+    "base64 hex 在线",
+    "base64 hex 解码器",
+    "base64 ↔ hex"
+  ],
+  "category": "编码器 / 解码器",
+  "placeholder": "输入 Base64 或十六进制",
+  "b64.to.hex": "Base64 → Hex",
+  "hex.to.b64": "Hex → Base64",
+  "error.prefix": "错误"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "JWT-Viewer",
+  "description": "Dekodieren Sie JWT-Token, um Header, Nutzlast und Signatur anzuzeigen. Ideal für Debugging, Sicherheit und Authentifizierungsentwicklung.",
+  "tags": [
+    "jwt",
+    "JWT anzeigen",
+    "jwt dekodieren",
+    "JWT-Token",
+    "JWT-Debugger",
+    "JWT analysieren",
+    "JWT-Decoder",
+    "JWT-Token-Viewer"
+  ],
+  "category": "Encoder/Decoder",
+  "placeholder": "Fügen Sie Ihr JWT hier ein",
+  "decode": "Dekodieren",
+  "error.invalid": "Ungültiges JWT",
+  "error.structure": "JWT muss aus 3 durch Punkte getrennten Teilen bestehen."
+}

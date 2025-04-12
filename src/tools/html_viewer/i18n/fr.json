@@ -1,0 +1,15 @@
+{
+  "title": "Visionneuse HTML",
+  "description": "Affichez, modifiez et formatez du code HTML avec un aperçu en direct. Comprend la saisie semi-automatique, la fermeture automatique des balises et un espace réservé intelligent.",
+  "tags": [
+    "HTML",
+    "visualisation",
+    "aperçu",
+    "le web",
+    "l'extrémité avant"
+  ],
+  "category": "Utilitaires",
+  "example": "Exemple",
+  "format": "Format",
+  "placeholder": "Tapez ou collez votre code HTML ici"
+}

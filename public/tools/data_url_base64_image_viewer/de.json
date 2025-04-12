@@ -1,0 +1,21 @@
+{
+  "title": "Data-URL-Viewer (Base64-Bild)",
+  "description": "Fügen Sie eine Data-URL mit einem Bild ein, um es anzuzeigen, Details abzurufen und herunterzuladen. Ideal zum Testen von eingebetteten Base64-Bildern.",
+  "tags": [
+    "data-url",
+    "base64-bild",
+    "bildanzeige",
+    "base64 zu bild",
+    "base64 konvertieren"
+  ],
+  "category": "Bilder",
+  "placeholder": "Fügen Sie hier die vollständige Data-URL des Bildes ein (data:image/png;base64,...)",
+  "view": "Bild anzeigen",
+  "download": "Bild herunterladen",
+  "clear": "Löschen",
+  "invalidFormat": "Ungültiges Format. Verwenden Sie eine gültige Bild-Data-URL.",
+  "imageDetected": "Bild erkannt",
+  "type": "Typ",
+  "size": "Größe",
+  "dimensions": "Abmessungen"
+}

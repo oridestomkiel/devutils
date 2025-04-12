@@ -1,0 +1,38 @@
+{
+  "title": "Unit Converter",
+  "description": "Convert units intelligently and conveniently. Ideal for screen measurements, distance, temperature, time and more.",
+  "tags": [
+    "unit converter",
+    "convert measurements",
+    "px to rem",
+    "km to me",
+    "Celsius Fahrenheit",
+    "convert weight",
+    "time"
+  ],
+  "category": "Converters",
+  "input_placeholder": "Enter the value...",
+  "output_placeholder": "Result appears here...",
+  "convert": "Convert",
+  "invalid_input": "Please enter a valid value.",
+  "conversions": {
+    "Pixels ↔ Rem (base 16)": "Pixels ↔ Rem (base 16)",
+    "Celsius ↔ Fahrenheit": "Celsius ↔ Fahrenheit",
+    "Km ↔ Milhas": "Km ↔ Milhas",
+    "Metros ↔ Pés": "Metros ↔ Pés",
+    "Kg ↔ Libras": "Kg ↔ Libras",
+    "Horas ↔ Minutos ↔ Segundos": "Horas ↔ Minutos ↔ Segundos",
+    "Centímetros ↔ Polegadas": "Centímetros ↔ Polegadas",
+    "Minutos ↔ Segundos": "Minutos ↔ Segundos",
+    "Dias ↔ Horas": "Dias ↔ Horas",
+    "Litros ↔ Galões (US)": "Litros ↔ Galões (US)",
+    "Litros ↔ Mililitros": "Litros ↔ Mililitros",
+    "Joules ↔ Calorias": "Joules ↔ Calorias",
+    "Watts ↔ Cavalos de potência": "Watts ↔ Cavalos de potência",
+    "Bytes ↔ KB ↔ MB": "Bytes ↔ KB ↔ MB",
+    "MB ↔ GB": "MB ↔ GB",
+    "Hectares ↔ Metros²": "Hectares ↔ Metros²",
+    "m² ↔ pés²": "m² ↔ pés²",
+    "Bar ↔ Pascal": "Bar ↔ Pascal"
+  }
+}

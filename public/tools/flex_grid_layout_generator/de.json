@@ -1,0 +1,19 @@
+{
+  "title": "Flex/Grid-Layout-Generator",
+  "description": "Erstellen Sie schnell Layouts mit Flexbox oder Grid. Passen Sie Ausrichtung, Abstand und Vorschau in Echtzeit mit Beispielen an.",
+  "tags": [
+    "Flexbox",
+    "Rasterlayout",
+    "Flex-Display",
+    "CSS-Raster",
+    "CSS-Ausrichtung",
+    "Lücke",
+    "Inhalt ausrichten",
+    "Elemente ausrichten"
+  ],
+  "category": "Generatoren",
+  "layoutType": "Layouttyp",
+  "gap": "Lücke",
+  "justify": "Rechtfertigen",
+  "align": "Ausrichten"
+}

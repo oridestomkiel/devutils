@@ -1,0 +1,16 @@
+{
+  "title": "Datei-Diff (nebeneinander)",
+  "description": "Vergleichen Sie zwei Textdateien und sehen Sie sich die Unterschiede im professionellen Side-by-Side-Layout an.",
+  "tags": [
+    "Dateien vergleichen",
+    "Textunterschied",
+    "hochladen",
+    "Git-Stil",
+    "diff2html"
+  ],
+  "category": "Analyse / Vergleich",
+  "originalFile": "Originaldatei:",
+  "modifiedFile": "Geänderte Datei:",
+  "compare": "Vergleichen",
+  "alertMissingFiles": "Wählen Sie die beiden zu vergleichenden Dateien aus."
+}

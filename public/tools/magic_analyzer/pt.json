@@ -1,0 +1,30 @@
+{
+  "title": "Magic Analyzer",
+  "description": "Detecta e analisa dados automaticamente, sugerindo operações úteis como decodificação, descompressão ou interpretação com base em entropia, padrões e formato.",
+  "tags": [
+    "auto",
+    "detectar",
+    "decodificar",
+    "análise",
+    "inteligente",
+    "magic"
+  ],
+  "category": "Análise / Comparação",
+  "placeholder": "Cole aqui dados suspeitos (Base64, Hex, JWT, payloads...)",
+  "crib": "Expressão Regular (Crib)",
+  "cribPlaceholder": "Opcional: insira uma regex para filtrar resultados",
+  "depth": "Profundidade da Análise Recursiva",
+  "intensive": "Modo Intensivo (brute-force leve de ROT13 e XOR)",
+  "entropy": "Entropia",
+  "ascii": "Parece texto ASCII",
+  "printable": "Caracteres imprimíveis",
+  "maybeBase64": "Possível Base64 válido",
+  "maybeHex": "Possível Hexadecimal",
+  "validJson": "JSON válido",
+  "jwtDecoded": "JWT detectado e decodificado",
+  "gzipDecoded": "GZIP decodificado com sucesso",
+  "cribFound": "Crib encontrado com regex",
+  "cribNotFound": "Crib não encontrado usando regex",
+  "rot13Json": "ROT13 aplicado → JSON válido",
+  "xorJson": "XOR com chave → JSON válido"
+}

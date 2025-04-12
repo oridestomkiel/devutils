@@ -1,0 +1,23 @@
+{
+  "title": "Platzhalterbildgenerator",
+  "description": "Erstellen Sie benutzerdefinierte Bilder als Platzhalter in Tests und Layouts. Wählen Sie Farben, Text und Abmessungen frei.",
+  "tags": [
+    "Platzhalter",
+    "Bild",
+    "Generator",
+    "prüfen",
+    "Lorem",
+    "Pixel"
+  ],
+  "category": "Bilder",
+  "width": "Breite",
+  "height": "Höhe",
+  "font_size": "Textgröße",
+  "background_color": "Hintergrundfarbe",
+  "text_color": "Textfarbe",
+  "format": "Format",
+  "text": "Text",
+  "placeholder_text_default": "Platzhaltergenerator",
+  "generate": "Um zu generieren",
+  "download_image": "Bild herunterladen"
+}

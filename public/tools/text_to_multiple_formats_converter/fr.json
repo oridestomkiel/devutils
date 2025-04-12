@@ -1,0 +1,25 @@
+{
+  "title": "Convertisseur de texte en plusieurs formats",
+  "description": "Saisissez n'importe quel texte et voyez sa conversion automatique en représentations BINAIRE, DÉCIMAL, OCTAL, HEX, BASE64, ASCII, UTF8, URL, UNICODE, MORSE et HTML",
+  "tags": [
+    "conversion",
+    "texte",
+    "binaire",
+    "base64",
+    "Unicode",
+    "morse"
+  ],
+  "category": "Outils de texte",
+  "input_placeholder": "Tapez ou collez du texte à convertir...",
+  "label_binario": "BINAIRE",
+  "label_decimal": "DÉCIMAL",
+  "label_octal": "OCTAL",
+  "label_hex": "HEX",
+  "label_base64": "BASE64",
+  "label_ascii": "ASCII",
+  "label_utf8": "UTF8",
+  "label_url": "URL",
+  "label_unicode": "UNICODE",
+  "label_morse": "MORSE",
+  "label_html": "HTML"
+}

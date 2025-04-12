@@ -1,0 +1,25 @@
+{
+  "title": "Weltzeit",
+  "description": "Überprüfen Sie die aktuelle Uhrzeit in vielen Städten auf der ganzen Welt oder geben Sie eine Zeitzone ein, um die genaue Ortszeit zu erhalten.",
+  "tags": [
+    "Weltzeit",
+    "Zeitzone",
+    "aktuelle Uhrzeit",
+    "Zeitzonen",
+    "Weltzeituhr",
+    "Landeszeit",
+    "globales Datum und Uhrzeit"
+  ],
+  "category": "Termine und Uhrzeiten",
+  "choose_timezone": "Wählen Sie eine Zeitzone:",
+  "select_placeholder": "Wählen Sie eine Zeitzone aus...",
+  "output_placeholder": "Der Zeitplan wird hier angezeigt",
+  "copy": "Kopie",
+  "copied": "Kopiert!",
+  "popular_times": "Beliebte Zeiten:",
+  "loading": "Laden...",
+  "label_original": "Ursprünglicher Zeitplan:",
+  "label_ptbr": "PT-BR:",
+  "label_offset": "UTC-Offset:",
+  "error_time": "Fehler beim Abrufen der Zeit"
+}

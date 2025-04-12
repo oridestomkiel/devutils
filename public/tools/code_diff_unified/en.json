@@ -1,0 +1,9 @@
+{
+  "title": "Code Diff (Unified)",
+  "description": "View differences between code blocks in a unified format, similar to Git terminal output.",
+  "tags": ["diff", "unified", "git", "line by line", "code comparison"],
+  "category": "Analysis / Comparison",
+  "placeholder.original": "Original code...",
+  "placeholder.modified": "Modified code...",
+  "compare": "Compare"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "CSV Matrix/Data Generator",
+  "description": "Generate mock data in matrix format for CSV files. Perfect for tests, prototypes, spreadsheets, and data imports.",
+  "tags": [
+    "csv generator",
+    "mock data",
+    "csv generator",
+    "data matrix",
+    "test data",
+    "generate csv table",
+    "simulated data"
+  ],
+  "category": "Generators",
+  "labels": {
+    "generate": "Generate",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "download": "Download CSV",
+    "placeholder": "Generated CSV will appear here"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Convertisseur hexadécimal ↔ décimal",
+  "description": "Convertissez rapidement et facilement des valeurs hexadécimales en décimales. Idéal pour la programmation, l'électronique et l'analyse de données.",
+  "tags": [
+    "hexadécimal en décimal",
+    "décimal en hexadécimal",
+    "convertisseur hexadécimal",
+    "convertir un nombre",
+    "base numérique",
+    "hex déc",
+    "calculatrice hexadécimale"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "Entrez un nombre hexadécimal ou décimal séparé par un espace",
+  "hexToDec": "Hex → Décimal",
+  "decToHex": "Décimal → Hex"
+}

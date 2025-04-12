@@ -1,0 +1,12 @@
+{
+    "title": "Gerador de JWT",
+    "description": "Crie tokens JWT personalizados com header, payload e segredo. Ideal para testes com HS256.",
+    "tags": [
+        "jwt",
+        "token",
+        "gerar jwt",
+        "testar jwt",
+        "criptografia"
+    ],
+    "category": "Codificadores / Decodificadores"
+}

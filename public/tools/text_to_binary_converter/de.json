@@ -1,0 +1,18 @@
+{
+  "title": "Text ↔ Binär-Konverter",
+  "description": "Konvertieren Sie Text einfach in Binärdateien und Binärdateien in Text. Ideal zum Debuggen, Testen und zur Datenmanipulation.",
+  "tags": [
+    "binär",
+    "Text in Binär",
+    "Binär zu Text",
+    "Binärkonverter",
+    "Binär kodieren",
+    "Binärcode dekodieren",
+    "Binärtext"
+  ],
+  "category": "Encoder/Decoder",
+  "input_placeholder": "Geben Sie durch Leerzeichen getrennten Text oder Binärcode ein",
+  "output_placeholder": "Hier wird das binäre Ergebnis oder der Text angezeigt ...",
+  "text_to_binary": "Text → Binär",
+  "binary_to_text": "Binär → Text"
+}

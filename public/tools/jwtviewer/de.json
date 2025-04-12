@@ -1,0 +1,12 @@
+{
+    "title": "Visualizador de JWT (Avançado)",
+    "description": "Visualize e valide tokens JWT: header, payload, assinatura e verificação opcional com segredo. Tudo em tempo real.",
+    "tags": [
+        "jwt",
+        "token",
+        "validação",
+        "decodificar",
+        "autenticação"
+    ],
+    "category": "Codificadores / Decodificadores"
+}

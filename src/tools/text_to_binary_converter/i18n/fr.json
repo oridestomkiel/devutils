@@ -1,0 +1,18 @@
+{
+  "title": "Texte ↔ Convertisseur binaire",
+  "description": "Convertissez facilement du texte en binaire et vice versa. Idéal pour le débogage, les tests et la manipulation de données.",
+  "tags": [
+    "binaire",
+    "texte en binaire",
+    "binaire en texte",
+    "convertisseur binaire",
+    "encoder en binaire",
+    "décoder le binaire",
+    "texte binaire"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "input_placeholder": "Saisissez du texte séparé par des espaces ou du binaire",
+  "output_placeholder": "Le résultat binaire ou le texte apparaîtra ici...",
+  "text_to_binary": "Texte → Binaire",
+  "binary_to_text": "Binaire → Texte"
+}

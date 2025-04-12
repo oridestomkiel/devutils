@@ -1,0 +1,18 @@
+{
+  "title": "Générateur d'UUID",
+  "description": "Générez des UUID uniques (v4 ou v1) avec plusieurs options de sortie. Idéal pour les tests, la journalisation et l'identification globale des objets.",
+  "tags": [
+    "uuid",
+    "générateur d'UUID",
+    "uuid v4",
+    "uuid v1",
+    "identifiant unique",
+    "uuid de lot"
+  ],
+  "category": "Générateurs",
+  "uuid_v4": "UUID v4 (aléatoire)",
+  "uuid_v1": "UUID v1 (horodatage)",
+  "quantity_placeholder": "Montant",
+  "output_placeholder": "Les UUID générés apparaîtront ici...",
+  "filename": "uuids-{horodatage}.txt"
+}

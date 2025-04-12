@@ -1,0 +1,20 @@
+{
+  "title": "JSON-Minimierer",
+  "description": "Entfernen Sie Leerzeichen, Zeilenumbrüche und unnötige Zeichen aus Ihrem JSON. Ideal zur Reduzierung der Dateigröße und zur Optimierung von Anwendungen.",
+  "tags": [
+    "JSON-Minifizierer",
+    "json minimieren",
+    "JSON reduzieren",
+    "JSON komprimieren",
+    "optimiertes JSON",
+    "JSON-Leerzeichen entfernen",
+    "json ohne Formatierung"
+  ],
+  "category": "Formatierer/Minifizierer",
+  "minify": "Minimieren",
+  "invalidJson": "❌ Ungültiges JSON.",
+  "placeholder": {
+    "input": "Cole seu JSON aqui...",
+    "output": "JSON minificado aparecerá aqui"
+  }
+}

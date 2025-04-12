@@ -1,0 +1,15 @@
+{
+  "title": "HTML 查看器",
+  "description": "使用实时预览查看、编辑和格式化 HTML 代码。包括自动完成、自动标签关闭和智能占位符。",
+  "tags": [
+    "html",
+    "可视化",
+    "预览",
+    "网络",
+    "前端"
+  ],
+  "category": "实用工具",
+  "example": "例子",
+  "format": "格式",
+  "placeholder": "在此处输入或粘贴您的 HTML"
+}

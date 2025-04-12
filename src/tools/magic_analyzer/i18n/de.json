@@ -1,0 +1,30 @@
+{
+  "title": "Magischer Analysator",
+  "description": "Erkennt und analysiert Daten automatisch und schlägt nützliche Vorgänge wie Dekodierung, Dekomprimierung oder Interpretation basierend auf Entropie, Mustern und Format vor.",
+  "tags": [
+    "selbst",
+    "erkennen",
+    "dekodieren",
+    "Analyse",
+    "schlau",
+    "Magie"
+  ],
+  "category": "Analyse / Vergleich",
+  "placeholder": "Fügen Sie hier verdächtige Daten ein (Base64, Hex, JWT, Payloads …)",
+  "crib": "Regulärer Ausdruck (Crib)",
+  "cribPlaceholder": "Optional: Geben Sie einen regulären Ausdruck ein, um die Ergebnisse zu filtern",
+  "depth": "Tiefe der rekursiven Analyse",
+  "intensive": "Intensivmodus (leichte Brute-Force-Attacke auf ROT13 und XOR)",
+  "entropy": "Entropie",
+  "ascii": "Sieht aus wie ASCII-Text",
+  "printable": "Druckbare Zeichen",
+  "maybeBase64": "Mögliche gültige Base64",
+  "maybeHex": "Mögliche Hexadezimalzahl",
+  "validJson": "Gültiges JSON",
+  "jwtDecoded": "JWT erkannt und dekodiert",
+  "gzipDecoded": "GZIP erfolgreich dekodiert",
+  "cribFound": "Krippe mit regulärem Ausdruck gefunden",
+  "cribNotFound": "Crib wurde mithilfe von regulären Ausdrücken nicht gefunden",
+  "rot13Json": "ROT13 angewendet → gültiges JSON",
+  "xorJson": "XOR mit Schlüssel → gültiges JSON"
+}

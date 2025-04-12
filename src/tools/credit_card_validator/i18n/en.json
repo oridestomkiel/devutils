@@ -1,0 +1,13 @@
+{
+  "title": "Credit Card Validator",
+  "description": "Enter a card number and check if it's valid using the Luhn algorithm. Automatically detects the brand.",
+  "tags": ["card", "validator", "luhn", "number", "credit", "brand"],
+  "category": "Utilities",
+  "label.input": "Card Number:",
+  "placeholder.input": "E.g.: 4111 1111 1111 1111",
+  "button.validate": "Validate Card",
+  "result.valid": "✅ Valid",
+  "result.invalid": "❌ Invalid",
+  "result.error": "❌ Invalid or incomplete number.",
+  "brand.unknown": "Unknown"
+}

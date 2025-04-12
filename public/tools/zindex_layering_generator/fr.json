@@ -1,0 +1,19 @@
+{
+  "title": "Générateur de couches d'index Z",
+  "description": "Visualisez et contrôlez le chevauchement des éléments grâce à leur position et leur z-index. Idéal pour comprendre l'empilement en CSS.",
+  "tags": [
+    "indice z",
+    "couches",
+    "empilement",
+    "chevaucher",
+    "position",
+    "superposition CSS"
+  ],
+  "category": "Design / Couleurs",
+  "layer_label": "Couche",
+  "position_label": "position",
+  "zindex_label": "indice z",
+  "color_label": "Couleur",
+  "copy": "Copie",
+  "copied": "Copié!"
+}

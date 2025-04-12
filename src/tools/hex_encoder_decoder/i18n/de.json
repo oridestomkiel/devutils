@@ -1,0 +1,19 @@
+{
+  "title": "HEX-Encoder/Decoder",
+  "description": "Konvertieren Sie Text einfach in Hexadezimalzahlen und Hexadezimalzahlen in Text. Ideal für Debugging, Codierung und Datenmanipulation.",
+  "tags": [
+    "hexadezimal",
+    "Text in Hex",
+    "Hex in Text",
+    "Hex kodieren",
+    "Hexadezimalwert dekodieren",
+    "Hex-Konverter",
+    "Sechskantwerkzeug",
+    "Hexadezimalzeichenfolge"
+  ],
+  "category": "Encoder/Decoder",
+  "placeholder": "Geben Sie Text oder HEX-Code ein",
+  "resultPlaceholder": "Das Ergebnis wird hier angezeigt",
+  "encode": "Text → HEX",
+  "decode": "HEX → Text"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Lorem Ipsum 生成器",
+  "description": "生成标准 Lorem Ipsum 虚拟文本，用作设计、布局和内容测试中的占位符。",
+  "tags": [
+    "乱码",
+    "虚构文本",
+    "文本生成器",
+    "布局文本",
+    "内容占位符",
+    "模拟文本",
+    "测试内容"
+  ],
+  "category": "生成器",
+  "paragraphs": "段落",
+  "words": "字",
+  "bytes": "字节",
+  "lists": "列表",
+  "startWithLorem": "从“Lorem ipsum dolor sat amet...”开始",
+  "error.loading": "加载 Lorem Ipsum 文本时出错。",
+  "loremIntro": "Lorem ipsum dolor sat amet，consectetur adipiscing elit。 Aenean nunc purus, gravida non dignissim iaculis, pretium sed metus. Quisque faucibus、lacus a vulputate发酵、lacuserat feugiat risus、non fringilla ligula eros eu sem。整数概念，sem suscipit pellentesque auctor，neque velit发酵mi，id elementum eros felis at nisi。 Aenean consectetur gravida dui、vel porta diam aliquam 等。 Aliquam volutpat，lectus ut convallis 前庭，ligula leo fringilla neque，non fringilla just tortor non purus。 Proin consequat erat vitae Tellus pharetra，在malesuada eros rutrum。整数 sed Massa 尊严， efficitur eros vitae， rhoncus nisi。 Sed gravida rutrum 甚至 venenatis。"
+}

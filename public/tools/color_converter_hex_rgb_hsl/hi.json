@@ -1,0 +1,22 @@
+{
+  "title": "कलर कन्वर्टर (HEX, RGB, HSL)",
+  "description": "HEX, RGB और HSL के बीच रंगों को आसानी से और सटीक रूप से बदलें। डिजाइनरों, डेवलपर्स और वेब प्रोजेक्ट्स के लिए आदर्श।",
+  "tags": [
+    "कलर कन्वर्टर",
+    "hex से rgb",
+    "rgb से hex",
+    "hsl से rgb",
+    "रंग रूपांतरण",
+    "hex rgb hsl",
+    "कलर टूल",
+    "रंग उपकरण"
+  ],
+  "category": "कन्वर्टर्स",
+  "placeholder.input": "#3498db या rgb(52,152,219)",
+  "button.convert": "कन्वर्ट करें",
+  "button.copy": "कॉपी करें",
+  "output.invalid": "अमान्य फॉर्मेट। #RRGGBB या rgb(r,g,b) का उपयोग करें",
+  "output.label.hex": "HEX",
+  "output.label.rgb": "RGB",
+  "output.label.hsl": "HSL"
+}

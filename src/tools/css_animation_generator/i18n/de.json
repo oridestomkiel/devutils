@@ -1,0 +1,44 @@
+{
+  "title": "CSS-Animationsgenerator",
+  "description": "Erstellen Sie CSS-Animationen mit verschiedenen Bewegungstypen, Steuerung der Dauer, Easing, Verzögerung und Wiederholung. Vorschau anzeigen und CSS kopieren.",
+
+  "tags": [
+    "css animation",
+    "keyframes",
+    "web animation",
+    "easing",
+    "loop",
+    "interaktives design"
+  ],
+  "category": "Design / Farben",
+  "animationType": "Animationstyp",
+
+  "categories": {
+    "basic": "🎯 Grundlegend",
+    "slides": "📦 Slides",
+    "dynamic": "🤸 Dynamisch",
+    "visual": "🧼 Visuell",
+    "loop": "🔁 Loop / Idle"
+  },
+
+  "options": {
+    "fade": "Einblenden",
+    "scale": "Skalieren (Zoom)",
+    "rotate": "Drehen",
+    "slide-left": "Nach links schieben",
+    "slide-right": "Nach rechts schieben",
+    "slide-up": "Nach oben schieben",
+    "slide-down": "Nach unten schieben",
+    "bounce": "Springen",
+    "shake": "Schütteln",
+    "flip": "Flip Y",
+    "flip-x": "Flip X",
+    "blur-in": "Einblenden mit Unschärfe",
+    "opacity-pulse": "Transparenz-Puls",
+    "zoom-in": "Hineinzoomen",
+    "zoom-out": "Herauszoomen",
+    "float": "Schweben",
+    "wave": "Welle",
+    "pulse": "Pulsieren"
+  }
+}

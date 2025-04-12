@@ -1,0 +1,18 @@
+{
+  "title": "Encodeur/Décodeur Base64",
+  "description": "Encodez et décodez des chaînes en Base64 pour un traitement sécurisé des données dans les URLs, APIs, fichiers et systèmes d'authentification.",
+  "tags": [
+    "base64",
+    "encodeur base64",
+    "décodeur base64",
+    "convertir base64",
+    "base64 en ligne",
+    "base64 encoder decoder",
+    "base64 en texte"
+  ],
+  "category": "Encodeurs / Décodeurs",
+  "placeholder": "Saisir le texte",
+  "encode": "Encoder",
+  "decode": "Décoder",
+  "error.decode": "Texte invalide pour la décodification"
+}

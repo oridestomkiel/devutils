@@ -1,0 +1,16 @@
+{
+  "title": "JSON → JSON-Schema",
+  "description": "Generieren Sie automatisch JSON-Schemas aus einem gültigen JSON-Objekt. Nützlich für Validierung, Dokumentation und API-Verträge.",
+  "tags": [
+    "json",
+    "Schema",
+    "Validierung",
+    "API",
+    "Vertrag",
+    "JSON-Schema"
+  ],
+  "category": "Konverter",
+  "placeholder": "Fügen Sie Ihr JSON hier ein ...",
+  "convert": "Konvertieren",
+  "error": "Ungültiges JSON!"
+}

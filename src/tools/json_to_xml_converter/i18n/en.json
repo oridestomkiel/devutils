@@ -1,0 +1,18 @@
+{
+  "title": "JSON ↔ XML Converter",
+  "description": "Convert data between JSON and XML formats accurately. Ideal for system integrations, APIs, and structured data manipulation.",
+  "tags": [
+    "json to xml",
+    "xml to json",
+    "json xml converter",
+    "convert data",
+    "xml format",
+    "json format",
+    "transform xml json"
+  ],
+  "category": "Converters",
+  "placeholder": "Paste JSON or XML here...",
+  "jsonToXml": "JSON → XML",
+  "xmlToJson": "XML → JSON",
+  "error": "Error converting"
+}

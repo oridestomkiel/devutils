@@ -1,0 +1,19 @@
+{
+  "title": "Formateador JSON (Prettifier)",
+  "description": "Mantenga sus archivos JSON legibles y organizados con sangría automática. Ideal para lectura, depuración y desarrollo.",
+  "tags": [
+    "formateador json",
+    "embellecedor json",
+    "embellecer json",
+    "formato json",
+    "sangría json",
+    "embellecer json",
+    "embellecedor json"
+  ],
+  "category": "Formateadores / Minificadores",
+  "format": "Formato",
+  "error": "Error",
+  "placeholder": {
+    "input": "Digite ou cole um JSON"
+  }
+}

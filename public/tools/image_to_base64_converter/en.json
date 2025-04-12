@@ -1,0 +1,16 @@
+{
+  "title": "Image → Base64",
+  "description": "Quickly convert image files to Base64 strings. Ideal for embedding in HTML, CSS or JSON.",
+  "tags": [
+    "base64",
+    "convert image",
+    "image to base64",
+    "img to base64",
+    "date URI",
+    "embed image",
+    "inline image"
+  ],
+  "category": "Converters",
+  "copy": "Copy",
+  "copied": "Copied!"
+}

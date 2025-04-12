@@ -1,0 +1,25 @@
+{
+  "title": "World Time",
+  "description": "Check the current time in many cities around the world, or enter a time zone to get the exact local time.",
+  "tags": [
+    "world time",
+    "time zone",
+    "current time",
+    "timezones",
+    "world clock",
+    "country time",
+    "global date and time"
+  ],
+  "category": "Dates and Times",
+  "choose_timezone": "Choose a time zone:",
+  "select_placeholder": "Select a time zone...",
+  "output_placeholder": "Schedule will appear here",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "popular_times": "Popular Times:",
+  "loading": "Loading...",
+  "label_original": "Original schedule:",
+  "label_ptbr": "PT-BR:",
+  "label_offset": "UTC Offset:",
+  "error_time": "Error fetching time"
+}

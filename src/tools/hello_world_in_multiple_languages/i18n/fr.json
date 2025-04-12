@@ -1,0 +1,14 @@
+{
+  "title": "Bonjour le monde en plusieurs langues",
+  "description": "Découvrez le classique « Hello World » dans des dizaines de langages de programmation. Idéal pour l'apprentissage ou la curiosité.",
+  "tags": [
+    "Bonjour le monde",
+    "langages de programmation",
+    "exemple de code",
+    "pédagogique",
+    "codes de base",
+    "générateur de code"
+  ],
+  "category": "Utilitaires",
+  "selectPlaceholder": "Choisissez une langue"
+}

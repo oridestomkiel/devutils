@@ -1,0 +1,16 @@
+{
+  "title": "JSON → MySQL",
+  "description": "生成 SQL 语句以从 JSON 创建 MySQL 表。非常适合快速原型设计和建模。",
+  "tags": [
+    "json",
+    "mysql",
+    "sql",
+    "数据库",
+    "转变",
+    "数据描述语言"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 粘贴到这里...",
+  "convert": "转变",
+  "error": "无效的 JSON！"
+}

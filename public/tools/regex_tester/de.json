@@ -1,0 +1,21 @@
+{
+  "title": "Tester für reguläre Ausdrücke",
+  "description": "Testen Sie Ihre regulären Ausdrücke in Echtzeit. Ideal für die Musteranalyse, die Validierung von Zeichenfolgen und die schnelle Korrektur von Syntaxfehlern.",
+  "tags": [
+    "regulärer Ausdruck",
+    "reguläre Ausdrücke",
+    "Regex-Test",
+    "Regex-Tester",
+    "Regulären Ausdruck validieren",
+    "Muster analysieren",
+    "Regex-Tool"
+  ],
+  "category": "Dienstprogramme",
+  "regex_placeholder": "Geben Sie den regulären Ausdruck ein ...",
+  "text_placeholder": "Text zum Testen...",
+  "test": "Prüfen",
+  "matches_singular": "Vorkommen gefunden",
+  "matches_plural": "gefundene Vorkommen",
+  "no_match": "Keine Vorkommen gefunden.",
+  "error_prefix": "Fehler im regulären Ausdruck:"
+}

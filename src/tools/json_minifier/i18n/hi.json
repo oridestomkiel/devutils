@@ -1,0 +1,20 @@
+{
+  "title": "JSON मिनिफ़ायर",
+  "description": "अपने JSON से रिक्त स्थान, लाइन ब्रेक और अनावश्यक वर्ण हटाएँ। फ़ाइल आकार को कम करने और अनुप्रयोगों को अनुकूलित करने के लिए आदर्श।",
+  "tags": [
+    "json मिनिफ़ायर",
+    "json छोटा करें",
+    "JSON कम करें",
+    "JSON संपीड़ित करें",
+    "अनुकूलित JSON",
+    "json रिक्त स्थान हटाएं",
+    "json बिना फ़ॉर्मेटिंग के"
+  ],
+  "category": "फ़ॉर्मेटर्स / मिनिफ़ायर",
+  "minify": "छोटा करना",
+  "invalidJson": "❌ अमान्य JSON.",
+  "placeholder": {
+    "input": "Cole seu JSON aqui...",
+    "output": "JSON minificado aparecerá aqui"
+  }
+}

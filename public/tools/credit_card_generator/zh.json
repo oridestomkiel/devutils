@@ -1,0 +1,12 @@
+{
+  "title": "信用卡生成器",
+  "description": "生成用于测试和开发的有效信用卡号。支持多种卡品牌，并随机生成 CVV 和有效期。",
+  "tags": ["信用卡", "生成器", "luhn", "卡品牌", "信用", "测试"],
+  "category": "生成器",
+  "label.selectBrand": "选择卡品牌：",
+  "label.number": "卡号：",
+  "label.expiry": "有效期：",
+  "label.cvv": "CVV：",
+  "button.generate": "生成",
+  "copied": "已复制！"
+}

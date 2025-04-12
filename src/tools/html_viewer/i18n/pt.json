@@ -1,0 +1,9 @@
+{
+  "title": "Visualizador de HTML",
+  "description": "Visualize, edite e formate códigos HTML com pré-visualização ao vivo. Inclui autocomplete, fechamento automático de tags e placeholder inteligente.",
+  "tags": ["html", "visualização", "preview", "web", "frontend"],
+  "category": "Utilitários",
+  "example": "Exemplo",
+  "format": "Formatar",
+  "placeholder": "Digite ou cole o seu HTML aqui"
+}

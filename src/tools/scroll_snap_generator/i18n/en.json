@@ -1,0 +1,19 @@
+{
+  "title": "Scroll Snap Generator",
+  "description": "Build responsive carousels and smooth scrolling sections using scroll-snap. Generates ready-to-use HTML and CSS.",
+  "tags": [
+    "scroll",
+    "snap",
+    "scroll-snap",
+    "carousel",
+    "horizontal",
+    "scrolling"
+  ],
+  "category": "Design / Colors",
+  "direction": "Direction",
+  "horizontal": "Horizontal",
+  "vertical": "Vertical",
+  "behavior": "Behavior",
+  "padding": "Scroll Padding (px)",
+  "gap": "Gap between items (px)"
+}

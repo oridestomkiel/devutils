@@ -1,0 +1,13 @@
+{
+    "title": "Gerador de clamp() CSS",
+    "description": "Crie valores CSS responsivos com clamp() ajustando mínimo, ideal e máximo. Útil para fontes, espaçamentos e elementos fluidos.",
+    "tags": [
+        "clamp",
+        "font-size responsivo",
+        "padding responsivo",
+        "css responsivo",
+        "vw rem clamp",
+        "design fluido"
+    ],
+    "category": "Design / Cores"
+}

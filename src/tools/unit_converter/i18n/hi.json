@@ -1,0 +1,38 @@
+{
+  "title": "यूनिट कनवर्टर",
+  "description": "बुद्धिमानी और सुविधापूर्वक इकाइयों को परिवर्तित करें। स्क्रीन माप, दूरी, तापमान, समय और बहुत कुछ के लिए आदर्श।",
+  "tags": [
+    "यूनिट कनवर्टर",
+    "माप परिवर्तित करें",
+    "पीएक्स से रेम",
+    "किमी मेरे लिए",
+    "सेल्सियस फारेनहाइट",
+    "वजन परिवर्तित करें",
+    "समय"
+  ],
+  "category": "कन्वर्टर्स",
+  "input_placeholder": "मान दर्ज करें...",
+  "output_placeholder": "परिणाम यहां प्रदर्शित है...",
+  "convert": "बदलना",
+  "invalid_input": "कृपया मान्य मान दर्ज करें.",
+  "conversions": {
+    "Pixels ↔ Rem (base 16)": "Pixels ↔ Rem (base 16)",
+    "Celsius ↔ Fahrenheit": "Celsius ↔ Fahrenheit",
+    "Km ↔ Milhas": "Km ↔ Milhas",
+    "Metros ↔ Pés": "Metros ↔ Pés",
+    "Kg ↔ Libras": "Kg ↔ Libras",
+    "Horas ↔ Minutos ↔ Segundos": "Horas ↔ Minutos ↔ Segundos",
+    "Centímetros ↔ Polegadas": "Centímetros ↔ Polegadas",
+    "Minutos ↔ Segundos": "Minutos ↔ Segundos",
+    "Dias ↔ Horas": "Dias ↔ Horas",
+    "Litros ↔ Galões (US)": "Litros ↔ Galões (US)",
+    "Litros ↔ Mililitros": "Litros ↔ Mililitros",
+    "Joules ↔ Calorias": "Joules ↔ Calorias",
+    "Watts ↔ Cavalos de potência": "Watts ↔ Cavalos de potência",
+    "Bytes ↔ KB ↔ MB": "Bytes ↔ KB ↔ MB",
+    "MB ↔ GB": "MB ↔ GB",
+    "Hectares ↔ Metros²": "Hectares ↔ Metros²",
+    "m² ↔ pés²": "m² ↔ pés²",
+    "Bar ↔ Pascal": "Bar ↔ Pascal"
+  }
+}

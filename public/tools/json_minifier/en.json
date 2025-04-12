@@ -1,0 +1,20 @@
+{
+  "title": "JSON Minifier",
+  "description": "Remove spaces, line breaks and unnecessary characters from your JSON. Ideal for reducing file size and optimizing applications.",
+  "tags": [
+    "json minifier",
+    "json minify",
+    "reduce json",
+    "compress json",
+    "optimized json",
+    "remove json spaces",
+    "json without formatting"
+  ],
+  "category": "Formatters / Minifiers",
+  "minify": "Minify",
+  "invalidJson": "❌ Invalid JSON.",
+  "placeholder": {
+    "input": "Cole seu JSON aqui...",
+    "output": "JSON minificado aparecerá aqui"
+  }
+}

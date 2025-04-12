@@ -1,0 +1,22 @@
+{
+  "title": "カラ―コンバーター（HEX, RGB, HSL）",
+  "description": "HEX、RGB、HSL の形式間で簡単かつ正確に色を変換します。デザイナー、開発者、Webプロジェクトに最適です。",
+  "tags": [
+    "カラ―コンバーター",
+    "hex から rgb",
+    "rgb から hex",
+    "hsl から rgb",
+    "カラー変換",
+    "hex rgb hsl",
+    "カラーツール",
+    "カラー補助"
+  ],
+  "category": "コンバーター",
+  "placeholder.input": "#3498db または rgb(52,152,219)",
+  "button.convert": "変換",
+  "button.copy": "コピー",
+  "output.invalid": "無効な形式です。#RRGGBB または rgb(r,g,b) を使用してください",
+  "output.label.hex": "HEX",
+  "output.label.rgb": "RGB",
+  "output.label.hsl": "HSL"
+}

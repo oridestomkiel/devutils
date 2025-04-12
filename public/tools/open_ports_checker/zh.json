@@ -1,0 +1,26 @@
+{
+  "title": "开放端口检查器",
+  "description": "扫描远程服务器的特定端口或现成的配置文件以检测活动服务（HTTP、SSH、数据库等）。",
+  "tags": [
+    "端口扫描器",
+    "端口检查器",
+    "网络/HTTP",
+    "安全",
+    "http",
+    "远程控制",
+    "mysql"
+  ],
+  "category": "网络/HTTP",
+  "host_placeholder": "例如 scanme.nmap.org",
+  "ports_placeholder": "端口（例如 22、80、443）",
+  "profile_web": "网页",
+  "profile_security": "安全",
+  "profile_db": "数据库",
+  "scan": "扫描",
+  "scanning": "扫描...",
+  "error_fill_fields": "填写主机和至少一个端口。",
+  "host_label": "主持人",
+  "port_open": "打开门",
+  "port_closed": "关门",
+  "scan_error": "错误扫描"
+}

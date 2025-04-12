@@ -1,0 +1,21 @@
+{
+  "title": "Gerador de Filters CSS",
+  "description": "Ajuste filtros visuais como blur, brilho, contraste, saturação e mais. Visualize em tempo real em imagem e texto.",
+  "tags": ["filter", "filtros css", "efeito visual", "imagem", "texto"],
+  "category": "Design / Cores",
+  "labels": {
+    "blur": "Desfoque",
+    "brightness": "Brilho",
+    "contrast": "Contraste",
+    "grayscale": "Cinza",
+    "hue": "Hue-Rotate",
+    "invert": "Inverter",
+    "sepia": "Sépia",
+    "saturate": "Saturação",
+    "copy": "Copiar",
+    "refresh": "🔄 Nova Imagem",
+    "upload": "📁 Usar imagem local",
+    "previewText": "Preview Texto",
+    "copied": "Copiado!"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Generador de contraseñas aleatorias",
+  "description": "Crea contraseñas seguras y fuertes de forma aleatoria. Ideal para proteger cuentas y datos confidenciales.",
+  "tags": [
+    "contraseña aleatoria",
+    "generador de contraseñas",
+    "contraseña segura",
+    "generador de contraseñas",
+    "seguridad de datos",
+    "generar contraseñas",
+    "protección de la cuenta"
+  ],
+  "category": "Generadores",
+  "length": "Tamaño",
+  "include_symbols": "Incluir símbolos",
+  "include_numbers": "Incluir números",
+  "include_uppercase": "Incluir letras mayúsculas",
+  "include_lowercase": "Incluir minúsculas",
+  "generate": "Para generar",
+  "click_to_generate": "Haga clic en generar",
+  "select_one_type": "Seleccione al menos un tipo de personaje"
+}

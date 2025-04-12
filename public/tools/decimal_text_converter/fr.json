@@ -1,0 +1,19 @@
+{
+  "title": "Convertisseur Décimal ↔ Texte",
+  "description": "Convertissez facilement les nombres décimaux en texte et vice versa. Utile pour le codage, les tests et la manipulation de données.",
+  "tags": [
+    "décimal en texte",
+    "texte en décimal",
+    "conversion décimale",
+    "convertir nombre en texte",
+    "ascii décimal",
+    "représentation décimale",
+    "convertisseur de nombres"
+  ],
+  "category": "Encodeurs / Décodeurs",
+  "placeholder": "Entrez du texte ou des décimaux séparés par un espace",
+  "outputPlaceholder": "Le résultat s'affichera ici",
+  "textToDecimal": "Texte → Décimal",
+  "decimalToText": "Décimal → Texte",
+  "decodeError": "Erreur lors de la conversion du décimal en texte."
+}

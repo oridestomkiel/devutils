@@ -1,0 +1,18 @@
+{
+  "title": "Base64 ↔ 16進数コンバーター",
+  "description": "Base64と16進数を簡単に変換して、バイナリデータを読みやすい形式で確認、エンコード、デバッグできます。",
+  "tags": [
+    "base64",
+    "16進数",
+    "base64からhexコンバーター",
+    "hexをbase64に変換",
+    "base64 hexオンライン",
+    "base64 hexデコーダー",
+    "base64 ↔ hex"
+  ],
+  "category": "エンコーダー / デコーダー",
+  "placeholder": "Base64または16進数を入力",
+  "b64.to.hex": "Base64 → Hex",
+  "hex.to.b64": "Hex → Base64",
+  "error.prefix": "エラー"
+}

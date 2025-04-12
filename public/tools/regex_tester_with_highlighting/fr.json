@@ -1,0 +1,21 @@
+{
+  "title": "Testeur d'expressions régulières avec surlignage",
+  "description": "Testez vos expressions régulières en temps réel grâce à la coloration syntaxique. Idéal pour analyser des modèles, valider des chaînes et corriger rapidement les erreurs.",
+  "tags": [
+    "expression régulière",
+    "expressions régulières",
+    "test d'expression régulière",
+    "expression régulière avec surbrillance",
+    "valider l'expression régulière",
+    "analyser les modèles",
+    "outil regex"
+  ],
+  "category": "Utilitaires",
+  "regex_placeholder": "Saisissez le modèle d'expression régulière (par exemple \\d+ ou /\\w+/gi)",
+  "text_placeholder": "Texte où appliquer l'expression régulière",
+  "test": "Tester l'expression régulière",
+  "fill_both": "Remplissez les deux champs.",
+  "invalid": "Expression régulière non valide :",
+  "no_match": "Aucune correspondance trouvée.",
+  "hint": "Utilisez la syntaxe JavaScript standard. Les options comme g et i sont facultatives à la fin : /default/gi."
+}

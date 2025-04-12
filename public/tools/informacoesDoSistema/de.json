@@ -1,0 +1,10 @@
+{
+    "title": "Informações do Sistema",
+    "description": "Exibe detalhes sobre o ambiente do usuário, incluindo sistema operacional, navegador e outras informações relevantes.",
+    "tags": [
+        "sistema operacional",
+        "navegador",
+        "informações do usuário"
+    ],
+    "category": "Utilitários"
+}

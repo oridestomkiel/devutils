@@ -1,0 +1,18 @@
+{
+  "title": "Volcado hexadecimal ↔ Texto",
+  "description": "Convierte texto a volcado hexadecimal o recupera texto original de un volcado hexadecimal formateado.",
+  "tags": [
+    "volcado hexadecimal",
+    "maleficio",
+    "ASCII",
+    "binario",
+    "depurar",
+    "analizador",
+    "convertidor"
+  ],
+  "category": "Convertidores",
+  "toHexdump": "Texto → Volcado hexadecimal",
+  "fromHexdump": "Hexdump → Texto",
+  "placeholder": "Escribe o pega el contenido...",
+  "convert": "Convertir"
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Verificador de GZIP",
+    "description": "Teste se o servidor de uma URL está com a compressão GZIP ativada. Veja os headers de resposta em tempo real.",
+    "tags": [
+        "gzip",
+        "http headers",
+        "compressão",
+        "verificador gzip",
+        "otimização",
+        "performance web"
+    ],
+    "category": "Redes / HTTP"
+}

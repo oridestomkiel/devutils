@@ -1,0 +1,17 @@
+{
+  "title": "Base64 → 画像",
+  "description": "Base64コードを貼り付けて、対応する画像を即座に表示。データURIのテストや埋め込みデバッグに便利です。",
+  "tags": [
+    "base64",
+    "画像",
+    "画像デコード",
+    "base64変換",
+    "data URI",
+    "画像を見る"
+  ],
+  "category": "コンバーター",
+  "placeholder": "画像の完全なBase64コードをここに貼り付けてください (data:image/png;base64,...)",
+  "preview.label": "プレビュー",
+  "error.invalid": "無効または不完全なBase64",
+  "download": "画像をダウンロード"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "JSON → Flow Types",
+  "description": "Converta objetos JSON em tipagens estáticas no estilo Flow. Útil para validar estruturas em JavaScript com tipagem opcional.",
+  "tags": ["json", "flow", "tipagem", "javascript", "flowtype", "types"],
+  "category": "Conversores",
+  "placeholder": "Cole seu JSON aqui...",
+  "convert": "Converter",
+  "error": "JSON inválido!"
+}

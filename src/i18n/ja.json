@@ -1,0 +1,2701 @@
+{
+  "address_generator": {
+    "title": "住所ジェネレーター",
+    "description": "州およびオプションで都市に基づいて有効なブラジルの住所を生成します。データは郵便局から直接取得されます。",
+    "tags": [
+      "cep",
+      "住所",
+      "ジェネレーター",
+      "ブラジル",
+      "郵便番号"
+    ],
+    "category": "ユーティリティ",
+    "intro": "ブラジルの住所を生成するには、州と（オプションで）都市を選択し、郵便番号に句読点を含めるかどうかを指定します。",
+    "label.state": "州（UF）",
+    "label.city": "市区町村",
+    "label.city.selectState": "州を選択",
+    "option.random": "ランダム",
+    "option.random.city": "ランダム",
+    "label.maskCep": "郵便番号に句読点を含めますか？",
+    "yes": "はい",
+    "no": "いいえ",
+    "generate": "住所を生成",
+    "label.result.cep": "郵便番号",
+    "label.result.address": "住所",
+    "label.result.neighborhood": "地区",
+    "label.result.city": "市区町村",
+    "label.result.state": "州",
+    "label.result.json": "完全なレスポンス（JSON）",
+    "json.loading": "⏳ 取得中...",
+    "loading": "⏳ 待機中...",
+    "error": "❌ エラー",
+    "error.fetch": "❌ データの取得に失敗しました"
+  },
+  "advanced_jwt_viewer": {
+    "title": "JWTビューア（高度）",
+    "description": "JWTトークンを表示および検証します: ヘッダー、ペイロード、署名、そしてシークレットを用いたオプションの検証。すべてリアルタイムで。",
+    "tags": [
+      "jwt",
+      "トークン",
+      "バリデーション",
+      "デコード",
+      "認証"
+    ],
+    "category": "エンコーダー / デコーダー",
+    "placeholder.jwt": "ここにJWTトークンを貼り付けてください...",
+    "clear": "クリア",
+    "header": "ヘッダー",
+    "payload": "ペイロード",
+    "copy.header": "ヘッダーをコピー",
+    "copy.payload": "ペイロードをコピー",
+    "signature.title": "JWT署名検証（オプション）",
+    "signature.placeholder": "署名を検証するための秘密を入力してください (HS256)",
+    "signature.valid": "✔ 有効な署名",
+    "signature.invalid": "✖ 無効な署名",
+    "jwt.valid": "✔ 有効なJWT",
+    "jwt.invalid": "無効なJWT（形式不正または内容不正）"
+  },
+  "advanced_qr_code_generator": {
+    "title": "高度なQRコードジェネレーター",
+    "description": "ロゴ、色、特定のサイズでカスタマイズ可能なQRコードを作成します。キャンペーン、マーケティング、データ共有に最適です。",
+    "tags": [
+      "qrコード",
+      "qrコードジェネレーター",
+      "高度なqrコード",
+      "ロゴ付きqrコード",
+      "qrマーケティング",
+      "カスタマイズqrcode",
+      "qrcodeジェネレーター",
+      "データ共有"
+    ],
+    "category": "ジェネレーター",
+    "placeholder.input": "QRを生成するテキストまたはURL",
+    "label.size": "サイズ (px)",
+    "label.margin": "マージン",
+    "label.color.dark": "暗い色",
+    "label.color.light": "明るい色",
+    "label.logo": "中央ロゴ（画像URL）",
+    "placeholder.logo": "https://example.com/logo.png",
+    "export.svg": "SVGをエクスポート"
+  },
+  "alphabetical_order": {
+    "title": "アルファベット順に並べる",
+    "description": "リストをアルファベット順に並べるオンラインツールです。名前のリストを貼り付け、「並べ替え」をクリックしてください。",
+    "tags": [
+      "順番",
+      "アルファベット",
+      "並べ替え",
+      "リスト",
+      "テキスト",
+      "重複"
+    ],
+    "category": "テキストツール",
+    "label.original": "元のテキスト：",
+    "placeholder.list": "ここにリストを貼り付けてください...",
+    "label.sortType": "並べ替えタイプ：",
+    "option.asc": "昇順 (A-Z)",
+    "option.desc": "降順 (Z-A)",
+    "label.separator": "並べ替え基準：",
+    "option.linebreak": "改行",
+    "option.space": "スペース",
+    "option.comma": "コンマ ( , )",
+    "option.semicolon": "セミコロン ( ; )",
+    "label.removeDuplicates": "重複を削除しますか？",
+    "button.sort": "並べ替え",
+    "label.sorted": "並べ替え後のテキスト：",
+    "button.download": "TXTをダウンロード"
+  },
+  "ascii_encoder_decoder": {
+    "title": "ASCIIエンコーダー / デコーダー",
+    "description": "テキストをASCIIコードに、またはその逆に素早く簡単に変換できます。分析、テスト、文字列操作に最適です。",
+    "tags": [
+      "ascii",
+      "asciiコンバーター",
+      "asciiデコード",
+      "asciiエンコード",
+      "asciiテーブル",
+      "テキストからascii",
+      "asciiからテキスト"
+    ],
+    "category": "エンコーダー / デコーダー",
+    "converter": "asciiコンバーター",
+    "decode": "ASCII → テキスト",
+    "encode": "テキスト → ASCII",
+    "table": "asciiテーブル",
+    "textToAscii": "テキストからascii",
+    "asciiToText": "asciiからテキスト",
+    "placeholder": "テキストまたはスペース区切りのASCIIコードを入力してください",
+    "decodeError": "デコードエラー。数値を確認してください。"
+  },
+  "aspect_ratio_generator": {
+    "title": "アスペクト比ジェネレーター",
+    "description": "動画、画像、レスポンシブコンテナなどの要素に固定アスペクト比を保つためのCSSスタイルを生成します。",
+    "tags": [
+      "アスペクト比",
+      "レスポンシブ",
+      "cssハック",
+      "比率",
+      "コンテナ",
+      "パディングハック"
+    ],
+    "category": "デザイン / カラー",
+    "label.ratio": "アスペクト比",
+    "label.ratio.custom": "カスタム（幅:高さ）",
+    "label.ratio.mode": "モード",
+    "option.ratio.16_9": "16:9",
+    "option.ratio.4_3": "4:3",
+    "option.ratio.1_1": "1:1",
+    "option.ratio.21_9": "21:9",
+    "option.ratio.custom": "カスタム",
+    "option.mode.modern": "aspect-ratio（モダン）",
+    "option.mode.fallback": "padding-top（互換）",
+    "preview.label": "プレビュー"
+  },
+  "base58_encoder_decoder": {
+    "title": "Base58エンコーダー/デコーダー",
+    "description": "Base58で文字列をエンコード・デコードします — ブロックチェーン、ビットコイン、および曖昧な文字を避けるシステムに最適です。",
+    "tags": [
+      "base58",
+      "base58デコーダー",
+      "base58エンコーダー",
+      "base58変換",
+      "base58ビットコイン",
+      "base58オンライン",
+      "base58エンコーダーデコーダー"
+    ],
+    "category": "エンコーダー / デコーダー",
+    "placeholder": "エンコードするテキストまたはデコードするBase58を入力",
+    "encode": "エンコード",
+    "decode": "デコード",
+    "error.decode": "デコードエラー"
+  },
+  "base64_encoder_decoder": {
+    "title": "Base64エンコーダー/デコーダー",
+    "description": "URL、API、ファイル、認証システムでの安全なデータ処理のために、Base64で文字列をエンコード・デコードします。",
+    "tags": [
+      "base64",
+      "base64エンコーダー",
+      "base64デコーダー",
+      "base64変換",
+      "base64オンライン",
+      "base64エンコードデコード",
+      "base64からテキスト"
+    ],
+    "category": "エンコーダー / デコーダー",
+    "placeholder": "テキストを入力",
+    "encode": "エンコード",
+    "decode": "デコード",
+    "error.decode": "デコード用の無効なテキストです"
+  },
+  "base64_hex_converter": {
+    "title": "Base64 ↔ 16進数コンバーター",
+    "description": "Base64と16進数を簡単に変換して、バイナリデータを読みやすい形式で確認、エンコード、デバッグできます。",
+    "tags": [
+      "base64",
+      "16進数",
+      "base64からhexコンバーター",
+      "hexをbase64に変換",
+      "base64 hexオンライン",
+      "base64 hexデコーダー",
+      "base64 ↔ hex"
+    ],
+    "category": "エンコーダー / デコーダー",
+    "placeholder": "Base64または16進数を入力",
+    "b64.to.hex": "Base64 → Hex",
+    "hex.to.b64": "Hex → Base64",
+    "error.prefix": "エラー"
+  },
+  "base64_to_image_converter": {
+    "title": "Base64 → 画像",
+    "description": "Base64コードを貼り付けて、対応する画像を即座に表示。データURIのテストや埋め込みデバッグに便利です。",
+    "tags": [
+      "base64",
+      "画像",
+      "画像デコード",
+      "base64変換",
+      "data URI",
+      "画像を見る"
+    ],
+    "category": "コンバーター",
+    "placeholder": "画像の完全なBase64コードをここに貼り付けてください (data:image/png;base64,...)",
+    "preview.label": "プレビュー",
+    "error.invalid": "無効または不完全なBase64",
+    "download": "画像をダウンロード"
+  },
+  "bcrypt_hash_tool_generate_verify": {
+    "title": "Bcrypt：ハッシュ生成と検証",
+    "description": "Bcryptで安全なハッシュを生成し、テキストが既存のハッシュと一致するかどうかを確認します。すべてブラウザ内で実行され、サーバーにデータは送信されません。",
+    "tags": [
+      "bcrypt",
+      "ハッシュ",
+      "パスワード",
+      "セキュリティ",
+      "暗号化",
+      "検証",
+      "確認"
+    ],
+    "category": "ジェネレーター",
+    "loading": "暗号ライブラリを読み込み中...",
+    "loading.sub": "必要なリソースを読み込んでいます。しばらくお待ちください。",
+    "error.load": "ライブラリの読み込みエラー",
+    "error.scope": "ライブラリは読み込まれましたが、bcryptがグローバルスコープに存在しません。",
+    "error.network": "外部ライブラリの読み込みに失敗しました。接続を確認してください。",
+    "retry": "再試行",
+    "section.generate": "Bcrypt を生成",
+    "label.text": "ハッシュするテキスト：",
+    "label.rounds": "ラウンド数（コスト係数）：",
+    "rounds.low": "低セキュリティ – テスト専用",
+    "rounds.medium": "中程度のセキュリティ – 開発に適している",
+    "rounds.high": "高セキュリティ – 本番環境に推奨",
+    "generate": "生成",
+    "copiar": "コピー",
+    "copiado": "コピーしました！",
+    "generated.with": "{rounds} ラウンドで生成されました。",
+    "section.verify": "ハッシュを検証",
+    "label.original": "元のテキスト：",
+    "label.hash": "Bcryptハッシュ：",
+    "verify": "ハッシュを検証",
+    "match.ok": "✓ ハッシュはテキストと一致します。",
+    "match.fail": "✗ ハッシュは一致しません。",
+    "match.error": "ハッシュの検証エラー。",
+    "input.empty": "ハッシュを生成するには何か入力してください。",
+    "input.verify.empty": "検証するには両方のフィールドを入力してください。",
+    "error.gerar": "生成エラー。もう一度お試しください。"
+  },
+  "binary_decimal_converter": {
+    "title": "バイナリ ↔ 10進数 コンバーター",
+    "description": "バイナリと10進数を簡単に相互変換。開発者、学生、デジタルシステム愛好家に最適です。",
+    "tags": [
+      "バイナリ",
+      "10進数",
+      "バイナリコンバーター",
+      "バイナリから10進数に変換",
+      "10進数からバイナリ",
+      "バイナリ計算機",
+      "バイナリオンライン"
+    ],
+    "category": "コンバーター",
+    "placeholder": "スペースで区切って、1つ以上の値（バイナリまたは10進数）を入力してください",
+    "bin.to.dec": "バイナリ → 10進数",
+    "dec.to.bin": "10進数 → バイナリ",
+    "error.prefix": "エラー"
+  },
+  "boleto_bank_slip_validator": {
+    "title": "ブラジル銀行伝票バリデーター",
+    "description": "ブラジルの銀行伝票（ボレト）をすばやく検証。チェックディジットとバーコード構造を確認します。テスト、自動化、支払い確認に最適。",
+    "tags": [
+      "ボレトバリデーター",
+      "銀行伝票の検証",
+      "ボレトチェッカー",
+      "オンラインボレト",
+      "バーコードボレト",
+      "ボレト検証",
+      "ブラジル銀行伝票"
+    ],
+    "category": "バリデーター",
+    "placeholder": "ボレト番号を入力してください",
+    "validate": "ボレトを検証",
+    "error.length": "❌ 無効なボレトです。47桁または48桁である必要があります。",
+    "error.dv": "❌ チェックディジットが無効です。ボレトが無効です。",
+    "success": "✅ 有効なボレトです。検出された金額: {valor}"
+  },
+  "border_radius_generator": {
+    "title": "ボーダー半径ジェネレーター",
+    "description": "角を簡単にカスタマイズ。すべての角や個別にCSSを素早く生成できます。",
+    "tags": [
+      "border-radius",
+      "丸みを帯びた境界線",
+      "css 半径",
+      "ビジュアルデザイン",
+      "丸いUI",
+      "cssボーダー",
+      "視覚スタイル"
+    ],
+    "category": "デザイン / 色",
+    "label.topLeft": "左上",
+    "label.topRight": "右上",
+    "label.bottomRight": "右下",
+    "label.bottomLeft": "左下",
+    "generate": "生成",
+    "copy": "コピー",
+    "preview": "プレビュー"
+  },
+  "camelcase_snake_case_kebab_case_converter": {
+    "title": "CamelCase ↔ snake_case ↔ kebab-case コンバーター",
+    "description": "CamelCase、snake_case、kebab-case 間の変換を簡単に行えます。変数、ファイル名、APIの標準化に最適です。",
+    "tags": [
+      "camelcase",
+      "snake_case",
+      "kebab-case",
+      "フォーマット変換",
+      "テキスト変換",
+      "camel から snake",
+      "snake から kebab",
+      "kebab から camel",
+      "ケース変換"
+    ],
+    "category": "コンバーター",
+    "placeholder.input": "任意の形式のテキストを入力してください",
+    "label.camel": "CamelCase：",
+    "label.snake": "snake_case：",
+    "label.kebab": "kebab-case："
+  },
+  "charcode_text_converter": {
+    "title": "Charcode ↔ テキスト",
+    "description": "テキストをUnicode文字コードに、またその逆にも変換します。データの分析、エンコード、デバッグに便利です。",
+    "tags": [
+      "unicode",
+      "charcode",
+      "コンバーター",
+      "テキストからコードへ",
+      "charcodeから",
+      "charcodeへ"
+    ],
+    "category": "コンバーター",
+    "mode.to": "テキスト → Charcode",
+    "mode.from": "Charcode → テキスト",
+    "placeholder": "テキストまたはスペースで区切られたUnicodeコードを入力してください",
+    "convert": "変換",
+    "clear": "クリア",
+    "copy": "コピー",
+    "error": "コードをテキストに変換中にエラーが発生しました。",
+    "reference": "Unicodeリファレンス",
+    "link": "プレーン (Unicode)"
+  },
+  "code_chat_with_deepseek": {
+    "title": "DeepSeek とのコードチャット",
+    "description": "プログラミングに特化したローカルモデルとチャットできます。簡単な質問やコード生成に最適です。",
+    "tags": [
+      "チャット",
+      "プログラミング",
+      "deepseek",
+      "アシスタント",
+      "コード"
+    ],
+    "category": "アシスタント",
+    "placeholder.input": "ここにプログラミングの質問を入力してください...",
+    "send": "送信",
+    "clear": "クリア"
+  },
+  "code_diff_github_style": {
+    "title": "コード差分（GitHubスタイル）",
+    "description": "2つのコードブロックを比較し、GitHubスタイルで違いを並べて表示します。",
+    "tags": [
+      "ビジュアル差分",
+      "git",
+      "コード比較",
+      "diff2html"
+    ],
+    "category": "解析 / 比較",
+    "placeholder.original": "元のコード...",
+    "placeholder.modified": "変更後のコード...",
+    "compare": "比較"
+  },
+  "code_diff_unified": {
+    "title": "コード差分（統合表示）",
+    "description": "コードブロックの差分を統合形式で表示。Git ターミナル出力に似ています。",
+    "tags": [
+      "diff",
+      "統合",
+      "git",
+      "行単位",
+      "コード比較"
+    ],
+    "category": "解析 / 比較",
+    "placeholder.original": "元のコード...",
+    "placeholder.modified": "変更されたコード...",
+    "compare": "比較"
+  },
+  "code_minifier_html_css_js_simple": {
+    "title": "コード最小化ツール（HTML、CSS、簡易JS）",
+    "description": "HTML、CSS、シンプルなJavaScriptのスペース、改行、コメントを削除して、サイトのパフォーマンスを最適化します。",
+    "tags": [
+      "コード圧縮",
+      "html 最小化",
+      "css 最小化",
+      "js 最小化",
+      "コード最適化",
+      "ファイル圧縮",
+      "コードサイズ削減",
+      "html css js 圧縮"
+    ],
+    "category": "フォーマッタ / 最小化ツール",
+    "placeholder.input": "HTML、CSS または JS を貼り付けてください",
+    "placeholder.output": "最小化された出力",
+    "minify": "最小化",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "empty": "最小化する内容がありません。"
+  },
+  "color_converter_hex_rgb_hsl": {
+    "title": "カラ―コンバーター（HEX, RGB, HSL）",
+    "description": "HEX、RGB、HSL の形式間で簡単かつ正確に色を変換します。デザイナー、開発者、Webプロジェクトに最適です。",
+    "tags": [
+      "カラ―コンバーター",
+      "hex から rgb",
+      "rgb から hex",
+      "hsl から rgb",
+      "カラー変換",
+      "hex rgb hsl",
+      "カラーツール",
+      "カラー補助"
+    ],
+    "category": "コンバーター",
+    "placeholder.input": "#3498db または rgb(52,152,219)",
+    "button.convert": "変換",
+    "button.copy": "コピー",
+    "output.invalid": "無効な形式です。#RRGGBB または rgb(r,g,b) を使用してください",
+    "output.label.hex": "HEX",
+    "output.label.rgb": "RGB",
+    "output.label.hsl": "HSL"
+  },
+  "color_palette_generator": {
+    "title": "カラーパレットジェネレーター",
+    "description": "自動で調和のとれたカラーパレットを作成します。デザイナー、開発者、ビジュアルアイデンティティが重要なプロジェクトに最適です。",
+    "tags": [
+      "カラーパレット",
+      "パレットジェネレーター",
+      "カラ―コンビネーション",
+      "デザインツール",
+      "調和の取れた色",
+      "デザイン用パレット",
+      "色を生成",
+      "カラーツール"
+    ],
+    "category": "デザイン / 色",
+    "button.generate": "生成",
+    "button.copy": "コピー",
+    "placeholder.colors": "生成された色がここに表示されます"
+  },
+  "convert_line_breaks_to_n": {
+    "title": "改行を \\n に変換",
+    "description": "実際の改行をエスケープされた \\n 形式に変換します。改行付きテキストをコードに貼り付けるプログラマーに最適です。",
+    "tags": [
+      "改行",
+      "エスケープ",
+      "プログラミング",
+      "変換",
+      "テキスト",
+      "コード"
+    ],
+    "category": "テキストツール",
+    "label.input": "改行を含むテキスト：",
+    "label.output": "\\n付きの結果：",
+    "placeholder.input": "ここにテキストを入力または貼り付けてください...",
+    "button.convert": "\\n に変換",
+    "button.copy": "コピー",
+    "button.clear": "クリア"
+  },
+  "credit_card_generator": {
+    "title": "クレジットカードジェネレーター",
+    "description": "テストや開発用に有効なクレジットカード番号を生成します。複数のブランドに対応し、CVVと有効期限をランダムに生成します。",
+    "tags": [
+      "カード",
+      "ジェネレーター",
+      "luhn",
+      "ブランド",
+      "クレジット",
+      "テスト"
+    ],
+    "category": "ジェネレーター",
+    "label.selectBrand": "ブランドを選択：",
+    "label.number": "カード番号：",
+    "label.expiry": "有効期限：",
+    "label.cvv": "CVV：",
+    "button.generate": "生成",
+    "copied": "コピーされました！"
+  },
+  "credit_card_validator": {
+    "title": "クレジットカードバリデーター",
+    "description": "カード番号を入力して、Luhnアルゴリズムを使って有効かどうかを確認します。ブランドは自動で判別されます。",
+    "tags": [
+      "カード",
+      "バリデーター",
+      "luhn",
+      "番号",
+      "クレジット",
+      "ブランド"
+    ],
+    "category": "ユーティリティ",
+    "label.input": "カード番号：",
+    "placeholder.input": "例：4111 1111 1111 1111",
+    "button.validate": "カードを検証",
+    "result.valid": "✅ 有効",
+    "result.invalid": "❌ 無効",
+    "result.error": "❌ 番号が無効または不完全です。",
+    "brand.unknown": "不明"
+  },
+  "cron_expression_builder": {
+    "title": "CRON式ビルダー",
+    "description": "簡単かつ直感的にCRON式を作成します。サーバー、バックエンドアプリ、自動化のスケジューリングに最適です。",
+    "tags": [
+      "cron式",
+      "cronビルダー",
+      "タスクスケジュール",
+      "cronジョブ",
+      "cronジェネレーター",
+      "cron linux",
+      "コマンドのスケジュール",
+      "cronツール"
+    ],
+    "category": "ジェネレーター",
+    "placeholder.input": "例：*/5 * * * *",
+    "button.explain": "説明",
+    "placeholder.output": "説明がここに表示されます",
+    "copied": "コピーしました！",
+    "invalid": "無効な式です。5つのフィールドが必要です。",
+    "labels": [
+      "分 (0–59)",
+      "時 (0–23)",
+      "日 (1–31)",
+      "月 (1–12)",
+      "曜日 (0=日曜日 ～ 6=土曜日)"
+    ],
+    "format.hint": "フォーマット：分 時 日 月 曜日"
+  },
+  "css_animation_generator": {
+    "title": "CSSアニメーションジェネレーター",
+    "description": "CSSアニメーションを簡単かつ直感的に作成。動きの種類、継続時間、イージング、遅延、ループを設定可能。プレビューしてCSSをコピー。",
+    "tags": [
+      "cssアニメーション",
+      "キーフレーム",
+      "ウェブアニメーション",
+      "イージング",
+      "ループ",
+      "インタラクティブデザイン"
+    ],
+    "category": "デザイン / 色",
+    "animationType": "アニメーションタイプ",
+    "categories": {
+      "basic": "🎯 ベーシック",
+      "slides": "📦 スライド",
+      "dynamic": "🤸 ダイナミック",
+      "visual": "🧼 ビジュアル",
+      "loop": "🔁 ループ / 待機"
+    },
+    "options": {
+      "fade": "フェードイン",
+      "scale": "スケール（ズーム）",
+      "rotate": "回転",
+      "slide-left": "左にスライド",
+      "slide-right": "右にスライド",
+      "slide-up": "上にスライド",
+      "slide-down": "下にスライド",
+      "bounce": "バウンド",
+      "shake": "シェイク",
+      "flip": "フリップ Y",
+      "flip-x": "フリップ X",
+      "blur-in": "ぼかしイン",
+      "opacity-pulse": "不透明度パルス",
+      "zoom-in": "ズームイン",
+      "zoom-out": "ズームアウト",
+      "float": "浮遊",
+      "wave": "波",
+      "pulse": "パルス"
+    }
+  },
+  "css_button_generator": {
+    "title": "CSSボタンジェネレーター",
+    "description": "色、パディング、ボーダー、シャドウ、ホバー状態をカスタマイズしてボタンを作成します。再利用可能なUIコンポーネントに最適です。",
+    "tags": [
+      "css ボタン",
+      "ボタン",
+      "ホバー",
+      "シャドウ",
+      "ボーダー半径",
+      "ui ボタン",
+      "ビジュアルコンポーネント"
+    ],
+    "category": "デザイン / 色",
+    "labels": {
+      "bg": "背景色",
+      "text": "テキスト色",
+      "paddingY": "パディング（縦）",
+      "paddingX": "パディング（横）",
+      "radius": "ボーダー半径",
+      "shadowColor": "影の色",
+      "shadowOpacity": "影の不透明度",
+      "offsetX": "オフセット X",
+      "offsetY": "オフセット Y",
+      "blur": "ぼかし",
+      "spread": "広がり",
+      "hover": "ホバー時の色",
+      "copy": "コピー",
+      "preview": "プレビューボタン",
+      "copied": "コピーしました！"
+    }
+  },
+  "css_clamp_generator": {
+    "title": "CSS clamp() ジェネレーター",
+    "description": "最小値、理想値、最大値を設定して、clamp() を使ったレスポンシブな CSS 値を作成します。フォント、余白、フルード要素に便利。",
+    "tags": [
+      "clamp",
+      "レスポンシブフォントサイズ",
+      "レスポンシブパディング",
+      "レスポンシブcss",
+      "vw rem clamp",
+      "流動的なデザイン"
+    ],
+    "category": "デザイン / 色",
+    "labels": {
+      "min": "最小値",
+      "ideal": "理想値 (vw)",
+      "max": "最大値",
+      "property": "CSSプロパティ",
+      "generate": "生成",
+      "copy": "コピー",
+      "preview": "サンプルテキスト",
+      "copied": "コピーしました！"
+    }
+  },
+  "css_filters_generator": {
+    "title": "CSSフィルター ジェネレーター",
+    "description": "ぼかし、明るさ、コントラスト、彩度などの視覚フィルターを調整します。画像とテキストにリアルタイムでプレビュー。",
+    "tags": [
+      "フィルター",
+      "css フィルター",
+      "ビジュアル効果",
+      "画像",
+      "テキスト"
+    ],
+    "category": "デザイン / 色",
+    "labels": {
+      "blur": "ブラー",
+      "brightness": "明るさ",
+      "contrast": "コントラスト",
+      "grayscale": "グレースケール",
+      "hue": "色相回転",
+      "invert": "反転",
+      "sepia": "セピア",
+      "saturate": "彩度",
+      "copy": "コピー",
+      "refresh": "🔄 新しい画像",
+      "upload": "📁 ローカル画像を使用",
+      "previewText": "テキストプレビュー",
+      "copied": "コピーしました！"
+    }
+  },
+  "css_gradient_generator": {
+    "title": "CSSグラデーションジェネレーター",
+    "description": "視覚的かつ直感的にカスタムCSSグラデーションを作成。滑らかな色の遷移でサイトを美しく。",
+    "tags": [
+      "css グラデーション",
+      "グラデーション生成器",
+      "背景 css",
+      "色のグラデーション",
+      "css gradient",
+      "カスタムグラデーション",
+      "ビジュアルスタイル",
+      "グラデーション背景"
+    ],
+    "category": "デザイン / 色",
+    "labels": {
+      "color1": "カラー1",
+      "color2": "カラー2",
+      "direction": "方向",
+      "generate": "生成",
+      "copy": "コピー",
+      "copied": "コピーしました！"
+    }
+  },
+  "css_shadow_generator": {
+    "title": "CSSシャドウジェネレーター",
+    "description": "オフセット、ぼかし、拡散、色を調整してカスタムシャドウを作成します。UI要素をスタイリッシュに強調するのに最適です。",
+    "tags": [
+      "ボックスシャドウ",
+      "css シャドウ",
+      "カスタムシャドウ",
+      "シャドウ効果",
+      "視覚的シャドウ",
+      "ビジュアル css",
+      "ui デザイン",
+      "ui エレベーション"
+    ],
+    "category": "デザイン / 色",
+    "labels": {
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "blur": "ぼかし",
+      "spread": "拡散",
+      "color": "影の色",
+      "generate": "生成",
+      "copy": "コピー",
+      "copied": "コピーされました！"
+    }
+  },
+  "css_variables_generator": {
+    "title": "CSS変数ジェネレーター",
+    "description": "カスタム値でCSS変数を作成して表示します。テーマやデザイントークンで使用するための:root構造を生成します。",
+    "tags": [
+      "変数",
+      "css 変数",
+      ":root",
+      "デザイントークン",
+      "テーマ"
+    ],
+    "category": "デザイン / 色",
+    "labels": {
+      "addVar": "+ 変数を追加",
+      "copy": "コピー",
+      "copied": "コピーされました！",
+      "previewText": "適用された変数のプレビュー"
+    }
+  },
+  "csv_data_matrix_generator": {
+    "title": "CSVマトリックス/データジェネレーター",
+    "description": "CSVファイル用にマトリックス形式でモックデータを生成します。テスト、プロトタイプ、スプレッドシート、データインポートに最適です。",
+    "tags": [
+      "csvジェネレーター",
+      "モックデータ",
+      "csv生成器",
+      "データマトリックス",
+      "テストデータ",
+      "csvテーブル作成",
+      "シミュレーションデータ"
+    ],
+    "category": "ジェネレーター",
+    "labels": {
+      "generate": "生成",
+      "copy": "コピー",
+      "copied": "コピーされました！",
+      "download": "CSVをダウンロード",
+      "placeholder": "生成されたCSVはここに表示されます"
+    }
+  },
+  "csv_json_converter": {
+    "title": "CSV ↔ JSONコンバーター",
+    "description": "CSVファイルをJSONに、またその逆も簡単に変換します。データ統合、API、ファイル操作に便利です。",
+    "tags": [
+      "csv json コンバーター",
+      "csv を json に変換",
+      "json を csv に変換",
+      "データ変換",
+      "csv を json に変える",
+      "ファイルを変換する",
+      "構造化データ"
+    ],
+    "category": "コンバーター",
+    "labels": {
+      "placeholderInput": "ここにCSVまたはJSONを貼り付け...",
+      "placeholderOutput": "結果がここに表示されます",
+      "csvToJson": "CSV → JSON",
+      "jsonToCsv": "JSON → CSV",
+      "copy": "コピー",
+      "copied": "コピーされました！",
+      "error": "エラー"
+    }
+  },
+  "csv_to_json_converter": {
+    "title": "CSV → JSONコンバーター",
+    "description": "CSVファイルのデータをJSON形式にすばやく簡単に変換します。API、テスト、構造化データの操作に最適です。",
+    "tags": [
+      "csv から json",
+      "csv コンバーター",
+      "csv を json に変換",
+      "構造化データ",
+      "csv 変換",
+      "ファイル変換",
+      "csv json"
+    ],
+    "category": "コンバーター",
+    "placeholderInput": "ここにCSVデータを貼り付けてください（1行目 = ヘッダー）",
+    "placeholderOutput": "JSONの結果がここに表示されます",
+    "convertBtn": "変換",
+    "copyBtn": "コピー",
+    "copiedMsg": "コピーされました！",
+    "errorPrefix": "エラー"
+  },
+  "curl_to_code_converter": {
+    "title": "cURL からコードへ",
+    "description": "cURLコマンドをJavaScript、Python、PHP、Node.js、Goなどの一般的な言語のコードスニペットに変換します。",
+    "tags": [
+      "curl",
+      "http",
+      "api",
+      "変換",
+      "ansible",
+      "csharp",
+      "dart",
+      "elixir",
+      "go",
+      "java",
+      "javascript",
+      "kotlin",
+      "lua",
+      "node",
+      "objc",
+      "perl",
+      "php",
+      "python",
+      "r",
+      "ruby",
+      "rust",
+      "swift",
+      "wget"
+    ],
+    "category": "コンバーター",
+    "label.curl": "cURLコマンド：",
+    "label.language": "言語：",
+    "label.output": "生成されたコード：",
+    "placeholder.curl": "curl https://api.example.com ...",
+    "button.convert": "変換",
+    "error.invalid": "curl で始まる有効なコマンドを入力してください",
+    "error.empty": "エラー：応答が空です。",
+    "error.failed": "変換に失敗しました"
+  },
+  "currency_formatter_brl_usd_eur": {
+    "title": "通貨フォーマッター BRL / USD / EUR",
+    "description": "BRL、USD、EUR形式の通貨を正しい区切り記号と記号でフォーマットします。システムやECサイトで価格を表示するのに最適です。",
+    "tags": [
+      "通貨フォーマッター",
+      "brl 通貨",
+      "usd 通貨",
+      "eur 通貨",
+      "金額をフォーマット",
+      "通貨フォーマット",
+      "フォーマットされた価格",
+      "国際通貨"
+    ],
+    "category": "フォーマッター / 最小化ツール",
+    "placeholder.input": "値を入力してください",
+    "placeholder.output": "フォーマット結果",
+    "option.brl": "レアル (BRL)",
+    "option.usd": "ドル (USD)",
+    "option.eur": "ユーロ (EUR)",
+    "button.format": "フォーマット",
+    "error.invalidValue": "無効な値です。"
+  },
+  "data_url_base64_image_viewer": {
+    "title": "Data URLビューア（Base64画像）",
+    "description": "画像を含むData URLを貼り付けて、表示、詳細の取得、およびダウンロードができます。Base64埋め込み画像のテストに最適です。",
+    "tags": [
+      "data url",
+      "base64画像",
+      "画像ビューア",
+      "base64から画像",
+      "base64変換"
+    ],
+    "category": "画像",
+    "placeholder": "画像の完全なData URLをここに貼り付けてください（data:image/png;base64,...）",
+    "view": "画像を表示",
+    "download": "画像をダウンロード",
+    "clear": "クリア",
+    "invalidFormat": "無効な形式です。有効な画像Data URLを使用してください。",
+    "imageDetected": "画像が検出されました",
+    "type": "種類",
+    "size": "サイズ",
+    "dimensions": "寸法"
+  },
+  "date_difference_calculator": {
+    "title": "日付差計算機",
+    "description": "2つの日付の差を日、月、または年単位で計算します。締切、期限管理、経過時間の計測に最適です。",
+    "tags": [
+      "日付の差",
+      "日付を計算する",
+      "日付間の日数",
+      "日付の間の日数",
+      "時間計算機",
+      "日付間の時間",
+      "日数を数える"
+    ],
+    "category": "日付と時間",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "calculate": "計算する",
+    "invalidDates": "両方の日付を正しく入力してください。",
+    "difference": "差",
+    "days": "日",
+    "hours": "時間",
+    "minutes": "分",
+    "resultPlaceholder": "結果がここに表示されます"
+  },
+  "date_handler_days_months_years": {
+    "title": "日付操作ツール（日、月、年）",
+    "description": "日付に日・月・年を簡単に加算または減算できます。締切、スケジュール、システムテストに最適です。",
+    "tags": [
+      "日付操作",
+      "日付の計算",
+      "日を加える",
+      "月を引く",
+      "日付の差",
+      "javascriptの日付",
+      "未来の日付",
+      "過去の日付"
+    ],
+    "category": "日付と時間",
+    "value": "値",
+    "days": "日",
+    "months": "月",
+    "years": "年",
+    "add": "追加",
+    "subtract": "減算",
+    "calculate": "計算",
+    "invalidInput": "❌ 日付と値を入力してください。",
+    "resultPlaceholder": "ここに結果が表示されます"
+  },
+  "date_to_timestamp_converter": {
+    "title": "日付からタイムスタンプ変換ツール",
+    "description": "日付/時刻をUnixタイムスタンプ形式に簡単かつ迅速に変換します。プログラミング、データベース、デバッグに最適です。",
+    "tags": [
+      "日付をタイムスタンプに",
+      "unixタイムスタンプ",
+      "タイムスタンプ変換",
+      "エポック時間",
+      "unix時間",
+      "日付変換"
+    ],
+    "category": "日付と時間",
+    "label": "日付 → タイムスタンプ (Unix)",
+    "convert": "変換",
+    "placeholder": "生成されたタイムスタンプがここに表示されます",
+    "error": "❌ 無効な日付です。"
+  },
+  "decimal_text_converter": {
+    "title": "10進数 ↔ テキスト変換ツール",
+    "description": "10進数をテキストに、またはその逆を簡単に変換できます。エンコード、テスト、データ処理に便利です。",
+    "tags": [
+      "10進数からテキスト",
+      "テキストから10進数",
+      "10進数変換",
+      "数値をテキストに変換",
+      "ascii 10進数",
+      "10進表現",
+      "数値コンバーター"
+    ],
+    "category": "エンコーダー / デコーダー",
+    "placeholder": "スペース区切りでテキストまたは10進数を入力してください",
+    "outputPlaceholder": "結果がここに表示されます",
+    "textToDecimal": "テキスト → 10進数",
+    "decimalToText": "10進数 → テキスト",
+    "decodeError": "10進数をテキストに変換する際にエラーが発生しました。"
+  },
+  "escape_unescape_backslashes": {
+    "title": "バックスラッシュのエスケープ/アンエスケープ",
+    "description": "改行 (\\n)、タブ (\\t)、引用符などの特殊文字をエスケープされた文字列に変換、またはその逆を行います。",
+    "tags": [
+      "エスケープ",
+      "アンエスケープ",
+      "バックスラッシュ",
+      "テキスト",
+      "文字列"
+    ],
+    "category": "テキストツール",
+    "escape": "エスケープ",
+    "unescape": "アンエスケープ",
+    "inputLabel": "入力：",
+    "outputLabel": "出力：",
+    "convert": "変換"
+  },
+  "extract_emails_from_text": {
+    "title": "テキストからメールを抽出",
+    "description": "任意のテキストコンテンツを貼り付けて、見つかったすべてのメールアドレスを抽出します。アルファベット順またはドメイン別に整理します。",
+    "tags": [
+      "メール",
+      "抽出",
+      "テキスト",
+      "ソート",
+      "ドメイン",
+      "メールリスト"
+    ],
+    "category": "テキストツール",
+    "inputLabel": "ソーステキスト：",
+    "placeholder": "ここにメールを含む内容を貼り付けてください...",
+    "sortLabel": "並べ替え：",
+    "sortAlphabetical": "アルファベット順",
+    "sortDomain": "ドメイン",
+    "extract": "メールを抽出",
+    "outputLabel": "抽出されたメール：",
+    "download": "TXTをダウンロード"
+  },
+  "fake_name_email_phone_generator": {
+    "title": "偽名＋メール＋電話番号ジェネレーター",
+    "description": "テスト、シミュレーション、フォーム入力用に偽の名前、メールアドレス、電話番号の組み合わせを生成します。開発環境に最適。",
+    "tags": [
+      "ダミーデータ生成",
+      "偽名",
+      "架空のメール",
+      "ランダム電話番号",
+      "テストデータ",
+      "偽のID作成",
+      "登録シミュレーション"
+    ],
+    "category": "ジェネレーター",
+    "quantity": "数量",
+    "emailDomain": "メールのドメイン",
+    "generate": "生成する",
+    "outputPlaceholder": "ここに結果が表示されます",
+    "errorInput": "❌ 数量とドメインを確認してください。"
+  },
+  "fake_person_data_generator": {
+    "title": "架空の人物データジェネレーター",
+    "description": "テストやシミュレーション用に、人々のランダムなデータ プロファイルを作成します。必要なフィールドを選択し、JSON 形式で簡単にエクスポートできます。",
+    "tags": [
+      "架空データ",
+      "人物 json",
+      "ユーザーモック",
+      "データジェネレータ",
+      "プロファイルシミュレーション",
+      "APIテスト"
+    ],
+    "category": "発電機",
+    "amountLabel": "レコード数",
+    "generate": "生成する",
+    "loadError": "基本データの読み込み中にエラーが発生しました。"
+  },
+  "file_diff_side_by_side": {
+    "title": "ファイル差分（並べて表示）",
+    "description": "2 つのテキスト ファイルを比較し、プロフェッショナルな並べて表示したレイアウトで違いを表示します。",
+    "tags": [
+      "ファイルを比較する",
+      "テキスト差分",
+      "アップロード",
+      "git スタイル",
+      "差分2HTML"
+    ],
+    "category": "分析 / 比較",
+    "originalFile": "元のファイル:",
+    "modifiedFile": "変更されたファイル:",
+    "compare": "比較する",
+    "alertMissingFiles": "比較する 2 つのファイルを選択します。"
+  },
+  "flex_grid_layout_generator": {
+    "title": "Flex/Grid レイアウト ジェネレーター",
+    "description": "Flexbox または Grid を使用してレイアウトをすばやく構築します。配置、間隔を調整し、例を使用してリアルタイムでプレビューします。",
+    "tags": [
+      "フレックスボックス",
+      "グリッドレイアウト",
+      "フレックスディスプレイ",
+      "CSS グリッド",
+      "CSS 配置",
+      "ギャップ",
+      "コンテンツの正当化",
+      "アイテムを整列させる"
+    ],
+    "category": "発電機",
+    "layoutType": "レイアウトタイプ",
+    "gap": "ギャップ",
+    "justify": "正当化する",
+    "align": "整列"
+  },
+  "generate_analyze_uuid_ulid_nanoid": {
+    "title": "UUID / ULID / Nano ID の生成と解析",
+    "description": "一意の識別子 (UUID、ULID、Nano ID) を生成し、その構造と有効性を検査します。すべてブラウザ内でローカルに実行されます。",
+    "tags": [
+      "ユーザID",
+      "ウリド",
+      "ナノイド",
+      "識別子",
+      "安全",
+      "ジェネレータ"
+    ],
+    "category": "発電機",
+    "type": "IDタイプ:",
+    "amount": "額：",
+    "lowercase": "小文字に変換",
+    "generate": "生成する",
+    "analyzeTitle": "識別子を分析",
+    "analyze": "分析する",
+    "placeholder": "UUID、ULID、またはNano IDを貼り付けます",
+    "uuidValid": "有効なUUID",
+    "version": "バージョン",
+    "variant": "変異体",
+    "uuidRfc": "RFC 4122 (標準)",
+    "ulidValid": "有効なULID",
+    "nanoidValid": "有効なナノID",
+    "invalidID": "無効または認識されない ID。",
+    "unknown": "未知"
+  },
+  "gerador_de_cnpj": {
+    "title": "CNPJ ジェネレーター",
+    "description": "テストと開発用に有効な CNPJ 番号を生成します。倍数と分岐がサポートされるようになりました。",
+    "tags": [
+      "cnpj ジェネレータ",
+      "有効なcnpj",
+      "テスト用のcnpj",
+      "偽のcnpj",
+      "CNPJ番号",
+      "cnpj シミュレータ",
+      "企業テスト",
+      "支店",
+      "複数"
+    ],
+    "category": "発電機",
+    "format": "マスクでフォーマット",
+    "generate": "生成する",
+    "generateMultiple": "倍数を生成する",
+    "simulateBranch": "親 CNPJ + ブランチをシミュレートする",
+    "placeholder": "生成されたCNPJはここに表示されます"
+  },
+  "gerador_de_cpf": {
+    "title": "CPF ジェネレータ",
+    "description": "フォーマットの有無にかかわらず有効な CPF を生成します。フォームのテストや登録に最適です。",
+    "tags": [
+      "cpf ジェネレータ",
+      "有効な CPF",
+      "CPFシミュレータ",
+      "フォームテスト"
+    ],
+    "category": "発電機",
+    "placeholder": "生成されたCPFはここに表示されます"
+  },
+  "gerador_de_rg": {
+    "title": "ランダムRGジェネレータ",
+    "description": "テストおよび開発用の架空の ID 番号を生成します。テスト環境でのドキュメントのシミュレーションや検証に役立ちます。",
+    "tags": [
+      "RGジェネレータ",
+      "偽造ID",
+      "テスト用rg",
+      "架空の文書",
+      "RGシミュレータ",
+      "偽の身元",
+      "RGを生成する"
+    ],
+    "category": "発電機",
+    "generate": "生成する"
+  },
+  "glassmorphism_generator": {
+    "title": "グラスモルフィズムジェネレータ",
+    "description": "色、透明度、ぼかし、境界線を使用して、すりガラス効果を作成します。モダンな外観のパネルやカードに最適です。",
+    "tags": [
+      "グラスモルフィズム",
+      "ぼやける",
+      "透明性",
+      "ガラス効果",
+      "すりガラス",
+      "モダンなUI",
+      "視覚ガラス"
+    ],
+    "category": "デザイン / カラー",
+    "backgroundColor": "背景色",
+    "opacity": "不透明度",
+    "blur": "ぼかし (px)",
+    "borderColor": "境界線の色",
+    "borderOpacity": "エッジの不透明度",
+    "previewBackground": "プレビューの背景"
+  },
+  "gzip_checker": {
+    "title": "GZIP チェッカー",
+    "description": "URL のサーバーで GZIP 圧縮が有効になっているかどうかをテストします。応答ヘッダーをリアルタイムで表示します。",
+    "tags": [
+      "圧縮",
+      "http ヘッダー",
+      "圧縮",
+      "gzip チェッカー",
+      "最適化",
+      "ウェブパフォーマンス"
+    ],
+    "category": "ネットワーク / HTTP",
+    "placeholder": "https://example.com/arquivo.js",
+    "check": "GZIPをチェック",
+    "checking": "チェック中...",
+    "gzip.enabled": "✅ GZIP がオン — テキストが圧縮されています。",
+    "gzip.disabled": "❌ GZIP が有効になっていません — 圧縮されていない応答。",
+    "httpHeaders": "HTTP ヘッダー",
+    "error.invalidUrl": "有効な URL を入力してください。",
+    "error.checkFailed": "テスト中にエラーが発生しました",
+    "error.prefix": "エラー"
+  },
+  "hash_generator_md5_sha1_sha224_sha256_sha512": {
+    "title": "ハッシュジェネレーター (MD5、SHA1、SHA224、SHA256、SHA512)",
+    "description": "任意のテキストを入力すると、MD5、SHA1、SHA224、SHA256、SHA512 ハッシュが自動的に生成されます。それぞれをコピーするオプションがあります。",
+    "tags": [
+      "ハッシュ",
+      "MD5",
+      "シャ",
+      "暗号化",
+      "ハッシュジェネレータ"
+    ],
+    "category": "テキストツール",
+    "placeholder": "ハッシュを生成するにはテキストを入力するか貼り付けます...",
+    "uppercase": "大文字で表示"
+  },
+  "hash_generator_md5_sha256": {
+    "title": "ハッシュジェネレーター (MD5/SHA256)",
+    "description": "任意のテキストから MD5 または SHA256 ハッシュをすばやく生成します。セキュリティ、整合性チェック、開発に最適です。",
+    "tags": [
+      "ハッシュジェネレータ",
+      "MD5",
+      "sha256",
+      "暗号化",
+      "テキストハッシュ",
+      "データセキュリティ",
+      "整合性チェック",
+      "md5を生成する",
+      "sha256を生成する"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "placeholder": "生成するテキスト",
+    "resultPlaceholder": "結果はここに表示されます"
+  },
+  "hello_world_in_multiple_languages": {
+    "title": "複数の言語で Hello World を表示",
+    "description": "古典的な Hello World を数十種類のプログラミング言語で表示します。学習や好奇心に最適です。",
+    "tags": [
+      "こんにちは世界",
+      "プログラミング言語",
+      "コード例",
+      "教育的な",
+      "基本コード",
+      "コードジェネレータ"
+    ],
+    "category": "ユーティリティ",
+    "selectPlaceholder": "言語を選択"
+  },
+  "hex_base64_converter": {
+    "title": "16進数↔Base64コンバータ",
+    "description": "16 進形式と Base64 形式間でデータを簡単に変換します。バイナリ データのエンコード、保護、操作に最適です。",
+    "tags": [
+      "16進数をBase64に変換する",
+      "base64 から 16 進数",
+      "データコンバータ",
+      "base64エンコード",
+      "16進エンコード",
+      "16進数をbase64に変換する",
+      "base64 コンバーター"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "placeholder": "16進数またはBase64値を入力",
+    "outputPlaceholder": "結果はここに表示されます",
+    "hexToBase64": "16進数 → Base64",
+    "base64ToHex": "Base64 → 16進数"
+  },
+  "hex_encoder_decoder": {
+    "title": "HEX エンコーダ/デコーダ",
+    "description": "テキストを 16 進数に、16 進数をテキストに簡単に変換できます。デバッグ、コーディング、データ操作に最適です。",
+    "tags": [
+      "16進数",
+      "テキストを16進数に変換",
+      "16進数からテキストへ",
+      "16進数でエンコード",
+      "16進数をデコードする",
+      "16進数コンバータ",
+      "六角ツール",
+      "16進文字列"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "placeholder": "テキストまたはHEXコードを入力",
+    "resultPlaceholder": "結果はここに表示されます",
+    "encode": "テキスト → HEX",
+    "decode": "16進数 → テキスト"
+  },
+  "hex_text_converter": {
+    "title": "16進数↔テキストコンバータ",
+    "description": "16 進数値をテキストに、テキストを 16 進数値に正確に変換します。コーディング、デバッグ、文字列操作に役立ちます。",
+    "tags": [
+      "16進数からテキストへ",
+      "テキストを16進数に変換",
+      "16進数コンバータ",
+      "文字列を16進数に変換",
+      "16進数をデコードする",
+      "テキストをエンコードする",
+      "16進数に変換"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "placeholder": "テキストまたは16進数値を入力してください",
+    "textToHex": "テキスト → 16進数",
+    "hexToText": "16進数 → テキスト"
+  },
+  "hexadecimal_decimal_converter": {
+    "title": "16進数↔10進数コンバータ",
+    "description": "16 進数と 10 進数の間で値をすばやく簡単に変換します。プログラミング、エレクトロニクス、データ分析に最適です。",
+    "tags": [
+      "16進数を10進数に変換する",
+      "10進数を16進数に変換する",
+      "16進数コンバータ",
+      "数値を変換する",
+      "基数",
+      "16進数 10進数",
+      "16進計算機"
+    ],
+    "category": "コンバーター",
+    "placeholder": "16進数または10進数をスペースで区切って入力してください",
+    "hexToDec": "16進数 → 10進数",
+    "decToHex": "10進数 → 16進数"
+  },
+  "hexdump_text_converter": {
+    "title": "16 進ダンプ ↔ テキスト",
+    "description": "テキストを 16 進ダンプに変換するか、フォーマットされた 16 進ダンプから元のテキストを復元します。",
+    "tags": [
+      "16進ダンプ",
+      "16進数",
+      "アスキー",
+      "バイナリ",
+      "デバッグ",
+      "アナライザ",
+      "コンバータ"
+    ],
+    "category": "コンバーター",
+    "toHexdump": "テキスト → 16進ダンプ",
+    "fromHexdump": "16進ダンプ → テキスト",
+    "placeholder": "内容を入力または貼り付けます...",
+    "convert": "変換する"
+  },
+  "hmac_generator_sha1_sha256_sha512": {
+    "title": "HMAC ジェネレーター (SHA-1、SHA-256、SHA-512)",
+    "description": "秘密キーを使用して、SHA-1、SHA-256、または SHA-512 アルゴリズムで HMAC コードを生成します。認証、API、およびデータ セキュリティに最適です。",
+    "tags": [
+      "hmac ジェネレータ",
+      "hmac sha1",
+      "ハッシュハッシュ",
+      "hmac sha512",
+      "API セキュリティ",
+      "HMAC暗号化",
+      "デジタル署名",
+      "キー付きハッシュ"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "message": "メッセージ",
+    "secretKey": "秘密鍵",
+    "generate": "生成する"
+  },
+  "html_entity_encode_decode": {
+    "title": "HTML エンティティのエンコード/デコード",
+    "description": "HTML スニペットをエンティティに変換するか、通常のテキストにデコードします。セキュリティとコード プレビューに役立ちます。",
+    "tags": [
+      "html",
+      "実在物",
+      "エンコード",
+      "デコード",
+      "xss",
+      "変換"
+    ],
+    "category": "テキストツール",
+    "encode": "エンコード",
+    "decode": "デコード",
+    "input": "禁止",
+    "output": "出口",
+    "convert": "変換する"
+  },
+  "html_viewer": {
+    "title": "HTML ビューア",
+    "description": "ライブ プレビューを使用して HTML コードを表示、編集、フォーマットします。オートコンプリート、自動タグ終了、スマート プレースホルダーが含まれます。",
+    "tags": [
+      "html",
+      "視覚化",
+      "プレビュー",
+      "ウェブ",
+      "フロントエンド"
+    ],
+    "category": "ユーティリティ",
+    "example": "例",
+    "format": "形式",
+    "placeholder": "ここにHTMLを入力または貼り付けます"
+  },
+  "http_error_simulator": {
+    "title": "HTTP エラー シミュレーター",
+    "description": "404、500、403 などの HTTP エラー コードをシミュレートして、アプリケーションの動作とフロントエンドの応答をテストします。",
+    "tags": [
+      "http シミュレーター",
+      "httpエラー",
+      "テスト404エラー",
+      "エラー500をシミュレートする",
+      "http コード",
+      "偽の http 応答",
+      "APIデバッグ",
+      "http ステータス コード"
+    ],
+    "category": "ネットワーク / HTTP",
+    "label": "シミュレートするHTTPコード",
+    "placeholder": "例: 404",
+    "simulate": "シミュレーション",
+    "invalidCode": "無効なコードです。",
+    "status": "状態",
+    "viewFull": "完全な回答を見る",
+    "error": "シミュレーション中にエラーが発生しました:"
+  },
+  "http_headers_viewer_raw_request": {
+    "title": "HTTP ヘッダー ビューアー (生のリクエスト)",
+    "description": "リクエスト内の HTTP ヘッダーの生のコンテンツを表示します。デバッグ、トラフィック分析、Web 開発に最適です。",
+    "tags": [
+      "http ヘッダー",
+      "ヘッダーを表示",
+      "生のリクエスト",
+      "http分析",
+      "httpリクエスト",
+      "http リクエスト ビューア",
+      "デバッグをリクエスト",
+      "ヘッダーを検査する"
+    ],
+    "category": "ネットワーク / HTTP",
+    "placeholder": "生のHTTPリクエストをここに貼り付けます",
+    "analyze": "分析する",
+    "nothingToAnalyze": "分析するものはありません。",
+    "methodAndPath": "方法とルート",
+    "headers": "ヘッダー"
+  },
+  "image_cropper": {
+    "title": "画像クロッパー",
+    "description": "画像をアップロードし、トリミング領域を選択して、必要な部分のみをダウンロードします。PNG と JPG をサポートします。",
+    "tags": [
+      "作物",
+      "画像",
+      "カット",
+      "エディタ",
+      "ユーティリティイメージ"
+    ],
+    "category": "画像",
+    "download": "クリッピングをダウンロード",
+    "clear": "掃除する"
+  },
+  "image_to_base64_converter": {
+    "title": "画像 → Base64",
+    "description": "画像ファイルを Base64 文字列にすばやく変換します。HTML、CSS、JSON への埋め込みに最適です。",
+    "tags": [
+      "ベース64",
+      "画像を変換する",
+      "画像をbase64に変換する",
+      "img を base64 に変換する",
+      "日付URI",
+      "画像を埋め込む",
+      "インライン画像"
+    ],
+    "category": "コンバーター",
+    "copy": "コピー",
+    "copied": "コピーしました！"
+  },
+  "image_to_data_url_base64": {
+    "title": "画像 → 日付 URL (Base64)",
+    "description": "デバイスから画像を選択すると、自動的に base64 データ URL に変換されます。HTML または CSS に画像を埋め込む場合に便利です。",
+    "tags": [
+      "画像をbase64に変換する",
+      "日付までの画像 URL",
+      "画像を変換する",
+      "ベース64",
+      "日付 uri"
+    ],
+    "category": "画像",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "download": "画像をダウンロード",
+    "clear": "掃除する"
+  },
+  "json_formatter": {
+    "title": "JSONフォーマッタ",
+    "description": "JSON データをフォーマットして、読みやすく整理された状態にします。複雑な API やフレームワークを扱う開発者に最適です。",
+    "tags": [
+      "jsonフォーマッタ",
+      "読み取り可能なJSON",
+      "json を美しくする",
+      "json 整形ツール",
+      "インデントされたJSON",
+      "整理されたJSON",
+      "json ツール"
+    ],
+    "category": "フォーマッタ/ミニファイア",
+    "format": "JSON形式"
+  },
+  "json_minifier": {
+    "title": "JSON 縮小ツール",
+    "description": "JSON からスペース、改行、不要な文字を削除します。ファイル サイズを縮小し、アプリケーションを最適化するのに最適です。",
+    "tags": [
+      "JSON 縮小ツール",
+      "json の縮小",
+      "json を減らす",
+      "jsonを圧縮する",
+      "最適化されたJSON",
+      "JSONスペースを削除する",
+      "フォーマットなしのJSON"
+    ],
+    "category": "フォーマッタ/ミニファイア",
+    "minify": "縮小",
+    "invalidJson": "❌ 無効なJSONです。",
+    "placeholder": {
+      "input": "Cole seu JSON aqui...",
+      "output": "JSON minificado aparecerá aqui"
+    }
+  },
+  "json_prettifier": {
+    "title": "JSON フォーマッタ (整形ツール)",
+    "description": "自動インデントにより、JSON ファイルを読みやすく整理された状態に保ちます。読み取り、デバッグ、開発に最適です。",
+    "tags": [
+      "jsonフォーマッタ",
+      "json 整形ツール",
+      "json を美しくする",
+      "json形式",
+      "json インデント",
+      "JSONを美しくする",
+      "json 整形ツール"
+    ],
+    "category": "フォーマッタ/ミニファイア",
+    "format": "形式",
+    "error": "エラー",
+    "placeholder": {
+      "input": "Digite ou cole um JSON"
+    }
+  },
+  "json_schema_to_openapi": {
+    "title": "JSON スキーマ → OpenAPI",
+    "description": "有効な JSON スキーマを OpenAPI 3.0 形式に変換します。「nullable」などのフィールドを調整し、「$schema」を削除して、API で使用できるように正しくフォーマットします。",
+    "tags": [
+      "JSONスキーマ",
+      "オープンAPI",
+      "変換する",
+      "API設計",
+      "スペック"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここに JSON スキーマを貼り付けます...",
+    "convert": "変換する",
+    "error": "エラー",
+    "invalidJson": "無効なJSONです。"
+  },
+  "json_schema_to_typescript": {
+    "title": "JSON スキーマ → TypeScript",
+    "description": "列挙型、null 可能、JSDoc、境界付き配列などをサポートする JSON スキーマから完全な TypeScript インターフェイスを生成します。",
+    "tags": [
+      "JSONスキーマ",
+      "タイプスクリプト",
+      "インタフェース",
+      "変換する",
+      "タイピング"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここに JSON スキーマを貼り付けます...",
+    "convert": "変換する",
+    "invalid": "無効なスキーマです。",
+    "invalidJson": "無効な JSON スキーマです。"
+  },
+  "json_to_bigquery_schema": {
+    "title": "JSON → BigQuery スキーマ",
+    "description": "単純な JSON を、名前、タイプ、モードを含む BigQuery のスキーマ構造に変換します (必須)。",
+    "tags": [
+      "json",
+      "ビッグクエリ",
+      "スキーマ",
+      "グーピーシーピー",
+      "グーグルクラウド",
+      "データ"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここにJSONを貼り付けてください...",
+    "convert": "変換する",
+    "invalidJson": "無効なJSONです。"
+  },
+  "json_to_csv_converter": {
+    "title": "JSON → CSV コンバーター",
+    "description": "JSON データを CSV 形式に簡単に変換できます。エクスポート、スプレッドシート、構造化データの操作に最適です。",
+    "tags": [
+      "json から csv へ",
+      "json を変換する",
+      "データコンバータ",
+      "json csv",
+      "json をエクスポート",
+      "json を csv に変換する",
+      "構造化データ"
+    ],
+    "category": "コンバーター",
+    "placeholder": "JSON（オブジェクトの配列）を貼り付けます",
+    "delimiter": "デリミタ",
+    "useQuotes": "引用符を使用する",
+    "convert": "変換する",
+    "errorNotArray": "JSON はオブジェクトの配列である必要があります。",
+    "errorPrefix": "エラー："
+  },
+  "json_to_flow_types": {
+    "title": "JSON → フロータイプ",
+    "description": "JSON オブジェクトを静的な Flow スタイルの型に変換します。オプションの型指定を持つ JavaScript 構造を検証するのに役立ちます。",
+    "tags": [
+      "json",
+      "流れ",
+      "タイピング",
+      "ジャバスクリプト",
+      "フロータイプ",
+      "種類"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここにJSONを貼り付けてください...",
+    "convert": "変換する",
+    "error": "無効なJSONです。"
+  },
+  "json_to_graphql": {
+    "title": "JSON → GraphQL",
+    "description": "JSON から GraphQL タイプを自動的に生成します。API スキーマをすばやく構築するのに役立ちます。",
+    "tags": [
+      "json",
+      "グラフQL",
+      "スキーマ",
+      "変換する",
+      "種類"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここにJSONを貼り付けてください...",
+    "convert": "変換する",
+    "error": "無効なJSONです。"
+  },
+  "json_to_json_schema": {
+    "title": "JSON → JSON スキーマ",
+    "description": "有効な JSON オブジェクトから JSON スキーマを自動的に生成します。検証、ドキュメント、API 契約に役立ちます。",
+    "tags": [
+      "json",
+      "スキーマ",
+      "検証",
+      "アピ",
+      "契約",
+      "jsonスキーマ"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここにJSONを貼り付けてください...",
+    "convert": "変換する",
+    "error": "無効なJSONです。"
+  },
+  "json_to_mongoose_schema": {
+    "title": "JSON → Mongoose スキーマ",
+    "description": "JSON から Mongoose スキーマを自動的に生成します。MongoDB ドキュメントをすばやくモデル化するのに役立ちます。",
+    "tags": [
+      "json",
+      "マングース",
+      "スキーマ",
+      "モンゴ",
+      "モデリング"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここにJSONを貼り付けてください...",
+    "convert": "変換する",
+    "error": "無効なJSONです。"
+  },
+  "json_to_mysql": {
+    "title": "JSON → MySQL",
+    "description": "JSON から MySQL テーブルを作成するための SQL ステートメントを生成します。迅速なプロトタイピングとモデリングに最適です。",
+    "tags": [
+      "json",
+      "マイスク",
+      "SQL文",
+      "データベース",
+      "変換する",
+      "ddl"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここにJSONを貼り付けてください...",
+    "convert": "変換する",
+    "error": "無効なJSONです。"
+  },
+  "json_to_typescript": {
+    "title": "JSON → TypeScript",
+    "description": "提供されたデータに基づいて、強力な型付けと構造を使用して、JSON を TypeScript インターフェースに自動的に変換します。",
+    "tags": [
+      "json",
+      "タイプスクリプト",
+      "変換する",
+      "インタフェース",
+      "種類"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここにJSONを貼り付けてください...",
+    "convert": "変換する",
+    "error": "無効なJSONです。"
+  },
+  "json_to_xml_converter": {
+    "title": "JSON ↔ XML コンバーター",
+    "description": "JSON 形式と XML 形式間でデータを正確に変換します。システム統合、API、構造化データ操作に最適です。",
+    "tags": [
+      "json から xml",
+      "xml から json へ",
+      "json xml コンバーター",
+      "データを変換する",
+      "xml 形式",
+      "json形式",
+      "XML から JSON への変換"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここに JSON または XML を貼り付けます...",
+    "jsonToXml": "JSON → XML",
+    "xmlToJson": "XML → JSON",
+    "error": "変換エラー"
+  },
+  "json_to_yaml_converter": {
+    "title": "JSON → YAML コンバーター",
+    "description": "JSON ファイルを YAML 形式に簡単かつ効率的に変換します。システム構成、API、コードとしてのインフラストラクチャに最適です。",
+    "tags": [
+      "json から yaml へ",
+      "json を変換する",
+      "json yaml",
+      "データ変換",
+      "yaml構造",
+      "yaml 構成",
+      "json を yaml に変換する"
+    ],
+    "category": "コンバーター",
+    "placeholder": "ここにJSONを貼り付けます...",
+    "convert": "変換する",
+    "error": "変換エラー"
+  },
+  "json_validator": {
+    "title": "JSON バリデーター",
+    "description": "JSON が有効で適切にフォーマットされているかどうかを確認します。API、構成ファイル、統合テストの構文エラーを検出するのに最適です。",
+    "tags": [
+      "json バリデーター",
+      "有効なJSON",
+      "jsonを検証する",
+      "JSONチェッカー",
+      "JSON のエラー",
+      "JSON構造を検証する",
+      "JSON構文"
+    ],
+    "category": "バリデーター",
+    "placeholder": "JSONを入力または貼り付けます",
+    "validate": "検証",
+    "valid": "✅ 有効な JSON。",
+    "invalid": "❌ 無効"
+  },
+  "jwt_generator": {
+    "title": "JWT ジェネレーター",
+    "description": "ヘッダー、ペイロード、シークレットを使用してカスタム JWT トークンを作成します。HS256 でのテストに最適です。",
+    "tags": [
+      "jwt",
+      "トークン",
+      "jwtを生成する",
+      "テスト jwt",
+      "暗号化"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "payload": "ペイロード (JSON)",
+    "header": "ヘッダー（オプション）",
+    "secret": "秘密（HS256）",
+    "secretPlaceholder": "秘密を入力してください...",
+    "outputLabel": "JWTトークン",
+    "invalidPayload": "無効なペイロード",
+    "invalidHeader": "無効なヘッダー",
+    "secretRequired": "必須の秘密"
+  },
+  "jwt_viewer": {
+    "title": "JWT ビューア",
+    "description": "JWT トークンをデコードして、ヘッダー、ペイロード、署名を表示します。デバッグ、セキュリティ、認証の開発に最適です。",
+    "tags": [
+      "jwt",
+      "jwt を表示",
+      "jwtをデコードする",
+      "jwtトークン",
+      "jwt デバッガー",
+      "jwtを分析する",
+      "jwt デコーダー",
+      "jwt トークン ビューアー"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "placeholder": "ここにJWTを貼り付けます",
+    "decode": "デコード",
+    "error.invalid": "無効な JWT",
+    "error.structure": "JWT にはドットで区切られた 3 つの部分が含まれている必要があります。"
+  },
+  "lorem_ipsum_generator": {
+    "title": "ロレムイプサムジェネレーター",
+    "description": "デザイン、レイアウト、コンテンツ テストのプレースホルダーとして使用する標準の Lorem Ipsum ダミー テキストを生成します。",
+    "tags": [
+      "ロレム・イプサム",
+      "架空のテキスト",
+      "テキストジェネレータ",
+      "レイアウト用テキスト",
+      "コンテンツプレースホルダー",
+      "模擬テキスト",
+      "テスト内容"
+    ],
+    "category": "発電機",
+    "paragraphs": "段落",
+    "words": "言葉",
+    "bytes": "バイト",
+    "lists": "リスト",
+    "startWithLorem": "「Lorem ipsum dolor sit amet...」で始めましょう。",
+    "error.loading": "Lorem Ipsum テキストの読み込み中にエラーが発生しました。",
+    "loremIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc purus、gravida non dignissim iaculis、pretium sed metus。 Quisque faucibus、lacus a vulputate fermentum、lacus erat feugeat risus、non fringilla ligula eros eu sem。整数の接続、sem suscipit pellentesque autor、neque velit fermentum mi、id elementum eros felis at nisi。 Aenean consectetur gravida dui、vel porta diam aliquam et。 Aliquam volutpat、lectus ut convallis前庭、ligula leo fringilla neque、non fringilla just tortor non purus。 Proin consequat erat vitae Tellus pharetra、マレスアダ エロス ルトルム。整数の正統性、有効性、履歴書。セドの妊娠ルトラムはベネナティスですらあります。"
+  },
+  "magic_analyzer": {
+    "title": "マジックアナライザー",
+    "description": "データを自動的に検出して分析し、エントロピー、パターン、形式に基づいてデコード、解凍、解釈などの便利な操作を提案します。",
+    "tags": [
+      "自己",
+      "検出する",
+      "デコード",
+      "分析",
+      "頭いい",
+      "魔法"
+    ],
+    "category": "分析 / 比較",
+    "placeholder": "疑わしいデータをここに貼り付けます (Base64、Hex、JWT、ペイロードなど)",
+    "crib": "正規表現（Crib）",
+    "cribPlaceholder": "オプション: 結果をフィルタリングするための正規表現を入力します",
+    "depth": "再帰分析の深さ",
+    "intensive": "集中モード（ROT13とXORの軽いブルートフォース）",
+    "entropy": "エントロピ",
+    "ascii": "ASCIIテキストのように見える",
+    "printable": "印刷可能な文字",
+    "maybeBase64": "有効なBase64",
+    "maybeHex": "16進数可能",
+    "validJson": "有効なJSON",
+    "jwtDecoded": "JWTが検出されデコードされました",
+    "gzipDecoded": "GZIP が正常にデコードされました",
+    "cribFound": "正規表現で見つかったベビーベッド",
+    "cribNotFound": "正規表現を使用してもベビーベッドが見つからない",
+    "rot13Json": "ROT13 を適用 → 有効な JSON",
+    "xorJson": "キーとのXOR → 有効なJSON"
+  },
+  "markdown_to_html_preview": {
+    "title": "マークダウン → HTML プレビュー",
+    "description": "HTML に変換された Markdown テキストのレンダリングをリアルタイムでプレビューします。ライター、開発者、コンテンツ作成者に最適です。",
+    "tags": [
+      "マークダウンからHTMLへ",
+      "マークダウンプレビュー",
+      "マークダウンをレンダリングする",
+      "マークダウンビューア",
+      "マークダウンライブプレビュー",
+      "マークダウンを変換",
+      "マークダウンからのHTML"
+    ],
+    "category": "コンバーター",
+    "placeholder": "# タイトル\\n\\n*markdown*テキスト。"
+  },
+  "markdown_to_html_tags": {
+    "title": "Markdown → HTML (タグ)",
+    "description": "生成された HTML タグのみを表示して、Markdown を生の HTML に変換します。開発者やコンテンツ統合に最適です。",
+    "tags": [
+      "マークダウンからHTMLへ",
+      "マークダウンからHTMLへ",
+      "マークダウンを変換",
+      "HTMLタグ出力",
+      "生のマークダウン",
+      "マークダウン HTML を表示"
+    ],
+    "category": "コンバーター",
+    "placeholder": "# タイトル\n\n*マークダウン*テキスト。"
+  },
+  "mercosul_plate_generator": {
+    "title": "メルコスールプレートジェネレーター",
+    "description": "Mercosur 規格 (AAA1A23) のプレートを生成するか、古いプレートを新しいモデルに変換します。テストやシミュレーションに最適です。",
+    "tags": [
+      "メルコスールプレート",
+      "プレートジェネレータ",
+      "新しいモデル",
+      "ブラジルプレート",
+      "ボードシミュレーター",
+      "プレートを変換する",
+      "輸出プレート"
+    ],
+    "category": "発電機",
+    "quantity": "額：",
+    "convert_label": "古いプレートを変換する（ABC1234）：",
+    "convert_placeholder": "例: BRA1234",
+    "convert_button": "変換する",
+    "export_csv": "CSV をエクスポート"
+  },
+  "multiple_property_transitions": {
+    "title": "複数のプロパティを持つ遷移",
+    "description": "複数のプロパティ（それぞれ独自の期間、遅延、イージングを持つ）を使用してカスタム CSS トランジションを構築します。",
+    "tags": [
+      "遷移",
+      "css",
+      "アニメーション",
+      "緩和",
+      "遅れ",
+      "マルチプロップ"
+    ],
+    "category": "デザイン / カラー",
+    "preview": "プレビュー",
+    "duration": "期間（秒）",
+    "delay": "遅延（秒）",
+    "background-color": "背景色",
+    "color": "テキストの色",
+    "transform": "変換",
+    "opacity": "不透明度",
+    "border-radius": "丸め",
+    "ease": "容易に",
+    "linear": "リニア",
+    "ease-in": "イージーイン",
+    "ease-out": "イージーアウト",
+    "ease-in-out": "イージーインアウト"
+  },
+  "neon_effect_generator": {
+    "title": "ネオンエフェクトジェネレーター",
+    "description": "複数のシャドウ レイヤーを使用してネオン テキスト効果を作成します。様式化されたインターフェイス、目を引くタイトル、ハッカー モードに最適です。",
+    "tags": [
+      "ネオン",
+      "テキストシャドウ",
+      "グロー効果",
+      "サイバービジュアル",
+      "ui グロー",
+      "ハッカーモード"
+    ],
+    "category": "デザイン / カラー",
+    "color_label": "ネオンカラー",
+    "intensity_label": "強度",
+    "preview_text": "ネオンテキスト"
+  },
+  "online_ping": {
+    "title": "ピンオンライン",
+    "description": "ドメインまたは IP にテスト パケットを送信し、ホストに到達可能かどうかを確認します。ネットワークと遅延の診断に最適です。",
+    "tags": [
+      "オンライン ピング",
+      "ネットワークテスト",
+      "レイテンシー",
+      "接続を確認する",
+      "pingサーバー",
+      "DNS ピング",
+      "IPテスト"
+    ],
+    "category": "ネットワーク / HTTP",
+    "input_label": "ドメインまたは IP を入力してください:",
+    "input_placeholder": "例: google.com",
+    "send_ping": "ピンを送信",
+    "result_label": "結果：",
+    "waiting": "待って..."
+  },
+  "open_ports_checker": {
+    "title": "オープンポートチェッカー",
+    "description": "リモート サーバーの特定のポートまたは既成のプロファイルをスキャンして、アクティブなサービス (HTTP、SSH、データベースなど) を検出します。",
+    "tags": [
+      "ポートスキャナー",
+      "ポートチェッカー",
+      "ネットワーク / HTTP",
+      "安全",
+      "http",
+      "ssh",
+      "マイスク"
+    ],
+    "category": "ネットワーク / HTTP",
+    "host_placeholder": "例: scanme.nmap.org",
+    "ports_placeholder": "ポート (例: 22,80,443)",
+    "profile_web": "ウェブ",
+    "profile_security": "安全",
+    "profile_db": "データベース",
+    "scan": "スキャン",
+    "scanning": "走査...",
+    "error_fill_fields": "ホストと少なくとも 1 つのポートを入力します。",
+    "host_label": "ホスト",
+    "port_open": "オープンドア",
+    "port_closed": "閉ざされた扉",
+    "scan_error": "スキャンエラー"
+  },
+  "overlay_generator": {
+    "title": "オーバーレイジェネレーター",
+    "description": "色、不透明度、ブレンド モードを使用してビジュアル オーバーレイを作成し、画像、バナー、または注目のセクションに適用します。",
+    "tags": [
+      "かぶせる",
+      "ブレンド",
+      "背景",
+      "ミックスブレンドモード",
+      "効果",
+      "CSS ビジュアル"
+    ],
+    "category": "デザイン / カラー",
+    "overlay_color": "オーバーレイカラー",
+    "opacity": "不透明度",
+    "blend_mode": "ブレンドモード",
+    "new_image": "新しい画像",
+    "upload_local": "ローカルイメージを使用する"
+  },
+  "placeholder_image_generator": {
+    "title": "プレースホルダー画像ジェネレーター",
+    "description": "テストやレイアウトのプレースホルダーとして使用するカスタム画像を生成します。色、テキスト、寸法を自由に選択できます。",
+    "tags": [
+      "プレースホルダー",
+      "画像",
+      "ジェネレータ",
+      "テスト",
+      "ロレム",
+      "ピクセル"
+    ],
+    "category": "画像",
+    "width": "幅",
+    "height": "身長",
+    "font_size": "テキストサイズ",
+    "background_color": "背景色",
+    "text_color": "テキストの色",
+    "format": "形式",
+    "text": "文章",
+    "placeholder_text_default": "プレースホルダージェネレーター",
+    "generate": "生成する",
+    "download_image": "画像をダウンロード"
+  },
+  "qr_code_reader_image": {
+    "title": "QRコードリーダー（画像）",
+    "description": "QR コード付きの画像をアップロードしてコンテンツをデコードします。埋め込まれたテキストが表示され、ワンクリックでコピーできます。",
+    "tags": [
+      "QRコード",
+      "QRリーダー",
+      "画像",
+      "スキャナー",
+      "QRをデコードする"
+    ],
+    "category": "画像",
+    "svg_not_supported": "SVG 形式はサポートされていません。PNG または JPG を使用してください。",
+    "no_qr_found": "QR コードが検出されませんでした。"
+  },
+  "query_params_playground": {
+    "title": "クエリパラメータプレイグラウンド",
+    "description": "URL を対話的にデコード、編集、および組み立てます。パラメータを変更し、最終的な URL を表示し、構造の詳細を表示します。",
+    "tags": [
+      "URL",
+      "クエリ",
+      "パラメータ",
+      "遊び場",
+      "道具"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "placeholder": "分析のために完全な URL を貼り付けるか入力します...",
+    "analyze": "URLを分析",
+    "add_param": "パラメータを追加",
+    "open": "URLを開く",
+    "key": "鍵",
+    "value": "価値",
+    "remove_key": "パラメータを削除",
+    "url_prefix_error": "URLはhttp://またはhttps://で始まる必要があります",
+    "url_invalid": "URL が無効または不完全です。"
+  },
+  "random_email_list_generator": {
+    "title": "ランダムメールリストジェネレーター",
+    "description": "テスト、模擬登録、フォーム検証用のダミーの電子メール アドレスを生成します。開発環境に最適です。",
+    "tags": [
+      "メールジェネレータ",
+      "ランダムなメール",
+      "偽メール",
+      "メールリスト",
+      "テスト用のメール",
+      "架空のメール",
+      "開発用のメール"
+    ],
+    "category": "発電機",
+    "quantity_placeholder": "メールの数",
+    "domain_placeholder": "ドメイン（例：gmail.com）",
+    "generate": "生成する",
+    "output_placeholder": "生成されたメールはここに表示されます",
+    "error_input": "数量とドメインを確認してください。"
+  },
+  "random_number_picker": {
+    "title": "乱数ピッカー",
+    "description": "無料のオンライン番号ピッカー。範囲を選択し、抽選番号をクリックします。Facebook、Instagram、その他のソーシャル ネットワークで抽選を行うのにも使用できます。",
+    "tags": [
+      "抽選",
+      "ランダム",
+      "ランダム",
+      "番号",
+      "フェイスブック",
+      "インスタグラム"
+    ],
+    "category": "ユーティリティ",
+    "instruction": "数字の範囲を入力して、描画をクリックします。",
+    "min_label": "最小",
+    "max_label": "最大",
+    "draw_button": "抽選番号",
+    "result_label": "生成された数:",
+    "invalid_range": "無効な範囲"
+  },
+  "random_password_generator": {
+    "title": "ランダムパスワードジェネレーター",
+    "description": "強力で安全なパスワードをランダムに作成します。機密性の高いアカウントやデータを保護するのに最適です。",
+    "tags": [
+      "ランダムパスワード",
+      "パスワードジェネレータ",
+      "強力なパスワード",
+      "パスワードジェネレータ",
+      "データセキュリティ",
+      "パスワードを生成する",
+      "アカウント保護"
+    ],
+    "category": "発電機",
+    "length": "サイズ",
+    "include_symbols": "シンボルを含める",
+    "include_numbers": "数字を含める",
+    "include_uppercase": "大文字を含める",
+    "include_lowercase": "小文字を含める",
+    "generate": "生成する",
+    "click_to_generate": "生成をクリック",
+    "select_one_type": "少なくとも1つの文字タイプを選択してください"
+  },
+  "random_person_picker": {
+    "title": "人々が描く",
+    "description": "名前のリストを貼り付け、区切りと勝者の数を選択します。ラッフル、景品、ランダムな決定のための迅速かつ楽しい抽選。",
+    "tags": [
+      "抽選",
+      "人々",
+      "名前",
+      "リスト",
+      "ランダム",
+      "楽しい"
+    ],
+    "category": "ユーティリティ"
+  },
+  "random_text_generator_with_emojis": {
+    "title": "絵文字付きランダムテキストジェネレーター",
+    "description": "絵文字がいっぱいの楽しいランダムなテキストを作成します。ビジュアル テスト、クリエイティブなプレースホルダー、サンプル コンテンツに最適です。",
+    "tags": [
+      "ランダムテキスト",
+      "絵文字ジェネレーター",
+      "絵文字付きテキスト",
+      "楽しいプレースホルダー",
+      "絵文字ジェネレーター",
+      "絵文字付き lorem ipsum",
+      "クリエイティブなテキストを生成する"
+    ],
+    "category": "発電機",
+    "paragraphs": "段落",
+    "style": "スタイル",
+    "casual": "カジュアル",
+    "tech": "技術",
+    "funny": "冗談を言った",
+    "mix": "混合",
+    "generate": "生成する",
+    "placeholder": "結果はここに表示されます"
+  },
+  "regex_tester": {
+    "title": "正規表現テスター",
+    "description": "正規表現をリアルタイムでテストします。パターンの分析、文字列の検証、構文エラーの迅速な修正に最適です。",
+    "tags": [
+      "正規表現",
+      "正規表現",
+      "正規表現テスト",
+      "正規表現テスター",
+      "正規表現を検証する",
+      "パターンを分析する",
+      "正規表現ツール"
+    ],
+    "category": "ユーティリティ",
+    "regex_placeholder": "正規表現を入力してください...",
+    "text_placeholder": "テストするテキスト...",
+    "test": "テスト",
+    "matches_singular": "発生が見つかりました",
+    "matches_plural": "見つかった発生",
+    "no_match": "発生が見つかりません。",
+    "error_prefix": "正規表現にエラーがあります:"
+  },
+  "regex_tester_with_highlighting": {
+    "title": "ハイライト機能付き正規表現テスター",
+    "description": "構文の強調表示を使用して、正規表現をリアルタイムでテストします。パターンの分析、文字列の検証、およびエラーの迅速な修正に最適です。",
+    "tags": [
+      "正規表現",
+      "正規表現",
+      "正規表現テスト",
+      "ハイライト表示付き正規表現",
+      "正規表現を検証する",
+      "パターンを分析する",
+      "正規表現ツール"
+    ],
+    "category": "ユーティリティ",
+    "regex_placeholder": "正規表現パターンを入力します（例：\\d+ または /\\w+/gi）",
+    "text_placeholder": "正規表現を適用するテキスト",
+    "test": "正規表現のテスト",
+    "fill_both": "両方のフィールドに入力してください。",
+    "invalid": "無効な正規表現:",
+    "no_match": "一致するものが見つかりませんでした。",
+    "hint": "標準の JavaScript 構文を使用します。末尾の g や i などのフラグはオプションです: /default/gi。"
+  },
+  "remove_duplicate_lines": {
+    "title": "重複行を削除する",
+    "description": "テキストを貼り付けると、重複行が自動的に削除されます。リストを整理し、コンテンツをすばやく整理するのに最適です。",
+    "tags": [
+      "重複を削除する",
+      "明確な線",
+      "重複した",
+      "繰り返し行"
+    ],
+    "category": "テキストツール",
+    "input_label": "重複の可能性があるテキスト:",
+    "input_placeholder": "ここにコンテンツを貼り付けます...",
+    "remove_button": "重複を削除する",
+    "output_label": "重複のない結果:",
+    "download": "TXTをダウンロード"
+  },
+  "rgba_color_generator": {
+    "title": "RGBA カラージェネレーター",
+    "description": "色と不透明度を調整して、RGBA() またはアルファ付きの 16 進数値を簡単に生成します。CSS オーバーレイと透明度に最適です。",
+    "tags": [
+      "RGBA",
+      "16進数アルファベット",
+      "透明性",
+      "不透明度",
+      "RGBAカラー",
+      "CSSカラー"
+    ],
+    "category": "デザイン / カラー",
+    "color_label": "色",
+    "opacity_label": "不透明度",
+    "generate": "生成する"
+  },
+  "scroll_snap_generator": {
+    "title": "スクロールスナップジェネレーター",
+    "description": "scroll-snap を使用して、レスポンシブなカルーセルとスムーズなスクロール セクションを構築します。すぐに使用できる HTML と CSS を生成します。",
+    "tags": [
+      "スクロール",
+      "スナップ",
+      "スクロールスナップ",
+      "カルーセル",
+      "水平",
+      "スクロール"
+    ],
+    "category": "デザイン / カラー",
+    "direction": "方向",
+    "horizontal": "水平",
+    "vertical": "垂直",
+    "behavior": "行動",
+    "padding": "スクロールパディング (px)",
+    "gap": "アイテム間の間隔 (px)"
+  },
+  "shannon_entropy": {
+    "title": "シャノンエントロピー",
+    "description": "情報理論に基づいて文字列のエントロピーを測定します。値が高いほどランダム性が高いことを示します。",
+    "tags": [
+      "エントロピ",
+      "シャノン",
+      "ランダム性",
+      "安全",
+      "圧縮",
+      "情報"
+    ],
+    "category": "分析 / 比較",
+    "placeholder": "ここにコンテンツを入力または貼り付けます...",
+    "calculate": "計算する",
+    "max": "最大限可能",
+    "english": "英語のテキスト全般",
+    "compressed": "圧縮/暗号化されたデータ",
+    "source": "ソース"
+  },
+  "system_information": {
+    "title": "システム情報",
+    "description": "オペレーティング システム、ブラウザー、その他の関連情報など、ユーザーの環境に関する詳細を表示します。",
+    "tags": [
+      "オペレーティング·システム",
+      "ブラウザ",
+      "ユーザー情報"
+    ],
+    "category": "ユーティリティ",
+    "title_os": "私のオペレーティングシステム",
+    "title_browser": "私のブラウザ",
+    "os_label": "オペレーティング·システム",
+    "screen_label": "画面解像度",
+    "browser_label": "ブラウザ",
+    "browser_version": "バージョン"
+  },
+  "text_binary_converter": {
+    "title": "テキスト↔バイナリコンバータ",
+    "description": "テキストをバイナリ コードに、バイナリをテキストにすばやく直感的に変換します。研究、データのエンコードとデコードに最適です。",
+    "tags": [
+      "バイナリテキスト",
+      "バイナリコンバータ",
+      "バイナリからテキストへ",
+      "テキストをバイナリに変換",
+      "バイナリデコーダー",
+      "バイナリエンコーダ",
+      "バイナリオンライン"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "placeholder_input": "スペース区切りのテキストまたはバイナリを入力してください",
+    "btn_text_to_bin": "テキスト → バイナリ",
+    "btn_bin_to_text": "バイナリ → テキスト",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "error_conversion": "バイナリ変換中にエラーが発生しました。"
+  },
+  "text_fork_by_delimiter": {
+    "title": "区切り文字によるテキストフォーク",
+    "description": "区切り文字に基づいてテキストを分割し、各部分に個別に操作を適用します。データのバッチ処理に最適です。",
+    "tags": [
+      "フォーク",
+      "バッチ",
+      "文章",
+      "処理",
+      "行"
+    ],
+    "category": "ユーティリティ",
+    "placeholder": "線または区切り文字で区切られたデータを入力してください...",
+    "delimiter": "デリミタ",
+    "operation": "手術",
+    "process": "プロセス",
+    "clear": "掃除する",
+    "fromBase64": "Base64 → テキスト",
+    "toBase64": "テキスト → Base64",
+    "fromHex": "16進数 → テキスト",
+    "toHex": "テキスト → 16進数",
+    "toUrl": "URLエンコード",
+    "fromUrl": "URLデコード",
+    "toUpper": "テキスト → 大文字",
+    "toLower": "テキスト → 小文字",
+    "reverse": "テキストを反転",
+    "removeSpaces": "スペースを削除",
+    "removeBreaks": "改行を削除する",
+    "toBinary": "テキスト → バイナリ",
+    "fromBinary": "バイナリ → テキスト",
+    "error_base64": "[Base64のデコードエラー]",
+    "error_hex": "[16進数のデコードエラー]",
+    "error_url": "[URLのデコードエラー]"
+  },
+  "text_normalizer": {
+    "title": "テキスト正規化",
+    "description": "アクセントや特殊文字をすばやく削除し、大文字または小文字を標準化します。システムやテキスト処理におけるデータの標準化に最適です。",
+    "tags": [
+      "テキスト正規化",
+      "アクセントを削除する",
+      "アクセントのないテキスト",
+      "テキストの標準化",
+      "特殊文字",
+      "大文字に変換",
+      "小文字に変換"
+    ],
+    "category": "テキストツール",
+    "input_placeholder": "アクセントや記号などを付けてテキストを入力または貼り付けます。",
+    "output_placeholder": "正規化されたテキストがここに表示されます...",
+    "normalize": "ノーマライズ"
+  },
+  "text_shadow_generator": {
+    "title": "テキストシャドウジェネレーター",
+    "description": "色、オフセット、ぼかしのコントロールを使用してテキストに影を作成します。タイトルや UI 要素に強調や深みを加えるのに最適です。",
+    "tags": [
+      "テキストシャドウ",
+      "テキストシャドウ",
+      "CSSテキスト",
+      "視覚効果",
+      "ぼやける",
+      "タイトルハイライト"
+    ],
+    "category": "デザイン / カラー",
+    "shadow_color": "影の色",
+    "blur": "ぼかし (px)",
+    "offset_x": "水平オフセット (X)",
+    "offset_y": "垂直オフセット (Y)",
+    "preview_text": "影付きテキスト"
+  },
+  "text_to_binary_converter": {
+    "title": "テキスト↔バイナリコンバータ",
+    "description": "テキストをバイナリに、バイナリをテキストに簡単に変換できます。デバッグ、テスト、データ操作に最適です。",
+    "tags": [
+      "バイナリ",
+      "テキストをバイナリに変換",
+      "バイナリからテキストへ",
+      "バイナリコンバータ",
+      "バイナリをエンコードする",
+      "バイナリをデコードする",
+      "バイナリテキスト"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "input_placeholder": "スペース区切りのテキストまたはバイナリを入力してください",
+    "output_placeholder": "バイナリ結果またはテキストがここに表示されます...",
+    "text_to_binary": "テキスト → バイナリ",
+    "binary_to_text": "バイナリ → テキスト"
+  },
+  "text_to_multiple_formats_converter": {
+    "title": "テキストから複数フォーマットへのコンバーター",
+    "description": "任意のテキストを入力すると、バイナリ、10進数、8進数、16進数、BASE64、ASCII、UTF8、URL、UNICODE、モールス、HTML表現に自動的に変換されます。",
+    "tags": [
+      "変換",
+      "文章",
+      "バイナリ",
+      "ベース64",
+      "ユニコード",
+      "モールス"
+    ],
+    "category": "テキストツール",
+    "input_placeholder": "変換するテキストを入力するか貼り付けます...",
+    "label_binario": "バイナリ",
+    "label_decimal": "小数点",
+    "label_octal": "オクタル",
+    "label_hex": "ヘックス",
+    "label_base64": "BASE64",
+    "label_ascii": "アスキー",
+    "label_utf8": "UTF8",
+    "label_url": "メールアドレス",
+    "label_unicode": "ユニコード",
+    "label_morse": "モールス",
+    "label_html": "html"
+  },
+  "timestamp_to_date_converter": {
+    "title": "タイムスタンプ↔日付コンバーター",
+    "description": "異なる形式またはシステム間でタイムスタンプを変換します。開発、ログ記録、日付操作に最適です。",
+    "tags": [
+      "タイムスタンプ",
+      "タイムスタンプを変換",
+      "UNIX時間",
+      "日付からタイムスタンプ",
+      "日付形式",
+      "エポックタイム",
+      "判読可能な日付"
+    ],
+    "category": "日時",
+    "input_placeholder": "タイムスタンプまたは日付を入力してください...",
+    "output_placeholder": "結果はここに表示されます...",
+    "convert": "変換する",
+    "format_br": "判読可能な日付 (pt-BR)",
+    "format_iso": "ISO 8601 形式",
+    "format_utc": "UTC日付",
+    "instructions": "Unix タイムスタンプ (秒) または <code>2025-03-28 15:00</code>、<code>28/03/2025</code> などの日付を受け入れます。"
+  },
+  "unicode_to_text_converter": {
+    "title": "Unicode ↔ テキストコンバーター",
+    "description": "Unicode 文字を読み取り可能なテキストに変換したり、その逆を行ったりします。国際化、エンコード、文字列操作に最適です。",
+    "tags": [
+      "ユニコード",
+      "テキストをUnicodeに変換する",
+      "ユニコードからテキストへ",
+      "utf-8",
+      "16進数",
+      "アクセント",
+      "わ",
+      "ユニコードエンコーディング"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "input_placeholder": "エスケープされたテキストまたは Unicode (\\uXXXX、\\xXX) を入力してください",
+    "output_placeholder": "結果はここに表示されます...",
+    "convert_unicode": "テキスト → Unicode",
+    "convert_text": "Unicode → テキスト",
+    "option_unicode": "\\uXXXX",
+    "option_utf8": "\\xXX",
+    "option_hex": "16進数のみ",
+    "filter_all": "すべてを変換",
+    "filter_accents": "アクセントのみ",
+    "filter_specials": "特殊文字のみ",
+    "filter_cedilla": "çのみ"
+  },
+  "unit_converter": {
+    "title": "単位換算",
+    "description": "単位をインテリジェントかつ便利に変換します。画面の測定、距離、温度、時間などに最適です。",
+    "tags": [
+      "単位変換",
+      "測定値を変換する",
+      "px から rem へ",
+      "キロまで",
+      "摂氏華氏",
+      "重量を変換する",
+      "時間"
+    ],
+    "category": "コンバーター",
+    "input_placeholder": "値を入力してください...",
+    "output_placeholder": "結果はここに表示されます...",
+    "convert": "変換する",
+    "invalid_input": "有効な値を入力してください。",
+    "conversions": {
+      "Pixels ↔ Rem (base 16)": "Pixels ↔ Rem (base 16)",
+      "Celsius ↔ Fahrenheit": "Celsius ↔ Fahrenheit",
+      "Km ↔ Milhas": "Km ↔ Milhas",
+      "Metros ↔ Pés": "Metros ↔ Pés",
+      "Kg ↔ Libras": "Kg ↔ Libras",
+      "Horas ↔ Minutos ↔ Segundos": "Horas ↔ Minutos ↔ Segundos",
+      "Centímetros ↔ Polegadas": "Centímetros ↔ Polegadas",
+      "Minutos ↔ Segundos": "Minutos ↔ Segundos",
+      "Dias ↔ Horas": "Dias ↔ Horas",
+      "Litros ↔ Galões (US)": "Litros ↔ Galões (US)",
+      "Litros ↔ Mililitros": "Litros ↔ Mililitros",
+      "Joules ↔ Calorias": "Joules ↔ Calorias",
+      "Watts ↔ Cavalos de potência": "Watts ↔ Cavalos de potência",
+      "Bytes ↔ KB ↔ MB": "Bytes ↔ KB ↔ MB",
+      "MB ↔ GB": "MB ↔ GB",
+      "Hectares ↔ Metros²": "Hectares ↔ Metros²",
+      "m² ↔ pés²": "m² ↔ pés²",
+      "Bar ↔ Pascal": "Bar ↔ Pascal"
+    }
+  },
+  "url_encoder_decoder": {
+    "title": "URL エンコーダ/デコーダ",
+    "description": "URL をすばやく簡単にエンコードおよびデコードします。HTTP リクエストとリンクの文字互換性を確保するのに最適です。",
+    "tags": [
+      "URL エンコーダ",
+      "URLデコーダー",
+      "URLエンコード",
+      "URLをデコードする",
+      "URLエンコード",
+      "URL デコード",
+      "http 内の URL"
+    ],
+    "category": "エンコーダー/デコーダー",
+    "placeholder_input": "テキストまたはURL",
+    "placeholder_output": "結果はここに…",
+    "encode": "エンコード",
+    "decode": "デコード",
+    "invalid_url": "デコード用の無効な URL",
+    "download_filename": "変換されたURL.txt",
+    "preview_link_label": "プレビュー"
+  },
+  "uuid_generator": {
+    "title": "UUID ジェネレーター",
+    "description": "複数の出力オプションを使用して一意の UUID (v4 または v1) を生成します。テスト、ログ記録、およびグローバル オブジェクト識別に最適です。",
+    "tags": [
+      "ユーザID",
+      "uuid ジェネレータ",
+      "uuid v4",
+      "uuidv1",
+      "一意の識別子",
+      "バッチUUID"
+    ],
+    "category": "発電機",
+    "uuid_v4": "UUID v4 (ランダム)",
+    "uuid_v1": "UUID v1 (タイムスタンプ)",
+    "quantity_placeholder": "額",
+    "output_placeholder": "生成された UUID がここに表示されます...",
+    "filename": "uuids-{タイムスタンプ}.txt"
+  },
+  "validador_de_cnpj": {
+    "title": "CNPJ バリデーター",
+    "description": "CNPJ 番号を迅速かつ正確に検証します。税金申請、事業登録、データ検証に最適です。",
+    "tags": [
+      "cnpj を検証する",
+      "cnpj バリデーター",
+      "有効なcnpj",
+      "cnpjチェッカー",
+      "cnpj ブラジル",
+      "ビジネス文書",
+      "CNPJ 検証"
+    ],
+    "category": "バリデーター",
+    "placeholder_input": "CNPJに入る",
+    "validate": "検証",
+    "valid_cnpj": "✅ 有効な CNPJ。",
+    "invalid_cnpj": "❌ CNPJ が無効です。",
+    "copied": "コピーしました！"
+  },
+  "validador_de_cpf": {
+    "title": "CPF 検証ツール",
+    "description": "CPF 番号を迅速かつ正確に検証します。登録システム、ユーザー検証、税金アプリケーションに最適です。",
+    "tags": [
+      "cpf バリデーター",
+      "CPF を検証する",
+      "有効な CPF",
+      "CPFチェッカー",
+      "CPF 検証",
+      "個人文書",
+      "CPFブラジル"
+    ],
+    "category": "バリデーター"
+  },
+  "vehicle_plate_generator": {
+    "title": "ナンバープレートジェネレーター",
+    "description": "州に基づいて有効なナンバープレートを生成し、句読点を含めるかどうかを選択します。テストやシミュレーションに最適です。",
+    "tags": [
+      "プレートジェネレータ",
+      "ナンバープレート",
+      "ボードシミュレーター",
+      "ステータスプレート",
+      "マスク付きプレート"
+    ],
+    "category": "発電機",
+    "label_quantity": "額：",
+    "label_state": "州：",
+    "label_mask": "句読点付き（例：ABC-1234）",
+    "any_state": "どれでも",
+    "generate": "生成する",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "error_loading": "ナンバープレートデータの読み込み中にエラーが発生しました。",
+    "no_data": "データなし"
+  },
+  "what_is_my_ip": {
+    "title": "私のIPは何ですか?",
+    "description": "現在の IP アドレスと対応する逆 DNS を調べます。ネットワーク診断、セキュリティ、接続検証に最適です。",
+    "tags": [
+      "私のIP",
+      "IPアドレスを見つける",
+      "私のIPは何ですか",
+      "パブリック IP",
+      "逆DNS",
+      "外部IP",
+      "私のIPアドレス"
+    ],
+    "category": "ネットワーク / HTTP",
+    "intro": "IP (インターネット プロトコル) は、インターネットに接続された各デバイスに割り当てられる固有のアドレスです。",
+    "ip_label": "現在の私の IP アドレスは次のとおりです:",
+    "dns_label": "逆DNS:",
+    "loading": "読み込み中...",
+    "hostname_na": "利用不可",
+    "error_ip": "IP 取得エラー",
+    "error_dns": "DNS 取得エラー",
+    "ip_types": "IP アドレスには主に 2 つの種類があります。",
+    "ipv4": "IPv4: 4 つの数字のグループ (例: 192.168.0.1)",
+    "ipv6": "IPv6: 文字と数字を含む長い文字列 (例: 2001:0db8:85a3::8a2e:0370:7334)",
+    "copied": "コピーしました！"
+  },
+  "word_character_line_sentence_counter": {
+    "title": "単語、文字、行、文のカウンター",
+    "description": "テキスト内の単語、文字、行、文の数をカウントします。フォーム、記事、ソーシャル ネットワークの制限を確認するのに最適です。",
+    "tags": [
+      "単語カウンター",
+      "文字数カウンター",
+      "行数を数える",
+      "文章を数える",
+      "テキスト制限",
+      "テキスト分析"
+    ],
+    "category": "テキストツール",
+    "placeholder": "ここにテキストを入力または貼り付けます...",
+    "words": "📝 言葉",
+    "chars": "🔡 文字（スペースを含む）",
+    "chars_no_space": "🔡 文字数（スペースなし）",
+    "lines": "📏 ライン",
+    "sentences": "🧩 フレーズ"
+  },
+  "world_clock": {
+    "title": "ワールドタイム",
+    "description": "世界中の多くの都市の現在の時刻を確認したり、タイムゾーンを入力して正確な現地時刻を取得したりできます。",
+    "tags": [
+      "世界時間",
+      "タイムゾーン",
+      "現在の時刻",
+      "タイムゾーン",
+      "世界時計",
+      "国時間",
+      "グローバル日付と時刻"
+    ],
+    "category": "日時",
+    "choose_timezone": "タイムゾーンを選択してください:",
+    "select_placeholder": "タイムゾーンを選択してください...",
+    "output_placeholder": "スケジュールはここに表示されます",
+    "copy": "コピー",
+    "copied": "コピーしました！",
+    "popular_times": "人気の時間帯:",
+    "loading": "読み込み中...",
+    "label_original": "当初のスケジュール:",
+    "label_ptbr": "PT-BR:",
+    "label_offset": "UTCオフセット:",
+    "error_time": "時間の取得中にエラーが発生しました"
+  },
+  "yaml_to_json_converter": {
+    "title": "YAML → JSON コンバーター",
+    "description": "YAML ファイルを JSON 形式に簡単かつ効率的に変換します。構成、API、構造化データの操作に最適です。",
+    "tags": [
+      "yaml から json へ",
+      "yaml を変換する",
+      "データコンバータ",
+      "ヤムJSON",
+      "json形式",
+      "yaml を json に変換する",
+      "構造化データ"
+    ],
+    "category": "コンバーター",
+    "placeholder_input": "ここに YAML を貼り付けます...",
+    "placeholder_output": "JSON の結果はここにあります...",
+    "convert": "変換する",
+    "copied": "コピーしました！",
+    "download_filename": "変換された.json"
+  },
+  "yaml_to_json_to_yaml_converter": {
+    "title": "YAML ↔ JSON コンバーター",
+    "description": "YAML ファイルを JSON 形式に、またはその逆の変換を簡単かつ効率的に実行します。構成やデータ操作に携わる開発者に最適です。",
+    "tags": [
+      "yaml から json へ",
+      "json から yaml へ",
+      "yaml json コンバーター",
+      "データを変換する",
+      "構成構造",
+      "ヤムJSON",
+      "API 設定"
+    ],
+    "category": "コンバーター",
+    "placeholder_input": "ここに YAML または JSON を貼り付けます...",
+    "placeholder_output": "結果...",
+    "yaml_to_json": "YAML → JSON",
+    "json_to_yaml": "JSON → YAML",
+    "copied": "コピーしました！",
+    "download_filename_yaml": "変換された.yaml",
+    "download_filename_json": "変換された.json"
+  },
+  "zindex_layering_generator": {
+    "title": "Zインデックスレイヤリングジェネレータ",
+    "description": "位置と z-index を使用して要素の重なりを視覚化して制御します。CSS でのスタッキングを理解するのに最適です。",
+    "tags": [
+      "Zインデックス",
+      "レイヤー",
+      "積み重ね",
+      "重複する",
+      "位置",
+      "CSS レイヤー"
+    ],
+    "category": "デザイン / カラー",
+    "layer_label": "層",
+    "position_label": "位置",
+    "zindex_label": "Zインデックス",
+    "color_label": "色",
+    "copy": "コピー",
+    "copied": "コピーしました！"
+  }
+}

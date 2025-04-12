@@ -1,0 +1,16 @@
+{
+  "title": "Diferencia de archivos (lado a lado)",
+  "description": "Compare dos archivos de texto y vea las diferencias con un diseño profesional uno al lado del otro.",
+  "tags": [
+    "comparar archivos",
+    "diferencia de texto",
+    "subir",
+    "estilo git",
+    "diferencia2html"
+  ],
+  "category": "Análisis / Comparación",
+  "originalFile": "Archivo original:",
+  "modifiedFile": "Archivo modificado:",
+  "compare": "Comparar",
+  "alertMissingFiles": "Seleccione los dos archivos para comparar."
+}

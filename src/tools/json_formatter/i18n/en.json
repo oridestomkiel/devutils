@@ -1,0 +1,15 @@
+{
+  "title": "JSON Formatter",
+  "description": "Format your JSON data to make it more readable and organized. Ideal for developers working with complex APIs and frameworks.",
+  "tags": [
+    "json formatter",
+    "readable json",
+    "beautify json",
+    "json prettifier",
+    "indented json",
+    "organized json",
+    "json tool"
+  ],
+  "category": "Formatters / Minifiers",
+  "format": "Format JSON"
+}

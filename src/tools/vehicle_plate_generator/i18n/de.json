@@ -1,0 +1,21 @@
+{
+  "title": "Kennzeichengenerator",
+  "description": "Generieren Sie gültige Nummernschilder basierend auf dem Bundesstaat und wählen Sie, ob Satzzeichen berücksichtigt werden sollen. Ideal für Tests und Simulationen.",
+  "tags": [
+    "Plattengenerator",
+    "Kennzeichen",
+    "Brettsimulator",
+    "Schild mit Status",
+    "Platte mit Maske"
+  ],
+  "category": "Generatoren",
+  "label_quantity": "Menge:",
+  "label_state": "Zustand:",
+  "label_mask": "Mit Satzzeichen (z. B. ABC-1234)",
+  "any_state": "Beliebig",
+  "generate": "Um zu generieren",
+  "copy": "Kopie",
+  "copied": "Kopiert!",
+  "error_loading": "Fehler beim Laden der Kennzeichendaten.",
+  "no_data": "KEINE DATEN"
+}

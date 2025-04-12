@@ -1,0 +1,14 @@
+{
+  "title": "Bildbeschneider",
+  "description": "Laden Sie ein Bild hoch, wählen Sie den Zuschneidebereich aus und laden Sie nur den gewünschten Teil herunter. Unterstützt PNG und JPG.",
+  "tags": [
+    "Ernte",
+    "Bild",
+    "schneiden",
+    "Editor",
+    "Utility-Bild"
+  ],
+  "category": "Bilder",
+  "download": "Ausschnitt herunterladen",
+  "clear": "Reinigen"
+}

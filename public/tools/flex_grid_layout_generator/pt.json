@@ -1,0 +1,19 @@
+{
+  "title": "Gerador de Layout Flex/Grid",
+  "description": "Monte layouts rapidamente usando Flexbox ou Grid. Ajuste alinhamento, espaçamento e visualize em tempo real com exemplos.",
+  "tags": [
+    "flexbox",
+    "grid layout",
+    "display flex",
+    "css grid",
+    "alinhamento css",
+    "gap",
+    "justify-content",
+    "align-items"
+  ],
+  "category": "Geradores",
+  "layoutType": "Tipo de Layout",
+  "gap": "Gap",
+  "justify": "Justify",
+  "align": "Align"
+}

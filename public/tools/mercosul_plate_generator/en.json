@@ -1,0 +1,19 @@
+{
+  "title": "Mercosur Plate Generator",
+  "description": "Generate plates in the Mercosur standard (AAA1A23) or convert old plates to the new model. Ideal for testing and simulations.",
+  "tags": [
+    "Mercosur plate",
+    "plate generator",
+    "new model",
+    "brazil plate",
+    "board simulator",
+    "convert plate",
+    "export plate"
+  ],
+  "category": "Generators",
+  "quantity": "Amount:",
+  "convert_label": "Convert old plate (ABC1234):",
+  "convert_placeholder": "Ex: BRA1234",
+  "convert_button": "Convert",
+  "export_csv": "Export CSV"
+}

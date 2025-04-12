@@ -1,0 +1,17 @@
+{
+  "title": "JSON → YAML コンバーター",
+  "description": "JSON ファイルを YAML 形式に簡単かつ効率的に変換します。システム構成、API、コードとしてのインフラストラクチャに最適です。",
+  "tags": [
+    "json から yaml へ",
+    "json を変換する",
+    "json yaml",
+    "データ変換",
+    "yaml構造",
+    "yaml 構成",
+    "json を yaml に変換する"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここにJSONを貼り付けます...",
+  "convert": "変換する",
+  "error": "変換エラー"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "JWT Viewer (Advanced)",
+  "description": "View and validate JWT tokens: header, payload, signature, and optional verification with a secret. All in real-time.",
+  "tags": ["jwt", "token", "validation", "decode", "authentication"],
+  "category": "Encoders / Decoders",
+  "placeholder.jwt": "Paste your JWT token here...",
+  "clear": "Clear",
+  "header": "HEADER",
+  "payload": "PAYLOAD",
+  "copy.header": "Copy Header",
+  "copy.payload": "Copy Payload",
+  "signature.title": "JWT Signature Verification (Optional)",
+  "signature.placeholder": "Enter the secret to verify the signature (HS256)",
+  "signature.valid": "✔ Valid signature",
+  "signature.invalid": "✖ Invalid signature",
+  "jwt.valid": "✔ Valid JWT",
+  "jwt.invalid": "Invalid JWT (malformed structure or content)"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "CSV ↔ JSON कन्वर्टर",
+  "description": "CSV फ़ाइलों को JSON और इसके विपरीत आसानी से कनवर्ट करें। डेटा एकीकरण, API और फ़ाइल हेरफेर के लिए उपयोगी।",
+  "tags": [
+    "csv json कन्वर्टर",
+    "csv से json",
+    "json से csv",
+    "डेटा रूपांतरण",
+    "csv को json में बदलें",
+    "फ़ाइलें कनवर्ट करें",
+    "संरचित डेटा"
+  ],
+  "category": "कन्वर्टर्स",
+  "labels": {
+    "placeholderInput": "यहां CSV या JSON पेस्ट करें...",
+    "placeholderOutput": "परिणाम यहां दिखाई देगा",
+    "csvToJson": "CSV → JSON",
+    "jsonToCsv": "JSON → CSV",
+    "copy": "कॉपी करें",
+    "copied": "कॉपी किया गया!",
+    "error": "त्रुटि"
+  }
+}

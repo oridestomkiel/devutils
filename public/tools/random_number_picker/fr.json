@@ -1,0 +1,19 @@
+{
+  "title": "Sélecteur de nombres aléatoires",
+  "description": "Sélecteur de numéros en ligne gratuit. Sélectionnez la plage et cliquez sur le numéro à tirer. Vous pouvez également l'utiliser pour effectuer des tirages sur Facebook, Instagram et d'autres réseaux sociaux.",
+  "tags": [
+    "tirage au sort",
+    "aléatoire",
+    "aléatoire",
+    "nombre",
+    "Facebook",
+    "Instagram"
+  ],
+  "category": "Utilitaires",
+  "instruction": "Saisissez la plage de numéros et cliquez sur « tirer » :",
+  "min_label": "Minimum",
+  "max_label": "Maximum",
+  "draw_button": "Numéro de tirage",
+  "result_label": "Nombre généré :",
+  "invalid_range": "Plage invalide"
+}

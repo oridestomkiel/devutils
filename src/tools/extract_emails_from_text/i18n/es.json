@@ -1,0 +1,21 @@
+{
+  "title": "Extraer correos electrónicos del texto",
+  "description": "Pegue cualquier contenido de texto y extraiga todas las direcciones de correo electrónico encontradas. Organice alfabéticamente o por dominio.",
+  "tags": [
+    "correo electrónico",
+    "extraer",
+    "texto",
+    "ordenar",
+    "dominio",
+    "lista de correos electrónicos"
+  ],
+  "category": "Herramientas de texto",
+  "inputLabel": "Texto de origen:",
+  "placeholder": "Pegue aquí el contenido con correos electrónicos...",
+  "sortLabel": "Ordenar por:",
+  "sortAlphabetical": "Orden alfabético",
+  "sortDomain": "Dominio",
+  "extract": "Extraer correos electrónicos",
+  "outputLabel": "Correos electrónicos extraídos:",
+  "download": "Descargar TXT"
+}

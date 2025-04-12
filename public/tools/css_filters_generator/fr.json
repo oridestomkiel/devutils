@@ -1,0 +1,21 @@
+{
+  "title": "Générateur de Filtres CSS",
+  "description": "Ajustez les filtres visuels tels que flou, luminosité, contraste, saturation, etc. Aperçu en temps réel sur image et texte.",
+  "tags": ["filtre", "filtres css", "effet visuel", "image", "texte"],
+  "category": "Design / Couleurs",
+  "labels": {
+    "blur": "Flou",
+    "brightness": "Luminosité",
+    "contrast": "Contraste",
+    "grayscale": "Niveaux de gris",
+    "hue": "Rotation de teinte",
+    "invert": "Inverser",
+    "sepia": "Sépia",
+    "saturate": "Saturation",
+    "copy": "Copier",
+    "refresh": "🔄 Nouvelle image",
+    "upload": "📁 Utiliser une image locale",
+    "previewText": "Aperçu du texte",
+    "copied": "Copié !"
+  }
+}

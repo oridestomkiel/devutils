@@ -1,0 +1,20 @@
+{
+  "title": "Générateur de glassmorphisme",
+  "description": "Créez des effets de verre dépoli avec couleur, transparence, flou et bordures. Idéal pour des panneaux et cartes au style moderne.",
+  "tags": [
+    "morphisme du verre",
+    "se brouiller",
+    "transparence",
+    "effet verre",
+    "verre dépoli",
+    "interface utilisateur moderne",
+    "verre visuel"
+  ],
+  "category": "Design / Couleurs",
+  "backgroundColor": "Couleur d'arrière-plan",
+  "opacity": "Opacité",
+  "blur": "Flou (px)",
+  "borderColor": "Couleur de la bordure",
+  "borderOpacity": "Opacité des bords",
+  "previewBackground": "Aperçu de l'arrière-plan"
+}

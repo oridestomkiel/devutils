@@ -1,0 +1,19 @@
+{
+  "title": "Generador de desplazamientos rápidos",
+  "description": "Crea carruseles responsivos y secciones con desplazamiento fluido con scroll-snap. Genera HTML y CSS listos para usar.",
+  "tags": [
+    "voluta",
+    "quebrar",
+    "desplazamiento rápido",
+    "carrusel",
+    "horizontal",
+    "desplazamiento"
+  ],
+  "category": "Diseño / Colores",
+  "direction": "Dirección",
+  "horizontal": "Horizontal",
+  "vertical": "Vertical",
+  "behavior": "Comportamiento",
+  "padding": "Relleno de desplazamiento (px)",
+  "gap": "Espacio entre elementos (px)"
+}

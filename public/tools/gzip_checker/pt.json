@@ -1,0 +1,22 @@
+{
+  "title": "Verificador de GZIP",
+  "description": "Teste se o servidor de uma URL está com a compressão GZIP ativada. Veja os headers de resposta em tempo real.",
+  "tags": [
+    "gzip",
+    "http headers",
+    "compressão",
+    "verificador gzip",
+    "otimização",
+    "performance web"
+  ],
+  "category": "Redes / HTTP",
+  "placeholder": "https://exemplo.com/arquivo.js",
+  "check": "Verificar GZIP",
+  "checking": "Verificando...",
+  "gzip.enabled": "✅ GZIP está ATIVADO — texto está sendo compactado.",
+  "gzip.disabled": "❌ GZIP NÃO está ativado — resposta não compactada.",
+  "httpHeaders": "Cabeçalhos HTTP",
+  "error.invalidUrl": "Informe uma URL válida.",
+  "error.checkFailed": "Erro ao testar",
+  "error.prefix": "Erro"
+}

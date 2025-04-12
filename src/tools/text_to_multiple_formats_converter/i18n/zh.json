@@ -1,0 +1,25 @@
+{
+  "title": "文本到多种格式转换器",
+  "description": "输入任意文本，即可自动转换为二进制、十进制、八进制、十六进制、BASE64、ASCII、UTF8、URL、UNICODE、MORSE 和 HTML 表示形式",
+  "tags": [
+    "转换",
+    "文本",
+    "二进制",
+    "base64",
+    "统一码",
+    "莫尔斯"
+  ],
+  "category": "文本工具",
+  "input_placeholder": "键入或粘贴要转换的文本...",
+  "label_binario": "二进制",
+  "label_decimal": "十进制",
+  "label_octal": "八进制",
+  "label_hex": "十六进制",
+  "label_base64": "BASE64",
+  "label_ascii": "ASCII",
+  "label_utf8": "UTF8",
+  "label_url": "网址",
+  "label_unicode": "统一码",
+  "label_morse": "莫尔斯",
+  "label_html": "HTML"
+}

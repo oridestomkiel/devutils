@@ -1,0 +1,19 @@
+{
+  "title": "Flex/Grid Layout Generator",
+  "description": "Quickly build layouts using Flexbox or Grid. Adjust alignment, spacing, and preview in real time with examples.",
+  "tags": [
+    "flexbox",
+    "grid layout",
+    "flex display",
+    "css grid",
+    "css alignment",
+    "gap",
+    "justify-content",
+    "align-items"
+  ],
+  "category": "Generators",
+  "layoutType": "Layout Type",
+  "gap": "Gap",
+  "justify": "Justify",
+  "align": "Align"
+}

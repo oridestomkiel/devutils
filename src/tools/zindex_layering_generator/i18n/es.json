@@ -1,0 +1,19 @@
+{
+  "title": "Generador de capas de índice Z",
+  "description": "Visualice y controle la superposición de elementos con la posición y el índice Z. Ideal para comprender el apilamiento en CSS.",
+  "tags": [
+    "índice z",
+    "capas",
+    "apilado",
+    "superposición",
+    "posición",
+    "capas de CSS"
+  ],
+  "category": "Diseño / Colores",
+  "layer_label": "Capa",
+  "position_label": "posición",
+  "zindex_label": "índice z",
+  "color_label": "Color",
+  "copy": "Copiar",
+  "copied": "¡Copiado!"
+}

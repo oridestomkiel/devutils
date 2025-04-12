@@ -1,0 +1,13 @@
+{
+  "title": "信用卡验证器",
+  "description": "输入卡号并使用 Luhn 算法检查其是否有效。自动检测卡品牌。",
+  "tags": ["卡片", "验证器", "luhn", "号码", "信用", "品牌"],
+  "category": "实用工具",
+  "label.input": "卡号：",
+  "placeholder.input": "例如：4111 1111 1111 1111",
+  "button.validate": "验证卡片",
+  "result.valid": "✅ 有效",
+  "result.invalid": "❌ 无效",
+  "result.error": "❌ 卡号无效或不完整。",
+  "brand.unknown": "未知"
+}

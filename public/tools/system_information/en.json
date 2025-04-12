@@ -1,0 +1,16 @@
+{
+  "title": "System Information",
+  "description": "Displays details about the user's environment, including operating system, browser, and other relevant information.",
+  "tags": [
+    "operating system",
+    "browser",
+    "user information"
+  ],
+  "category": "Utilities",
+  "title_os": "My Operating System",
+  "title_browser": "My Browser",
+  "os_label": "Operating System",
+  "screen_label": "Screen Resolution",
+  "browser_label": "Browser",
+  "browser_version": "Version"
+}

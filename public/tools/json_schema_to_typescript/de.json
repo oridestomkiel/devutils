@@ -1,0 +1,16 @@
+{
+  "title": "JSON-Schema → TypeScript",
+  "description": "Generieren Sie vollständige TypeScript-Schnittstellen aus JSON-Schemas mit Unterstützung für Enumerationen, Nullwerte, JSDoc, begrenzte Arrays und mehr.",
+  "tags": [
+    "JSON-Schema",
+    "Typoskript",
+    "Schnittstelle",
+    "konvertieren",
+    "Tippen"
+  ],
+  "category": "Konverter",
+  "placeholder": "Fügen Sie hier Ihr JSON-Schema ein ...",
+  "convert": "Konvertieren",
+  "invalid": "Ungültiges Schema.",
+  "invalidJson": "Ungültiges JSON-Schema!"
+}

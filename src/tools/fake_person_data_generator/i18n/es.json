@@ -1,0 +1,16 @@
+{
+  "title": "Generador de datos de personas ficticias",
+  "description": "Crea perfiles de datos aleatorios de personas para pruebas y simulaciones. Selecciona los campos que desees y expórtalos fácilmente en formato JSON.",
+  "tags": [
+    "datos ficticios",
+    "personas json",
+    "usuario simulado",
+    "generador de datos",
+    "simulación de perfil",
+    "Pruebas de API"
+  ],
+  "category": "Generadores",
+  "amountLabel": "Número de registros",
+  "generate": "Para generar",
+  "loadError": "Error al cargar datos base."
+}

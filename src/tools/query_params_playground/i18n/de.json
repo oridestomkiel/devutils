@@ -1,0 +1,21 @@
+{
+  "title": "Abfrageparameter-Spielplatz",
+  "description": "URLs interaktiv dekodieren, bearbeiten und zusammenstellen. Parameter ändern, die finale URL anzeigen und Strukturdetails einsehen.",
+  "tags": [
+    "URL",
+    "Abfrage",
+    "Parameter",
+    "Spielplatz",
+    "Werkzeug"
+  ],
+  "category": "Encoder/Decoder",
+  "placeholder": "Fügen Sie zur Analyse eine vollständige URL ein oder geben Sie sie ein ...",
+  "analyze": "URL analysieren",
+  "add_param": "Parameter hinzufügen",
+  "open": "URL öffnen",
+  "key": "Schlüssel",
+  "value": "Wert",
+  "remove_key": "Parameter entfernen",
+  "url_prefix_error": "Die URL muss mit http:// oder https:// beginnen.",
+  "url_invalid": "Ungültige oder unvollständige URL."
+}

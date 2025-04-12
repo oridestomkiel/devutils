@@ -1,0 +1,16 @@
+{
+  "title": "JSON → MySQL",
+  "description": "JSON から MySQL テーブルを作成するための SQL ステートメントを生成します。迅速なプロトタイピングとモデリングに最適です。",
+  "tags": [
+    "json",
+    "マイスク",
+    "SQL文",
+    "データベース",
+    "変換する",
+    "ddl"
+  ],
+  "category": "コンバーター",
+  "placeholder": "ここにJSONを貼り付けてください...",
+  "convert": "変換する",
+  "error": "無効なJSONです。"
+}

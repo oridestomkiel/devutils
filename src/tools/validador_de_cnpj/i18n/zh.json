@@ -1,0 +1,19 @@
+{
+  "title": "CNPJ 验证器",
+  "description": "快速准确地验证 CNPJ 号码。非常适合税务申请、商业注册和数据验证。",
+  "tags": [
+    "验证 cnpj",
+    "cnpj 验证器",
+    "有效的 cnpj",
+    "cnpj 检查器",
+    "巴西 CNPJ",
+    "商业文件",
+    "CNPJ 验证"
+  ],
+  "category": "验证者",
+  "placeholder_input": "进入 CNPJ",
+  "validate": "证实",
+  "valid_cnpj": "✅ 有效的 CNPJ。",
+  "invalid_cnpj": "❌ 无效的 CNPJ。",
+  "copied": "已复制！"
+}

@@ -1,165 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="dark">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Política de Privacidade e Termos - DevUtils - Ferramentas para
-      desenvolvedores
-    </title>
+
+    <title id="headTitle">Política de Privacidade e Termos - DevUtils</title>
     <meta
+      id="metaDescription"
       name="description"
       content="Ferramentas utilitárias para desenvolvedores. Sem rastreio, sem propaganda. Só utilidade."
     />
-    <meta name="author" content="DevUtils" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="DevUtils - Ferramentas para Devs" />
     <meta
+      id="ogTitle"
+      property="og:title"
+      content="DevUtils - Ferramentas para Devs"
+    />
+    <meta
+      id="ogDescription"
       property="og:description"
       content="Ferramentas rápidas, úteis e sem rastreio."
     />
     <meta
-      property="og:image"
-      content="https://devutils.zmohouse.com.br/assets/images/logo.png"
+      id="twitterTitle"
+      name="twitter:title"
+      content="DevUtils - Ferramentas para Devs"
     />
-    <meta property="og:url" content="https://devutils.zmohouse.com.br/" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="DevUtils - Ferramentas para Devs" />
     <meta
+      id="twitterDescription"
       name="twitter:description"
       content="Ferramentas rápidas, úteis e sem rastreio."
     />
+
+    <meta name="author" content="DevUtils" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:image"
+      content="https://devutils.tools/assets/images/logo.png"
+    />
+    <meta property="og:url" content="https://devutils.tools/termos.html" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:image"
-      content="https://devutils.zmohouse.com.br/assets/images/logo.png"
+      content="https://devutils.tools/assets/images/logo.png"
     />
-    <link rel="icon" href="https://devutils.zmohouse.com.br/ico.png" />
-    <script type="module" src="/src/termos.js"></script>
+
+    <link rel="icon" href="https://devutils.tools/ico.png" />
+
+    <script type="module" src="/src/termos.js" defer></script>
   </head>
-  <body class="bg-gray-900 text-white font-sans">
-    <header class="bg-gray-800 text-white p-4">
-      <div class="max-w-6xl mx-auto flex items-center justify-between">
-        <a
-          href="/"
-          class="flex items-center gap-2 text-xl font-bold hover:underline"
-        >
-          <img
-            src="https://devutils.zmohouse.com.br/assets/images/logo.png"
-            width="24"
-            height="24"
-            alt=""
-            class="block"
-          />
-          <span>DevUtils // everyday tools</span>
-        </a>
-        <nav class="hidden md:block">
-          <ul class="flex space-x-6">
-            <li><a href="/" class="hover:underline">Início</a></li>
-            <li><a href="/tools" class="hover:underline">Catálogo</a></li>
-          </ul>
-        </nav>
-        <button
-          id="menuBtn"
-          class="block md:hidden hover:text-gray-400 focus:outline-none"
-        >
-          ☰
-        </button>
-      </div>
+
+  <body
+    class="pt-20 bg-white text-gray-900 dark:bg-gray-900 dark:text-white font-sans"
+  >
+    <header
+      class="fixed top-0 w-full z-50 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white p-4 shadow"
+    >
+      <div
+        class="mx-auto flex items-center justify-between"
+        id="header-placeholder"
+      ></div>
     </header>
 
     <nav
       id="mobileMenu"
-      class="bg-gray-800 text-white p-4 hidden border-t border-gray-700 md:hidden"
-    >
-      <ul class="space-y-2">
-        <li><a href="/" class="hover:underline block">Início</a></li>
-        <li><a href="/tools" class="hover:underline block">Catálogo</a></li>
-      </ul>
-    </nav>
+      class="bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white p-4 hidden border-t border-gray-200 dark:border-gray-700 md:hidden"
+    ></nav>
 
-    <main class="max-w-6xl mx-auto mt-4 mb-4">
-      <h1 class="text-2xl font-bold text-white mt-4">
-        Política de Privacidade & Termos de Uso
-      </h1>
+    <main
+      class="mx-auto mb-4 px-4 max-w-4xl text-gray-800 dark:text-gray-200"
+      id="termosContent"
+    ></main>
 
-      <section class="space-y-4 p-4">
-        <p>
-          O <strong>DevUtils</strong> é uma coleção de ferramentas utilitárias
-          para desenvolvedores, pensada para ser rápida, leve e respeitar a sua
-          privacidade.
-        </p>
-
-        <h2 class="text-xl font-semibold">Privacidade</h2>
-        <ul class="list-disc list-inside space-y-2 text-gray-300">
-          <li>Não usamos cookies.</li>
-          <li>Não coletamos dados pessoais.</li>
-          <li>Não usamos serviços de terceiros para rastrear sua navegação.</li>
-          <li>
-            Não exibimos anúncios e não temos planos de incluir publicidade.
-          </li>
-        </ul>
-
-        <h2 class="text-xl font-semibold">Armazenamento Local</h2>
-        <p>
-          O único dado salvo localmente é a sua preferência de ferramentas na
-          página inicial, utilizando o <code>localStorage</code>. Isso acontece
-          somente se você desejar personalizar quais módulos deseja ver por
-          padrão.
-        </p>
-
-        <h2 class="text-xl font-semibold">Código Aberto</h2>
-        <p>
-          O <strong>DevUtils</strong> é um projeto de código aberto. Você pode
-          sugerir melhorias, reportar bugs ou até contribuir com novas
-          ferramentas através do nosso
-          <a
-            href="https://github.com/oridestomkiel/devutils"
-            target="_blank"
-            rel="noopener"
-            class="text-blue-400 hover:underline"
-          >
-            repositório no GitHub </a
-          >.
-        </p>
-
-        <p>
-          Acredito em um ambiente livre, colaborativo e transparente para
-          desenvolvedores.
-        </p>
-      </section>
-    </main>
-
-    <footer
-      class="text-center p-4 border-t border-gray-700 text-sm text-gray-400 mt-4"
-    >
-      <div class="text-gray-500 max-w-6xl mx-auto mb-4">
-        Sem propaganda, sem rastreio. Só utilidade |
-        <a
-          href="https://devutils.zmohouse.com.br/termos.html"
-          class="font-bold hover:underline"
-          >Política de Privacidade & Termos de Uso</a
-        >
-      </div>
-      <div class="text-gray-500 max-w-6xl mx-auto mt-4">
-        O DevUtils é um projeto open-source feito por desenvolvedores para
-        desenvolvedores. Se você quiser contribuir com novas ferramentas,
-        melhorias ou ideias, confira o repositório no
-        <a
-          href="https://github.com/oridestomkiel/devutils"
-          class="font-bold text-white hover:underline"
-          target="_blank"
-          rel="noopener"
-          >GitHub</a
-        >. Toda contribuição é bem-vinda - juntos podemos criar uma suíte ainda
-        mais útil e eficiente.
-      </div>
-    </footer>
-
-    <script>
-      document.getElementById("menuBtn").addEventListener("click", () => {
-        document.getElementById("mobileMenu").classList.toggle("hidden");
-      });
-    </script>
+    <footer id="footer-placeholder"></footer>
   </body>
 </html>

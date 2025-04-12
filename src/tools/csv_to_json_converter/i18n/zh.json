@@ -1,0 +1,20 @@
+{
+  "title": "CSV → JSON 转换器",
+  "description": "快速便捷地将CSV文件数据转换为JSON格式。适用于API、测试和结构化数据处理。",
+  "tags": [
+    "csv转json",
+    "csv转换器",
+    "将csv转换为json",
+    "结构化数据",
+    "转换csv",
+    "文件转换",
+    "csv json"
+  ],
+  "category": "转换器",
+  "placeholderInput": "在此粘贴CSV数据（第一行 = 表头）",
+  "placeholderOutput": "JSON结果将显示在此处",
+  "convertBtn": "转换",
+  "copyBtn": "复制",
+  "copiedMsg": "已复制！",
+  "errorPrefix": "错误"
+}

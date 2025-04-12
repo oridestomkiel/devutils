@@ -1,0 +1,12 @@
+{
+    "title": "Query Params Playground",
+    "description": "Decodifique, edite e monte URLs interativamente. Modifique parâmetros, visualize a URL final e veja detalhes da estrutura.",
+    "tags": [
+        "url",
+        "query",
+        "params",
+        "playground",
+        "ferramenta"
+    ],
+    "category": "Codificadores / Decodificadores"
+}

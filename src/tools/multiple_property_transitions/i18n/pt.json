@@ -1,0 +1,19 @@
+{
+  "title": "Transições com Múltiplas Propriedades",
+  "description": "Monte transições CSS personalizadas com múltiplas propriedades, cada uma com sua duração, delay e easing.",
+  "tags": ["transition", "css", "animação", "easing", "delay", "multi-prop"],
+  "category": "Design / Cores",
+  "preview": "Preview",
+  "duration": "Duração (s)",
+  "delay": "Delay (s)",
+  "background-color": "Cor de Fundo",
+  "color": "Cor do Texto",
+  "transform": "Transformação",
+  "opacity": "Opacidade",
+  "border-radius": "Arredondamento",
+  "ease": "ease",
+  "linear": "linear",
+  "ease-in": "ease-in",
+  "ease-out": "ease-out",
+  "ease-in-out": "ease-in-out"
+}

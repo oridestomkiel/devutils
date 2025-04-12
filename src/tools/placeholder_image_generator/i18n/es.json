@@ -1,0 +1,23 @@
+{
+  "title": "Generador de imágenes de marcador de posición",
+  "description": "Genera imágenes personalizadas para usarlas como marcadores de posición en pruebas y diseños. Elige libremente colores, texto y dimensiones.",
+  "tags": [
+    "marcador de posición",
+    "imagen",
+    "generador",
+    "prueba",
+    "lorem",
+    "píxel"
+  ],
+  "category": "Imágenes",
+  "width": "Ancho",
+  "height": "Altura",
+  "font_size": "Tamaño del texto",
+  "background_color": "Color de fondo",
+  "text_color": "Color del texto",
+  "format": "Formato",
+  "text": "Texto",
+  "placeholder_text_default": "Generador de marcadores de posición",
+  "generate": "Para generar",
+  "download_image": "Descargar imagen"
+}

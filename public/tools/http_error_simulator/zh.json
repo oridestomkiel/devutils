@@ -1,0 +1,22 @@
+{
+  "title": "HTTP 错误模拟器",
+  "description": "模拟 404、500、403 等 HTTP 错误代码来测试应用程序行为和前端响应。",
+  "tags": [
+    "http模拟器",
+    "http 错误",
+    "测试 404 错误",
+    "模拟错误 500",
+    "http 代码",
+    "伪造的 http 响应",
+    "API 调试",
+    "http 状态代码"
+  ],
+  "category": "网络/HTTP",
+  "label": "要模拟的 HTTP 代码",
+  "placeholder": "例如：404",
+  "simulate": "模拟",
+  "invalidCode": "代码无效。",
+  "status": "地位",
+  "viewFull": "查看完整答案",
+  "error": "错误模拟："
+}

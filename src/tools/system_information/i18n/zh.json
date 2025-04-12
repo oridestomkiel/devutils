@@ -1,0 +1,16 @@
+{
+  "title": "系统信息",
+  "description": "显示有关用户环境的详细信息，包括操作系统、浏览器和其他相关信息。",
+  "tags": [
+    "操作系统",
+    "浏览器",
+    "用户信息"
+  ],
+  "category": "实用工具",
+  "title_os": "我的操作系统",
+  "title_browser": "我的浏览器",
+  "os_label": "操作系统",
+  "screen_label": "屏幕分辨率",
+  "browser_label": "浏览器",
+  "browser_version": "版本"
+}

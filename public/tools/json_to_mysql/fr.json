@@ -1,0 +1,16 @@
+{
+  "title": "JSON → MySQL",
+  "description": "Générez des instructions SQL pour créer des tables MySQL à partir de JSON. Idéal pour le prototypage et la modélisation rapides.",
+  "tags": [
+    "json",
+    "MySQL",
+    "SQL",
+    "base de données",
+    "convertir",
+    "ddl"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "Collez votre JSON ici...",
+  "convert": "Convertir",
+  "error": "JSON non valide !"
+}

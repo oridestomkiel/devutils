@@ -1,0 +1,21 @@
+{
+  "title": "YAML ↔ JSON कनवर्टर",
+  "description": "YAML फ़ाइलों को JSON फ़ॉर्मेट में और इसके विपरीत सरल और कुशल तरीके से परिवर्तित करें। कॉन्फ़िगरेशन और डेटा हेरफेर के साथ काम करने वाले डेवलपर्स के लिए आदर्श।",
+  "tags": [
+    "yaml से json",
+    "json को yaml में बदलें",
+    "yaml JSON कनवर्टर",
+    "डेटा परिवर्तित करें",
+    "विन्यास संरचना",
+    "yaml JSON",
+    "एपीआई कॉन्फ़"
+  ],
+  "category": "कन्वर्टर्स",
+  "placeholder_input": "यहां YAML या JSON चिपकाएं...",
+  "placeholder_output": "परिणाम...",
+  "yaml_to_json": "YAML → JSON",
+  "json_to_yaml": "JSON → YAML",
+  "copied": "कॉपी किया गया!",
+  "download_filename_yaml": "रूपांतरित.yaml",
+  "download_filename_json": "रूपांतरित.json"
+}

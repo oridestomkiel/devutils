@@ -1,0 +1,21 @@
+{
+  "title": "CSV矩阵/数据生成器",
+  "description": "生成用于CSV文件的矩阵格式的模拟数据。非常适合测试、原型、电子表格和数据导入。",
+  "tags": [
+    "csv生成器",
+    "模拟数据",
+    "csv工具",
+    "数据矩阵",
+    "测试数据",
+    "生成csv表格",
+    "仿真数据"
+  ],
+  "category": "生成器",
+  "labels": {
+    "generate": "生成",
+    "copy": "复制",
+    "copied": "已复制！",
+    "download": "下载CSV",
+    "placeholder": "生成的CSV将显示在此处"
+  }
+}

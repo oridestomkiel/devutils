@@ -1,0 +1,16 @@
+{
+  "title": "Remover Linhas Duplicadas",
+  "description": "Cole seu texto e remova automaticamente linhas duplicadas. Ideal para limpar listas e organizar conteúdo de forma rápida.",
+  "tags": [
+    "remover duplicadas",
+    "limpar linhas",
+    "duplicadas",
+    "linhas repetidas"
+  ],
+  "category": "Ferramentas de Texto",
+  "input_label": "Texto com possíveis duplicadas:",
+  "input_placeholder": "Cole aqui seu conteúdo...",
+  "remove_button": "Remover duplicadas",
+  "output_label": "Resultado sem duplicadas:",
+  "download": "Baixar TXT"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Hora mundial",
+  "description": "Compruebe la hora actual en muchas ciudades alrededor del mundo o ingrese una zona horaria para obtener la hora local exacta.",
+  "tags": [
+    "hora mundial",
+    "huso horario",
+    "hora actual",
+    "zonas horarias",
+    "reloj mundial",
+    "hora del país",
+    "fecha y hora globales"
+  ],
+  "category": "Fechas y horarios",
+  "choose_timezone": "Elija una zona horaria:",
+  "select_placeholder": "Seleccione una zona horaria...",
+  "output_placeholder": "El horario aparecerá aquí",
+  "copy": "Copiar",
+  "copied": "¡Copiado!",
+  "popular_times": "Horarios populares:",
+  "loading": "Cargando...",
+  "label_original": "Horario original:",
+  "label_ptbr": "PT-BR:",
+  "label_offset": "Desplazamiento UTC:",
+  "error_time": "Error al obtener la hora"
+}

@@ -1,0 +1,14 @@
+{
+    "title": "Encoder/Decoder de URL",
+    "description": "Codifique e decodifique URLs de forma simples e rápida. Ideal para garantir compatibilidade de caracteres em requisições HTTP e links.",
+    "tags": [
+        "url encoder",
+        "url decoder",
+        "codificar url",
+        "decodificar url",
+        "url encode",
+        "url decode",
+        "urls em http"
+    ],
+    "category": "Codificadores / Decodificadores"
+}

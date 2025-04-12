@@ -1,0 +1,20 @@
+{
+  "title": "Convertisseur JSON → CSV",
+  "description": "Convertissez facilement des données JSON au format CSV. Idéal pour les exportations, les feuilles de calcul et la manipulation de données structurées.",
+  "tags": [
+    "json vers csv",
+    "convertir json",
+    "convertisseur de données",
+    "json csv",
+    "exporter json",
+    "transformer json en csv",
+    "données structurées"
+  ],
+  "category": "Convertisseurs",
+  "placeholder": "Collez le JSON (tableau d'objets)",
+  "delimiter": "Délimiteur",
+  "useQuotes": "Utiliser des guillemets",
+  "convert": "Convertir",
+  "errorNotArray": "JSON doit être un tableau d'objets.",
+  "errorPrefix": "Erreur:"
+}

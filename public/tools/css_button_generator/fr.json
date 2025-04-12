@@ -1,0 +1,31 @@
+{
+  "title": "Générateur de Boutons CSS",
+  "description": "Créez des boutons personnalisés avec couleur, padding, bordure, ombre et état de survol. Parfait pour des composants UI réutilisables.",
+  "tags": [
+    "bouton css",
+    "bouton",
+    "hover",
+    "ombre",
+    "rayon de bordure",
+    "bouton ui",
+    "composant visuel"
+  ],
+  "category": "Design / Couleurs",
+  "labels": {
+    "bg": "Couleur de fond",
+    "text": "Couleur du texte",
+    "paddingY": "Padding (vertical)",
+    "paddingX": "Padding (horizontal)",
+    "radius": "Rayon de bordure",
+    "shadowColor": "Couleur de l’ombre",
+    "shadowOpacity": "Opacité de l’ombre",
+    "offsetX": "Décalage X",
+    "offsetY": "Décalage Y",
+    "blur": "Flou",
+    "spread": "Propagation",
+    "hover": "Couleur au survol",
+    "copy": "Copier",
+    "preview": "Bouton Exemple",
+    "copied": "Copié !"
+  }
+}

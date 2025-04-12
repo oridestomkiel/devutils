@@ -1,0 +1,19 @@
+{
+  "title": "HEX Encoder/Decoder",
+  "description": "Convert text to hexadecimal and hexadecimal to text easily. Ideal for debugging, coding and data manipulation.",
+  "tags": [
+    "hexadecimal",
+    "text to hex",
+    "hex to text",
+    "encode hex",
+    "decode hex",
+    "hex converter",
+    "hex tool",
+    "hexadecimal string"
+  ],
+  "category": "Encoders/Decoders",
+  "placeholder": "Enter text or HEX code",
+  "resultPlaceholder": "Result will appear here",
+  "encode": "Text → HEX",
+  "decode": "HEX → Text"
+}

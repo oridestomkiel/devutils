@@ -1,0 +1,17 @@
+{
+  "title": "Base64 → Image",
+  "description": "Paste a Base64 code and instantly view the corresponding image. Useful for testing data URIs or debugging embedded content.",
+  "tags": [
+    "base64",
+    "image",
+    "decode image",
+    "convert base64",
+    "data URI",
+    "view image"
+  ],
+  "category": "Converters",
+  "placeholder": "Paste the full Base64 image code here (data:image/png;base64,...)",
+  "preview.label": "Preview",
+  "error.invalid": "Invalid or incomplete Base64",
+  "download": "Download image"
+}

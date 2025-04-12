@@ -1,0 +1,11 @@
+{
+  "title": "Escapar/Desescapar Barras Invertidas",
+  "description": "Converta caracteres especiais como quebras de linha (\\n), tabulações (\\t), aspas e outros, para strings escapadas ou vice-versa.",
+  "tags": ["escape", "desescape", "barra invertida", "texto", "string"],
+  "category": "Ferramentas de Texto",
+  "escape": "Escapar",
+  "unescape": "Desescapar",
+  "inputLabel": "Entrada:",
+  "outputLabel": "Resultado:",
+  "convert": "Converter"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "CPF 发生器",
+  "description": "生成带或不带格式的有效 CPF。非常适合表格测试和注册。",
+  "tags": [
+    "cpf 生成器",
+    "有效公积金",
+    "CPF 模拟器",
+    "表格测试"
+  ],
+  "category": "生成器",
+  "placeholder": "生成的 CPF 将显示在此处"
+}

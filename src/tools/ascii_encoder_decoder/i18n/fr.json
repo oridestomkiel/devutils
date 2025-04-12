@@ -1,0 +1,22 @@
+{
+  "title": "Encodeur/Décodeur ASCII",
+  "description": "Convertissez du texte en codes ASCII et inversement simplement et rapidement. Idéal pour l'analyse, les tests et la manipulation de chaînes.",
+  "tags": [
+    "ascii",
+    "convertisseur ascii",
+    "décoder ascii",
+    "encoder ascii",
+    "table ascii",
+    "texte en ascii",
+    "ascii en texte"
+  ],
+  "category": "Encodeurs / Décodeurs",
+  "converter": "convertisseur ascii",
+  "decode": "ASCII → Texte",
+  "encode": "Texte → ASCII",
+  "table": "table ascii",
+  "textToAscii": "texte en ascii",
+  "asciiToText": "ascii en texte",
+  "placeholder": "Entrez le texte ou les codes ASCII séparés par des espaces",
+  "decodeError": "Erreur lors du décodage. Vérifiez les numéros."
+}

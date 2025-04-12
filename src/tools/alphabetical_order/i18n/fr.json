@@ -1,0 +1,20 @@
+{
+  "title": "Mettre en Ordre Alphabétique",
+  "description": "Outil en ligne pour trier une liste par ordre alphabétique. Copiez et collez votre liste de noms, puis cliquez sur « Trier ».",
+  "tags": ["ordre", "alphabétique", "trier", "liste", "texte", "doublons"],
+  "category": "Outils de Texte",
+  "label.original": "Texte original :",
+  "placeholder.list": "Collez votre liste ici...",
+  "label.sortType": "Type de tri :",
+  "option.asc": "Croissant (A-Z)",
+  "option.desc": "Décroissant (Z-A)",
+  "label.separator": "Trier par :",
+  "option.linebreak": "Saut de ligne",
+  "option.space": "Espace",
+  "option.comma": "Virgule ( , )",
+  "option.semicolon": "Point-virgule ( ; )",
+  "label.removeDuplicates": "Supprimer les doublons ?",
+  "button.sort": "Trier",
+  "label.sorted": "Texte trié :",
+  "button.download": "Télécharger TXT"
+}

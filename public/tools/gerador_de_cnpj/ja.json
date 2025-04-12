@@ -1,0 +1,21 @@
+{
+  "title": "CNPJ ジェネレーター",
+  "description": "テストと開発用に有効な CNPJ 番号を生成します。倍数と分岐がサポートされるようになりました。",
+  "tags": [
+    "cnpj ジェネレータ",
+    "有効なcnpj",
+    "テスト用のcnpj",
+    "偽のcnpj",
+    "CNPJ番号",
+    "cnpj シミュレータ",
+    "企業テスト",
+    "支店",
+    "複数"
+  ],
+  "category": "発電機",
+  "format": "マスクでフォーマット",
+  "generate": "生成する",
+  "generateMultiple": "倍数を生成する",
+  "simulateBranch": "親 CNPJ + ブランチをシミュレートする",
+  "placeholder": "生成されたCNPJはここに表示されます"
+}

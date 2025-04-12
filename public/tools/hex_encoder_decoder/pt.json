@@ -1,0 +1,19 @@
+{
+  "title": "Codificador/decodificador HEX",
+  "description": "Converta texto para hexadecimal e hexadecimal para texto de forma simples. Ideal para debugging, codificação e manipulação de dados.",
+  "tags": [
+    "hexadecimal",
+    "texto para hex",
+    "hex para texto",
+    "codificar hex",
+    "decodificar hex",
+    "conversor hex",
+    "ferramenta hex",
+    "string hexadecimal"
+  ],
+  "category": "Codificadores / Decodificadores",
+  "placeholder": "Digite o texto ou código HEX",
+  "resultPlaceholder": "Resultado aparecerá aqui",
+  "encode": "Texto → HEX",
+  "decode": "HEX → Texto"
+}

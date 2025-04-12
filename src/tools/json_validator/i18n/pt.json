@@ -1,0 +1,18 @@
+{
+  "title": "Validador de JSON",
+  "description": "Verifique se um JSON é válido e bem formatado. Ideal para detectar erros de sintaxe em APIs, arquivos de configuração e testes de integração.",
+  "tags": [
+    "validador de json",
+    "json válido",
+    "verificar json",
+    "json checker",
+    "erro em json",
+    "validar estrutura json",
+    "sintaxe json"
+  ],
+  "category": "Validadores",
+  "placeholder": "Digite ou cole um JSON",
+  "validate": "Validar",
+  "valid": "✅ JSON válido.",
+  "invalid": "❌ Inválido"
+}

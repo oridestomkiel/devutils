@@ -1,0 +1,22 @@
+{
+  "title": "Zufallspasswortgenerator",
+  "description": "Erstellen Sie nach dem Zufallsprinzip sichere und starke Passwörter. Ideal zum Schutz sensibler Konten und Daten.",
+  "tags": [
+    "zufälliges Passwort",
+    "Passwortgenerator",
+    "sicheres Passwort",
+    "Passwortgenerator",
+    "Datensicherheit",
+    "Passwörter generieren",
+    "Kontoschutz"
+  ],
+  "category": "Generatoren",
+  "length": "Größe",
+  "include_symbols": "Symbole einschließen",
+  "include_numbers": "Zahlen einschließen",
+  "include_uppercase": "Großbuchstaben einschließen",
+  "include_lowercase": "Kleinbuchstaben einschließen",
+  "generate": "Um zu generieren",
+  "click_to_generate": "Klicken Sie auf „Generieren“",
+  "select_one_type": "Wählen Sie mindestens einen Zeichentyp aus"
+}

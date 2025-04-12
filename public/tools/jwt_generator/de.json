@@ -1,0 +1,20 @@
+{
+  "title": "JWT-Generator",
+  "description": "Erstellen Sie benutzerdefinierte JWT-Token mit Header, Payload und Geheimnis. Ideal für Tests mit HS256.",
+  "tags": [
+    "jwt",
+    "Zeichen",
+    "JWT generieren",
+    "Test-JWT",
+    "Verschlüsselung"
+  ],
+  "category": "Encoder/Decoder",
+  "payload": "Nutzlast (JSON)",
+  "header": "Kopfzeile (optional)",
+  "secret": "Geheimnis (HS256)",
+  "secretPlaceholder": "Geben Sie das Geheimnis ein ...",
+  "outputLabel": "JWT-Token",
+  "invalidPayload": "Ungültige Nutzlast",
+  "invalidHeader": "Ungültiger Header",
+  "secretRequired": "Obligatorisches Geheimnis"
+}

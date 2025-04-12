@@ -1,0 +1,20 @@
+{
+  "title": "JSON → CSV コンバーター",
+  "description": "JSON データを CSV 形式に簡単に変換できます。エクスポート、スプレッドシート、構造化データの操作に最適です。",
+  "tags": [
+    "json から csv へ",
+    "json を変換する",
+    "データコンバータ",
+    "json csv",
+    "json をエクスポート",
+    "json を csv に変換する",
+    "構造化データ"
+  ],
+  "category": "コンバーター",
+  "placeholder": "JSON（オブジェクトの配列）を貼り付けます",
+  "delimiter": "デリミタ",
+  "useQuotes": "引用符を使用する",
+  "convert": "変換する",
+  "errorNotArray": "JSON はオブジェクトの配列である必要があります。",
+  "errorPrefix": "エラー："
+}

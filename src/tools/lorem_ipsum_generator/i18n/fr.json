@@ -1,0 +1,21 @@
+{
+  "title": "Générateur de Lorem Ipsum",
+  "description": "Générez du texte factice Lorem Ipsum standard à utiliser comme espaces réservés dans les conceptions, les mises en page et les tests de contenu.",
+  "tags": [
+    "lorem ipsum",
+    "texte de fiction",
+    "générateur de texte",
+    "texte pour la mise en page",
+    "espace réservé au contenu",
+    "texte simulé",
+    "contenu du test"
+  ],
+  "category": "Générateurs",
+  "paragraphs": "Paragraphes",
+  "words": "Mots",
+  "bytes": "Octets",
+  "lists": "Listes",
+  "startWithLorem": "Commencez par \"Lorem ipsum dolor sit amet...\"",
+  "error.loading": "Erreur lors du chargement du texte Lorem Ipsum.",
+  "loremIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Énéen nunc purus, gravida non dignissim iaculis, pretium sed metus. Quisque faucibus, lacus a vulputate fermentum, lacus erat feugiat risus, non fringilla ligula eros eu sem. Entier consectetur, sem suscipit pellentesque auctor, neque velit fermentum mi, id elementum eros felis at nisi. Énéen consectetur gravida dui, vel porta diam aliquam et. Aliquam volutpat, lectus ut convallis vestibulum, ligula leo fringilla neque, non fringilla just tortor non purus. Proin consequat erat vitae tellus pharetra, in malesuada eros rutrum. Entier sed massa dignissim, efficacité eros vitae, rhoncus nisi. Sed gravida rutrum est même venenatis."
+}

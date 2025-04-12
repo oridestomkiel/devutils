@@ -1,0 +1,16 @@
+{
+  "title": "JSON 模式 → OpenAPI",
+  "description": "将有效的 JSON 模式转换为 OpenAPI 3.0 格式。调整“nullable”等字段，删除“$schema”，并正确格式化以用于 API。",
+  "tags": [
+    "json 模式",
+    "开放API",
+    "转变",
+    "API 设计",
+    "规格"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 模式粘贴到这里...",
+  "convert": "转变",
+  "error": "错误",
+  "invalidJson": "JSON 无效。"
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Gerador de UUID",
+    "description": "Gere UUIDs únicos (v4 ou v1) com opção de múltiplos resultados. Ideal para testes, registros e identificação global de objetos.",
+    "tags": [
+        "uuid",
+        "gerador de uuid",
+        "uuid v4",
+        "uuid v1",
+        "identificador único",
+        "uuid em lote"
+    ],
+    "category": "Geradores"
+}

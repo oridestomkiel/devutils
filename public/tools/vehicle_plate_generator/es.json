@@ -1,0 +1,21 @@
+{
+  "title": "Generador de matrículas",
+  "description": "Genere matrículas válidas según el estado y elija si desea incluir puntuación. Ideal para pruebas y simulaciones.",
+  "tags": [
+    "generador de placas",
+    "matrícula",
+    "simulador de tablero",
+    "placa con estado",
+    "plato con máscara"
+  ],
+  "category": "Generadores",
+  "label_quantity": "Cantidad:",
+  "label_state": "Estado:",
+  "label_mask": "Con puntuación (p. ej. ABC-1234)",
+  "any_state": "Cualquier",
+  "generate": "Para generar",
+  "copy": "Copiar",
+  "copied": "¡Copiado!",
+  "error_loading": "Error al cargar los datos de la matrícula.",
+  "no_data": "SIN DATOS"
+}

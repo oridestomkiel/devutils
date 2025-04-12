@@ -1,0 +1,26 @@
+{
+  "title": "Transitions with Multiple Properties",
+  "description": "Build custom CSS transitions with multiple properties, each with its own duration, delay, and easing.",
+  "tags": [
+    "transition",
+    "css",
+    "animation",
+    "easing",
+    "delay",
+    "multi-prop"
+  ],
+  "category": "Design / Colors",
+  "preview": "Preview",
+  "duration": "Duration (s)",
+  "delay": "Delay (s)",
+  "background-color": "Background Color",
+  "color": "Text Color",
+  "transform": "Transformation",
+  "opacity": "Opacity",
+  "border-radius": "Rounding",
+  "ease": "ease",
+  "linear": "linear",
+  "ease-in": "ease-in",
+  "ease-out": "ease-out",
+  "ease-in-out": "ease-in-out"
+}

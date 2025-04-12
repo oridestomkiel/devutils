@@ -1,0 +1,19 @@
+{
+  "title": "Contador de palabras, caracteres, líneas y oraciones",
+  "description": "Cuenta el número de palabras, caracteres, líneas y oraciones de un texto. Ideal para comprobar límites en formularios, artículos y redes sociales.",
+  "tags": [
+    "contador de palabras",
+    "contador de caracteres",
+    "contar líneas",
+    "contar oraciones",
+    "límite de texto",
+    "análisis de texto"
+  ],
+  "category": "Herramientas de texto",
+  "placeholder": "Escribe o pega tu texto aquí...",
+  "words": "📝 Palabras",
+  "chars": "🔡 Caracteres (con espacios)",
+  "chars_no_space": "🔡 Caracteres (sin espacios)",
+  "lines": "📏 Líneas",
+  "sentences": "Frases"
+}

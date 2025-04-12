@@ -1,0 +1,19 @@
+{
+  "title": "Fake Name + Email + Phone Generator",
+  "description": "Generate fake combinations of names, emails, and phone numbers for testing, simulations, and form filling. Ideal for development environments.",
+  "tags": [
+    "fake data generator",
+    "fake name",
+    "fake email",
+    "random phone number",
+    "test data",
+    "generate fake identity",
+    "registration simulation"
+  ],
+  "category": "Generators",
+  "quantity": "Quantity",
+  "emailDomain": "Email Domain",
+  "generate": "Generate",
+  "outputPlaceholder": "Result will appear here",
+  "errorInput": "❌ Check quantity and domain."
+}

@@ -1,0 +1,12 @@
+{
+  "title": "将换行符转换为 \\n",
+  "description": "将真实换行符转换为转义格式 \\n。适合需要将带有换行的文本粘贴到代码中的程序员。",
+  "tags": ["换行符", "转义", "编程", "转换", "文本", "代码"],
+  "category": "文本工具",
+  "label.input": "带换行的文本：",
+  "label.output": "带 \\n 的结果：",
+  "placeholder.input": "在此输入或粘贴文本...",
+  "button.convert": "转换为 \\n",
+  "button.copy": "复制",
+  "button.clear": "清除"
+}

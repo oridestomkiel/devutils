@@ -1,0 +1,9 @@
+{
+  "title": "Diff de Código (GitHub Style)",
+  "description": "Compare dois blocos de código e visualize as diferenças com estilo GitHub lado a lado.",
+  "tags": ["diff visual", "git", "comparar código", "diff2html"],
+  "category": "Análise / Comparação",
+  "placeholder.original": "Código original...",
+  "placeholder.modified": "Código modificado...",
+  "compare": "Comparar"
+}

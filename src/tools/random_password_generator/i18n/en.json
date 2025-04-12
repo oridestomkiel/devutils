@@ -1,0 +1,22 @@
+{
+  "title": "Random Password Generator",
+  "description": "Create strong and secure passwords randomly. Ideal for protecting sensitive accounts and data.",
+  "tags": [
+    "random password",
+    "password generator",
+    "strong password",
+    "password generator",
+    "data security",
+    "generate passwords",
+    "account protection"
+  ],
+  "category": "Generators",
+  "length": "Size",
+  "include_symbols": "Include symbols",
+  "include_numbers": "Include numbers",
+  "include_uppercase": "Include capital letters",
+  "include_lowercase": "Include lowercase",
+  "generate": "To generate",
+  "click_to_generate": "Click generate",
+  "select_one_type": "Select at least one character type"
+}

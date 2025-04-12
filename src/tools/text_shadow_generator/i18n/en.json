@@ -1,0 +1,18 @@
+{
+  "title": "Text Shadow Generator",
+  "description": "Create shadows for text with color, offset, and blur control. Ideal for adding emphasis or depth to titles and UI elements.",
+  "tags": [
+    "text-shadow",
+    "text shadow",
+    "css text",
+    "visual effect",
+    "blur",
+    "title highlight"
+  ],
+  "category": "Design / Colors",
+  "shadow_color": "Shadow color",
+  "blur": "Blur (px)",
+  "offset_x": "Horizontal Offset (X)",
+  "offset_y": "Vertical Offset (Y)",
+  "preview_text": "Text with Shadow"
+}

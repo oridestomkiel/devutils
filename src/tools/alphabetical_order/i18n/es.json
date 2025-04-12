@@ -1,0 +1,20 @@
+{
+  "title": "Ordenar Alfabéticamente",
+  "description": "Herramienta en línea para ordenar una lista alfabéticamente. Copia y pega tu lista de nombres y haz clic en “Ordenar”.",
+  "tags": ["orden", "alfabético", "ordenar", "lista", "texto", "duplicados"],
+  "category": "Herramientas de Texto",
+  "label.original": "Texto original:",
+  "placeholder.list": "Pega tu lista aquí...",
+  "label.sortType": "Tipo de ordenación:",
+  "option.asc": "Ascendente (A-Z)",
+  "option.desc": "Descendente (Z-A)",
+  "label.separator": "Ordenar por:",
+  "option.linebreak": "Salto de línea",
+  "option.space": "Espacio",
+  "option.comma": "Coma ( , )",
+  "option.semicolon": "Punto y coma ( ; )",
+  "label.removeDuplicates": "¿Eliminar duplicados?",
+  "button.sort": "Ordenar",
+  "label.sorted": "Texto ordenado:",
+  "button.download": "Descargar TXT"
+}

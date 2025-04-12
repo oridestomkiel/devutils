@@ -1,0 +1,19 @@
+{
+  "title": "Convertir les Sauts de Ligne en \\n",
+  "description": "Convertit les sauts de ligne réels en format échappé \\n. Idéal pour les programmeurs qui doivent insérer du texte dans du code.",
+  "tags": [
+    "saut de ligne",
+    "échappement",
+    "programmation",
+    "conversion",
+    "texte",
+    "code"
+  ],
+  "category": "Outils de Texte",
+  "label.input": "Texte avec sauts de ligne :",
+  "label.output": "Résultat avec \\n :",
+  "placeholder.input": "Tapez ou collez votre texte ici...",
+  "button.convert": "Convertir en \\n",
+  "button.copy": "Copier",
+  "button.clear": "Effacer"
+}

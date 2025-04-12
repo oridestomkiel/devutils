@@ -1,0 +1,17 @@
+{
+  "title": "Hex ↔ Text Converter",
+  "description": "Convert hexadecimal values to text and text to hexadecimal accurately. Useful for coding, debugging and string manipulation.",
+  "tags": [
+    "hex to text",
+    "text to hex",
+    "hex converter",
+    "string to hex",
+    "decode hex",
+    "encode text",
+    "convert hex"
+  ],
+  "category": "Encoders/Decoders",
+  "placeholder": "Enter text or hexadecimal value",
+  "textToHex": "Text → Hex",
+  "hexToText": "Hex → Text"
+}

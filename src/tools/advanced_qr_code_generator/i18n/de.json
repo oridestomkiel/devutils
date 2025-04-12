@@ -1,0 +1,23 @@
+{
+  "title": "Erweiterter QR-Code-Generator",
+  "description": "Erstellen Sie anpassbare QR-Codes mit Logos, Farben und bestimmten Größen. Ideal für Kampagnen, Marketing und Datenaustausch.",
+  "tags": [
+    "qr code",
+    "qr-code-generator",
+    "erweiterter qr-code",
+    "qr-code mit logo",
+    "qr marketing",
+    "angepasster qrcode",
+    "qrcode generator",
+    "datenaustausch"
+  ],
+  "category": "Generatoren",
+  "placeholder.input": "Text oder URL zur QR-Erstellung",
+  "label.size": "Größe (px)",
+  "label.margin": "Rand",
+  "label.color.dark": "Dunkle Farbe",
+  "label.color.light": "Helle Farbe",
+  "label.logo": "Zentrales Logo (Bild-URL)",
+  "placeholder.logo": "https://example.com/logo.png",
+  "export.svg": "SVG exportieren"
+}

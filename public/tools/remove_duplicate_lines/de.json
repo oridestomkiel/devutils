@@ -1,0 +1,16 @@
+{
+  "title": "Doppelte Zeilen entfernen",
+  "description": "Fügen Sie Ihren Text ein und entfernen Sie doppelte Zeilen automatisch. Ideal zum Bereinigen von Listen und schnellen Organisieren von Inhalten.",
+  "tags": [
+    "Duplikate entfernen",
+    "klare Linien",
+    "dupliziert",
+    "wiederholte Zeilen"
+  ],
+  "category": "Textwerkzeuge",
+  "input_label": "Text mit möglichen Duplikaten:",
+  "input_placeholder": "Fügen Sie Ihren Inhalt hier ein ...",
+  "remove_button": "Duplikate entfernen",
+  "output_label": "Ergebnis ohne Duplikate:",
+  "download": "TXT herunterladen"
+}

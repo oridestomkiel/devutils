@@ -1,0 +1,12 @@
+{
+    "title": "JSON Schema → TypeScript",
+    "description": "Gere interfaces TypeScript completas a partir de um JSON Schema com suporte a enums, nullables, JSDoc, arrays limitados e mais.",
+    "tags": [
+        "json schema",
+        "typescript",
+        "interface",
+        "converter",
+        "tipagem"
+    ],
+    "category": "Conversores"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "JSON → Flusstypen",
+  "description": "Konvertiert JSON-Objekte in statische Flow-Typisierung. Nützlich für die Validierung von JavaScript-Strukturen mit optionaler Typisierung.",
+  "tags": [
+    "json",
+    "fließen",
+    "Tippen",
+    "JavaScript",
+    "Flusstyp",
+    "Typen"
+  ],
+  "category": "Konverter",
+  "placeholder": "Fügen Sie Ihr JSON hier ein ...",
+  "convert": "Konvertieren",
+  "error": "Ungültiges JSON!"
+}

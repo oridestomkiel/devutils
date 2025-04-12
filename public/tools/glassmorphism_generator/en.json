@@ -1,0 +1,20 @@
+{
+  "title": "Glassmorphism Generator",
+  "description": "Create frosted glass effects with color, transparency, blur, and borders. Ideal for modern-looking panels and cards.",
+  "tags": [
+    "glassmorphism",
+    "blur",
+    "transparency",
+    "glass effect",
+    "frosted glass",
+    "modern ui",
+    "visual glass"
+  ],
+  "category": "Design / Colors",
+  "backgroundColor": "Background color",
+  "opacity": "Opacity",
+  "blur": "Blur (px)",
+  "borderColor": "Border Color",
+  "borderOpacity": "Edge Opacity",
+  "previewBackground": "Preview Background"
+}

@@ -1,0 +1,15 @@
+{
+    "title": "Conversor Unicode ↔ Texto",
+    "description": "Converta caracteres Unicode para texto legível e vice-versa. Ideal para internacionalização, codificação e manipulação de strings.",
+    "tags": [
+        "unicode",
+        "texto para unicode",
+        "unicode para texto",
+        "utf-8",
+        "hexadecimal",
+        "acentos",
+        "ç",
+        "codificação unicode"
+    ],
+    "category": "Codificadores / Decodificadores"
+}

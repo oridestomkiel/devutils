@@ -1,0 +1,21 @@
+{
+  "title": "Extraire des e-mails à partir du texte",
+  "description": "Collez n'importe quel contenu textuel et extrayez toutes les adresses e-mail trouvées. Organisez par ordre alphabétique ou par domaine.",
+  "tags": [
+    "e-mail",
+    "extraire",
+    "texte",
+    "trier",
+    "domaine",
+    "liste d'e-mails"
+  ],
+  "category": "Outils de texte",
+  "inputLabel": "Texte source :",
+  "placeholder": "Collez ici le contenu avec des e-mails...",
+  "sortLabel": "Trier par :",
+  "sortAlphabetical": "Ordre alphabétique",
+  "sortDomain": "Domaine",
+  "extract": "Extraire les e-mails",
+  "outputLabel": "E-mails extraits :",
+  "download": "Télécharger TXT"
+}

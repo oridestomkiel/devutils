@@ -1,0 +1,16 @@
+{
+  "title": "Generator für fiktive Personendaten",
+  "description": "Erstellen Sie zufällige Datenprofile von Personen für Tests und Simulationen. Wählen Sie die gewünschten Felder aus und exportieren Sie sie einfach im JSON-Format.",
+  "tags": [
+    "fiktive Daten",
+    "Leute json",
+    "Benutzer-Mock",
+    "Datengenerator",
+    "Profilsimulation",
+    "API-Tests"
+  ],
+  "category": "Generatoren",
+  "amountLabel": "Anzahl der Datensätze",
+  "generate": "Um zu generieren",
+  "loadError": "Fehler beim Laden der Basisdaten."
+}

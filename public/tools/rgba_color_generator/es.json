@@ -1,0 +1,16 @@
+{
+  "title": "Generador de color RGBA",
+  "description": "Ajuste el color y la opacidad para generar fácilmente valores rgba() o hexadecimales con alfa. Ideal para superposiciones CSS y transparencia.",
+  "tags": [
+    "RGBA",
+    "alfa hexadecimal",
+    "transparencia",
+    "opacidad",
+    "color RGBA",
+    "color CSS"
+  ],
+  "category": "Diseño / Colores",
+  "color_label": "Color",
+  "opacity_label": "Opacidad",
+  "generate": "Para generar"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Validador de Tarjeta de Crédito",
+  "description": "Ingresa un número de tarjeta y verifica si es válido usando el algoritmo de Luhn. Detecta la marca automáticamente.",
+  "tags": ["tarjeta", "validador", "luhn", "número", "crédito", "marca"],
+  "category": "Utilidades",
+  "label.input": "Número de Tarjeta:",
+  "placeholder.input": "Ej: 4111 1111 1111 1111",
+  "button.validate": "Validar Tarjeta",
+  "result.valid": "✅ Válido",
+  "result.invalid": "❌ Inválido",
+  "result.error": "❌ Número inválido o incompleto.",
+  "brand.unknown": "Desconocida"
+}

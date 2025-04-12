@@ -1,0 +1,12 @@
+{
+    "title": "Fork de Texto por Delimitador",
+    "description": "Divide o texto com base em um delimitador e aplica uma operação a cada parte separadamente. Ideal para processar lotes de dados.",
+    "tags": [
+        "fork",
+        "batch",
+        "texto",
+        "processamento",
+        "linhas"
+    ],
+    "category": "Utilitários"
+}

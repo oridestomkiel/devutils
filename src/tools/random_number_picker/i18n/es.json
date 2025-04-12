@@ -1,0 +1,19 @@
+{
+  "title": "Selector de números aleatorios",
+  "description": "Selector de números online gratuito. Selecciona el rango y haz clic en el número del sorteo. También puedes usarlo para realizar sorteos en Facebook, Instagram y otras redes sociales.",
+  "tags": [
+    "sorteo de premios",
+    "aleatorio",
+    "aleatorio",
+    "número",
+    "Facebook",
+    "Instagram"
+  ],
+  "category": "Servicios públicos",
+  "instruction": "Ingrese el rango de números y haga clic en dibujar:",
+  "min_label": "Mínimo",
+  "max_label": "Máximo",
+  "draw_button": "Número de sorteo",
+  "result_label": "Número generado:",
+  "invalid_range": "Rango no válido"
+}

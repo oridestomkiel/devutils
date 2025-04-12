@@ -1,0 +1,21 @@
+{
+  "title": "代码压缩器（HTML、CSS、简单 JS）",
+  "description": "删除 HTML、CSS 和简单 JavaScript 中的空格、换行和注释，提升你网站的性能。",
+  "tags": [
+    "压缩代码",
+    "html 压缩",
+    "css 压缩",
+    "js 压缩",
+    "优化代码",
+    "文件压缩",
+    "减小代码体积",
+    "压缩 html css js"
+  ],
+  "category": "格式化 / 压缩器",
+  "placeholder.input": "粘贴你的 HTML、CSS 或 JS",
+  "placeholder.output": "压缩结果",
+  "minify": "压缩",
+  "copy": "复制",
+  "copied": "已复制！",
+  "empty": "没有可压缩的内容。"
+}

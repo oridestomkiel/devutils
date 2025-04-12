@@ -1,0 +1,15 @@
+{
+  "title": "Markdown → Vista previa HTML",
+  "description": "Previsualiza la representación del texto Markdown convertido a HTML en tiempo real. Ideal para escritores, desarrolladores y creadores de contenido.",
+  "tags": [
+    "Markdown a HTML",
+    "vista previa de rebajas",
+    "renderizar markdown",
+    "visor de rebajas",
+    "vista previa en vivo de Markdown",
+    "convertir rebajas",
+    "html desde markdown"
+  ],
+  "category": "Convertidores",
+  "placeholder": "# Título\\n\\nAlgún texto *markdown*."
+}

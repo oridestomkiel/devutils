@@ -1,0 +1,20 @@
+{
+  "title": "CamelCase ↔ snake_case ↔ kebab-case コンバーター",
+  "description": "CamelCase、snake_case、kebab-case 間の変換を簡単に行えます。変数、ファイル名、APIの標準化に最適です。",
+  "tags": [
+    "camelcase",
+    "snake_case",
+    "kebab-case",
+    "フォーマット変換",
+    "テキスト変換",
+    "camel から snake",
+    "snake から kebab",
+    "kebab から camel",
+    "ケース変換"
+  ],
+  "category": "コンバーター",
+  "placeholder.input": "任意の形式のテキストを入力してください",
+  "label.camel": "CamelCase：",
+  "label.snake": "snake_case：",
+  "label.kebab": "kebab-case："
+}

@@ -1,0 +1,25 @@
+{
+  "title": "テキストから複数フォーマットへのコンバーター",
+  "description": "任意のテキストを入力すると、バイナリ、10進数、8進数、16進数、BASE64、ASCII、UTF8、URL、UNICODE、モールス、HTML表現に自動的に変換されます。",
+  "tags": [
+    "変換",
+    "文章",
+    "バイナリ",
+    "ベース64",
+    "ユニコード",
+    "モールス"
+  ],
+  "category": "テキストツール",
+  "input_placeholder": "変換するテキストを入力するか貼り付けます...",
+  "label_binario": "バイナリ",
+  "label_decimal": "小数点",
+  "label_octal": "オクタル",
+  "label_hex": "ヘックス",
+  "label_base64": "BASE64",
+  "label_ascii": "アスキー",
+  "label_utf8": "UTF8",
+  "label_url": "メールアドレス",
+  "label_unicode": "ユニコード",
+  "label_morse": "モールス",
+  "label_html": "html"
+}

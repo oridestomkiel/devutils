@@ -1,0 +1,14 @@
+{
+  "title": "Markdown → HTML (タグ)",
+  "description": "生成された HTML タグのみを表示して、Markdown を生の HTML に変換します。開発者やコンテンツ統合に最適です。",
+  "tags": [
+    "マークダウンからHTMLへ",
+    "マークダウンからHTMLへ",
+    "マークダウンを変換",
+    "HTMLタグ出力",
+    "生のマークダウン",
+    "マークダウン HTML を表示"
+  ],
+  "category": "コンバーター",
+  "placeholder": "# タイトル\n\n*マークダウン*テキスト。"
+}

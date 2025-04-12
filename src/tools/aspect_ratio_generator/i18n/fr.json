@@ -1,0 +1,24 @@
+{
+  "title": "Générateur de Ratio d'Aspect",
+  "description": "Générez des styles CSS pour conserver un ratio fixe sur des éléments comme des vidéos, images ou conteneurs responsives.",
+  "tags": [
+    "ratio d'aspect",
+    "responsive",
+    "astuce css",
+    "proportion",
+    "conteneur",
+    "astuce padding"
+  ],
+  "category": "Design / Couleurs",
+  "label.ratio": "Ratio d'aspect",
+  "label.ratio.custom": "Personnalisé (largeur:hauteur)",
+  "label.ratio.mode": "Mode",
+  "option.ratio.16_9": "16:9",
+  "option.ratio.4_3": "4:3",
+  "option.ratio.1_1": "1:1",
+  "option.ratio.21_9": "21:9",
+  "option.ratio.custom": "Personnalisé",
+  "option.mode.modern": "aspect-ratio (moderne)",
+  "option.mode.fallback": "padding-top (compatible)",
+  "preview.label": "Aperçu"
+}

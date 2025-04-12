@@ -1,0 +1,26 @@
+{
+  "title": "Unicode ↔ 文本转换器",
+  "description": "将 Unicode 字符转换为可读文本，反之亦然。非常适合国际化、编码和字符串操作。",
+  "tags": [
+    "统一码",
+    "文本转为 unicode",
+    "unicode 转文本",
+    "utf-8",
+    "十六进制",
+    "口音",
+    "瓦",
+    "unicode 编码"
+  ],
+  "category": "编码器/解码器",
+  "input_placeholder": "输入转义文本或 Unicode (\\uXXXX, \\xXX)",
+  "output_placeholder": "结果出现在这里...",
+  "convert_unicode": "文本 → Unicode",
+  "convert_text": "Unicode → 文本",
+  "option_unicode": "\\uXXXX",
+  "option_utf8": "\\xXX",
+  "option_hex": "仅限十六进制",
+  "filter_all": "全部转换",
+  "filter_accents": "仅限口音",
+  "filter_specials": "仅限特殊字符",
+  "filter_cedilla": "仅限ç"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Imagem → Data URL (Base64)",
+  "description": "Selecione uma imagem do seu dispositivo para converter automaticamente em um Data URL base64. Útil para embutir imagens em HTML ou CSS.",
+  "tags": [
+    "imagem para base64",
+    "imagem para data url",
+    "converter imagem",
+    "base64",
+    "data uri"
+  ],
+  "category": "Imagens",
+  "copy": "Copiar",
+  "copied": "Copiado!",
+  "download": "Baixar imagem",
+  "clear": "Limpar"
+}

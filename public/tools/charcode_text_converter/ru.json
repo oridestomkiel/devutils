@@ -1,0 +1,22 @@
+{
+  "title": "Charcode ↔ Текст",
+  "description": "Преобразуйте текст в коды символов Unicode и обратно. Полезно для анализа, кодирования и отладки данных.",
+  "tags": [
+    "unicode",
+    "charcode",
+    "конвертер",
+    "текст в код",
+    "из charcode",
+    "в charcode"
+  ],
+  "category": "Конвертеры",
+  "mode.to": "Текст → Charcode",
+  "mode.from": "Charcode → Текст",
+  "placeholder": "Введите текст или Unicode-коды, разделённые пробелом",
+  "convert": "Преобразовать",
+  "clear": "Очистить",
+  "copy": "Копировать",
+  "error": "Ошибка при преобразовании кодов в текст.",
+  "reference": "Справочник по Unicode",
+  "link": "Плоскость (Unicode)"
+}

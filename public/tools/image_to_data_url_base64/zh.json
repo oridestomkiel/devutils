@@ -1,0 +1,16 @@
+{
+  "title": "图片 → 日期 URL (Base64)",
+  "description": "从您的设备中选择一张图片，自动将其转换为 base64 数据 URL。适用于在 HTML 或 CSS 中嵌入图像。",
+  "tags": [
+    "图像转为 base64",
+    "图片日期 URL",
+    "转换图像",
+    "base64",
+    "日期 uri"
+  ],
+  "category": "图片",
+  "copy": "复制",
+  "copied": "已复制！",
+  "download": "下载图片",
+  "clear": "清洁"
+}

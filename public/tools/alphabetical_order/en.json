@@ -1,0 +1,20 @@
+{
+  "title": "Alphabetical Order Tool",
+  "description": "Online tool to sort a list in alphabetical order. Copy and paste your list of names, then click “Sort”.",
+  "tags": ["order", "alphabetical", "sort", "list", "text", "duplicates"],
+  "category": "Text Tools",
+  "label.original": "Original text:",
+  "placeholder.list": "Paste your list here...",
+  "label.sortType": "Sort type:",
+  "option.asc": "Ascending (A-Z)",
+  "option.desc": "Descending (Z-A)",
+  "label.separator": "Sort by:",
+  "option.linebreak": "Line Break",
+  "option.space": "Space",
+  "option.comma": "Comma ( , )",
+  "option.semicolon": "Semicolon ( ; )",
+  "label.removeDuplicates": "Remove Duplicates?",
+  "button.sort": "Sort",
+  "label.sorted": "Sorted text:",
+  "button.download": "Download TXT"
+}

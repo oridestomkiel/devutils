@@ -1,0 +1,14 @@
+{
+  "title": "Recortador de imágenes",
+  "description": "Sube una imagen, selecciona el área de recorte y descarga solo la parte deseada. Compatible con PNG y JPG.",
+  "tags": [
+    "cultivo",
+    "imagen",
+    "cortar",
+    "editor",
+    "imagen de utilidad"
+  ],
+  "category": "Imágenes",
+  "download": "Descargar recorte",
+  "clear": "Para limpiar"
+}

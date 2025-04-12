@@ -1,0 +1,21 @@
+{
+  "title": "Générateur de plaques d'immatriculation",
+  "description": "Générez des plaques d'immatriculation valides selon l'État et choisissez d'inclure ou non la ponctuation. Idéal pour les tests et les simulations.",
+  "tags": [
+    "générateur de plaques",
+    "plaque d'immatriculation",
+    "simulateur de planche",
+    "plaque avec statut",
+    "assiette avec masque"
+  ],
+  "category": "Générateurs",
+  "label_quantity": "Montant:",
+  "label_state": "État:",
+  "label_mask": "Avec ponctuation (par exemple ABC-1234)",
+  "any_state": "N'importe lequel",
+  "generate": "Pour générer",
+  "copy": "Copie",
+  "copied": "Copié!",
+  "error_loading": "Erreur lors du chargement des données de la plaque d'immatriculation.",
+  "no_data": "AUCUNE DONNÉE"
+}

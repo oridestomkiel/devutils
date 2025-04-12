@@ -1,0 +1,19 @@
+{
+  "title": "Encodeur/décodeur HEX",
+  "description": "Convertissez facilement du texte en hexadécimal et inversement. Idéal pour le débogage, le codage et la manipulation de données.",
+  "tags": [
+    "hexadécimal",
+    "texte en hexadécimal",
+    "hexadécimal en texte",
+    "encoder en hexadécimal",
+    "décoder l'hexagone",
+    "convertisseur hexadécimal",
+    "outil hexagonal",
+    "chaîne hexadécimale"
+  ],
+  "category": "Encodeurs/Décodeurs",
+  "placeholder": "Entrez du texte ou du code HEX",
+  "resultPlaceholder": "Le résultat apparaîtra ici",
+  "encode": "Texte → HEX",
+  "decode": "HEX → Texte"
+}

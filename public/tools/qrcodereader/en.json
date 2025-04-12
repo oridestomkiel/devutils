@@ -1,0 +1,12 @@
+{
+    "title": "Leitor de QR Code (Imagem)",
+    "description": "Envie uma imagem com QR Code para decodificar o conteúdo. Mostra o texto embutido e permite copiar com um clique.",
+    "tags": [
+        "qr code",
+        "leitor de qr",
+        "imagem",
+        "scanner",
+        "decode qr"
+    ],
+    "category": "Imagens"
+}

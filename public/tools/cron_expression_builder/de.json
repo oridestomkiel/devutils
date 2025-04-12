@@ -1,0 +1,28 @@
+{
+  "title": "CRON-Ausdruck Generator",
+  "description": "Erstellen Sie CRON-Ausdrücke einfach und intuitiv. Ideal zum Planen von Aufgaben auf Servern, in Backend-Anwendungen und bei Automatisierungen.",
+  "tags": [
+    "cron-ausdruck",
+    "cron-generator",
+    "aufgabenplanung",
+    "cronjob",
+    "cron-erzeuger",
+    "cron linux",
+    "befehle planen",
+    "cron-ausdruck tool"
+  ],
+  "category": "Generatoren",
+  "placeholder.input": "Z. B.: */5 * * * *",
+  "button.explain": "Erklären",
+  "placeholder.output": "Erklärung wird hier angezeigt",
+  "copied": "Kopiert!",
+  "invalid": "Ungültiger Ausdruck. Muss 5 Felder haben.",
+  "labels": [
+    "Minute (0–59)",
+    "Stunde (0–23)",
+    "Tag des Monats (1–31)",
+    "Monat (1–12)",
+    "Wochentag (0=Sonntag bis 6=Samstag)"
+  ],
+  "format.hint": "Format: Minute Stunde Tag-des-Monats Monat Wochentag"
+}

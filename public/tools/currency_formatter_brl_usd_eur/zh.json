@@ -1,0 +1,22 @@
+{
+  "title": "货币格式化工具 BRL / USD / EUR",
+  "description": "使用正确的分隔符和符号格式化BRL、USD和EUR货币值。适用于系统和电商中的价格展示。",
+  "tags": [
+    "货币格式化器",
+    "brl货币",
+    "usd货币",
+    "eur货币",
+    "格式化数值",
+    "货币格式化",
+    "格式化价格",
+    "国际货币"
+  ],
+  "category": "格式化 / 压缩工具",
+  "placeholder.input": "输入金额",
+  "placeholder.output": "格式化结果",
+  "option.brl": "雷亚尔 (BRL)",
+  "option.usd": "美元 (USD)",
+  "option.eur": "欧元 (EUR)",
+  "button.format": "格式化",
+  "error.invalidValue": "无效的值。"
+}

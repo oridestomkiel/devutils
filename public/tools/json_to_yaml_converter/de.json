@@ -1,0 +1,17 @@
+{
+  "title": "JSON → YAML-Konverter",
+  "description": "Konvertieren Sie JSON-Dateien einfach und effizient in das YAML-Format. Ideal für Systemkonfiguration, APIs und Infrastruktur als Code.",
+  "tags": [
+    "json zu yaml",
+    "JSON konvertieren",
+    "json yaml",
+    "Datenkonvertierung",
+    "YAML-Struktur",
+    "YAML-Konfiguration",
+    "JSON in YAML umwandeln"
+  ],
+  "category": "Konverter",
+  "placeholder": "Fügen Sie hier JSON ein ...",
+  "convert": "Konvertieren",
+  "error": "Fehler beim Konvertieren"
+}

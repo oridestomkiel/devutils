@@ -1,0 +1,14 @@
+{
+    "title": "Bcrypt: Gerar e Verificar Hash",
+    "description": "Gere hashes seguros com bcrypt e valide se um texto corresponde a um hash existente. Tudo no navegador, sem enviar dados para servidores.",
+    "tags": [
+        "bcrypt",
+        "hash",
+        "senha",
+        "segurança",
+        "criptografia",
+        "validação",
+        "verificação"
+    ],
+    "category": "Geradores"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Échapper/Déséchapper les Barres Obliques Inverses",
+  "description": "Convertissez les caractères spéciaux comme les retours à la ligne (\\n), les tabulations (\\t), les guillemets et autres en chaînes échappées ou inversement.",
+  "tags": ["échapper", "déséchapper", "antislash", "texte", "chaîne"],
+  "category": "Outils de Texte",
+  "escape": "Échapper",
+  "unescape": "Déséchapper",
+  "inputLabel": "Entrée :",
+  "outputLabel": "Résultat :",
+  "convert": "Convertir"
+}

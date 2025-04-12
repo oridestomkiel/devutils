@@ -1,0 +1,15 @@
+{
+  "title": "Markdown → HTML Preview",
+  "description": "Preview the rendering of Markdown text converted to HTML in real time. Ideal for writers, developers, and content creators.",
+  "tags": [
+    "markdown to html",
+    "markdown preview",
+    "render markdown",
+    "markdown viewer",
+    "markdown live preview",
+    "convert markdown",
+    "html from markdown"
+  ],
+  "category": "Converters",
+  "placeholder": "# Title\\n\\nSome *markdown* text."
+}

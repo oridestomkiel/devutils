@@ -1,0 +1,28 @@
+{
+  "title": "Générateur d’Expression CRON",
+  "description": "Créez des expressions CRON facilement et intuitivement. Idéal pour planifier des tâches sur des serveurs, applications backend et automatisations.",
+  "tags": [
+    "expression cron",
+    "constructeur cron",
+    "planification de tâches",
+    "cronjob",
+    "générateur cron",
+    "cron linux",
+    "planifier commandes",
+    "outil cron"
+  ],
+  "category": "Générateurs",
+  "placeholder.input": "Ex : */5 * * * *",
+  "button.explain": "Expliquer",
+  "placeholder.output": "L’explication s’affichera ici",
+  "copied": "Copié !",
+  "invalid": "Expression invalide. Elle doit comporter 5 champs.",
+  "labels": [
+    "Minute (0–59)",
+    "Heure (0–23)",
+    "Jour du Mois (1–31)",
+    "Mois (1–12)",
+    "Jour de la Semaine (0=Dimanche à 6=Samedi)"
+  ],
+  "format.hint": "Format : minute heure jour-du-mois mois jour-de-la-semaine"
+}

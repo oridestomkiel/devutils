@@ -1,0 +1,20 @@
+{
+  "title": "JWT ジェネレーター",
+  "description": "ヘッダー、ペイロード、シークレットを使用してカスタム JWT トークンを作成します。HS256 でのテストに最適です。",
+  "tags": [
+    "jwt",
+    "トークン",
+    "jwtを生成する",
+    "テスト jwt",
+    "暗号化"
+  ],
+  "category": "エンコーダー/デコーダー",
+  "payload": "ペイロード (JSON)",
+  "header": "ヘッダー（オプション）",
+  "secret": "秘密（HS256）",
+  "secretPlaceholder": "秘密を入力してください...",
+  "outputLabel": "JWTトークン",
+  "invalidPayload": "無効なペイロード",
+  "invalidHeader": "無効なヘッダー",
+  "secretRequired": "必須の秘密"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Esquema JSON → TypeScript",
+  "description": "Genere interfaces TypeScript completas a partir del esquema JSON con soporte para enumeraciones, valores nulos, JSDoc, matrices delimitadas y más.",
+  "tags": [
+    "esquema json",
+    "mecanografiado",
+    "interfaz",
+    "convertir",
+    "mecanografía"
+  ],
+  "category": "Convertidores",
+  "placeholder": "Pegue su esquema JSON aquí...",
+  "convert": "Convertir",
+  "invalid": "Esquema inválido.",
+  "invalidJson": "¡Esquema JSON no válido!"
+}

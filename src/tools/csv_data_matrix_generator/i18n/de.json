@@ -1,0 +1,21 @@
+{
+  "title": "CSV-Matrix-/Daten-Generator",
+  "description": "Erzeuge fiktive Daten im Matrixformat für CSV-Dateien. Perfekt für Tests, Prototypen, Tabellen und Datenimporte.",
+  "tags": [
+    "csv-generator",
+    "fiktive daten",
+    "csv-generator",
+    "datenmatrix",
+    "testdaten",
+    "csv-tabelle erstellen",
+    "simulierte daten"
+  ],
+  "category": "Generatoren",
+  "labels": {
+    "generate": "Generieren",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "download": "CSV herunterladen",
+    "placeholder": "Generiertes CSV erscheint hier"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "HTTP Headers Viewer (Raw Request)",
+  "description": "View the raw content of HTTP headers in requests. Ideal for debugging, traffic analysis and web development.",
+  "tags": [
+    "http headers",
+    "view headers",
+    "raw request",
+    "http analysis",
+    "http request",
+    "http request viewer",
+    "request debug",
+    "inspect headers"
+  ],
+  "category": "Networks / HTTP",
+  "placeholder": "Paste a raw HTTP request here",
+  "analyze": "To analyze",
+  "nothingToAnalyze": "Nothing to analyze.",
+  "methodAndPath": "Method and Route",
+  "headers": "Headers"
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Einheitenrechner",
+  "description": "Einheiten intelligent und bequem umrechnen. Ideal für Bildschirmmaße, Entfernung, Temperatur, Zeit und mehr.",
+  "tags": [
+    "Einheitenumrechner",
+    "Maßeinheiten umrechnen",
+    "px in rem",
+    "km zu mir",
+    "Celsius Fahrenheit",
+    "Gewicht umrechnen",
+    "Zeit"
+  ],
+  "category": "Konverter",
+  "input_placeholder": "Geben Sie den Wert ein...",
+  "output_placeholder": "Das Ergebnis wird hier angezeigt ...",
+  "convert": "Konvertieren",
+  "invalid_input": "Bitte geben Sie einen gültigen Wert ein.",
+  "conversions": {
+    "Pixels ↔ Rem (base 16)": "Pixels ↔ Rem (base 16)",
+    "Celsius ↔ Fahrenheit": "Celsius ↔ Fahrenheit",
+    "Km ↔ Milhas": "Km ↔ Milhas",
+    "Metros ↔ Pés": "Metros ↔ Pés",
+    "Kg ↔ Libras": "Kg ↔ Libras",
+    "Horas ↔ Minutos ↔ Segundos": "Horas ↔ Minutos ↔ Segundos",
+    "Centímetros ↔ Polegadas": "Centímetros ↔ Polegadas",
+    "Minutos ↔ Segundos": "Minutos ↔ Segundos",
+    "Dias ↔ Horas": "Dias ↔ Horas",
+    "Litros ↔ Galões (US)": "Litros ↔ Galões (US)",
+    "Litros ↔ Mililitros": "Litros ↔ Mililitros",
+    "Joules ↔ Calorias": "Joules ↔ Calorias",
+    "Watts ↔ Cavalos de potência": "Watts ↔ Cavalos de potência",
+    "Bytes ↔ KB ↔ MB": "Bytes ↔ KB ↔ MB",
+    "MB ↔ GB": "MB ↔ GB",
+    "Hectares ↔ Metros²": "Hectares ↔ Metros²",
+    "m² ↔ pés²": "m² ↔ pés²",
+    "Bar ↔ Pascal": "Bar ↔ Pascal"
+  }
+}

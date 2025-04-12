@@ -1,0 +1,21 @@
+{
+  "title": "Lorem Ipsum Generator",
+  "description": "Generate standard Lorem Ipsum dummy text to use as placeholders in designs, layouts and content testing.",
+  "tags": [
+    "lorem ipsum",
+    "fictional text",
+    "text generator",
+    "text for layout",
+    "content placeholder",
+    "simulated text",
+    "test content"
+  ],
+  "category": "Generators",
+  "paragraphs": "Paragraphs",
+  "words": "Words",
+  "bytes": "Bytes",
+  "lists": "Lists",
+  "startWithLorem": "Start with \"Lorem ipsum dolor sit amet...\"",
+  "error.loading": "Error loading Lorem Ipsum text.",
+  "loremIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc purus, gravida non dignissim iaculis, pretium sed metus. Quisque faucibus, lacus a vulputate fermentum, lacus erat feugiat risus, non fringilla ligula eros eu sem. Integer consectetur, sem suscipit pellentesque auctor, neque velit fermentum mi, id elementum eros felis at nisi. Aenean consectetur gravida dui, vel porta diam aliquam et. Aliquam volutpat, lectus ut convallis vestibulum, ligula leo fringilla neque, non fringilla just tortor non purus. Proin consequat erat vitae tellus pharetra, in malesuada eros rutrum. Integer sed massa dignissim, efficitur eros vitae, rhoncus nisi. Sed gravida rutrum is even venenatis."
+}

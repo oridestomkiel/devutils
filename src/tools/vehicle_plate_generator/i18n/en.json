@@ -1,0 +1,21 @@
+{
+  "title": "License Plate Generator",
+  "description": "Generate valid license plates based on state and choose whether to include punctuation. Ideal for testing and simulations.",
+  "tags": [
+    "plate generator",
+    "license plate",
+    "board simulator",
+    "plate with status",
+    "plate with mask"
+  ],
+  "category": "Generators",
+  "label_quantity": "Amount:",
+  "label_state": "State:",
+  "label_mask": "With punctuation (e.g. ABC-1234)",
+  "any_state": "Any",
+  "generate": "To generate",
+  "copy": "Copy",
+  "copied": "Copied!",
+  "error_loading": "Error loading license plate data.",
+  "no_data": "NO DATA"
+}

@@ -1,222 +1,185 @@
 import "./style.css";
 import { tools } from "./tools/index.js";
+import "./utils/lang.js";
+import "./utils/theme.js";
+import { loadGlobalI18n, tTool } from "./utils/i18n-global.js";
+import { renderSidebarList, setupSidebarEvents } from "./sidebar.js";
+import { includeAndTranslate } from "./utils/include-partial.js";
 
-const container = document.getElementById("cardContainer");
-const list = document.getElementById("sortable");
+(async () => {
+  const lang = window.getDevutilsLang?.() || "en";
+  await loadGlobalI18n(lang);
 
-const defaultEnabled = [
-  "geradordecnpj",
-  "cpf",
-  "jsonformatter",
-  "passwordgen",
-  "jwtviewer",
-];
+  const t = window.tGlobal;
+  const container = document.getElementById("cardContainer");
+  const expandedPrefs = JSON.parse(
+    localStorage.getItem("devutils_expanded") || "{}"
+  );
 
-const localPrefs = localStorage.getItem("devutils_prefs");
-let prefs;
+  const defaultEnabled =
+    lang === "pt"
+      ? [
+          "gerador_de_cnpj",
+          "gerador_de_cpf",
+          "advanced_jwt_viewer",
+          "json_formatter",
+          "random_password_generator",
+        ]
+      : [
+          "advanced_jwt_viewer",
+          "json_formatter",
+          "random_password_generator",
+          "image_to_base64_converter",
+          "uuid_generator",
+        ];
 
-if (!localPrefs) {
   const allTools = Object.keys(tools);
-  const remainingTools = allTools.filter((k) => !defaultEnabled.includes(k));
-  const initialOrder = [...defaultEnabled, ...remainingTools];
+  const localPrefs = localStorage.getItem("devutils_prefs");
+  let prefs;
 
-  prefs = {
-    order: initialOrder,
-    enabled: Object.fromEntries(
-      allTools.map((k) => [k, defaultEnabled.includes(k)])
-    ),
-  };
-} else {
-  prefs = JSON.parse(localPrefs);
-
-  const allTools = Object.keys(tools);
-  allTools.forEach((key) => {
-    if (!prefs.order.includes(key)) prefs.order.push(key);
-    if (!(key in prefs.enabled)) prefs.enabled[key] = false;
-  });
-}
-
-Object.keys(tools).forEach((key) => {
-  if (!prefs.order.includes(key)) prefs.order.push(key);
-  if (!(key in prefs.enabled)) prefs.enabled[key] = false;
-});
-
-function savePrefs() {
-  localStorage.setItem("devutils_prefs", JSON.stringify(prefs));
-  renderCards();
-}
-
-function renderCards() {
-  container.innerHTML = "";
-  prefs.order.forEach((key) => {
-    if (prefs.enabled[key] && tools[key]) {
-      const tool = tools[key];
-      const card = document.createElement("div");
-      card.className = "bg-gray-800 p-4 rounded-xl shadow relative";
-      const slug = tool.slug || key;
-      card.innerHTML = `
-        <a href="/tool.html?slug=${slug}" class="absolute top-2 right-2 text-xs px-2 py-1 rounded bg-gray-700 hover:bg-gray-600 text-gray-300">
-          🔗
-        </a>
-        <h2 class="text-lg font-semibold mb-2">${tool.title}</h2>
-        ${tool.render()}
-      `;
-      container.appendChild(card);
-      tool.init?.();
-    }
-  });
-}
-
-renderCards();
-
-let sortableLoaded = false;
-
-async function renderSidebarList(filter = "") {
-  list.innerHTML = "";
-
-  const ordered = [...prefs.order].sort((a, b) => {
-    const aChecked = prefs.enabled[a] ? 0 : 1;
-    const bChecked = prefs.enabled[b] ? 0 : 1;
-    return aChecked - bChecked;
-  });
-
-  ordered.forEach((tool) => {
-    const mod = tools[tool];
-    if (!mod) return;
-
-    if (filter && !mod.title.toLowerCase().includes(filter.toLowerCase()))
-      return;
-
-    const li = document.createElement("li");
-    li.className = "bg-gray-700 p-2 rounded cursor-move";
-
-    li.setAttribute("data-id", tool);
-    li.innerHTML = `
-    <div class="flex items-center gap-3 w-full justify-between">
-      <span class="text-gray-400 cursor-grab select-none">☰</span>
-      <label class="flex items-center gap-2 flex-1 justify-between cursor-pointer">
-        <span class="flex-1 text-white">${mod.title}</span>
-        <input type="checkbox" class="form-checkbox h-5 w-5" ${
-          prefs.enabled[tool] ? "checked" : ""
-        } />
-      </label>
-    </div>
-  `;
-
-    const checkbox = li.querySelector("input");
-    checkbox.addEventListener("click", (e) => e.stopPropagation());
-    checkbox.addEventListener("change", (e) => {
-      prefs.enabled[tool] = e.target.checked;
-      savePrefs();
-      renderSidebarList(searchInput.value);
+  if (!localPrefs) {
+    const remainingTools = allTools.filter((k) => !defaultEnabled.includes(k));
+    const initialOrder = [...defaultEnabled, ...remainingTools];
+    prefs = {
+      order: initialOrder,
+      enabled: Object.fromEntries(
+        allTools.map((k) => [k, defaultEnabled.includes(k)])
+      ),
+    };
+    localStorage.setItem("devutils_prefs", JSON.stringify(prefs));
+  } else {
+    prefs = JSON.parse(localPrefs);
+    allTools.forEach((key) => {
+      if (!prefs.order.includes(key)) prefs.order.push(key);
+      if (!(key in prefs.enabled)) prefs.enabled[key] = false;
     });
 
-    list.appendChild(li);
-  });
-
-  if (!sortableLoaded) {
-    await import(
-      "https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"
+    const stillValid = Object.entries(prefs.enabled).some(
+      ([key, enabled]) => enabled && tools[key]
     );
-    sortableLoaded = true;
-  }
-
-  new Sortable(list, {
-    animation: 150,
-    handle: ".cursor-grab",
-    onEnd: () => {
-      const newOrder = Array.from(
-        document.querySelectorAll("#sortable li")
-      ).map((li) => li.getAttribute("data-id"));
-      prefs.order = newOrder;
-      savePrefs();
-    },
-  });
-
-  document.getElementById("countTotal").textContent = prefs.order.length;
-  document.getElementById("countOn").textContent = Object.values(
-    prefs.enabled
-  ).filter(Boolean).length;
-}
-
-document.getElementById("searchInput").addEventListener("input", (e) => {
-  renderSidebarList(e.target.value);
-});
-
-renderSidebarList();
-
-let toggleState = true;
-
-document.getElementById("toggleAllBtn").addEventListener("click", () => {
-  const newEnabled = toggleState;
-  prefs.order.forEach((tool) => {
-    prefs.enabled[tool] = newEnabled;
-  });
-
-  toggleState = !toggleState;
-  document.getElementById("toggleAllBtn").textContent = newEnabled
-    ? "Desmarcar todos"
-    : "Selecionar todos";
-
-  savePrefs();
-  renderSidebarList(document.getElementById("searchInput").value);
-});
-
-const searchInput = document.getElementById("searchInput");
-const clearSearchBtn = document.getElementById("clearSearchBtn");
-
-searchInput.addEventListener("input", (e) => {
-  const value = e.target.value;
-  renderSidebarList(value);
-  clearSearchBtn.style.display = value ? "block" : "none";
-});
-
-clearSearchBtn.addEventListener("click", () => {
-  searchInput.value = "";
-  clearSearchBtn.style.display = "none";
-  renderSidebarList();
-});
-
-document.getElementById("backupBtn").addEventListener("click", () => {
-  const blob = new Blob([JSON.stringify(prefs, null, 2)], {
-    type: "application/json",
-  });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "devutils-prefs.json";
-  a.click();
-  URL.revokeObjectURL(url);
-});
-
-document.getElementById("importPrefsInput").addEventListener("change", (e) => {
-  const file = e.target.files[0];
-  if (!file) return;
-
-  const reader = new FileReader();
-  reader.onload = () => {
-    try {
-      const imported = JSON.parse(reader.result);
-      if (!imported.order || !imported.enabled) {
-        alert("Arquivo inválido");
-        return;
-      }
-      prefs = imported;
-      savePrefs();
-      renderSidebarList();
-    } catch (err) {
-      alert("Erro ao importar configurações.");
+    if (!stillValid) {
+      console.warn(
+        "⚠️ Nenhuma ferramenta habilitada válida encontrada. Aplicando padrão do idioma."
+      );
+      const remainingTools = allTools.filter(
+        (k) => !defaultEnabled.includes(k)
+      );
+      const initialOrder = [...defaultEnabled, ...remainingTools];
+      prefs = {
+        order: initialOrder,
+        enabled: Object.fromEntries(
+          allTools.map((k) => [k, defaultEnabled.includes(k)])
+        ),
+      };
     }
-  };
-  reader.readAsText(file);
-});
-
-document.getElementById("resetPrefsBtn").addEventListener("click", () => {
-  const confirmReset = confirm(
-    "Tem certeza que deseja resetar todas as configurações?"
-  );
-  if (confirmReset) {
-    localStorage.removeItem("devutils_prefs");
-    location.reload();
   }
-});
+
+  function savePrefs() {
+    localStorage.setItem("devutils_prefs", JSON.stringify(prefs));
+    renderCards();
+  }
+
+  function cycleCardSize(card, slug, btn) {
+    const states = ["", "col-span-2", "col-span-3"];
+    const current = expandedPrefs[slug] || "";
+    const index = states.indexOf(current);
+    const nextClass = states[(index + 1) % states.length];
+
+    states.filter(Boolean).forEach((cls) => card.classList.remove(cls));
+    if (nextClass) card.classList.add(nextClass);
+
+    expandedPrefs[slug] = nextClass;
+    localStorage.setItem("devutils_expanded", JSON.stringify(expandedPrefs));
+    btn.textContent = nextClass === "col-span-3" ? "🡼" : "⛶";
+  }
+
+  async function renderCards() {
+    container.innerHTML = "";
+
+    for (const key of prefs.order) {
+      if (prefs.enabled[key] && tools[key]) {
+        const tool = tools[key];
+        const slug = tool.slug?.trim() || key;
+
+        if (!slug) {
+          console.warn(`⚠️ Ferramenta com slug inválido encontrada:`, tool);
+          continue;
+        }
+
+        if (tool.loadI18n) await tool.loadI18n();
+
+        const card = document.createElement("div");
+        card.setAttribute("data-slug", slug);
+        card.className =
+          "tool-card transition-all duration-300 ease-in-out bg-gray-50 dark:bg-gray-800 p-4 rounded-xl shadow-md border border-gray-200 dark:border-gray-700 hover:shadow-lg relative";
+
+        const cardSize = expandedPrefs[slug];
+        if (cardSize) card.classList.add(cardSize);
+
+        card.innerHTML = `
+          <div class="absolute right-2 top-2 flex gap-1">
+            <button class="resize-btn text-xs px-2 py-1 rounded bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
+              ${cardSize === "col-span-3" ? "🡼" : "⛶"}
+            </button>
+            <a href="/tool.html?slug=${slug}" class="text-xs px-2 py-1 rounded bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600">
+              🔗
+            </a>
+          </div>
+          <h2 class="text-lg font-bold mb-4 text-gray-800 dark:text-white">${tTool(
+            slug,
+            "title"
+          )}</h2>
+          ${tool.render()}
+        `;
+
+        container.appendChild(card);
+
+        const btn = card.querySelector(".resize-btn");
+        btn?.addEventListener("click", () => cycleCardSize(card, slug, btn));
+
+        tool.init?.();
+      }
+    }
+  }
+
+  renderCards();
+
+  window.expandCard = (btn, slug) => {
+    const card = btn.closest(".tool-card");
+    if (!card) return;
+    cycleCardSize(card, slug, btn);
+  };
+
+  const headTranslations = {
+    headTitle: "head.title",
+    metaDescription: "head.description",
+    ogTitle: "head.title",
+    ogDescription: "head.description",
+    twitterTitle: "head.title",
+    twitterDescription: "head.description",
+  };
+
+  for (const [id, key] of Object.entries(headTranslations)) {
+    const el = document.getElementById(id);
+    const value = t(key);
+    if (!el || !value) continue;
+    if (el.tagName === "TITLE") el.textContent = value;
+    else el.setAttribute("content", value);
+  }
+
+  await includeAndTranslate("header-placeholder", "/partials/header.html");
+  await includeAndTranslate("footer-placeholder", "/partials/footer.html");
+  await includeAndTranslate("sidebar-placeholder", "/partials/sidebar.html");
+  await includeAndTranslate("mobileMenu", "/partials/mobile-menu.html");
+
+  document.getElementById("settings-btn").classList.remove("hidden");
+
+  const waitSidebar = setInterval(() => {
+    const list = document.getElementById("sortable");
+    if (list) {
+      clearInterval(waitSidebar);
+      renderSidebarList(prefs, savePrefs, list);
+      setupSidebarEvents(prefs, savePrefs);
+    }
+  }, 50);
+})();

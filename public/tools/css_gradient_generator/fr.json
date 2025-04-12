@@ -1,0 +1,23 @@
+{
+  "title": "Générateur de Dégradés CSS",
+  "description": "Créez des dégradés CSS personnalisés de manière visuelle et intuitive. Parfait pour embellir votre site avec des transitions de couleurs fluides.",
+  "tags": [
+    "dégradés css",
+    "générateur de dégradés",
+    "fond css",
+    "couleurs dégradées",
+    "css gradient",
+    "dégradé personnalisé",
+    "style visuel",
+    "fond dégradé"
+  ],
+  "category": "Design / Couleurs",
+  "labels": {
+    "color1": "Couleur 1",
+    "color2": "Couleur 2",
+    "direction": "Direction",
+    "generate": "Générer",
+    "copy": "Copier",
+    "copied": "Copié !"
+  }
+}

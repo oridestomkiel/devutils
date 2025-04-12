@@ -1,0 +1,31 @@
+{
+  "title": "Generador de Botones CSS",
+  "description": "Crea botones personalizados con color, relleno, borde, sombra y efecto hover. Ideal para componentes de UI reutilizables.",
+  "tags": [
+    "botón css",
+    "botón",
+    "hover",
+    "sombra",
+    "radio de borde",
+    "botón ui",
+    "componente visual"
+  ],
+  "category": "Diseño / Colores",
+  "labels": {
+    "bg": "Color de fondo",
+    "text": "Color del texto",
+    "paddingY": "Relleno (vertical)",
+    "paddingX": "Relleno (horizontal)",
+    "radius": "Radio del borde",
+    "shadowColor": "Color de la sombra",
+    "shadowOpacity": "Opacidad de la sombra",
+    "offsetX": "Desplazamiento X",
+    "offsetY": "Desplazamiento Y",
+    "blur": "Desenfoque",
+    "spread": "Expansión",
+    "hover": "Color al pasar",
+    "copy": "Copiar",
+    "preview": "Botón de ejemplo",
+    "copied": "¡Copiado!"
+  }
+}

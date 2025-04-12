@@ -1,0 +1,16 @@
+{
+  "title": "JSON → JSON 模式",
+  "description": "从有效的 JSON 对象自动生成 JSON 模式。适用于验证、文档和 API 契约。",
+  "tags": [
+    "json",
+    "架构",
+    "验证",
+    "api",
+    "合同",
+    "json 模式"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 粘贴到这里...",
+  "convert": "转变",
+  "error": "无效的 JSON！"
+}

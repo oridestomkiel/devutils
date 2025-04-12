@@ -1,0 +1,18 @@
+{
+  "title": "JWT查看器（高级）",
+  "description": "查看并验证JWT令牌：头部、负载、签名，以及可选的密钥验证。全部实时进行。",
+  "tags": ["jwt", "令牌", "验证", "解码", "认证"],
+  "category": "编码器 / 解码器",
+  "placeholder.jwt": "在此粘贴您的JWT令牌...",
+  "clear": "清除",
+  "header": "头部",
+  "payload": "负载",
+  "copy.header": "复制头部",
+  "copy.payload": "复制负载",
+  "signature.title": "JWT签名验证（可选）",
+  "signature.placeholder": "输入密钥以验证签名（HS256）",
+  "signature.valid": "✔ 签名有效",
+  "signature.invalid": "✖ 签名无效",
+  "jwt.valid": "✔ 有效的JWT",
+  "jwt.invalid": "无效的JWT（结构或内容格式错误）"
+}

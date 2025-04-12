@@ -1,0 +1,21 @@
+{
+  "title": "Generador de Lorem Ipsum",
+  "description": "Genere texto de relleno estándar de Lorem Ipsum para usar como marcadores de posición en diseños, maquetaciones y pruebas de contenido.",
+  "tags": [
+    "lorem ipsum",
+    "texto ficticio",
+    "generador de texto",
+    "texto para el diseño",
+    "marcador de posición de contenido",
+    "texto simulado",
+    "contenido de la prueba"
+  ],
+  "category": "Generadores",
+  "paragraphs": "Párrafos",
+  "words": "Palabras",
+  "bytes": "Bytes",
+  "lists": "Liza",
+  "startWithLorem": "Empiece con \"Lorem ipsum dolor sit amet...\"",
+  "error.loading": "Error al cargar el texto de Lorem Ipsum.",
+  "loremIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc purus, gravida non dignissim iaculis, pretium sed metus. Quisque faucibus, lacus a vulputate fermentum, lacus erat feugiat risus, non fringilla ligula eros eu sem. Integer consectetur, sem suscipit pellentesque auctor, neque velit fermentum mi, id elementum eros felis at nisi. Aenean consectetur gravida dui, vel porta diam aliquam et. Aliquam volutpat, lectus ut convallis vestibulum, ligula leo fringilla neque, non fringilla just tortor non purus. Proin consequat erat vitae tellus pharetra, in malesuada eros rutrum. Entero sed massa dignissim, efficitur eros vitae, rhoncus nisi. Sed gravida rutrum es incluso venenatis."
+}

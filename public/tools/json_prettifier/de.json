@@ -1,0 +1,19 @@
+{
+  "title": "JSON-Formatierer (Prettifier)",
+  "description": "Sorgen Sie mit automatischer Einrückung dafür, dass Ihre JSON-Dateien lesbar und übersichtlich bleiben. Ideal zum Lesen, Debuggen und Entwickeln.",
+  "tags": [
+    "JSON-Formatierer",
+    "JSON-Verschönerer",
+    "JSON verschönern",
+    "JSON-formatiert",
+    "JSON-Einrückung",
+    "JSON verschönern",
+    "JSON-Verschönerer"
+  ],
+  "category": "Formatierer/Minifizierer",
+  "format": "Format",
+  "error": "Fehler",
+  "placeholder": {
+    "input": "Digite ou cole um JSON"
+  }
+}

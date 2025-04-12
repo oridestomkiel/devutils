@@ -1,0 +1,16 @@
+{
+  "title": "Systeminformationen",
+  "description": "Zeigt Details zur Umgebung des Benutzers an, einschließlich Betriebssystem, Browser und andere relevante Informationen.",
+  "tags": [
+    "Betriebssystem",
+    "Browser",
+    "Benutzerinformationen"
+  ],
+  "category": "Dienstprogramme",
+  "title_os": "Mein Betriebssystem",
+  "title_browser": "Mein Browser",
+  "os_label": "Betriebssystem",
+  "screen_label": "Bildschirmauflösung",
+  "browser_label": "Browser",
+  "browser_version": "Version"
+}

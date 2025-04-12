@@ -1,0 +1,9 @@
+{
+  "title": "Code-Diff (Einheitlich)",
+  "description": "Unterschiede zwischen Codeblöcken in einem einheitlichen Format anzeigen – ähnlich wie im Git-Terminal.",
+  "tags": ["diff", "einheitlich", "git", "zeile für zeile", "codevergleich"],
+  "category": "Analyse / Vergleich",
+  "placeholder.original": "Originalcode...",
+  "placeholder.modified": "Geänderter Code...",
+  "compare": "Vergleichen"
+}

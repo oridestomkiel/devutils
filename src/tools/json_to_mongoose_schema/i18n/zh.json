@@ -1,0 +1,15 @@
+{
+  "title": "JSON → Mongoose Schema",
+  "description": "自动从 JSON 生成 Mongoose 模式。有助于快速建模 MongoDB 文档。",
+  "tags": [
+    "json",
+    "猫鼬",
+    "架构",
+    "蒙戈",
+    "造型"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 粘贴到这里...",
+  "convert": "转变",
+  "error": "无效的 JSON！"
+}

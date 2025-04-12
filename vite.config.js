@@ -8,8 +8,20 @@ export default defineConfig({
     viteStaticCopy({
       targets: [
         {
-          src: "src/tools/*.js",
+          src: "src/tools/*/*.js",
           dest: "assets/tools",
+        },
+        {
+          src: "src/i18n/*",
+          dest: "i18n",
+        },
+        {
+          src: "public/vendor/**/*",
+          dest: "vendor",
+        },
+        {
+          src: "public/partials/*",
+          dest: "partials",
         },
       ],
     }),

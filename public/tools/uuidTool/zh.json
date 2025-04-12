@@ -1,0 +1,13 @@
+{
+    "title": "Gerar e Analisar UUID / ULID / Nano ID",
+    "description": "Gere identificadores únicos (UUID, ULID, Nano ID) e inspecione sua estrutura e validade. Tudo local no seu navegador.",
+    "tags": [
+        "uuid",
+        "ulid",
+        "nanoid",
+        "identificador",
+        "segurança",
+        "gerador"
+    ],
+    "category": "Geradores"
+}

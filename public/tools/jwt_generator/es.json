@@ -1,0 +1,20 @@
+{
+  "title": "Generador JWT",
+  "description": "Crea tokens JWT personalizados con encabezado, carga útil y secreto. Ideal para pruebas con HS256.",
+  "tags": [
+    "jwt",
+    "simbólico",
+    "generar jwt",
+    "prueba jwt",
+    "cifrado"
+  ],
+  "category": "Codificadores/Decodificadores",
+  "payload": "Carga útil (JSON)",
+  "header": "Encabezado (opcional)",
+  "secret": "Secreto (HS256)",
+  "secretPlaceholder": "Introduzca el secreto...",
+  "outputLabel": "Token JWT",
+  "invalidPayload": "Carga útil no válida",
+  "invalidHeader": "Encabezado no válido",
+  "secretRequired": "Secreto obligatorio"
+}

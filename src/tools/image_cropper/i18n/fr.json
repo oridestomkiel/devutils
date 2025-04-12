@@ -1,0 +1,14 @@
+{
+  "title": "Recadrage d'images",
+  "description": "Téléchargez une image, sélectionnez la zone de recadrage et téléchargez uniquement la partie souhaitée. Compatible avec les formats PNG et JPG.",
+  "tags": [
+    "recadrer",
+    "image",
+    "couper",
+    "éditeur",
+    "image utilitaire"
+  ],
+  "category": "Images",
+  "download": "Télécharger l'extrait",
+  "clear": "Pour nettoyer"
+}

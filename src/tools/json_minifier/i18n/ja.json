@@ -1,0 +1,20 @@
+{
+  "title": "JSON 縮小ツール",
+  "description": "JSON からスペース、改行、不要な文字を削除します。ファイル サイズを縮小し、アプリケーションを最適化するのに最適です。",
+  "tags": [
+    "JSON 縮小ツール",
+    "json の縮小",
+    "json を減らす",
+    "jsonを圧縮する",
+    "最適化されたJSON",
+    "JSONスペースを削除する",
+    "フォーマットなしのJSON"
+  ],
+  "category": "フォーマッタ/ミニファイア",
+  "minify": "縮小",
+  "invalidJson": "❌ 無効なJSONです。",
+  "placeholder": {
+    "input": "Cole seu JSON aqui...",
+    "output": "JSON minificado aparecerá aqui"
+  }
+}

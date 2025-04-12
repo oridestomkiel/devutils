@@ -1,0 +1,30 @@
+{
+  "title": "魔法分析器",
+  "description": "自动检测和分析数据，根据熵、模式和格式建议有用的操作，如解码、解压缩或解释。",
+  "tags": [
+    "自己",
+    "探测",
+    "解码",
+    "分析",
+    "聪明的",
+    "魔法"
+  ],
+  "category": "分析/比较",
+  "placeholder": "在此处粘贴可疑数据（Base64、Hex、JWT、有效载荷......）",
+  "crib": "正则表达式（Crib）",
+  "cribPlaceholder": "可选：输入正则表达式来过滤结果",
+  "depth": "递归分析的深度",
+  "intensive": "强化模式（ROT13 和 XOR 的轻度暴力破解）",
+  "entropy": "熵",
+  "ascii": "看起来像 ASCII 文本",
+  "printable": "可打印字符",
+  "maybeBase64": "可能有效的 Base64",
+  "maybeHex": "可能的十六进制",
+  "validJson": "有效的 JSON",
+  "jwtDecoded": "JWT 检测并解码",
+  "gzipDecoded": "GZIP 解码成功",
+  "cribFound": "使用正则表达式找到婴儿床",
+  "cribNotFound": "使用正则表达式找不到婴儿床",
+  "rot13Json": "ROT13 已应用 → 有效的 JSON",
+  "xorJson": "与密钥进行异或 → 有效的 JSON"
+}

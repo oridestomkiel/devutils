@@ -1,0 +1,18 @@
+{
+  "title": "Generador de Paletas de Colores",
+  "description": "Crea paletas de colores armoniosas automáticamente. Perfecto para diseñadores, desarrolladores y proyectos que requieren identidad visual coherente.",
+  "tags": [
+    "paleta de colores",
+    "generador de paleta",
+    "combinación de colores",
+    "herramienta de diseño",
+    "colores armoniosos",
+    "paleta para diseño",
+    "generar colores",
+    "herramienta de paletas"
+  ],
+  "category": "Diseño / Colores",
+  "button.generate": "Generar",
+  "button.copy": "Copiar",
+  "placeholder.colors": "Los colores generados aparecerán aquí"
+}

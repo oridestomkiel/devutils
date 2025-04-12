@@ -1,0 +1,21 @@
+{
+  "title": "CNPJ Generator",
+  "description": "Generate valid CNPJ numbers for testing and development. Now with support for multiples and branching.",
+  "tags": [
+    "cnpj generator",
+    "valid cnpj",
+    "cnpj for testing",
+    "fake cnpj",
+    "CNPJ number",
+    "cnpj simulator",
+    "company test",
+    "branch",
+    "multiple"
+  ],
+  "category": "Generators",
+  "format": "Format with mask",
+  "generate": "To generate",
+  "generateMultiple": "Generate multiples",
+  "simulateBranch": "Simulate Parent CNPJ + Branches",
+  "placeholder": "Generated CNPJs will appear here"
+}

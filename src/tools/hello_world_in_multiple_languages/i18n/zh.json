@@ -1,0 +1,14 @@
+{
+  "title": "多种语言版本的 Hello World",
+  "description": "查看数十种编程语言的经典 Hello World。非常适合学习或满足好奇心。",
+  "tags": [
+    "你好世界",
+    "编程语言",
+    "代码示例",
+    "教育",
+    "基本代码",
+    "代码生成器"
+  ],
+  "category": "实用工具",
+  "selectPlaceholder": "选择语言"
+}

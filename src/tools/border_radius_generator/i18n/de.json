@@ -1,0 +1,21 @@
+{
+  "title": "Border-Radius-Generator",
+  "description": "Runden Sie Ecken ganz einfach ab. Generieren Sie schnell CSS für alle oder einzelne Ecken.",
+  "tags": [
+    "border-radius",
+    "abgerundete ränder",
+    "css-radius",
+    "visuelles design",
+    "abgerundete ui",
+    "css-rand",
+    "visueller stil"
+  ],
+  "category": "Design / Farben",
+  "label.topLeft": "Oben Links",
+  "label.topRight": "Oben Rechts",
+  "label.bottomRight": "Unten Rechts",
+  "label.bottomLeft": "Unten Links",
+  "generate": "Generieren",
+  "copy": "Kopieren",
+  "preview": "Vorschau"
+}

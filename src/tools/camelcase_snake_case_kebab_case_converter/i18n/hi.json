@@ -1,0 +1,20 @@
+{
+  "title": "CamelCase ↔ snake_case ↔ kebab-case कन्वर्टर",
+  "description": "CamelCase, snake_case और kebab-case प्रारूपों के बीच आसानी से कन्वर्ट करें। वेरिएबल्स, फ़ाइल नाम और APIs को स्टैंडर्ड करने के लिए आदर्श।",
+  "tags": [
+    "camelcase",
+    "snake_case",
+    "kebab-case",
+    "फॉर्मेट कन्वर्टर",
+    "टेक्स्ट कन्वर्ज़न",
+    "camel से snake",
+    "snake से kebab",
+    "kebab से camel",
+    "केस कन्वर्टर"
+  ],
+  "category": "कन्वर्टर्स",
+  "placeholder.input": "किसी भी फॉर्मेट में टेक्स्ट दर्ज करें",
+  "label.camel": "CamelCase:",
+  "label.snake": "snake_case:",
+  "label.kebab": "kebab-case:"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Comprobador de expresiones regulares",
+  "description": "Pruebe sus expresiones regulares en tiempo real. Ideal para analizar patrones, validar cadenas y corregir rápidamente errores de sintaxis.",
+  "tags": [
+    "expresiones regulares",
+    "expresiones regulares",
+    "prueba de expresiones regulares",
+    "comprobador de expresiones regulares",
+    "validar expresiones regulares",
+    "analizar patrones",
+    "herramienta de expresiones regulares"
+  ],
+  "category": "Servicios públicos",
+  "regex_placeholder": "Introduzca la expresión regular...",
+  "text_placeholder": "Texto para probar...",
+  "test": "Prueba",
+  "matches_singular": "ocurrencia encontrada",
+  "matches_plural": "ocurrencias encontradas",
+  "no_match": "No se encontraron ocurrencias.",
+  "error_prefix": "Error en la expresión regular:"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Testeur d'expressions régulières",
+  "description": "Testez vos expressions régulières en temps réel. Idéal pour analyser des modèles, valider des chaînes et corriger rapidement les erreurs de syntaxe.",
+  "tags": [
+    "expression régulière",
+    "expressions régulières",
+    "test d'expression régulière",
+    "testeur d'expressions régulières",
+    "valider l'expression régulière",
+    "analyser les modèles",
+    "outil regex"
+  ],
+  "category": "Utilitaires",
+  "regex_placeholder": "Entrez l'expression régulière...",
+  "text_placeholder": "Texte à tester...",
+  "test": "Test",
+  "matches_singular": "occurrence trouvée",
+  "matches_plural": "occurrences trouvées",
+  "no_match": "Aucune occurrence trouvée.",
+  "error_prefix": "Erreur dans l'expression régulière :"
+}

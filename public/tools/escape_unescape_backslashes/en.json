@@ -1,0 +1,11 @@
+{
+  "title": "Escape/Unescape Backslashes",
+  "description": "Convert special characters like newlines (\\n), tabs (\\t), quotes and others into escaped strings or vice versa.",
+  "tags": ["escape", "unescape", "backslash", "text", "string"],
+  "category": "Text Tools",
+  "escape": "Escape",
+  "unescape": "Unescape",
+  "inputLabel": "Input:",
+  "outputLabel": "Output:",
+  "convert": "Convert"
+}

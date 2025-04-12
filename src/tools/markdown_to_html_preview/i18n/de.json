@@ -1,0 +1,15 @@
+{
+  "title": "Markdown → HTML-Vorschau",
+  "description": "Zeigen Sie die Darstellung von in HTML konvertiertem Markdown-Text in Echtzeit an. Ideal für Autoren, Entwickler und Content-Ersteller.",
+  "tags": [
+    "Markdown zu HTML",
+    "Markdown-Vorschau",
+    "Markdown rendern",
+    "Markdown-Viewer",
+    "Markdown-Livevorschau",
+    "Markdown konvertieren",
+    "HTML aus Markdown"
+  ],
+  "category": "Konverter",
+  "placeholder": "# Titel\\n\\nEin *Markdown*-Text."
+}

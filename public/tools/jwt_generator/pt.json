@@ -1,0 +1,14 @@
+{
+  "title": "Gerador de JWT",
+  "description": "Crie tokens JWT personalizados com header, payload e segredo. Ideal para testes com HS256.",
+  "tags": ["jwt", "token", "gerar jwt", "testar jwt", "criptografia"],
+  "category": "Codificadores / Decodificadores",
+  "payload": "Payload (JSON)",
+  "header": "Header (opcional)",
+  "secret": "Segredo (HS256)",
+  "secretPlaceholder": "Digite o segredo...",
+  "outputLabel": "Token JWT",
+  "invalidPayload": "Payload inválido",
+  "invalidHeader": "Header inválido",
+  "secretRequired": "Segredo obrigatório"
+}

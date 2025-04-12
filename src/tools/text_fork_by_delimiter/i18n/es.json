@@ -1,0 +1,33 @@
+{
+  "title": "Bifurcación de texto por delimitador",
+  "description": "Divide el texto según un delimitador y aplica una operación a cada parte por separado. Ideal para procesar lotes de datos.",
+  "tags": [
+    "tenedor",
+    "lote",
+    "texto",
+    "tratamiento",
+    "pauta"
+  ],
+  "category": "Servicios públicos",
+  "placeholder": "Introduzca datos separados por línea o delimitador...",
+  "delimiter": "Delimitador",
+  "operation": "Operación",
+  "process": "Proceso",
+  "clear": "Para limpiar",
+  "fromBase64": "Base64 → Texto",
+  "toBase64": "Texto → Base64",
+  "fromHex": "Hex → Texto",
+  "toHex": "Texto → Hex",
+  "toUrl": "Codificación de URL",
+  "fromUrl": "Descodificación de URL",
+  "toUpper": "Texto → Mayúsculas",
+  "toLower": "Texto → Minúsculas",
+  "reverse": "Texto inverso",
+  "removeSpaces": "Eliminar espacios",
+  "removeBreaks": "Eliminar saltos de línea",
+  "toBinary": "Texto → Binario",
+  "fromBinary": "Binario → Texto",
+  "error_base64": "[Error al decodificar Base64]",
+  "error_hex": "[Error al decodificar Hex]",
+  "error_url": "[Error al decodificar la URL]"
+}

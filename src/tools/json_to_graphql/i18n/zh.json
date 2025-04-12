@@ -1,0 +1,15 @@
+{
+  "title": "JSON → GraphQL",
+  "description": "自动从 JSON 生成 GraphQL 类型。有助于快速构建 API 模式。",
+  "tags": [
+    "json",
+    "graphql",
+    "架构",
+    "转变",
+    "类型"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 粘贴到这里...",
+  "convert": "转变",
+  "error": "无效的 JSON！"
+}

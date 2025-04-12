@@ -1,0 +1,16 @@
+{
+  "title": "文件差异（并排）",
+  "description": "比较两个文本文件并通过专业的并排布局查看差异。",
+  "tags": [
+    "比较文件",
+    "文本差异",
+    "上传",
+    "git 风格",
+    "diff2html"
+  ],
+  "category": "分析/比较",
+  "originalFile": "原始文件：",
+  "modifiedFile": "修改的文件：",
+  "compare": "比较",
+  "alertMissingFiles": "选择要比较的两个文件。"
+}

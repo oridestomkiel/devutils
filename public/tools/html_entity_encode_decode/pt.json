@@ -1,0 +1,11 @@
+{
+  "title": "HTML Entity Encode/Decode",
+  "description": "Converta trechos de HTML para entidades ou decodifique para texto normal. Útil para segurança e visualização de código.",
+  "tags": ["html", "entity", "encode", "decode", "xss", "conversão"],
+  "category": "Ferramentas de Texto",
+  "encode": "Encode",
+  "decode": "Decode",
+  "input": "Entrada",
+  "output": "Saída",
+  "convert": "Converter"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "随机电子邮件列表生成器",
+  "description": "生成虚拟电子邮件地址以用于测试、模拟注册和表单验证。非常适合开发环境。",
+  "tags": [
+    "电子邮件生成器",
+    "随机电子邮件",
+    "虚假电子邮件",
+    "电子邮件列表",
+    "测试电子邮件",
+    "虚构的电子邮件",
+    "开发邮箱"
+  ],
+  "category": "生成器",
+  "quantity_placeholder": "电子邮件数量",
+  "domain_placeholder": "域名（例如 gmail.com）",
+  "generate": "生成",
+  "output_placeholder": "生成的电子邮件将显示在这里",
+  "error_input": "检查数量和域。"
+}

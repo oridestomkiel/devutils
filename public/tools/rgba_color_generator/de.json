@@ -1,0 +1,16 @@
+{
+  "title": "RGBA-Farbgenerator",
+  "description": "Passen Sie Farbe und Deckkraft an, um einfach RGBA()- oder Hexadezimalwerte mit Alpha zu generieren. Ideal für CSS-Overlays und Transparenz.",
+  "tags": [
+    "rgba",
+    "Hex-Alpha",
+    "Transparenz",
+    "Opazität",
+    "RGBA-Farbe",
+    "CSS-Farbe"
+  ],
+  "category": "Design / Farben",
+  "color_label": "Farbe",
+  "opacity_label": "Opazität",
+  "generate": "Um zu generieren"
+}

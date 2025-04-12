@@ -1,0 +1,9 @@
+{
+  "title": "代码差异对比（GitHub 风格）",
+  "description": "比较两段代码并以 GitHub 风格并排查看差异。",
+  "tags": ["可视化差异", "git", "代码比较", "diff2html"],
+  "category": "分析 / 比较",
+  "placeholder.original": "原始代码...",
+  "placeholder.modified": "修改后的代码...",
+  "compare": "比较"
+}

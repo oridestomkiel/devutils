@@ -1,0 +1,21 @@
+{
+  "title": "URL エンコーダ/デコーダ",
+  "description": "URL をすばやく簡単にエンコードおよびデコードします。HTTP リクエストとリンクの文字互換性を確保するのに最適です。",
+  "tags": [
+    "URL エンコーダ",
+    "URLデコーダー",
+    "URLエンコード",
+    "URLをデコードする",
+    "URLエンコード",
+    "URL デコード",
+    "http 内の URL"
+  ],
+  "category": "エンコーダー/デコーダー",
+  "placeholder_input": "テキストまたはURL",
+  "placeholder_output": "結果はここに…",
+  "encode": "エンコード",
+  "decode": "デコード",
+  "invalid_url": "デコード用の無効な URL",
+  "download_filename": "変換されたURL.txt",
+  "preview_link_label": "プレビュー"
+}

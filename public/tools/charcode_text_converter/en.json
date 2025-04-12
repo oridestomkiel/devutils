@@ -1,0 +1,22 @@
+{
+  "title": "Charcode ↔ Text",
+  "description": "Convert text to Unicode character codes and vice versa. Useful for data analysis, encoding, and debugging.",
+  "tags": [
+    "unicode",
+    "charcode",
+    "converter",
+    "text to code",
+    "from charcode",
+    "to charcode"
+  ],
+  "category": "Converters",
+  "mode.to": "Text → Charcode",
+  "mode.from": "Charcode → Text",
+  "placeholder": "Enter text or Unicode codes separated by space",
+  "convert": "Convert",
+  "clear": "Clear",
+  "copy": "Copy",
+  "error": "Error converting codes to text.",
+  "reference": "Unicode Reference",
+  "link": "Plane (Unicode)"
+}

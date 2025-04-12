@@ -1,0 +1,23 @@
+{
+  "title": "Conversor CSV ↔ JSON",
+  "description": "Convierte archivos CSV a JSON y viceversa fácilmente. Útil para integración de datos, APIs y manipulación de archivos.",
+  "tags": [
+    "conversor csv json",
+    "csv a json",
+    "json a csv",
+    "conversión de datos",
+    "transformar csv en json",
+    "convertir archivos",
+    "datos estructurados"
+  ],
+  "category": "Conversores",
+  "labels": {
+    "placeholderInput": "Pega aquí CSV o JSON...",
+    "placeholderOutput": "El resultado se mostrará aquí",
+    "csvToJson": "CSV → JSON",
+    "jsonToCsv": "JSON → CSV",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "error": "Error"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Horário Mundial",
+  "description": "Consulte o horário atual em diversas cidades do mundo ou informe um fuso horário para obter o horário local exato.",
+  "tags": [
+    "horário mundial",
+    "fuso horário",
+    "hora atual",
+    "timezones",
+    "relogio mundial",
+    "horário de países",
+    "data e hora global"
+  ],
+  "category": "Datas e Horários",
+  "choose_timezone": "Escolha um fuso horário:",
+  "select_placeholder": "Selecione um fuso horário...",
+  "output_placeholder": "Horário aparecerá aqui",
+  "copy": "Copiar",
+  "copied": "Copiado!",
+  "popular_times": "Horários Populares:",
+  "loading": "Carregando...",
+  "label_original": "Horário original:",
+  "label_ptbr": "PT-BR:",
+  "label_offset": "UTC Offset:",
+  "error_time": "Erro ao buscar horário"
+}

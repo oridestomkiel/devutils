@@ -1,0 +1,16 @@
+{
+  "title": "JSON → 流类型",
+  "description": "将 JSON 对象转换为静态 Flow 样式类型。对于使用可选类型验证 JavaScript 结构很有用。",
+  "tags": [
+    "json",
+    "流动",
+    "打字",
+    "JavaScript的",
+    "流程类型",
+    "类型"
+  ],
+  "category": "转换器",
+  "placeholder": "将您的 JSON 粘贴到这里...",
+  "convert": "转变",
+  "error": "无效的 JSON！"
+}

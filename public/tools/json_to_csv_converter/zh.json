@@ -1,0 +1,20 @@
+{
+  "title": "JSON → CSV 转换器",
+  "description": "轻松将 JSON 数据转换为 CSV 格式。非常适合导出、电子表格和结构化数据操作。",
+  "tags": [
+    "json 转 csv",
+    "转换 json",
+    "数据转换器",
+    "json csv",
+    "导出 json",
+    "将 json 转换为 csv",
+    "结构化数据"
+  ],
+  "category": "转换器",
+  "placeholder": "粘贴 JSON（对象数组）",
+  "delimiter": "分隔符",
+  "useQuotes": "使用引号",
+  "convert": "转变",
+  "errorNotArray": "JSON 必须是对象数组。",
+  "errorPrefix": "错误："
+}

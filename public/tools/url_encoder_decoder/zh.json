@@ -1,0 +1,21 @@
+{
+  "title": "URL 编码器/解码器",
+  "description": "快速轻松地对 URL 进行编码和解码。非常适合确保 HTTP 请求和链接中的字符兼容性。",
+  "tags": [
+    "网址编码器",
+    "url 解码器",
+    "url 编码",
+    "解码网址",
+    "url 编码",
+    "url 解码",
+    "http 中的 URL"
+  ],
+  "category": "编码器/解码器",
+  "placeholder_input": "文本或 URL",
+  "placeholder_output": "结果在这里...",
+  "encode": "编码",
+  "decode": "解码",
+  "invalid_url": "解码的 URL 无效",
+  "download_filename": "转换后的网址.txt",
+  "preview_link_label": "预览"
+}

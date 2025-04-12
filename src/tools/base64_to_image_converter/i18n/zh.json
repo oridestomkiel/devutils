@@ -1,0 +1,10 @@
+{
+  "title": "Base64 → 图片",
+  "description": "粘贴 Base64 代码并立即查看对应的图片。适用于测试 data URI 或调试嵌入内容。",
+  "tags": ["base64", "图片", "解码图片", "转换 base64", "data URI", "查看图片"],
+  "category": "转换器",
+  "placeholder": "在此粘贴完整的图片 Base64 代码 (data:image/png;base64,...)",
+  "preview.label": "预览",
+  "error.invalid": "无效或不完整的 Base64",
+  "download": "下载图片"
+}

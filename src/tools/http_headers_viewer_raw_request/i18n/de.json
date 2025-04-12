@@ -1,0 +1,20 @@
+{
+  "title": "HTTP-Header-Viewer (Rohanforderung)",
+  "description": "Zeigen Sie den Rohinhalt von HTTP-Headern in Anfragen an. Ideal für Debugging, Verkehrsanalyse und Webentwicklung.",
+  "tags": [
+    "HTTP-Header",
+    "Kopfzeilen anzeigen",
+    "Rohanforderung",
+    "http-Analyse",
+    "http-Anforderung",
+    "HTTP-Anforderungsanzeiger",
+    "Debug-Anforderung",
+    "Header prüfen"
+  ],
+  "category": "Netzwerke / HTTP",
+  "placeholder": "Fügen Sie hier eine reine HTTP-Anforderung ein",
+  "analyze": "Analysieren",
+  "nothingToAnalyze": "Nichts zu analysieren.",
+  "methodAndPath": "Methode und Route",
+  "headers": "Kopfzeilen"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Gerador de Cores RGBA",
+  "description": "Ajuste cor e opacidade para gerar facilmente valores em rgba() ou hexadecimal com alpha. Ideal para sobreposições e transparência em CSS.",
+  "tags": [
+    "rgba",
+    "hex alpha",
+    "transparência",
+    "opacidade",
+    "cor rgba",
+    "css color"
+  ],
+  "category": "Design / Cores",
+  "color_label": "Cor",
+  "opacity_label": "Opacidade",
+  "generate": "Gerar"
+}

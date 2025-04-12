@@ -1,0 +1,18 @@
+{
+  "title": "UUID Generator",
+  "description": "Generate unique UUIDs (v4 or v1) with multiple output options. Ideal for testing, logging, and global object identification.",
+  "tags": [
+    "uuid",
+    "uuid generator",
+    "uuid v4",
+    "uuid v1",
+    "unique identifier",
+    "batch uuid"
+  ],
+  "category": "Generators",
+  "uuid_v4": "UUID v4 (random)",
+  "uuid_v1": "UUID v1 (timestamp)",
+  "quantity_placeholder": "Amount",
+  "output_placeholder": "Generated UUIDs will appear here...",
+  "filename": "uuids-{timestamp}.txt"
+}

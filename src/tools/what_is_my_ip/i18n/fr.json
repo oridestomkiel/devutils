@@ -1,0 +1,25 @@
+{
+  "title": "Quelle est mon IP ?",
+  "description": "Découvrez votre adresse IP actuelle et le DNS inversé correspondant. Idéal pour le diagnostic réseau, la sécurité et la vérification de connexion.",
+  "tags": [
+    "mon adresse IP",
+    "trouver l'adresse IP",
+    "quelle est mon adresse IP",
+    "IP publique",
+    "DNS inversé",
+    "IP externe",
+    "mon adresse IP"
+  ],
+  "category": "Réseaux / HTTP",
+  "intro": "IP (Internet Protocol) est une adresse unique attribuée à chaque appareil connecté à Internet.",
+  "ip_label": "Mon adresse IP pour le moment est :",
+  "dns_label": "DNS inversé :",
+  "loading": "Chargement...",
+  "hostname_na": "Pas disponible",
+  "error_ip": "Erreur lors de l'obtention de l'IP",
+  "error_dns": "Erreur lors de l'obtention du DNS",
+  "ip_types": "Il existe deux principaux types d’adresses IP :",
+  "ipv4": "IPv4 : 4 groupes de chiffres (ex : 192.168.0.1)",
+  "ipv6": "IPv6 : plus long, avec des lettres et des chiffres (ex : 2001:0db8:85a3::8a2e:0370:7334)",
+  "copied": "Copié!"
+}

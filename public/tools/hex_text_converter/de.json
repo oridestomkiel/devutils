@@ -1,0 +1,17 @@
+{
+  "title": "Hex ↔ Text Konverter",
+  "description": "Konvertiert Hexadezimalwerte in Text und Text präzise in Hexadezimalwerte. Nützlich für Codierung, Debugging und String-Manipulation.",
+  "tags": [
+    "Hex in Text",
+    "Text in Hex",
+    "Hex-Konverter",
+    "Zeichenfolge in Hex",
+    "Hexadezimalwert dekodieren",
+    "Text kodieren",
+    "Hexadezimalwert konvertieren"
+  ],
+  "category": "Encoder/Decoder",
+  "placeholder": "Geben Sie Text oder Hexadezimalwert ein",
+  "textToHex": "Text → Hex",
+  "hexToText": "Hex → Text"
+}

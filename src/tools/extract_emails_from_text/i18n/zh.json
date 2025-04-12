@@ -1,0 +1,14 @@
+{
+  "title": "从文本中提取电子邮件",
+  "description": "粘贴任何文本内容并提取所有找到的电子邮件地址。按字母顺序或域名进行组织。",
+  "tags": ["电子邮件", "提取", "文本", "排序", "域名", "电子邮件列表"],
+  "category": "文本工具",
+  "inputLabel": "源文本：",
+  "placeholder": "在此粘贴包含电子邮件的内容...",
+  "sortLabel": "排序依据：",
+  "sortAlphabetical": "字母顺序",
+  "sortDomain": "域名",
+  "extract": "提取电子邮件",
+  "outputLabel": "已提取的电子邮件：",
+  "download": "下载TXT"
+}

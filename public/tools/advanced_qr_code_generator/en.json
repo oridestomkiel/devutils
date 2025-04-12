@@ -1,0 +1,23 @@
+{
+  "title": "Advanced QR Code Generator",
+  "description": "Create customizable QR codes with logos, colors, and specific sizes. Ideal for campaigns, marketing, and data sharing.",
+  "tags": [
+    "qr code",
+    "qr code generator",
+    "advanced qr code",
+    "qr code with logo",
+    "qr marketing",
+    "customized qrcode",
+    "qrcode generator",
+    "data sharing"
+  ],
+  "category": "Generators",
+  "placeholder.input": "Text or URL to generate QR",
+  "label.size": "Size (px)",
+  "label.margin": "Margin",
+  "label.color.dark": "Dark color",
+  "label.color.light": "Light color",
+  "label.logo": "Center logo (image URL)",
+  "placeholder.logo": "https://example.com/logo.png",
+  "export.svg": "Export SVG"
+}

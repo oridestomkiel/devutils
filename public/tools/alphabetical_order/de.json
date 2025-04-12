@@ -1,0 +1,27 @@
+{
+  "title": "Alphabetisch Sortieren",
+  "description": "Online-Tool zum Sortieren einer Liste in alphabetischer Reihenfolge. Kopieren und fügen Sie Ihre Namensliste ein und klicken Sie auf „Sortieren“.",
+  "tags": [
+    "sortierung",
+    "alphabetisch",
+    "sortieren",
+    "liste",
+    "text",
+    "duplikate"
+  ],
+  "category": "Textwerkzeuge",
+  "label.original": "Originaltext:",
+  "placeholder.list": "Fügen Sie Ihre Liste hier ein...",
+  "label.sortType": "Sortierart:",
+  "option.asc": "Aufsteigend (A-Z)",
+  "option.desc": "Absteigend (Z-A)",
+  "label.separator": "Sortieren nach:",
+  "option.linebreak": "Zeilenumbruch",
+  "option.space": "Leerzeichen",
+  "option.comma": "Komma ( , )",
+  "option.semicolon": "Strichpunkt ( ; )",
+  "label.removeDuplicates": "Duplikate entfernen?",
+  "button.sort": "Sortieren",
+  "label.sorted": "Sortierter Text:",
+  "button.download": "TXT herunterladen"
+}

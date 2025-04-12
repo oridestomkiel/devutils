@@ -1,0 +1,28 @@
+{
+  "title": "Construtor de Expressões CRON",
+  "description": "Crie expressões CRON de forma simples e intuitiva. Ideal para agendar tarefas em servidores, aplicações backend e automações.",
+  "tags": [
+    "expressão cron",
+    "cron builder",
+    "agendamento de tarefas",
+    "cronjob",
+    "gerador de cron",
+    "cron linux",
+    "agendar comandos",
+    "cron expression"
+  ],
+  "category": "Geradores",
+  "placeholder.input": "Ex: */5 * * * *",
+  "button.explain": "Explicar",
+  "placeholder.output": "Explicação será exibida aqui",
+  "copied": "Copiado!",
+  "invalid": "Expressão inválida. Deve ter 5 campos.",
+  "labels": [
+    "Minuto (0-59)",
+    "Hora (0-23)",
+    "Dia do Mês (1-31)",
+    "Mês (1-12)",
+    "Dia da Semana (0=Domingo até 6=Sábado)"
+  ],
+  "format.hint": "Formato: minuto hora dia-do-mês mês dia-da-semana"
+}

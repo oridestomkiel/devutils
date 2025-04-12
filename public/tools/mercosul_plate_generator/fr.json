@@ -1,0 +1,19 @@
+{
+  "title": "Générateur de plaques du Mercosur",
+  "description": "Générez des plaques selon la norme Mercosur (AAA1A23) ou convertissez d'anciennes plaques au nouveau modèle. Idéal pour les tests et les simulations.",
+  "tags": [
+    "Plaque du Mercosur",
+    "générateur de plaques",
+    "nouveau modèle",
+    "assiette du Brésil",
+    "simulateur de planche",
+    "convertir la plaque",
+    "plaque d'exportation"
+  ],
+  "category": "Générateurs",
+  "quantity": "Montant:",
+  "convert_label": "Convertir l'ancienne plaque (ABC1234) :",
+  "convert_placeholder": "Ex : BRA1234",
+  "convert_button": "Convertir",
+  "export_csv": "Exporter au format CSV"
+}

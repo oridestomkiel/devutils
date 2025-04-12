@@ -1,0 +1,22 @@
+{
+  "title": "Gerador de Senha aleatória",
+  "description": "Crie senhas fortes e seguras aleatoriamente. Ideal para proteger contas e dados sensíveis.",
+  "tags": [
+    "senha aleatória",
+    "gerador de senha",
+    "senha forte",
+    "password generator",
+    "segurança de dados",
+    "gerar senhas",
+    "proteção de contas"
+  ],
+  "category": "Geradores",
+  "length": "Tamanho",
+  "include_symbols": "Incluir símbolos",
+  "include_numbers": "Incluir números",
+  "include_uppercase": "Incluir maiúsculas",
+  "include_lowercase": "Incluir minúsculas",
+  "generate": "Gerar",
+  "click_to_generate": "Clique em gerar",
+  "select_one_type": "Selecione pelo menos um tipo de caractere"
+}

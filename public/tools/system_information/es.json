@@ -1,0 +1,16 @@
+{
+  "title": "Información del sistema",
+  "description": "Muestra detalles sobre el entorno del usuario, incluido el sistema operativo, el navegador y otra información relevante.",
+  "tags": [
+    "Sistema operativo",
+    "navegador",
+    "información del usuario"
+  ],
+  "category": "Servicios públicos",
+  "title_os": "Mi sistema operativo",
+  "title_browser": "Mi navegador",
+  "os_label": "Sistema operativo",
+  "screen_label": "Resolución de pantalla",
+  "browser_label": "Navegador",
+  "browser_version": "Versión"
+}

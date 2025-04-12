@@ -1,0 +1,14 @@
+{
+  "title": "Markdown → HTML (Tags)",
+  "description": "Konvertieren Sie Markdown in reines HTML, indem Sie nur die generierten HTML-Tags anzeigen. Ideal für Entwickler und Inhaltsintegration.",
+  "tags": [
+    "Markdown zu HTML",
+    "Markdown zu HTML",
+    "Markdown konvertieren",
+    "HTML-Tag-Ausgabe",
+    "Roher Markdown",
+    "Markdown-HTML anzeigen"
+  ],
+  "category": "Konverter",
+  "placeholder": "# Titel\n\nMarkdown-Text."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "CamelCase ↔ snake_case ↔ kebab-case 转换器",
+  "description": "轻松在 CamelCase、snake_case 和 kebab-case 格式之间转换。适用于变量、文件名和 API 的标准化。",
+  "tags": [
+    "camelcase",
+    "snake_case",
+    "kebab-case",
+    "格式转换器",
+    "文本转换",
+    "camel 转 snake",
+    "snake 转 kebab",
+    "kebab 转 camel",
+    "大小写转换"
+  ],
+  "category": "转换器",
+  "placeholder.input": "请输入任意格式的文本",
+  "label.camel": "CamelCase：",
+  "label.snake": "snake_case：",
+  "label.kebab": "kebab-case："
+}

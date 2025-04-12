@@ -1,0 +1,12 @@
+{
+  "title": "Kreditkartengenerator",
+  "description": "Gültige Kreditkartennummern für Tests und Entwicklung generieren. Unterstützt mehrere Anbieter und erzeugt zufällige CVV und Ablaufdaten.",
+  "tags": ["karte", "generator", "luhn", "anbieter", "kredit", "tests"],
+  "category": "Generatoren",
+  "label.selectBrand": "Kartentyp auswählen:",
+  "label.number": "Kartennummer:",
+  "label.expiry": "Ablaufdatum:",
+  "label.cvv": "CVV:",
+  "button.generate": "Generieren",
+  "copied": "Kopiert!"
+}

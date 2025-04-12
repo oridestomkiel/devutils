@@ -1,0 +1,13 @@
+{
+  "title": "Validateur de Carte de Crédit",
+  "description": "Saisissez un numéro de carte et vérifiez s’il est valide avec l’algorithme de Luhn. La marque est détectée automatiquement.",
+  "tags": ["carte", "validateur", "luhn", "numéro", "crédit", "marque"],
+  "category": "Utilitaires",
+  "label.input": "Numéro de Carte :",
+  "placeholder.input": "Ex : 4111 1111 1111 1111",
+  "button.validate": "Valider la Carte",
+  "result.valid": "✅ Valide",
+  "result.invalid": "❌ Invalide",
+  "result.error": "❌ Numéro invalide ou incomplet.",
+  "brand.unknown": "Inconnue"
+}

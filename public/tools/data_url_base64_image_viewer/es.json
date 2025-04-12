@@ -1,0 +1,21 @@
+{
+  "title": "Visor de Data URL (Imagen Base64)",
+  "description": "Pega una Data URL que contenga una imagen para verla, obtener detalles y descargarla. Ideal para probar imágenes incrustadas en base64.",
+  "tags": [
+    "data url",
+    "imagen base64",
+    "visor de imágenes",
+    "base64 a imagen",
+    "convertir base64"
+  ],
+  "category": "Imágenes",
+  "placeholder": "Pega aquí la URL Data completa de la imagen (data:image/png;base64,...)",
+  "view": "Ver imagen",
+  "download": "Descargar imagen",
+  "clear": "Limpiar",
+  "invalidFormat": "Formato inválido. Usa una Data URL de imagen válida.",
+  "imageDetected": "Imagen detectada",
+  "type": "Tipo",
+  "size": "Tamaño",
+  "dimensions": "Dimensiones"
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Zufallszahlenauswahl",
+  "description": "Kostenloser Online-Zahlenwähler. Wählen Sie den Bereich und klicken Sie auf die Ziehungsnummer. Sie können damit auch Ziehungen auf Facebook, Instagram und anderen sozialen Netzwerken durchführen.",
+  "tags": [
+    "Gewinnspiel",
+    "zufällig",
+    "zufällig",
+    "Nummer",
+    "Facebook",
+    "Instagram"
+  ],
+  "category": "Dienstprogramme",
+  "instruction": "Geben Sie den Zahlenbereich ein und klicken Sie auf Zeichnen:",
+  "min_label": "Minimum",
+  "max_label": "Maximal",
+  "draw_button": "Ziehungsnummer",
+  "result_label": "Generierte Nummer:",
+  "invalid_range": "Ungültiger Bereich"
+}

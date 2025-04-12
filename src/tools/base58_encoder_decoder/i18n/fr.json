@@ -1,0 +1,18 @@
+{
+  "title": "Encodeur/Décodeur Base58",
+  "description": "Encodez et décodez des chaînes en Base58 — idéal pour les applications blockchain, Bitcoin et les systèmes évitant les caractères ambigus.",
+  "tags": [
+    "base58",
+    "décodeur base58",
+    "encodeur base58",
+    "convertir base58",
+    "base58 bitcoin",
+    "base58 en ligne",
+    "base58 encodeur décodeur"
+  ],
+  "category": "Encodeurs / Décodeurs",
+  "placeholder": "Texte à encoder ou Base58 à décoder",
+  "encode": "Encoder",
+  "decode": "Décoder",
+  "error.decode": "Erreur de décodage"
+}

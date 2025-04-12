@@ -1,0 +1,21 @@
+{
+  "title": "Générateur CNPJ",
+  "description": "Générez des numéros CNPJ valides pour les tests et le développement. Prise en charge des multiples et des ramifications.",
+  "tags": [
+    "générateur cnpj",
+    "cnpj valide",
+    "cnpj pour les tests",
+    "faux CNPJ",
+    "Numéro CNPJ",
+    "simulateur CNPJ",
+    "test d'entreprise",
+    "bifurquer",
+    "multiple"
+  ],
+  "category": "Générateurs",
+  "format": "Format avec masque",
+  "generate": "Pour générer",
+  "generateMultiple": "Générer des multiples",
+  "simulateBranch": "Simuler le parent CNPJ + branches",
+  "placeholder": "Les CNPJ générés apparaîtront ici"
+}

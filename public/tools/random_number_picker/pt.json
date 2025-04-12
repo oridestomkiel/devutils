@@ -1,0 +1,12 @@
+{
+  "title": "Sorteador de números aleatórios",
+  "description": "Sorteador de números online e gratuito. Selecione o intervalo e clique em sortear número. Pode usar também para fazer sorteios no Facebook, Instagram e outras redes sociais.",
+  "tags": ["sorteio", "aleatório", "random", "número", "facebook", "instagram"],
+  "category": "Utilitários",
+  "instruction": "Informe o intervalo de números e clique em sortear:",
+  "min_label": "Mínimo",
+  "max_label": "Máximo",
+  "draw_button": "Sortear número",
+  "result_label": "Número gerado:",
+  "invalid_range": "Intervalo inválido"
+}

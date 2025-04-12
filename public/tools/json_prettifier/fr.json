@@ -1,0 +1,19 @@
+{
+  "title": "Formateur JSON (Prettifier)",
+  "description": "Gardez vos fichiers JSON lisibles et organisés grâce à l'indentation automatique. Idéal pour la lecture, le débogage et le développement.",
+  "tags": [
+    "formateur json",
+    "embellisseur json",
+    "embellir json",
+    "formaté json",
+    "indentation JSON",
+    "embellir json",
+    "embellisseur json"
+  ],
+  "category": "Formateurs / Minificateurs",
+  "format": "Format",
+  "error": "Erreur",
+  "placeholder": {
+    "input": "Digite ou cole um JSON"
+  }
+}

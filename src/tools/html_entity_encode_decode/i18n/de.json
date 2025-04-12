@@ -1,0 +1,18 @@
+{
+  "title": "HTML-Entität kodieren/dekodieren",
+  "description": "Konvertieren Sie HTML-Ausschnitte in Entitäten oder dekodieren Sie sie in normalen Text. Nützlich für Sicherheit und Codevorschau.",
+  "tags": [
+    "html",
+    "juristische Person",
+    "kodieren",
+    "dekodieren",
+    "xss",
+    "Konvertierung"
+  ],
+  "category": "Textwerkzeuge",
+  "encode": "Kodieren",
+  "decode": "Dekodieren",
+  "input": "Verboten",
+  "output": "Ausfahrt",
+  "convert": "Konvertieren"
+}

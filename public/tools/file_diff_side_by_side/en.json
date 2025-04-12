@@ -1,0 +1,16 @@
+{
+  "title": "File Diff (Side by Side)",
+  "description": "Compare two text files and view the differences with professional side-by-side layout.",
+  "tags": [
+    "compare files",
+    "text diff",
+    "upload",
+    "git style",
+    "diff2html"
+  ],
+  "category": "Analysis / Comparison",
+  "originalFile": "Original file:",
+  "modifiedFile": "Modified file:",
+  "compare": "Compare",
+  "alertMissingFiles": "Select the two files to compare."
+}

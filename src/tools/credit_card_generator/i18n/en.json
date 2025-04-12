@@ -1,0 +1,12 @@
+{
+  "title": "Credit Card Generator",
+  "description": "Generate valid credit card numbers for testing and development. Supports multiple brands and generates random CVV and expiry date.",
+  "tags": ["card", "generator", "luhn", "brand", "credit", "testing"],
+  "category": "Generators",
+  "label.selectBrand": "Select card brand:",
+  "label.number": "Card Number:",
+  "label.expiry": "Expiry Date:",
+  "label.cvv": "CVV:",
+  "button.generate": "Generate",
+  "copied": "Copied!"
+}

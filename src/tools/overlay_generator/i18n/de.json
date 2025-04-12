@@ -1,0 +1,18 @@
+{
+  "title": "Overlay-Generator",
+  "description": "Erstellen Sie visuelle Überlagerungen mit Farbe, Deckkraft und Mischmodus, um sie auf Bilder, Banner oder vorgestellte Abschnitte anzuwenden.",
+  "tags": [
+    "Überlagerung",
+    "Mischung",
+    "Hintergrund",
+    "Mix-Blend-Modus",
+    "Wirkung",
+    "CSS-Visualisierung"
+  ],
+  "category": "Design / Farben",
+  "overlay_color": "Überlagerungsfarbe",
+  "opacity": "Opazität",
+  "blend_mode": "Mischmodus",
+  "new_image": "Neues Bild",
+  "upload_local": "Lokales Bild verwenden"
+}

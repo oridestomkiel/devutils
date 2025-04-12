@@ -1,90 +1,67 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="dark">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Catálogo de Ferramentas - DevUtils - Ferramentas para desenvolvedores
-    </title>
+
+    <title id="headTitle">Catálogo de Ferramentas - DevUtils</title>
     <meta
+      id="metaDescription"
       name="description"
       content="Ferramentas utilitárias para desenvolvedores. Sem rastreio, sem propaganda. Só utilidade."
     />
+    <meta id="ogTitle" property="og:title" content="Catálogo - DevUtils" />
+    <meta
+      id="ogDescription"
+      property="og:description"
+      content="Catálogo de ferramentas rápidas, úteis e sem rastreio."
+    />
+    <meta
+      id="twitterTitle"
+      name="twitter:title"
+      content="Catálogo - DevUtils"
+    />
+    <meta
+      id="twitterDescription"
+      name="twitter:description"
+      content="Ferramentas úteis para devs, sem rastreio."
+    />
+
     <meta name="author" content="DevUtils" />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="DevUtils - Ferramentas para Devs" />
-    <meta
-      property="og:description"
-      content="Ferramentas rápidas, úteis e sem rastreio."
-    />
     <meta
       property="og:image"
-      content="https://devutils.zmohouse.com.br/assets/images/logo.png"
+      content="https://devutils.tools/assets/images/logo.png"
     />
-    <meta property="og:url" content="https://devutils.zmohouse.com.br/" />
+    <meta property="og:url" content="https://devutils.tools/tools.html" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="DevUtils - Ferramentas para Devs" />
-    <meta
-      name="twitter:description"
-      content="Ferramentas rápidas, úteis e sem rastreio."
-    />
     <meta
       name="twitter:image"
-      content="https://devutils.zmohouse.com.br/assets/images/logo.png"
+      content="https://devutils.tools/assets/images/logo.png"
     />
-    <link rel="icon" href="https://devutils.zmohouse.com.br/ico.png" />
-    <script type="module" src="/src/tools-catalog.js"></script>
-  </head>
-  <body class="bg-gray-900 text-white font-sans">
-    <header class="bg-gray-800 text-white p-4">
-      <div class="max-w-6xl mx-auto flex items-center justify-between">
-        <a
-          href="/"
-          class="flex items-center gap-2 text-xl font-bold hover:underline"
-        >
-          <img
-            src="https://devutils.zmohouse.com.br/assets/images/logo.png"
-            width="24"
-            height="24"
-            alt=""
-            class="block"
-          />
-          <span>DevUtils // everyday tools</span>
-        </a>
-        <nav class="hidden md:block">
-          <ul class="flex space-x-6">
-            <li>
-              <a href="/" class="hover:underline">Início</a>
-            </li>
-            <li>
-              <a href="/tools" class="hover:underline">Catálogo</a>
-            </li>
-          </ul>
-        </nav>
 
-        <button
-          id="menuBtn"
-          class="block md:hidden hover:text-gray-400 focus:outline-none"
-        >
-          ☰
-        </button>
-      </div>
+    <link rel="icon" href="https://devutils.tools/ico.png" />
+
+    <script type="module" src="/src/tools-catalog.js" defer></script>
+  </head>
+
+  <body
+    class="pt-20 bg-white text-gray-900 dark:bg-gray-900 dark:text-white font-sans"
+  >
+    <header
+      class="fixed top-0 w-full z-50 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white p-4 shadow"
+    >
+      <div
+        class="mx-auto flex items-center justify-between"
+        id="header-placeholder"
+      ></div>
     </header>
 
     <nav
       id="mobileMenu"
-      class="bg-gray-800 text-white p-4 hidden border-t border-gray-700 md:hidden"
-    >
-      <ul class="space-y-2">
-        <li>
-          <a href="/" class="hover:underline block">Início</a>
-        </li>
-        <li>
-          <a href="/tools" class="hover:underline block">Catálogo</a>
-        </li>
-      </ul>
-    </nav>
+      class="bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white p-4 hidden border-t border-gray-200 dark:border-gray-700 md:hidden"
+    ></nav>
 
     <main class="p-4 mt-4 max-w-5xl mx-auto">
       <div class="mb-4 d-block">
@@ -92,48 +69,19 @@
           id="search"
           type="text"
           placeholder="🔍 Buscar ferramenta..."
-          class="w-full p-2 rounded bg-gray-800 border border-gray-600 text-white mb-6"
+          data-i18n-placeholder="sidebar.search"
+          class="w-full p-2 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white mb-6"
         />
         <div class="flex justify-between items-center mb-2 mt-2">
-          <span id="toolsCount" class="text-sm text-gray-400"></span>
+          <span
+            id="toolsCount"
+            class="text-sm text-gray-500 dark:text-gray-400"
+          ></span>
         </div>
       </div>
       <div id="toolsList" class="space-y-6 mt-4 d-block"></div>
     </main>
 
-    <footer
-      class="text-center p-4 border-t border-gray-700 text-sm text-gray-400 mt-4"
-    >
-      <div class="text-gray-500 max-w-6xl mx-auto mb-4">
-        Sem propaganda, sem rastreio. Só utilidade |
-        <a
-          href="https://devutils.zmohouse.com.br/termos.html"
-          class="font-bold hover:underline"
-          >Política de Privacidade & Termos de Uso</a
-        >
-      </div>
-      <div class="text-gray-500 max-w-6xl mx-auto mt-4">
-        O DevUtils é um projeto open-source feito por desenvolvedores para
-        desenvolvedores. Se você quiser contribuir com novas ferramentas,
-        melhorias ou ideias, confira o repositório no
-        <a
-          href="https://github.com/oridestomkiel/devutils"
-          class="font-bold text-white hover:underline"
-          target="_blank"
-          rel="noopener"
-          >GitHub</a
-        >. Toda contribuição é bem-vinda - juntos podemos criar uma suíte ainda
-        mais útil e eficiente.
-      </div>
-    </footer>
-    <script>
-      document.getElementById("menuBtn").addEventListener("click", () => {
-        const mobileMenu = document.getElementById("mobileMenu");
-        mobileMenu.classList.toggle("hidden");
-      });
-      window.addEventListener("DOMContentLoaded", () => {
-        document.getElementById("search")?.focus();
-      });
-    </script>
+    <div id="footer-placeholder"></div>
   </body>
 </html>

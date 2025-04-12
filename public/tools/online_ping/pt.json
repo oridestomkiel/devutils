@@ -1,0 +1,19 @@
+{
+  "title": "Ping Online",
+  "description": "Envie pacotes de teste para um domínio ou IP e veja se o host está acessível. Ideal para diagnósticos de rede e latência.",
+  "tags": [
+    "ping online",
+    "teste de rede",
+    "latência",
+    "verificar conexão",
+    "ping servidor",
+    "ping dns",
+    "teste ip"
+  ],
+  "category": "Redes / HTTP",
+  "input_label": "Digite o domínio ou IP:",
+  "input_placeholder": "ex: google.com",
+  "send_ping": "Enviar Ping",
+  "result_label": "Resultado:",
+  "waiting": "Aguarde..."
+}

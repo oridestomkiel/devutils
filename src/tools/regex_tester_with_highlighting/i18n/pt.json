@@ -1,0 +1,21 @@
+{
+  "title": "Testador de Regex com Destaque",
+  "description": "Teste suas expressões regulares em tempo real com destaque de sintaxe. Ideal para analisar padrões, validar strings e corrigir erros de forma ágil.",
+  "tags": [
+    "regex",
+    "expressões regulares",
+    "teste de regex",
+    "regex com destaque",
+    "validar regex",
+    "analisar padrões",
+    "ferramenta de regex"
+  ],
+  "category": "Utilitários",
+  "regex_placeholder": "Digite o padrão regex (ex: \\d+ ou /\\w+/gi)",
+  "text_placeholder": "Texto onde aplicar a regex",
+  "test": "Testar Regex",
+  "fill_both": "Preencha ambos os campos.",
+  "invalid": "Regex inválida:",
+  "no_match": "Nenhuma correspondência encontrada.",
+  "hint": "Use sintaxe padrão JavaScript. Flags como g e i são opcionais no final: /padrão/gi."
+}

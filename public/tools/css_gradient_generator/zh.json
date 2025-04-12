@@ -1,0 +1,23 @@
+{
+  "title": "CSS 渐变生成器",
+  "description": "通过可视化界面直观创建自定义 CSS 渐变。让你的网站通过平滑的颜色过渡更具吸引力。",
+  "tags": [
+    "css 渐变",
+    "渐变生成器",
+    "背景 css",
+    "颜色过渡",
+    "css gradient",
+    "自定义渐变",
+    "视觉样式",
+    "渐变背景"
+  ],
+  "category": "设计 / 颜色",
+  "labels": {
+    "color1": "颜色 1",
+    "color2": "颜色 2",
+    "direction": "方向",
+    "generate": "生成",
+    "copy": "复制",
+    "copied": "已复制！"
+  }
+}

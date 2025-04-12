@@ -1,0 +1,21 @@
+{
+  "title": "Генератор Lorem Ipsum",
+  "description": "Сгенерируйте стандартный текст-заглушку Lorem Ipsum для использования в качестве заполнителей в дизайне, макетах и тестировании контента.",
+  "tags": [
+    "лорэм ипсум",
+    "вымышленный текст",
+    "генератор текста",
+    "текст для макета",
+    "заполнитель контента",
+    "смоделированный текст",
+    "тестовое содержимое"
+  ],
+  "category": "Генераторы",
+  "paragraphs": "Абзацы",
+  "words": "Слова",
+  "bytes": "Байты",
+  "lists": "Списки",
+  "startWithLorem": "Начните с «Lorem ipsum dolor sit amet...»",
+  "error.loading": "Ошибка загрузки текста Lorem Ipsum.",
+  "loremIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc purus, gradida non dignissim iaculis, pretium sed metus. Quisque faucibus, lacus a Vulputate Fermentum, lacus Erat Feugiat risus, Non fringilla ligula eros eu sem. Integer consectetur, sem suscipit pellentesque actor, neque velit Fermentum mi, id elementum eros felis at nisi. Энейский consectetur gradida dui, vel porta diam aliquam et. Aliquam volutpat, lectus ut convallis вестибулум, ligula leo fringilla neque, non fringilla just totortor non purus. Proin consequat Erat vitae Tellus pharetra, in Malesuada eros rutrum. Целое число sed Massa dignissim, efficitur eros vitae, rhoncus nisi. Sed gradida rutrum даже venenatis."
+}

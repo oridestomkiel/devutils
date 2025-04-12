@@ -1,0 +1,31 @@
+{
+  "title": "Gerador de Botões CSS",
+  "description": "Monte botões personalizados com cor, padding, borda, sombra e estado hover. Ideal para criar componentes reutilizáveis de UI.",
+  "tags": [
+    "botão css",
+    "button",
+    "hover",
+    "sombra",
+    "border-radius",
+    "ui button",
+    "componente visual"
+  ],
+  "category": "Design / Cores",
+  "labels": {
+    "bg": "Cor de fundo",
+    "text": "Cor do texto",
+    "paddingY": "Padding (vertical)",
+    "paddingX": "Padding (horizontal)",
+    "radius": "Raio da borda",
+    "shadowColor": "Cor da sombra",
+    "shadowOpacity": "Opacidade da sombra",
+    "offsetX": "Offset X",
+    "offsetY": "Offset Y",
+    "blur": "Desfoque",
+    "spread": "Espalhamento",
+    "hover": "Cor no hover",
+    "copy": "Copiar",
+    "preview": "Botão Exemplo",
+    "copied": "Copiado!"
+  }
+}

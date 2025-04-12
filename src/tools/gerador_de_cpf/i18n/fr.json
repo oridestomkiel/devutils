@@ -1,0 +1,12 @@
+{
+  "title": "Générateur CPF",
+  "description": "Générez des CPF valides, avec ou sans formatage. Idéal pour les tests de formulaires et les inscriptions.",
+  "tags": [
+    "générateur cpf",
+    "cpf valide",
+    "Simulateur CPF",
+    "test de formulaires"
+  ],
+  "category": "Générateurs",
+  "placeholder": "Les CPF générés apparaîtront ici"
+}

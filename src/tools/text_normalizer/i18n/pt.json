@@ -1,0 +1,17 @@
+{
+  "title": "Normalizador de texto",
+  "description": "Remova acentos, caracteres especiais e padronize maiúsculas ou minúsculas de forma rápida. Ideal para uniformizar dados em sistemas e processamento de textos.",
+  "tags": [
+    "normalizador de texto",
+    "remover acentos",
+    "texto sem acento",
+    "padronização de texto",
+    "caracteres especiais",
+    "converter maiúsculas",
+    "converter minúsculas"
+  ],
+  "category": "Ferramentas de Texto",
+  "input_placeholder": "Digite ou cole seu texto com acentos, símbolos etc...",
+  "output_placeholder": "Texto normalizado aparecerá aqui...",
+  "normalize": "Normalizar"
+}

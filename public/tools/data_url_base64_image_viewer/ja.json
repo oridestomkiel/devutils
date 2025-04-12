@@ -1,0 +1,21 @@
+{
+  "title": "Data URLビューア（Base64画像）",
+  "description": "画像を含むData URLを貼り付けて、表示、詳細の取得、およびダウンロードができます。Base64埋め込み画像のテストに最適です。",
+  "tags": [
+    "data url",
+    "base64画像",
+    "画像ビューア",
+    "base64から画像",
+    "base64変換"
+  ],
+  "category": "画像",
+  "placeholder": "画像の完全なData URLをここに貼り付けてください（data:image/png;base64,...）",
+  "view": "画像を表示",
+  "download": "画像をダウンロード",
+  "clear": "クリア",
+  "invalidFormat": "無効な形式です。有効な画像Data URLを使用してください。",
+  "imageDetected": "画像が検出されました",
+  "type": "種類",
+  "size": "サイズ",
+  "dimensions": "寸法"
+}

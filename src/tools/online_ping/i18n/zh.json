@@ -1,0 +1,19 @@
+{
+  "title": "在线平",
+  "description": "向域或 IP 发送测试数据包并查看主机是否可访问。非常适合网络和延迟诊断。",
+  "tags": [
+    "在线 ping",
+    "网络测试",
+    "延迟",
+    "检查连接",
+    "ping 服务器",
+    "DNS ping",
+    "ip 测试"
+  ],
+  "category": "网络/HTTP",
+  "input_label": "输入域名或 IP:",
+  "input_placeholder": "例如：google.com",
+  "send_ping": "发送 Ping",
+  "result_label": "结果：",
+  "waiting": "等待..."
+}

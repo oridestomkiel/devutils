@@ -1,0 +1,24 @@
+{
+  "title": "Datumsmanipulator (Tage, Monate, Jahre)",
+  "description": "Fügen Sie einer Datum einfach Tage, Monate oder Jahre hinzu oder ziehen Sie diese ab. Ideal für Fristen, Planungen und Systemtests.",
+  "tags": [
+    "datumsmanipulator",
+    "daten berechnen",
+    "tage addieren",
+    "monate subtrahieren",
+    "datumsdifferenz",
+    "daten in javascript",
+    "zukünftiges datum",
+    "vergangenes datum"
+  ],
+  "category": "Daten und Zeiten",
+  "value": "Wert",
+  "days": "Tage",
+  "months": "Monate",
+  "years": "Jahre",
+  "add": "Hinzufügen",
+  "subtract": "Subtrahieren",
+  "calculate": "Berechnen",
+  "invalidInput": "❌ Bitte füllen Sie Datum und Wert aus.",
+  "resultPlaceholder": "Ergebnis erscheint hier"
+}

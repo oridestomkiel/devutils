@@ -1,0 +1,18 @@
+{
+  "title": "Hash-Generator (MD5/SHA256)",
+  "description": "Generieren Sie schnell MD5- oder SHA256-Hashes aus beliebigem Text. Ideal für Sicherheit, Integritätsprüfung und Entwicklung.",
+  "tags": [
+    "Hash-Generator",
+    "md5",
+    "sha256",
+    "Verschlüsselung",
+    "Text-Hash",
+    "Datensicherheit",
+    "Integritätsprüfung",
+    "MD5 generieren",
+    "SHA256 generieren"
+  ],
+  "category": "Encoder/Decoder",
+  "placeholder": "Zu generierender Text",
+  "resultPlaceholder": "Das Ergebnis wird hier angezeigt"
+}

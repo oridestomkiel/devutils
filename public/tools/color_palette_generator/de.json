@@ -1,0 +1,18 @@
+{
+  "title": "Farbpaletten-Generator",
+  "description": "Erstelle automatisch harmonische Farbpaletten. Perfekt für Designer, Entwickler und Projekte mit konsistenter visueller Identität.",
+  "tags": [
+    "farbpalette",
+    "palettengenerator",
+    "farbkombination",
+    "design-werkzeug",
+    "harmonische farben",
+    "palette für design",
+    "farben generieren",
+    "farbtool"
+  ],
+  "category": "Design / Farben",
+  "button.generate": "Generieren",
+  "button.copy": "Kopieren",
+  "placeholder.colors": "Generierte Farben erscheinen hier"
+}

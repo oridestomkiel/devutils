@@ -1,0 +1,115 @@
+<aside
+  id="sidebar"
+  class="fixed top-0 right-0 w-[500px] max-w-full h-full bg-gray-100 dark:bg-gray-800 shadow-lg p-4 pb-0 transform translate-x-full transition-transform duration-300 z-50 overflow-y-auto text-gray-900 dark:text-white"
+>
+  <div class="flex items-center gap-2 pb-8">
+    <button
+      onclick="toggleSidebar()"
+      class="p-1 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-white"
+      title="Fechar painel"
+      data-i18n-title="sidebar.close"
+    >
+      <svg
+        class="w-5 h-5"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+      </svg>
+    </button>
+    <h2 class="text-xl font-semibold" data-i18n="menu.settings">Configurar</h2>
+  </div>
+
+  <form id="configForm">
+    <div class="flex justify-between items-center mb-2 text-sm">
+      <span>
+        <span
+          class="text-gray-600 dark:text-gray-400 ml-2"
+          data-i18n="sidebar.selected"
+          data-i18n-vars="countOn,countTotal"
+        >
+          Selecionadas: <span id="countOn">0</span> /
+          <span id="countTotal">0</span>
+        </span>
+      </span>
+      <button
+        type="button"
+        id="toggleAllBtn"
+        class="text-blue-600 dark:text-blue-400 hover:underline"
+        data-i18n="sidebar.selectAll"
+      >
+        Selecionar todos
+      </button>
+    </div>
+
+    <div class="relative mb-4">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Buscar ferramenta..."
+        data-i18n-placeholder="sidebar.search"
+        class="w-full p-2 pr-10 rounded border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+      />
+      <button
+        id="clearSearchBtn"
+        type="button"
+        class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-black dark:hover:text-white"
+        style="display: none"
+        aria-label="Limpar"
+        data-i18n-aria-label="sidebar.clear"
+      >
+        ✕
+      </button>
+    </div>
+
+    <ul id="sortable" class="space-y-2 mb-4"></ul>
+
+    <p
+      id="saveMsg"
+      class="mt-4 text-green-600 dark:text-green-400 hidden opacity-0 transition-opacity duration-300 text-center text-sm"
+      data-i18n="sidebar.saved"
+    >
+      Configurações salvas!
+    </p>
+  </form>
+
+  <div
+    class="sticky bottom-0 bg-gray-200 dark:bg-gray-800 pt-2 pb-2 border-t border-gray-300 dark:border-gray-700"
+  >
+    <div class="flex justify-between gap-2">
+      <button
+        id="backupBtn"
+        type="button"
+        class="flex-1 bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600 text-gray-800 dark:text-white rounded px-3 py-1 text-sm"
+        title="Exportar suas configurações como um arquivo JSON"
+        data-i18n="sidebar.backup"
+        data-i18n-title="sidebar.backupTitle"
+      >
+        Backup
+      </button>
+
+      <label
+        for="importPrefsInput"
+        class="flex-1 bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600 text-gray-800 dark:text-white rounded px-3 py-1 text-sm text-center cursor-pointer"
+        data-i18n="sidebar.import"
+        data-i18n-title="sidebar.importTitle"
+      >
+        Importar
+      </label>
+      <input id="importPrefsInput" type="file" accept=".json" class="hidden" />
+
+      <button
+        id="resetPrefsBtn"
+        type="button"
+        class="flex-1 hover:bg-red-500 dark:hover:bg-red-600 text-white rounded px-3 py-1 text-sm"
+        style="background-color: #dc2626"
+        data-i18n="sidebar.reset"
+        data-i18n-title="sidebar.resetTitle"
+      >
+        Resetar
+      </button>
+    </div>
+  </div>
+</aside>

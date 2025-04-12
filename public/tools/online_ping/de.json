@@ -1,0 +1,19 @@
+{
+  "title": "Ping Online",
+  "description": "Senden Sie Testpakete an eine Domäne oder IP-Adresse und prüfen Sie, ob der Host erreichbar ist. Ideal für Netzwerk- und Latenzdiagnosen.",
+  "tags": [
+    "Online-Ping",
+    "Netzwerktest",
+    "Latenz",
+    "Verbindung prüfen",
+    "Ping-Server",
+    "DNS-Ping",
+    "IP-Test"
+  ],
+  "category": "Netzwerke / HTTP",
+  "input_label": "Geben Sie die Domäne oder IP ein:",
+  "input_placeholder": "Beispiel: google.com",
+  "send_ping": "Ping senden",
+  "result_label": "Ergebnis:",
+  "waiting": "Warten..."
+}

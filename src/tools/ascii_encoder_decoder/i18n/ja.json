@@ -1,0 +1,22 @@
+{
+  "title": "ASCIIエンコーダー / デコーダー",
+  "description": "テキストをASCIIコードに、またはその逆に素早く簡単に変換できます。分析、テスト、文字列操作に最適です。",
+  "tags": [
+    "ascii",
+    "asciiコンバーター",
+    "asciiデコード",
+    "asciiエンコード",
+    "asciiテーブル",
+    "テキストからascii",
+    "asciiからテキスト"
+  ],
+  "category": "エンコーダー / デコーダー",
+  "converter": "asciiコンバーター",
+  "decode": "ASCII → テキスト",
+  "encode": "テキスト → ASCII",
+  "table": "asciiテーブル",
+  "textToAscii": "テキストからascii",
+  "asciiToText": "asciiからテキスト",
+  "placeholder": "テキストまたはスペース区切りのASCIIコードを入力してください",
+  "decodeError": "デコードエラー。数値を確認してください。"
+}

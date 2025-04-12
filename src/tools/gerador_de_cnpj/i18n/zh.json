@@ -1,0 +1,21 @@
+{
+  "title": "CNPJ 发电机",
+  "description": "生成有效的 CNPJ 编号以用于测试和开发。现在支持多个和分支。",
+  "tags": [
+    "cnpj 生成器",
+    "有效的 cnpj",
+    "cnpj 用于测试",
+    "假 cnpj",
+    "CNPJ 号码",
+    "cnpj模拟器",
+    "公司测试",
+    "分支",
+    "多种的"
+  ],
+  "category": "生成器",
+  "format": "带掩码的格式",
+  "generate": "生成",
+  "generateMultiple": "生成倍数",
+  "simulateBranch": "模拟父 CNPJ + 分支",
+  "placeholder": "生成的 CNPJ 将显示在此处"
+}

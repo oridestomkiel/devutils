@@ -1,0 +1,16 @@
+{
+  "title": "删除重复行",
+  "description": "粘贴文本并自动删除重复行。非常适合清理列表和快速组织内容。",
+  "tags": [
+    "删除重复项",
+    "清晰的线条",
+    "重复",
+    "重复的线条"
+  ],
+  "category": "文本工具",
+  "input_label": "可能存在重复的文本：",
+  "input_placeholder": "将您的内容粘贴到这里...",
+  "remove_button": "删除重复项",
+  "output_label": "没有重复的结果：",
+  "download": "下载 TXT"
+}

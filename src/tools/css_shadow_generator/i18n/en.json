@@ -1,0 +1,25 @@
+{
+  "title": "CSS Shadow Generator",
+  "description": "Create custom shadows with offset, blur, spread, and color control. Perfect to highlight UI elements with style.",
+  "tags": [
+    "box-shadow",
+    "css shadow",
+    "custom shadow",
+    "shadow effect",
+    "visual shadows",
+    "visual css",
+    "ui design",
+    "ui elevation"
+  ],
+  "category": "Design / Colors",
+  "labels": {
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "blur": "Blur",
+    "spread": "Spread",
+    "color": "Shadow color",
+    "generate": "Generate",
+    "copy": "Copy",
+    "copied": "Copied!"
+  }
+}

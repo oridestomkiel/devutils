@@ -1,0 +1,19 @@
+{
+  "title": "Validador del CNPJ",
+  "description": "Valide los números CNPJ con rapidez y precisión. Ideal para solicitudes de impuestos, registros comerciales y verificación de datos.",
+  "tags": [
+    "validar cnpj",
+    "validador cnpj",
+    "cnpj válido",
+    "Comprobador de cnpj",
+    "cnpj brasil",
+    "documento comercial",
+    "Validación del CNPJ"
+  ],
+  "category": "Validadores",
+  "placeholder_input": "Entra en el CNPJ",
+  "validate": "Validar",
+  "valid_cnpj": "✅ CNPJ válido.",
+  "invalid_cnpj": "❌ CNPJ inválido.",
+  "copied": "¡Copiado!"
+}

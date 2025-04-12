@@ -1,0 +1,12 @@
+{
+  "title": "Générateur de Carte de Crédit",
+  "description": "Générez des numéros de carte valides pour les tests et le développement. Prend en charge plusieurs marques et génère un CVV et une date d’expiration aléatoires.",
+  "tags": ["carte", "générateur", "luhn", "marque", "crédit", "tests"],
+  "category": "Générateurs",
+  "label.selectBrand": "Sélectionnez la marque :",
+  "label.number": "Numéro de Carte :",
+  "label.expiry": "Date d’Expiration :",
+  "label.cvv": "CVV :",
+  "button.generate": "Générer",
+  "copied": "Copié !"
+}

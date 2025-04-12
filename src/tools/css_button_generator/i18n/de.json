@@ -1,0 +1,31 @@
+{
+  "title": "CSS-Schaltflächengenerator",
+  "description": "Erstelle benutzerdefinierte Buttons mit Farbe, Padding, Rahmen, Schatten und Hover-Zustand. Ideal für wiederverwendbare UI-Komponenten.",
+  "tags": [
+    "css button",
+    "schaltfläche",
+    "hover",
+    "schatten",
+    "rahmenradius",
+    "ui button",
+    "visuelle komponente"
+  ],
+  "category": "Design / Farben",
+  "labels": {
+    "bg": "Hintergrundfarbe",
+    "text": "Textfarbe",
+    "paddingY": "Padding (vertikal)",
+    "paddingX": "Padding (horizontal)",
+    "radius": "Rahmenradius",
+    "shadowColor": "Schattenfarbe",
+    "shadowOpacity": "Schattenopazität",
+    "offsetX": "Versatz X",
+    "offsetY": "Versatz Y",
+    "blur": "Unschärfe",
+    "spread": "Ausbreitung",
+    "hover": "Hover-Farbe",
+    "copy": "Kopieren",
+    "preview": "Beispiel-Button",
+    "copied": "Kopiert!"
+  }
+}

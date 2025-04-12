@@ -1,0 +1,23 @@
+{
+  "title": "Générateur d'images d'espace réservé",
+  "description": "Générez des images personnalisées à utiliser comme espaces réservés dans vos tests et mises en page. Choisissez librement les couleurs, le texte et les dimensions.",
+  "tags": [
+    "espace réservé",
+    "image",
+    "générateur",
+    "test",
+    "lorem",
+    "pixel"
+  ],
+  "category": "Images",
+  "width": "Largeur",
+  "height": "Hauteur",
+  "font_size": "Taille du texte",
+  "background_color": "Couleur d'arrière-plan",
+  "text_color": "Couleur du texte",
+  "format": "Format",
+  "text": "Texte",
+  "placeholder_text_default": "Générateur d'espaces réservés",
+  "generate": "Pour générer",
+  "download_image": "Télécharger l'image"
+}

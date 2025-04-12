@@ -1,0 +1,22 @@
+{
+  "title": "ASCII-Kodierer/Dekodierer",
+  "description": "Konvertieren Sie Text in ASCII-Codes und umgekehrt einfach und schnell. Ideal für Analysen, Tests und Zeichenkettenmanipulation.",
+  "tags": [
+    "ascii",
+    "ascii konverter",
+    "ascii dekodieren",
+    "ascii kodieren",
+    "ascii tabelle",
+    "text zu ascii",
+    "ascii zu text"
+  ],
+  "category": "Kodierer / Dekodierer",
+  "converter": "ascii konverter",
+  "decode": "ASCII → Text",
+  "encode": "Text → ASCII",
+  "table": "ascii tabelle",
+  "textToAscii": "text zu ascii",
+  "asciiToText": "ascii zu text",
+  "placeholder": "Geben Sie Text oder ASCII-Codes durch Leerzeichen getrennt ein",
+  "decodeError": "Fehler beim Dekodieren. Bitte überprüfen Sie die Zahlen."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "JWT Generator",
+  "description": "Create custom JWT tokens with header, payload and secret. Ideal for testing with HS256.",
+  "tags": [
+    "jwt",
+    "token",
+    "generate jwt",
+    "test jwt",
+    "encryption"
+  ],
+  "category": "Encoders/Decoders",
+  "payload": "Payload (JSON)",
+  "header": "Header (optional)",
+  "secret": "Secret (HS256)",
+  "secretPlaceholder": "Enter the secret...",
+  "outputLabel": "JWT Token",
+  "invalidPayload": "Invalid payload",
+  "invalidHeader": "Invalid header",
+  "secretRequired": "Mandatory secret"
+}

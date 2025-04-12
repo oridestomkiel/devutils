@@ -1,0 +1,18 @@
+{
+  "title": "Codificación/decodificación de entidades HTML",
+  "description": "Convierte fragmentos de HTML en entidades o decodifica a texto normal. Útil para la seguridad y la vista previa del código.",
+  "tags": [
+    "html",
+    "entidad",
+    "codificar",
+    "descodificar",
+    "xss",
+    "conversión"
+  ],
+  "category": "Herramientas de texto",
+  "encode": "Codificar",
+  "decode": "Descodificar",
+  "input": "Prohibido",
+  "output": "Salida",
+  "convert": "Convertir"
+}

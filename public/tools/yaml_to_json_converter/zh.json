@@ -1,0 +1,19 @@
+{
+  "title": "YAML → JSON 转换器",
+  "description": "轻松高效地将 YAML 文件转换为 JSON 格式。非常适合配置、API 和结构化数据操作。",
+  "tags": [
+    "yaml 转 json",
+    "转换 yaml",
+    "数据转换器",
+    "yaml json",
+    "json 格式",
+    "将 yaml 转换为 json",
+    "结构化数据"
+  ],
+  "category": "转换器",
+  "placeholder_input": "将 YAML 粘贴到这里...",
+  "placeholder_output": "JSON 结果在这里...",
+  "convert": "转变",
+  "copied": "已复制！",
+  "download_filename": "转换后的json文件"
+}

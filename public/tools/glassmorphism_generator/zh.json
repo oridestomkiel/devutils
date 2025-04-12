@@ -1,0 +1,20 @@
+{
+  "title": "玻璃态发生器",
+  "description": "使用颜色、透明度、模糊度和边框创建磨砂玻璃效果。非常适合具有现代感的面板和卡片。",
+  "tags": [
+    "玻璃态",
+    "模糊",
+    "透明度",
+    "玻璃效果",
+    "磨砂玻璃",
+    "现代用户界面",
+    "视觉玻璃"
+  ],
+  "category": "设计/颜色",
+  "backgroundColor": "背景颜色",
+  "opacity": "不透明度",
+  "blur": "模糊 (px)",
+  "borderColor": "边框颜色",
+  "borderOpacity": "边缘不透明度",
+  "previewBackground": "预览背景"
+}
