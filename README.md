@@ -135,6 +135,22 @@ MIT © Orides Tomkiel
 
 ---
 
+## 📥 Downloads
+
+Looking for offline access? You can download the standalone desktop version for your OS:
+
+- 🪟 [Windows (.exe)](https://github.com/oridestomkiel/devutils/releases/latest/download/DevUtils-1.0.1-win-x64.exe)
+- 🐧 [Linux (.deb)](https://github.com/oridestomkiel/devutils/releases/latest/download/DevUtils-linux-amd64.deb)
+- 🐧 [Linux (AppImage)](https://github.com/oridestomkiel/devutils/releases/latest/download/DevUtils-linux-x86_64.AppImage)
+- 🍎 [macOS (.dmg)](https://github.com/oridestomkiel/devutils/releases/latest/download/DevUtils-1.0.1-arm64.dmg)
+
+Or just use the **Chrome Extension** for quick access inside your browser:  
+👉 [DevUtils Tools on Chrome Web Store](https://chromewebstore.google.com/detail/devutils-tools/mfikjfhpmaifkfkgnpkcaddhccblfpea)
+
+Source code is also available as [ZIP](https://github.com/oridestomkiel/devutils/archive/refs/tags/v1.0.1.zip) or [TAR.GZ](https://github.com/oridestomkiel/devutils/archive/refs/tags/v1.0.1.tar.gz).
+
+---
+
 ## 📬 Contact
 
 Have questions or suggestions?  
