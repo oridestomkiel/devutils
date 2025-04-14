@@ -108,7 +108,24 @@ const mercosul_plate_generator = {
       const match = placaAntiga.toUpperCase().match(/^([A-Z]{3})(\d{4})$/);
       if (!match) return "Formato inválido";
       const [_, letras, numeros] = match;
-      return letras.slice(0, 3) + numeros[0] + letras[2] + numeros.slice(1);
+
+      const mapaConversao = {
+        0: "A",
+        1: "B",
+        2: "C",
+        3: "D",
+        4: "E",
+        5: "F",
+        6: "G",
+        7: "H",
+        8: "I",
+        9: "J",
+      };
+
+      const quartaLetra = mapaConversao[numeros[1]];
+      if (!quartaLetra) return "Número inválido na placa";
+
+      return letras + numeros[0] + quartaLetra + numeros.slice(2);
     };
 
     const exportarCSV = (placas) => {
