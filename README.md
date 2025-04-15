@@ -139,10 +139,30 @@ MIT © Orides Tomkiel
 
 Looking for offline access? You can download the standalone desktop version for your OS:
 
-- 🪟 [Windows (.exe)](https://github.com/oridestomkiel/devutils/releases/latest/download/DevUtils-1.0.1-win-x64.exe)
-- 🐧 [Linux (.deb)](https://github.com/oridestomkiel/devutils/releases/latest/download/DevUtils-linux-amd64.deb)
-- 🐧 [Linux (AppImage)](https://github.com/oridestomkiel/devutils/releases/latest/download/DevUtils-linux-x86_64.AppImage)
-- 🍎 [macOS (.dmg)](https://github.com/oridestomkiel/devutils/releases/latest/download/DevUtils-1.0.1-arm64.dmg)
+### 🪟 Windows
+
+- [Installer (.msi)](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-1.0.1-win32-x64-devutils.msi)
+- [Installer (.exe)](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-1.0.1-win32-x64-devutils.exe)
+- [Portable (.exe)](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-1.0.1-win32-x64-devutils-portable.exe)
+- [ZIP Archive](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-1.0.1-win32-x64-devutils.zip)
+
+> “This app is not digitally signed because it is a free and open source project. Just click ‘Run anyway’ when the Windows warning appears.”
+
+### 🐧 Linux
+
+- [DEB Package](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-linux-amd64.deb)
+- [AppImage](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-linux-x86_64.AppImage)
+- [RPM Package](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-linux-x86_64.rpm)
+- [TAR.GZ Archive](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-linux-x64.tar.gz)
+- [ZIP Archive](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-linux-x64.zip)
+
+### 🍎 macOS
+
+- [DMG Installer](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-1.0.1-arm64-mac.dmg)
+- [PKG Installer](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-1.0.1-arm64-mac.pkg)
+- [ZIP Archive](https://github.com/oridestomkiel/devutils/releases/download/v1.0.1/DevUtils-1.0.1-arm64-mac.zip)
+
+---
 
 Or just use the **Chrome Extension** for quick access inside your browser:  
 👉 [DevUtils Tools on Chrome Web Store](https://chromewebstore.google.com/detail/devutils-tools/mfikjfhpmaifkfkgnpkcaddhccblfpea)
