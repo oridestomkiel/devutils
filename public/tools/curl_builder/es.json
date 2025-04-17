@@ -1,0 +1,16 @@
+{
+  "title": "Constructor de CURL",
+  "description": "Construye visualmente comandos curl para probar APIs.",
+  "tags": ["curl", "http", "api", "constructor"],
+  "category": "Red / HTTP",
+  "intro": "Completa los campos a continuación para generar un comando curl completo.",
+  "label.method": "Método HTTP",
+  "label.url": "URL de la solicitud",
+  "label.headers": "Encabezados",
+  "label.body": "Cuerpo de la solicitud (opcional)",
+  "label.result": "Comando cURL generado",
+  "label.format": "Formato",
+  "generate": "Generar cURL",
+  "add": "Agregar encabezado",
+  "download": "Descargar comando"
+}

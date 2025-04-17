@@ -1,15 +1,24 @@
 {
-  "title": "Markdown → Aperçu HTML",
-  "description": "Prévisualisez en temps réel le rendu du texte Markdown converti en HTML. Idéal pour les rédacteurs, développeurs et créateurs de contenu.",
+  "title": "Markdown avec Aperçu en Direct",
+  "description": "Rédigez en Markdown et visualisez instantanément la conversion en HTML. Idéal pour les rédacteurs, développeurs et créateurs de contenu.",
   "tags": [
-    "Markdown vers HTML",
-    "aperçu de la démarque",
-    "rendu Markdown",
-    "visionneuse de démarques",
-    "aperçu en direct de Markdown",
-    "convertir le markdown",
-    "HTML à partir de Markdown"
+    "markdown vers html",
+    "aperçu markdown",
+    "rendu markdown",
+    "visionneuse markdown",
+    "aperçu live markdown",
+    "convertir markdown",
+    "html depuis markdown",
+    "markdown",
+    "aperçu",
+    "html",
+    "rendu",
+    "live",
+    "éditeur"
   ],
   "category": "Convertisseurs",
-  "placeholder": "# Titre\\n\\nDu texte *markdown*."
+  "intro": "Saisissez votre contenu Markdown et voyez-le se transformer en HTML en direct.",
+  "label.markdown": "Éditeur Markdown",
+  "label.preview": "Aperçu en direct",
+  "label.scrollSync": "Synchroniser le défilement"
 }

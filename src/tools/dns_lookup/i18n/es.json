@@ -1,0 +1,22 @@
+{
+  "title": "Consulta DNS",
+  "description": "Realiza consultas DNS para dominios con diferentes tipos de registros: A, MX, TXT, etc.",
+  "tags": ["dns", "consulta", "registro", "a", "mx", "txt"],
+  "category": "Red / HTTP",
+  "intro": "Introduce el dominio y selecciona los tipos de registros DNS que deseas consultar.",
+  "label.domain": "Dominio",
+  "label.recordTypes": "Tipos de registros DNS",
+  "label.format": "Formato",
+  "format.json": "JSON",
+  "format.text": "Texto plano",
+  "format.table": "Tabla",
+  "lookup": "Consultar DNS",
+  "label.result": "Resultado de la consulta",
+  "download": "Descargar resultado",
+  "table.type": "Tipo",
+  "table.value": "Valor",
+  "json.loading": "⏳ Consultando registros DNS...",
+  "error.fetch": "❌ Error al consultar los registros DNS",
+  "error.emptyDomain": "Por favor, introduce un dominio.",
+  "error.noTypes": "Selecciona al menos un tipo de registro DNS."
+}

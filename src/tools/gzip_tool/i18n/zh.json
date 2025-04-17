@@ -1,0 +1,32 @@
+{
+  "title": "JSONPath 测试器",
+  "description": "使用 JSONPath 表达式浏览和提取 JSON 数据。适用于调试 API、结构分析和复杂查询。",
+  "tags": [
+    "jsonpath",
+    "json 路径",
+    "jsonpath 测试器",
+    "json 表达式",
+    "验证 jsonpath",
+    "json 查询",
+    "json 分析"
+  ],
+  "category": "验证器",
+  "intro": "输入 JSON 和 JSONPath 表达式以实时查看提取的数据。",
+  "label.json": "JSON 输入",
+  "label.path": "JSONPath 表达式",
+  "label.output": "结果",
+  "run": "执行",
+  "error": "处理时出错",
+  "label.help": "语法帮助",
+  "help.root": "根对象或数组。",
+  "help.current": "当前节点（用于过滤）。",
+  "help.dot": "点访问法。",
+  "help.brackets": "方括号访问法。",
+  "help.deepScan": "深度查找键。",
+  "help.wildcard": "选择所有子项。",
+  "help.index": "按索引访问项。",
+  "help.multi": "选择多个索引。",
+  "help.slice": "像 Python 一样切片数组。",
+  "help.filter": "使用布尔表达式进行过滤。",
+  "help.script": "内嵌 JS 表达式。"
+}

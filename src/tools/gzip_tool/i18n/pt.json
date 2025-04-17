@@ -1,0 +1,14 @@
+{
+  "title": "Compactar / Descompactar GZip",
+  "description": "Codifique ou decodifique dados usando compressão GZip em Base64.",
+  "tags": ["gzip", "compressão", "base64", "utilitário"],
+  "category": "Codificação",
+  "intro": "Cole o conteúdo e selecione o modo de operação. Use GZip + Base64 para compactar ou descompactar.",
+  "mode": "Modo de operação",
+  "compress": "Compactar (para Base64)",
+  "decompress": "Descompactar (de Base64)",
+  "input": "Entrada",
+  "output": "Saída",
+  "run": "Executar",
+  "error": "Erro ao processar os dados"
+}

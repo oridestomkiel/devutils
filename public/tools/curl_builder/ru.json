@@ -1,0 +1,16 @@
+{
+  "title": "Конструктор CURL",
+  "description": "Визуально создавайте curl-команды для тестирования API.",
+  "tags": ["curl", "http", "api", "конструктор"],
+  "category": "Сеть / HTTP",
+  "intro": "Заполните поля ниже, чтобы сгенерировать curl-команду.",
+  "label.method": "HTTP-метод",
+  "label.url": "URL запроса",
+  "label.headers": "Заголовки",
+  "label.body": "Тело запроса (необязательно)",
+  "label.result": "Сгенерированная cURL-команда",
+  "label.format": "Формат",
+  "generate": "Сгенерировать cURL",
+  "add": "Добавить заголовок",
+  "download": "Скачать команду"
+}

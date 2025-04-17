@@ -1,0 +1,15 @@
+{
+  "title": "ASCII 艺术生成器",
+  "description": "使用不同的字体样式将文本转换为 ASCII 艺术。",
+  "tags": ["ascii", "艺术", "文本", "样式化", "figlet"],
+  "category": "生成器",
+  "intro": "输入文本并选择字体样式以生成 ASCII 艺术。",
+  "label.text": "文本",
+  "label.font": "字体",
+  "label.output": "结果（ASCII 艺术）",
+  "generate": "生成",
+  "download": "下载为 TXT",
+  "error.empty": "请输入一些文本。",
+  "error.fontLoad": "字体加载出错。",
+  "error.generate": "生成 ASCII 艺术时出错。"
+}

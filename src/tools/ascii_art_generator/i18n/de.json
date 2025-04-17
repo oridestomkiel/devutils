@@ -1,0 +1,15 @@
+{
+  "title": "ASCII-Art Generator",
+  "description": "Wandle beliebigen Text in ASCII-Kunst mit verschiedenen Schriftarten um.",
+  "tags": ["ascii", "kunst", "text", "stilisiert", "figlet"],
+  "category": "Generatoren",
+  "intro": "Gib einen Text ein und wähle einen Schriftstil, um ASCII-Kunst zu erzeugen.",
+  "label.text": "Text",
+  "label.font": "Schriftart",
+  "label.output": "Ergebnis (ASCII-Art)",
+  "generate": "Erzeugen",
+  "download": "Als TXT herunterladen",
+  "error.empty": "Bitte gib einen Text ein.",
+  "error.fontLoad": "Fehler beim Laden der Schriftart.",
+  "error.generate": "Fehler beim Erzeugen der ASCII-Art."
+}

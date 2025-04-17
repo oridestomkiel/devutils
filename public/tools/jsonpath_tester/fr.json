@@ -1,0 +1,32 @@
+{
+  "title": "Testeur de JSONPath",
+  "description": "Explorez et extrayez des données JSON avec des expressions JSONPath. Idéal pour le débogage d’API, l’analyse de structure et les requêtes complexes sur les objets.",
+  "tags": [
+    "jsonpath",
+    "chemin json",
+    "testeur jsonpath",
+    "expression json",
+    "valider jsonpath",
+    "requête json",
+    "analyse json"
+  ],
+  "category": "Validateurs",
+  "intro": "Entrez un JSON et une expression JSONPath pour voir les données extraites en temps réel.",
+  "label.json": "Entrée JSON",
+  "label.path": "Expression JSONPath",
+  "label.output": "Résultat",
+  "run": "Exécuter",
+  "error": "Erreur de traitement",
+  "label.help": "Aide de syntaxe",
+  "help.root": "Objet ou tableau racine.",
+  "help.current": "Nœud courant (pour les filtres).",
+  "help.dot": "Accès par point.",
+  "help.brackets": "Accès par crochets.",
+  "help.deepScan": "Recherche profonde par clé.",
+  "help.wildcard": "Sélectionne tous les enfants.",
+  "help.index": "Accède à l’élément par index.",
+  "help.multi": "Sélectionne plusieurs indices.",
+  "help.slice": "Découpe les tableaux comme en Python.",
+  "help.filter": "Filtre par expression booléenne.",
+  "help.script": "Expression JS intégrée."
+}

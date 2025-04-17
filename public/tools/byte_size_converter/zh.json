@@ -1,0 +1,11 @@
+{
+  "title": "字节大小转换器",
+  "description": "在字节、KB、MB、GB 和 TB 之间进行可调精度转换。",
+  "tags": ["字节", "转换器", "大小", "kb", "mb", "gb"],
+  "category": "实用工具",
+  "intro": "输入一个值并选择单位，即可查看所有单位的转换结果。",
+  "label.value": "值",
+  "label.unit": "单位",
+  "label.decimals": "小数位数",
+  "error.invalid": "无效的值。请输入有效的数字。"
+}

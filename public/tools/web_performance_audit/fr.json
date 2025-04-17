@@ -1,0 +1,22 @@
+{
+  "title": "Recherche DNS",
+  "description": "Effectuez des recherches DNS pour des domaines avec différents types d'enregistrements : A, MX, TXT, etc.",
+  "tags": ["dns", "recherche", "enregistrement", "a", "mx", "txt"],
+  "category": "Réseau",
+  "intro": "Saisissez le domaine et sélectionnez les types d'enregistrements DNS à interroger.",
+  "label.domain": "Domaine",
+  "label.recordTypes": "Types d'enregistrements DNS",
+  "label.format": "Format",
+  "format.json": "JSON",
+  "format.text": "Texte brut",
+  "format.table": "Tableau",
+  "lookup": "Rechercher DNS",
+  "label.result": "Résultat de la recherche",
+  "download": "Télécharger le résultat",
+  "table.type": "Type",
+  "table.value": "Valeur",
+  "json.loading": "⏳ Interrogation des enregistrements DNS...",
+  "error.fetch": "❌ Échec de la récupération des enregistrements DNS",
+  "error.emptyDomain": "Veuillez saisir un domaine.",
+  "error.noTypes": "Sélectionnez au moins un type d'enregistrement DNS."
+}

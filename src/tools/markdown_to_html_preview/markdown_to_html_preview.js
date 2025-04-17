@@ -1,126 +1,212 @@
 import { loadToolI18n } from "../../utils/i18n-loader.js";
 import { tGlobal } from "../../utils/i18n-global.js";
 
-const markdown_to_html_preview = {
+const markdown_live_editor = {
   i18n: {},
-
   async loadI18n() {
-    await loadToolI18n(this, window.getDevutilsLang?.() || "pt");
+    await loadToolI18n(this, window.getDevutilsLang?.() || "en");
   },
-
   author: "DevUtils",
   hasApi: false,
   license: "MIT",
-  version: "1.1.0",
+  version: "2.0.0",
 
   render() {
     const t = (key) => this.i18n?.[key] ?? key;
 
     return `
-    <textarea 
-      id="mdInput" 
-      class="w-full p-2 bg-white border border-gray-300 text-gray-800 rounded mb-2 dark:bg-gray-700 dark:border-gray-700 dark:text-white dark:placeholder-gray-400" 
-      rows="6" 
-      placeholder="${t("placeholder")}"
-    ></textarea>
-
-    <button 
-      id="mdRenderBtn" 
-      class="bg-blue-600 hover:bg-blue-700 px-4 py-1 rounded mb-2 text-white dark:bg-blue-500 dark:hover:bg-blue-600"
-    >
-      ${tGlobal("generate")}
-    </button>
-
-    <div class="relative">
-      <div 
-        id="mdOutput" 
-        class="markdown-preview bg-white border border-gray-300 text-gray-800 rounded p-4 max-h-96 overflow-y-auto text-sm dark:bg-gray-800 dark:border-gray-700 dark:text-white p-6"
-      ></div>
-
-      <button 
-        id="copyMdBtn" 
-        class="absolute top-2 right-2 bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded text-white dark:bg-gray-500 dark:hover:bg-gray-400"
-      >
-        ${tGlobal("copy")}
-      </button>
-
-      <span 
-        id="copiedMdMsg" 
-        class="absolute top-2 right-2 text-green-600 dark:text-green-400 px-2 py-1 hidden"
-      >
-        ${tGlobal("copied")}
-      </span>
+<div class="flex flex-col md:flex-row gap-4 h-[75vh]">
+  <div class="w-full md:w-1/2 flex flex-col">
+    <div class="flex justify-between items-center mb-2">
+      <label class="text-sm font-medium">${t("label.markdown")}</label>
+      <div class="space-x-2">
+        <button id="btnResetMd" class="px-2 py-1 bg-gray-200 dark:bg-gray-700 text-sm rounded hover:bg-gray-300 dark:hover:bg-gray-600">${tGlobal(
+          "reset"
+        )}</button>
+        <button id="btnCopyMdRaw" class="px-2 py-1 bg-gray-200 dark:bg-gray-700 text-sm rounded hover:bg-gray-300 dark:hover:bg-gray-600">${tGlobal(
+          "copy"
+        )}</button>
+      </div>
     </div>
+    <div id="mdEditor" class="flex-1 border border-gray-300 dark:border-gray-700 rounded bg-white dark:bg-gray-900 overflow-hidden"></div>
+  </div>
+
+  <div class="w-full md:w-1/2 flex flex-col">
+    <div class="flex justify-between items-center mb-2">
+      <label class="text-sm font-medium">${t("label.preview")}</label>
+      <label class="inline-flex items-center gap-1 text-xs">
+        <input type="checkbox" id="mdScrollSync" />
+        ${t("label.scrollSync")}
+      </label>
+    </div>
+    <div id="mdPreview" class="markdown-body border border-gray-300 dark:border-gray-700 rounded p-4 overflow-auto bg-white dark:bg-gray-900 text-sm h-full"></div>
+  </div>
+</div>
     `;
   },
 
   init() {
-    const input = document.getElementById("mdInput");
-    const output = document.getElementById("mdOutput");
-    const btn = document.getElementById("mdRenderBtn");
-    const copyBtn = document.getElementById("copyMdBtn");
-    const copiedMsg = document.getElementById("copiedMdMsg");
+    const defaultInput = `# Markdown Live Preview
 
-    const renderMarkdown = () => {
-      const md = input.value;
-      const html = window.marked.parse(md);
-      output.innerHTML = html;
-    };
+Type your markdown on the left and see the preview here!
 
-    const setupCopy = () => {
-      copyBtn.addEventListener("click", () => {
-        const html = output.innerHTML;
-        if (!html) return;
+\`\`\`js
+console.log("Hello Markdown");
+\`\`\``;
 
-        navigator.clipboard.writeText(html).then(() => {
-          copyBtn.classList.add("hidden");
-          copiedMsg.classList.remove("hidden");
+    const previewEl = document.getElementById("mdPreview");
+    const resetBtn = document.getElementById("btnResetMd");
+    const copyBtn = document.getElementById("btnCopyMdRaw");
+    const syncScrollEl = document.getElementById("mdScrollSync");
 
-          setTimeout(() => {
-            copiedMsg.classList.add("hidden");
-            copyBtn.classList.remove("hidden");
-          }, 2000);
-        });
+    let editor,
+      scrollSync = false;
+
+    const loadDeps = async () => {
+      if (!window.marked) {
+        await import("https://cdn.jsdelivr.net/npm/marked/marked.min.js");
+      }
+
+      if (!window.DOMPurify) {
+        await import(
+          "https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"
+        );
+      }
+
+      return new Promise((resolve) => {
+        const script = document.createElement("script");
+        script.src =
+          "https://cdn.jsdelivr.net/npm/monaco-editor@0.43.0/min/vs/loader.js";
+        script.onload = () => {
+          window.require.config({
+            paths: {
+              vs: "https://cdn.jsdelivr.net/npm/monaco-editor@0.43.0/min/vs",
+            },
+          });
+          window.require(["vs/editor/editor.main"], () => resolve());
+        };
+        document.head.appendChild(script);
       });
     };
 
-    const injectMarkdownStyles = () => {
-      if (document.getElementById("markdownPreviewStyles")) return;
-
-      const style = document.createElement("style");
-      style.id = "markdownPreviewStyles";
-      style.innerHTML = `
-        .markdown-preview h1 { font-size: 1.5rem; font-weight: bold; margin-top: 1rem; }
-        .markdown-preview h2 { font-size: 1.25rem; font-weight: bold; margin-top: 1rem; }
-        .markdown-preview p { margin: 0.5rem 0; }
-        .markdown-preview ul, .markdown-preview ol { margin: 0.5rem 0 0.5rem 1.5rem; list-style-type: disc; }
-        .markdown-preview code { background-color: #1f2937; padding: 2px 4px; border-radius: 4px; color: #93c5fd; font-family: monospace; }
-        .markdown-preview pre { background-color: #1f2937; padding: 1rem; border-radius: 8px; overflow-x: auto; color: #93c5fd; }
-        .markdown-preview blockquote { border-left: 4px solid #6b7280; padding-left: 1rem; color: #9ca3af; font-style: italic; }
-        .markdown-preview table { border-collapse: collapse; margin: 1rem 0; }
-        .markdown-preview th, .markdown-preview td { border: 1px solid #4b5563; padding: 0.5rem; }
-        .markdown-preview th { background-color: #374151; color: white; }
-        .markdown-preview img { max-width: 100%; border-radius: 0.5rem; margin: 1rem 0; }
-        .markdown-preview a { color: #60a5fa; text-decoration: underline; }
-      `;
-      document.head.appendChild(style);
+    const renderMarkdown = (value) => {
+      const rawHtml = marked.parse(value || "");
+      const safeHtml = DOMPurify.sanitize(rawHtml);
+      previewEl.innerHTML = safeHtml;
     };
 
-    const setup = () => {
-      injectMarkdownStyles();
-      btn.addEventListener("click", renderMarkdown);
-      setupCopy();
+    const setupEditor = () => {
+      editor = monaco.editor.create(document.getElementById("mdEditor"), {
+        value: defaultInput,
+        language: "markdown",
+        automaticLayout: true,
+        theme: document.documentElement.classList.contains("dark")
+          ? "vs-dark"
+          : "vs-light",
+        fontSize: 14,
+        scrollBeyondLastLine: false,
+        minimap: { enabled: false },
+      });
+
+      editor.onDidChangeModelContent(() => {
+        const content = editor.getValue();
+        renderMarkdown(content);
+        localStorage.setItem("devutils.markdown.last", content);
+      });
+
+      editor.onDidScrollChange((e) => {
+        if (!scrollSync) return;
+        const scrollTop = e.scrollTop;
+        const scrollHeight = e.scrollHeight;
+        const editorHeight = editor.getLayoutInfo().height;
+        const ratio = scrollTop / (scrollHeight - editorHeight);
+        const previewScroll =
+          ratio * (previewEl.scrollHeight - previewEl.clientHeight);
+        previewEl.scrollTo(0, previewScroll);
+      });
+
+      const saved = localStorage.getItem("devutils.markdown.last");
+      if (saved) editor.setValue(saved);
+      renderMarkdown(editor.getValue());
     };
 
-    if (typeof window.marked === "undefined") {
-      const script = document.createElement("script");
-      script.src = "./vendor/marked.min.js";
-      script.onload = setup;
-      document.head.appendChild(script);
-    } else {
-      setup();
-    }
+    const setupEvents = () => {
+      resetBtn.addEventListener("click", () => {
+        if (confirm("Reset editor content?")) {
+          editor.setValue(defaultInput);
+          localStorage.removeItem("devutils.markdown.last");
+          previewEl.scrollTo({ top: 0 });
+        }
+      });
+
+      copyBtn.addEventListener("click", () => {
+        const val = editor.getValue();
+        navigator.clipboard.writeText(val).then(() => {
+          copyBtn.textContent = tGlobal("copied");
+          setTimeout(() => (copyBtn.textContent = tGlobal("copy")), 1500);
+        });
+      });
+
+      syncScrollEl.addEventListener("change", (e) => {
+        scrollSync = e.target.checked;
+      });
+    };
+
+    const injectGithubCss = () => {
+      const existing = document.getElementById("githubMarkdownCss");
+      if (existing) existing.remove();
+
+      const isDark = document.documentElement.classList.contains("dark");
+
+      const link = document.createElement("link");
+      link.id = "githubMarkdownCss";
+      link.rel = "stylesheet";
+      link.href = isDark
+        ? "https://cdn.jsdelivr.net/npm/github-markdown-css@5.2.0/github-markdown-dark.css"
+        : "https://cdn.jsdelivr.net/npm/github-markdown-css@5.2.0/github-markdown-light.css";
+
+      document.head.appendChild(link);
+    };
+
+    const applyMonacoTheme = () => {
+      if (!window.monaco || !editor) return;
+
+      const isDark = document.documentElement.classList.contains("dark");
+      const theme = isDark ? "vs-dark" : "vs-light";
+      monaco.editor.setTheme(theme);
+    };
+
+    const observeThemeChange = () => {
+      const observer = new MutationObserver(() => {
+        injectGithubCss();
+        applyMonacoTheme();
+      });
+
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["class"],
+      });
+    };
+
+    const watchThemeChange = () => {
+      const observer = new MutationObserver(() => {
+        injectGithubCss();
+      });
+
+      observer.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ["class"],
+      });
+    };
+
+    loadDeps().then(() => {
+      injectGithubCss();
+      setupEditor();
+      setupEvents();
+      watchThemeChange();
+      observeThemeChange();
+    });
   },
 };
 
-export default markdown_to_html_preview;
+export default markdown_live_editor;

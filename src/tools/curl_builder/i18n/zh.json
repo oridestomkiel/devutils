@@ -1,0 +1,16 @@
+{
+  "title": "CURL 构建器",
+  "description": "可视化构建 curl 命令以测试 API。",
+  "tags": ["curl", "http", "api", "构建器"],
+  "category": "网络 / HTTP",
+  "intro": "填写以下信息以生成完整的 curl 命令。",
+  "label.method": "HTTP 方法",
+  "label.url": "请求 URL",
+  "label.headers": "请求头",
+  "label.body": "请求体（可选）",
+  "label.result": "生成的 cURL 命令",
+  "label.format": "格式",
+  "generate": "生成 cURL",
+  "add": "添加请求头",
+  "download": "下载命令"
+}

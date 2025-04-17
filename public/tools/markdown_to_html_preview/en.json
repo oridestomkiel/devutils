@@ -1,6 +1,6 @@
 {
-  "title": "Markdown → HTML Preview",
-  "description": "Preview the rendering of Markdown text converted to HTML in real time. Ideal for writers, developers, and content creators.",
+  "title": "Markdown with Live Preview",
+  "description": "Write in Markdown and instantly preview the HTML conversion in real-time. Ideal for writers, developers, and content creators.",
   "tags": [
     "markdown to html",
     "markdown preview",
@@ -8,8 +8,17 @@
     "markdown viewer",
     "markdown live preview",
     "convert markdown",
-    "html from markdown"
+    "html from markdown",
+    "markdown",
+    "preview",
+    "html",
+    "render",
+    "live",
+    "editor"
   ],
   "category": "Converters",
-  "placeholder": "# Title\\n\\nSome *markdown* text."
+  "intro": "Type your Markdown content in the editor and see it rendered live as HTML.",
+  "label.markdown": "Markdown Editor",
+  "label.preview": "Live Preview",
+  "label.scrollSync": "Sync scroll"
 }

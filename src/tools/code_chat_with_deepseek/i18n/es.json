@@ -1,9 +1,0 @@
-{
-  "title": "Chat de Código con DeepSeek",
-  "description": "Chatea con un modelo local especializado en programación. Ideal para dudas rápidas y generación de código.",
-  "tags": ["chat", "programación", "deepseek", "asistente", "código"],
-  "category": "Asistentes",
-  "placeholder.input": "Escribe tu duda de programación aquí...",
-  "send": "Enviar",
-  "clear": "Limpiar"
-}

@@ -105,6 +105,27 @@
     "label.sorted": "क्रमबद्ध पाठ:",
     "button.download": "TXT डाउनलोड करें"
   },
+  "ascii_art_generator": {
+    "title": "ASCII कला जनरेटर",
+    "description": "किसी भी टेक्स्ट को विभिन्न फॉन्ट शैलियों के साथ ASCII आर्ट में बदलें।",
+    "tags": [
+      "ascii",
+      "कला",
+      "पाठ",
+      "स्टाइल",
+      "figlet"
+    ],
+    "category": "जनरेटर्स",
+    "intro": "कुछ टेक्स्ट दर्ज करें और ASCII कला बनाने के लिए एक फ़ॉन्ट स्टाइल चुनें।",
+    "label.text": "टेक्स्ट",
+    "label.font": "फ़ॉन्ट",
+    "label.output": "परिणाम (ASCII कला)",
+    "generate": "जनरेट करें",
+    "download": "TXT के रूप में डाउनलोड करें",
+    "error.empty": "कृपया कुछ टेक्स्ट दर्ज करें।",
+    "error.fontLoad": "फ़ॉन्ट लोड करने में त्रुटि।",
+    "error.generate": "ASCII कला बनाने में त्रुटि।"
+  },
   "ascii_encoder_decoder": {
     "title": "ASCII एन्कोडर/डिकोडर",
     "description": "पाठ को ASCII कोड में और वापस सरल और तेज़ी से बदलें। विश्लेषण, परीक्षण और स्ट्रिंग हेरफेर के लिए आदर्श।",
@@ -320,6 +341,24 @@
     "copy": "कॉपी करें",
     "preview": "पूर्वावलोकन"
   },
+  "byte_size_converter": {
+    "title": "बाइट आकार कनवर्टर",
+    "description": "बाइट्स, KB, MB, GB, TB के बीच समायोज्य सटीकता के साथ मान परिवर्तित करें।",
+    "tags": [
+      "बाइट",
+      "कनवर्टर",
+      "आकार",
+      "kb",
+      "mb",
+      "gb"
+    ],
+    "category": "उपयोगिताएँ",
+    "intro": "मान दर्ज करें और यूनिट चुनें ताकि सभी स्तरों पर रूपांतरण देख सकें।",
+    "label.value": "मान",
+    "label.unit": "यूनिट",
+    "label.decimals": "दशमलव स्थान",
+    "error.invalid": "अमान्य मान। कृपया एक वैध संख्या दर्ज करें।"
+  },
   "camelcase_snake_case_kebab_case_converter": {
     "title": "CamelCase ↔ snake_case ↔ kebab-case कन्वर्टर",
     "description": "CamelCase, snake_case और kebab-case प्रारूपों के बीच आसानी से कन्वर्ट करें। वेरिएबल्स, फ़ाइल नाम और APIs को स्टैंडर्ड करने के लिए आदर्श।",
@@ -361,21 +400,6 @@
     "error": "कोड को टेक्स्ट में कन्वर्ट करने में त्रुटि।",
     "reference": "यूनिकोड संदर्भ",
     "link": "प्लेन (Unicode)"
-  },
-  "code_chat_with_deepseek": {
-    "title": "डीपसीक के साथ कोड चैट",
-    "description": "प्रोग्रामिंग में विशेषज्ञ स्थानीय मॉडल से बात करें। त्वरित प्रश्नों और कोड जनरेशन के लिए आदर्श।",
-    "tags": [
-      "चैट",
-      "प्रोग्रामिंग",
-      "डीपसीक",
-      "सहायक",
-      "कोड"
-    ],
-    "category": "सहायक",
-    "placeholder.input": "अपना प्रोग्रामिंग सवाल यहां लिखें...",
-    "send": "भेजें",
-    "clear": "साफ करें"
   },
   "code_diff_github_style": {
     "title": "कोड डिफ (GitHub स्टाइल)",
@@ -805,6 +829,27 @@
     "copiedMsg": "कॉपी किया गया!",
     "errorPrefix": "त्रुटि"
   },
+  "curl_builder": {
+    "title": "CURL बिल्डर",
+    "description": "एपीआई परीक्षण के लिए curl कमांड को विज़ुअल रूप से बनाएं।",
+    "tags": [
+      "curl",
+      "http",
+      "api",
+      "बिल्डर"
+    ],
+    "category": "नेटवर्क / HTTP",
+    "intro": "पूर्ण curl कमांड बनाने के लिए नीचे विवरण भरें।",
+    "label.method": "HTTP विधि",
+    "label.url": "अनुरोध URL",
+    "label.headers": "हेडर",
+    "label.body": "अनुरोध बॉडी (वैकल्पिक)",
+    "label.result": "जनरेटेड cURL कमांड",
+    "label.format": "फॉर्मेट",
+    "generate": "cURL बनाएं",
+    "add": "हेडर जोड़ें",
+    "download": "कमांड डाउनलोड करें"
+  },
   "curl_to_code_converter": {
     "title": "cURL से कोड",
     "description": "cURL कमांड को लोकप्रिय भाषाओं जैसे JavaScript, Python, PHP, Node.js, Go आदि में कोड स्निपेट में बदलें।",
@@ -968,6 +1013,35 @@
     "textToDecimal": "टेक्स्ट → दशमलव",
     "decimalToText": "दशमलव → टेक्स्ट",
     "decodeError": "दशमलव को टेक्स्ट में बदलने में त्रुटि।"
+  },
+  "dns_lookup": {
+    "title": "DNS लुकअप",
+    "description": "डोमेन के लिए DNS लुकअप करें विभिन्न रिकॉर्ड प्रकारों के साथ: A, MX, TXT आदि।",
+    "tags": [
+      "dns",
+      "lookup",
+      "रिकॉर्ड",
+      "a",
+      "mx",
+      "txt"
+    ],
+    "category": "नेटवर्क / HTTP",
+    "intro": "डोमेन दर्ज करें और उन DNS रिकॉर्ड प्रकारों का चयन करें जिन्हें आप क्वेरी करना चाहते हैं।",
+    "label.domain": "डोमेन",
+    "label.recordTypes": "DNS रिकॉर्ड प्रकार",
+    "label.format": "प्रारूप",
+    "format.json": "JSON",
+    "format.text": "सादा पाठ",
+    "format.table": "तालिका",
+    "lookup": "DNS लुकअप करें",
+    "label.result": "लुकअप परिणाम",
+    "download": "परिणाम डाउनलोड करें",
+    "table.type": "प्रकार",
+    "table.value": "मूल्य",
+    "json.loading": "⏳ DNS रिकॉर्ड क्वेरी की जा रही है...",
+    "error.fetch": "❌ DNS रिकॉर्ड लाने में विफल",
+    "error.emptyDomain": "कृपया एक डोमेन दर्ज करें।",
+    "error.noTypes": "कम से कम एक DNS रिकॉर्ड प्रकार चुनें।"
   },
   "escape_unescape_backslashes": {
     "title": "बैकस्लैश एस्केप/अनएस्केप करें",
@@ -1194,6 +1268,38 @@
     "error.invalidUrl": "क्रुपया मान्य यूआरएल दर्ज करें।",
     "error.checkFailed": "परीक्षण करते समय त्रुटि",
     "error.prefix": "गलती"
+  },
+  "gzip_tool": {
+    "title": "JSONPath परीक्षण उपकरण",
+    "description": "JSON डेटा को JSONPath अभिव्यक्तियों के साथ एक्सप्लोर और निकालें। API डिबगिंग, संरचना विश्लेषण और जटिल क्वेरी के लिए आदर्श।",
+    "tags": [
+      "jsonpath",
+      "json पथ",
+      "jsonpath टेस्टर",
+      "json अभिव्यक्ति",
+      "jsonpath सत्यापन",
+      "json क्वेरी",
+      "json जांच"
+    ],
+    "category": "वैलिडेटर",
+    "intro": "JSON और JSONPath अभिव्यक्ति दर्ज करें और रीयल-टाइम में निकाले गए डेटा को देखें।",
+    "label.json": "JSON इनपुट",
+    "label.path": "JSONPath अभिव्यक्ति",
+    "label.output": "परिणाम",
+    "run": "चलाएं",
+    "error": "प्रोसेसिंग में त्रुटि",
+    "label.help": "सिंटैक्स सहायता",
+    "help.root": "रूट ऑब्जेक्ट या एरे।",
+    "help.current": "वर्तमान नोड (फ़िल्टर के लिए)।",
+    "help.dot": "डॉट द्वारा एक्सेस।",
+    "help.brackets": "ब्रैकेट द्वारा एक्सेस।",
+    "help.deepScan": "गहराई से कुंजी खोजें।",
+    "help.wildcard": "सभी चाइल्ड सेलेक्ट करें।",
+    "help.index": "इंडेक्स द्वारा आइटम प्राप्त करें।",
+    "help.multi": "एकाधिक इंडेक्स सेलेक्ट करें।",
+    "help.slice": "Python की तरह एरे स्लाइस करें।",
+    "help.filter": "बूलियन एक्सप्रेशन से फिल्टर करें।",
+    "help.script": "अंदरूनी JS अभिव्यक्ति।"
   },
   "hash_generator_md5_sha1_sha224_sha256_sha512": {
     "title": "हैश जनरेटर (MD5, SHA1, SHA224, SHA256 और SHA512)",
@@ -1737,6 +1843,38 @@
     "valid": "✅ वैध JSON.",
     "invalid": "❌ अमान्य"
   },
+  "jsonpath_tester": {
+    "title": "JSONPath परीक्षण उपकरण",
+    "description": "JSON डेटा को JSONPath अभिव्यक्तियों के साथ एक्सप्लोर और निकालें। API डिबगिंग, संरचना विश्लेषण और जटिल क्वेरी के लिए आदर्श।",
+    "tags": [
+      "jsonpath",
+      "json पथ",
+      "jsonpath टेस्टर",
+      "json अभिव्यक्ति",
+      "jsonpath सत्यापन",
+      "json क्वेरी",
+      "json जांच"
+    ],
+    "category": "वैलिडेटर",
+    "intro": "JSON और JSONPath अभिव्यक्ति दर्ज करें और रीयल-टाइम में निकाले गए डेटा को देखें।",
+    "label.json": "JSON इनपुट",
+    "label.path": "JSONPath अभिव्यक्ति",
+    "label.output": "परिणाम",
+    "run": "चलाएं",
+    "error": "प्रोसेसिंग में त्रुटि",
+    "label.help": "सिंटैक्स सहायता",
+    "help.root": "रूट ऑब्जेक्ट या एरे।",
+    "help.current": "वर्तमान नोड (फ़िल्टर के लिए)।",
+    "help.dot": "डॉट द्वारा एक्सेस।",
+    "help.brackets": "ब्रैकेट द्वारा एक्सेस।",
+    "help.deepScan": "गहराई से कुंजी खोजें।",
+    "help.wildcard": "सभी चाइल्ड सेलेक्ट करें।",
+    "help.index": "इंडेक्स द्वारा आइटम प्राप्त करें।",
+    "help.multi": "एकाधिक इंडेक्स सेलेक्ट करें।",
+    "help.slice": "Python की तरह एरे स्लाइस करें।",
+    "help.filter": "बूलियन एक्सप्रेशन से फिल्टर करें।",
+    "help.script": "अंदरूनी JS अभिव्यक्ति।"
+  },
   "jwt_generator": {
     "title": "जेडब्ल्यूटी जेनरेटर",
     "description": "हेडर, पेलोड और सीक्रेट के साथ कस्टम JWT टोकन बनाएं। HS256 के साथ परीक्षण के लिए आदर्श।",
@@ -1828,19 +1966,28 @@
     "xorJson": "कुंजी के साथ XOR → वैध JSON"
   },
   "markdown_to_html_preview": {
-    "title": "मार्कडाउन → HTML पूर्वावलोकन",
-    "description": "HTML में परिवर्तित मार्कडाउन टेक्स्ट के रेंडरिंग का वास्तविक समय में पूर्वावलोकन करें। लेखकों, डेवलपर्स और सामग्री निर्माताओं के लिए आदर्श।",
+    "title": "Markdown लाइव प्रीव्यू के साथ",
+    "description": "Markdown में लिखें और रीयल-टाइम में HTML रूपांतरण का लाइव पूर्वावलोकन देखें। लेखकों, डेवलपर्स और कंटेंट क्रिएटर्स के लिए आदर्श।",
     "tags": [
-      "मार्कडाउन से html",
-      "मार्कडाउन पूर्वावलोकन",
-      "मार्कडाउन रेंडर करें",
-      "मार्कडाउन दर्शक",
-      "मार्कडाउन लाइव पूर्वावलोकन",
-      "मार्कडाउन कन्वर्ट करें",
-      "मार्कडाउन से HTML"
+      "markdown से html",
+      "markdown प्रीव्यू",
+      "markdown रेंडर करें",
+      "markdown व्यूअर",
+      "markdown लाइव प्रीव्यू",
+      "markdown कन्वर्ट करें",
+      "markdown से html प्राप्त करें",
+      "markdown",
+      "प्रीव्यू",
+      "html",
+      "render",
+      "live",
+      "एडिटर"
     ],
     "category": "कन्वर्टर्स",
-    "placeholder": "# शीर्षक\\n\\nकुछ *मार्कडाउन* पाठ."
+    "intro": "Markdown एडिटर में सामग्री टाइप करें और तुरंत HTML में रेंडर होते देखें।",
+    "label.markdown": "Markdown एडिटर",
+    "label.preview": "लाइव प्रीव्यू",
+    "label.scrollSync": "स्क्रॉल सिंक करें"
   },
   "markdown_to_html_tags": {
     "title": "मार्कडाउन → HTML (टैग)",

@@ -1,15 +1,24 @@
 {
-  "title": "Markdown → HTML 预览",
-  "description": "实时预览 Markdown 文本转换为 HTML 后的渲染效果。非常适合作家、开发人员和内容创建者。",
+  "title": "带实时预览的 Markdown",
+  "description": "用 Markdown 编写内容，并实时预览其 HTML 渲染效果。非常适合内容创作者、开发者和编辑者使用。",
   "tags": [
     "markdown 转 html",
     "markdown 预览",
     "渲染 markdown",
-    "Markdown 查看器",
+    "markdown 查看器",
     "markdown 实时预览",
     "转换 markdown",
-    "来自 markdown 的 html"
+    "通过 markdown 生成 html",
+    "markdown",
+    "预览",
+    "html",
+    "渲染",
+    "实时",
+    "编辑器"
   ],
   "category": "转换器",
-  "placeholder": "# 标题\\n\\n一些 *markdown* 文本。"
+  "intro": "在左侧编辑 Markdown，右侧即可实时看到 HTML 渲染效果。",
+  "label.markdown": "Markdown 编辑器",
+  "label.preview": "实时预览",
+  "label.scrollSync": "同步滚动"
 }

@@ -1,0 +1,22 @@
+{
+  "title": "DNS-запрос",
+  "description": "Выполняйте DNS-запросы для доменов с различными типами записей: A, MX, TXT и др.",
+  "tags": ["dns", "запрос", "запись", "a", "mx", "txt"],
+  "category": "Сеть / HTTP",
+  "intro": "Введите домен и выберите типы DNS-записей для запроса.",
+  "label.domain": "Домен",
+  "label.recordTypes": "Типы DNS-записей",
+  "label.format": "Формат",
+  "format.json": "JSON",
+  "format.text": "Простой текст",
+  "format.table": "Таблица",
+  "lookup": "Выполнить DNS-запрос",
+  "label.result": "Результат запроса",
+  "download": "Скачать результат",
+  "table.type": "Тип",
+  "table.value": "Значение",
+  "json.loading": "⏳ Выполняется запрос DNS-записей...",
+  "error.fetch": "❌ Не удалось получить DNS-записи",
+  "error.emptyDomain": "Пожалуйста, введите домен.",
+  "error.noTypes": "Выберите хотя бы один тип DNS-записи."
+}

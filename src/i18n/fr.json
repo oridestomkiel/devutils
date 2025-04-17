@@ -105,6 +105,27 @@
     "label.sorted": "Texte trié :",
     "button.download": "Télécharger TXT"
   },
+  "ascii_art_generator": {
+    "title": "Générateur d'Art ASCII",
+    "description": "Transformez n'importe quel texte en art ASCII avec différents styles de police.",
+    "tags": [
+      "ascii",
+      "art",
+      "texte",
+      "stylisé",
+      "figlet"
+    ],
+    "category": "Générateurs",
+    "intro": "Entrez un texte et sélectionnez un style de police pour générer une œuvre ASCII.",
+    "label.text": "Texte",
+    "label.font": "Police",
+    "label.output": "Résultat (Art ASCII)",
+    "generate": "Générer",
+    "download": "Télécharger en TXT",
+    "error.empty": "Veuillez saisir un texte.",
+    "error.fontLoad": "Erreur lors du chargement de la police.",
+    "error.generate": "Erreur lors de la génération de l'art ASCII."
+  },
   "ascii_encoder_decoder": {
     "title": "Encodeur/Décodeur ASCII",
     "description": "Convertissez du texte en codes ASCII et inversement simplement et rapidement. Idéal pour l'analyse, les tests et la manipulation de chaînes.",
@@ -320,6 +341,24 @@
     "copy": "Copier",
     "preview": "Aperçu"
   },
+  "byte_size_converter": {
+    "title": "Convertisseur de Taille (Octets)",
+    "description": "Convertissez des valeurs entre octets, Ko, Mo, Go, To avec une précision réglable.",
+    "tags": [
+      "octets",
+      "convertisseur",
+      "taille",
+      "ko",
+      "mo",
+      "go"
+    ],
+    "category": "Utilitaires",
+    "intro": "Entrez une valeur et sélectionnez l'unité pour voir les conversions dans toutes les échelles.",
+    "label.value": "Valeur",
+    "label.unit": "Unité",
+    "label.decimals": "Décimales",
+    "error.invalid": "Valeur invalide. Veuillez entrer un nombre valide."
+  },
   "camelcase_snake_case_kebab_case_converter": {
     "title": "Convertisseur CamelCase ↔ snake_case ↔ kebab-case",
     "description": "Convertissez facilement entre les formats CamelCase, snake_case et kebab-case. Idéal pour standardiser les variables, noms de fichiers et APIs.",
@@ -361,21 +400,6 @@
     "error": "Erreur lors de la conversion des codes en texte.",
     "reference": "Référence Unicode",
     "link": "Plan (Unicode)"
-  },
-  "code_chat_with_deepseek": {
-    "title": "Chat de Code avec DeepSeek",
-    "description": "Discutez avec un modèle local spécialisé en programmation. Idéal pour des questions rapides et la génération de code.",
-    "tags": [
-      "chat",
-      "programmation",
-      "deepseek",
-      "assistant",
-      "code"
-    ],
-    "category": "Assistants",
-    "placeholder.input": "Tapez votre question de programmation ici...",
-    "send": "Envoyer",
-    "clear": "Effacer"
   },
   "code_diff_github_style": {
     "title": "Diff de Code (Style GitHub)",
@@ -805,6 +829,27 @@
     "copiedMsg": "Copié !",
     "errorPrefix": "Erreur"
   },
+  "curl_builder": {
+    "title": "Générateur de CURL",
+    "description": "Créez visuellement des commandes curl pour tester des API.",
+    "tags": [
+      "curl",
+      "http",
+      "api",
+      "générateur"
+    ],
+    "category": "Réseau / HTTP",
+    "intro": "Remplissez les champs ci-dessous pour générer une commande curl complète.",
+    "label.method": "Méthode HTTP",
+    "label.url": "URL de la requête",
+    "label.headers": "En-têtes",
+    "label.body": "Corps de la requête (optionnel)",
+    "label.result": "Commande cURL générée",
+    "label.format": "Format",
+    "generate": "Générer cURL",
+    "add": "Ajouter un en-tête",
+    "download": "Télécharger la commande"
+  },
   "curl_to_code_converter": {
     "title": "cURL vers Code",
     "description": "Convertissez les commandes cURL en extraits de code dans les langages les plus utilisés : JavaScript, Python, PHP, Node.js, Go, etc.",
@@ -968,6 +1013,35 @@
     "textToDecimal": "Texte → Décimal",
     "decimalToText": "Décimal → Texte",
     "decodeError": "Erreur lors de la conversion du décimal en texte."
+  },
+  "dns_lookup": {
+    "title": "Recherche DNS",
+    "description": "Effectuez des recherches DNS pour des domaines avec différents types d'enregistrements : A, MX, TXT, etc.",
+    "tags": [
+      "dns",
+      "recherche",
+      "enregistrement",
+      "a",
+      "mx",
+      "txt"
+    ],
+    "category": "Réseau / HTTP",
+    "intro": "Saisissez le domaine et sélectionnez les types d'enregistrements DNS à interroger.",
+    "label.domain": "Domaine",
+    "label.recordTypes": "Types d'enregistrements DNS",
+    "label.format": "Format",
+    "format.json": "JSON",
+    "format.text": "Texte brut",
+    "format.table": "Tableau",
+    "lookup": "Rechercher DNS",
+    "label.result": "Résultat de la recherche",
+    "download": "Télécharger le résultat",
+    "table.type": "Type",
+    "table.value": "Valeur",
+    "json.loading": "⏳ Interrogation des enregistrements DNS...",
+    "error.fetch": "❌ Échec de la récupération des enregistrements DNS",
+    "error.emptyDomain": "Veuillez saisir un domaine.",
+    "error.noTypes": "Sélectionnez au moins un type d'enregistrement DNS."
   },
   "escape_unescape_backslashes": {
     "title": "Échapper/Déséchapper les Barres Obliques Inverses",
@@ -1194,6 +1268,38 @@
     "error.invalidUrl": "Veuillez entrer une URL valide.",
     "error.checkFailed": "Erreur lors du test",
     "error.prefix": "Erreur"
+  },
+  "gzip_tool": {
+    "title": "Testeur de JSONPath",
+    "description": "Explorez et extrayez des données JSON avec des expressions JSONPath. Idéal pour le débogage d’API, l’analyse de structure et les requêtes complexes sur les objets.",
+    "tags": [
+      "jsonpath",
+      "chemin json",
+      "testeur jsonpath",
+      "expression json",
+      "valider jsonpath",
+      "requête json",
+      "analyse json"
+    ],
+    "category": "Validateurs",
+    "intro": "Entrez un JSON et une expression JSONPath pour voir les données extraites en temps réel.",
+    "label.json": "Entrée JSON",
+    "label.path": "Expression JSONPath",
+    "label.output": "Résultat",
+    "run": "Exécuter",
+    "error": "Erreur de traitement",
+    "label.help": "Aide de syntaxe",
+    "help.root": "Objet ou tableau racine.",
+    "help.current": "Nœud courant (pour les filtres).",
+    "help.dot": "Accès par point.",
+    "help.brackets": "Accès par crochets.",
+    "help.deepScan": "Recherche profonde par clé.",
+    "help.wildcard": "Sélectionne tous les enfants.",
+    "help.index": "Accède à l’élément par index.",
+    "help.multi": "Sélectionne plusieurs indices.",
+    "help.slice": "Découpe les tableaux comme en Python.",
+    "help.filter": "Filtre par expression booléenne.",
+    "help.script": "Expression JS intégrée."
   },
   "hash_generator_md5_sha1_sha224_sha256_sha512": {
     "title": "Générateur de hachage (MD5, SHA1, SHA224, SHA256 et SHA512)",
@@ -1737,6 +1843,38 @@
     "valid": "✅ JSON valide.",
     "invalid": "❌ Invalid"
   },
+  "jsonpath_tester": {
+    "title": "Testeur de JSONPath",
+    "description": "Explorez et extrayez des données JSON avec des expressions JSONPath. Idéal pour le débogage d’API, l’analyse de structure et les requêtes complexes sur les objets.",
+    "tags": [
+      "jsonpath",
+      "chemin json",
+      "testeur jsonpath",
+      "expression json",
+      "valider jsonpath",
+      "requête json",
+      "analyse json"
+    ],
+    "category": "Validateurs",
+    "intro": "Entrez un JSON et une expression JSONPath pour voir les données extraites en temps réel.",
+    "label.json": "Entrée JSON",
+    "label.path": "Expression JSONPath",
+    "label.output": "Résultat",
+    "run": "Exécuter",
+    "error": "Erreur de traitement",
+    "label.help": "Aide de syntaxe",
+    "help.root": "Objet ou tableau racine.",
+    "help.current": "Nœud courant (pour les filtres).",
+    "help.dot": "Accès par point.",
+    "help.brackets": "Accès par crochets.",
+    "help.deepScan": "Recherche profonde par clé.",
+    "help.wildcard": "Sélectionne tous les enfants.",
+    "help.index": "Accède à l’élément par index.",
+    "help.multi": "Sélectionne plusieurs indices.",
+    "help.slice": "Découpe les tableaux comme en Python.",
+    "help.filter": "Filtre par expression booléenne.",
+    "help.script": "Expression JS intégrée."
+  },
   "jwt_generator": {
     "title": "Générateur JWT",
     "description": "Créez des jetons JWT personnalisés avec en-tête, charge utile et secret. Idéal pour les tests avec HS256.",
@@ -1828,19 +1966,28 @@
     "xorJson": "XOR avec clé → JSON valide"
   },
   "markdown_to_html_preview": {
-    "title": "Markdown → Aperçu HTML",
-    "description": "Prévisualisez en temps réel le rendu du texte Markdown converti en HTML. Idéal pour les rédacteurs, développeurs et créateurs de contenu.",
+    "title": "Markdown avec Aperçu en Direct",
+    "description": "Rédigez en Markdown et visualisez instantanément la conversion en HTML. Idéal pour les rédacteurs, développeurs et créateurs de contenu.",
     "tags": [
-      "Markdown vers HTML",
-      "aperçu de la démarque",
-      "rendu Markdown",
-      "visionneuse de démarques",
-      "aperçu en direct de Markdown",
-      "convertir le markdown",
-      "HTML à partir de Markdown"
+      "markdown vers html",
+      "aperçu markdown",
+      "rendu markdown",
+      "visionneuse markdown",
+      "aperçu live markdown",
+      "convertir markdown",
+      "html depuis markdown",
+      "markdown",
+      "aperçu",
+      "html",
+      "rendu",
+      "live",
+      "éditeur"
     ],
     "category": "Convertisseurs",
-    "placeholder": "# Titre\\n\\nDu texte *markdown*."
+    "intro": "Saisissez votre contenu Markdown et voyez-le se transformer en HTML en direct.",
+    "label.markdown": "Éditeur Markdown",
+    "label.preview": "Aperçu en direct",
+    "label.scrollSync": "Synchroniser le défilement"
   },
   "markdown_to_html_tags": {
     "title": "Markdown → HTML (balises)",

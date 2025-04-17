@@ -1,0 +1,22 @@
+{
+  "title": "DNS-Abfrage",
+  "description": "Führen Sie DNS-Abfragen für Domains mit verschiedenen Record-Typen durch: A, MX, TXT usw.",
+  "tags": ["dns", "abfrage", "eintrag", "a", "mx", "txt"],
+  "category": "Netzwerk / HTTP",
+  "intro": "Geben Sie die Domain ein und wählen Sie die DNS-Eintragstypen aus, die Sie abfragen möchten.",
+  "label.domain": "Domain",
+  "label.recordTypes": "DNS-Eintragstypen",
+  "label.format": "Format",
+  "format.json": "JSON",
+  "format.text": "Klartext",
+  "format.table": "Tabelle",
+  "lookup": "DNS abfragen",
+  "label.result": "Abfrageergebnis",
+  "download": "Ergebnis herunterladen",
+  "table.type": "Typ",
+  "table.value": "Wert",
+  "json.loading": "⏳ DNS-Einträge werden abgefragt...",
+  "error.fetch": "❌ Fehler beim Abrufen der DNS-Einträge",
+  "error.emptyDomain": "Bitte geben Sie eine Domain ein.",
+  "error.noTypes": "Wählen Sie mindestens einen DNS-Eintragstyp aus."
+}

@@ -1,0 +1,12 @@
+{
+  "title": "JSONの例",
+  "description": "インタラクティブな可視化で実際のJSON構造を表示・探索できます。",
+  "tags": ["json", "例", "ビューア", "教育用"],
+  "category": "ユーティリティ",
+  "intro": "JSONの例を選択し、インタラクティブなツリーとして表示します。",
+  "label.selectExample": "利用可能な例",
+  "label.selectPlaceholder": "例を選択...",
+  "label.output": "JSONビュー",
+  "btn.download": "JSONをダウンロード",
+  "error": "例の読み込み中にエラーが発生しました"
+}

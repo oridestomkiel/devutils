@@ -1,0 +1,11 @@
+{
+  "title": "Conversor de Tamaño en Bytes",
+  "description": "Convierte valores entre Bytes, KB, MB, GB y TB con precisión ajustable.",
+  "tags": ["bytes", "conversor", "tamaño", "kb", "mb", "gb"],
+  "category": "Utilidades",
+  "intro": "Introduce un valor y selecciona la unidad para ver las conversiones en todas las escalas.",
+  "label.value": "Valor",
+  "label.unit": "Unidad",
+  "label.decimals": "Decimales",
+  "error.invalid": "Valor inválido. Ingresa un número válido."
+}

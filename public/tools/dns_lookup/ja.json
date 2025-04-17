@@ -1,0 +1,22 @@
+{
+  "title": "DNSルックアップ",
+  "description": "ドメインに対して、A、MX、TXTなどのさまざまなレコードタイプのDNSルックアップを実行します。",
+  "tags": ["dns", "ルックアップ", "レコード", "a", "mx", "txt"],
+  "category": "ネットワーク / HTTP",
+  "intro": "ドメインを入力し、クエリしたいDNSレコードタイプを選択してください。",
+  "label.domain": "ドメイン",
+  "label.recordTypes": "DNSレコードタイプ",
+  "label.format": "形式",
+  "format.json": "JSON",
+  "format.text": "プレーンテキスト",
+  "format.table": "テーブル",
+  "lookup": "DNSを検索",
+  "label.result": "検索結果",
+  "download": "結果をダウンロード",
+  "table.type": "タイプ",
+  "table.value": "値",
+  "json.loading": "⏳ DNSレコードを照会中...",
+  "error.fetch": "❌ DNSレコードの取得に失敗しました",
+  "error.emptyDomain": "ドメインを入力してください。",
+  "error.noTypes": "少なくとも1つのDNSレコードタイプを選択してください。"
+}

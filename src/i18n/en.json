@@ -105,6 +105,27 @@
     "label.sorted": "Sorted text:",
     "button.download": "Download TXT"
   },
+  "ascii_art_generator": {
+    "title": "ASCII Art Generator",
+    "description": "Transform any text into ASCII art with different font styles.",
+    "tags": [
+      "ascii",
+      "art",
+      "text",
+      "styled",
+      "figlet"
+    ],
+    "category": "Generators",
+    "intro": "Enter some text and select a font style to generate ASCII art.",
+    "label.text": "Text",
+    "label.font": "Font",
+    "label.output": "Result (ASCII Art)",
+    "generate": "Generate",
+    "download": "Download as TXT",
+    "error.empty": "Please enter some text.",
+    "error.fontLoad": "Error loading the font.",
+    "error.generate": "Error generating ASCII art."
+  },
   "ascii_encoder_decoder": {
     "title": "ASCII Encoder/Decoder",
     "description": "Convert text to ASCII codes and vice versa in a simple and fast way. Ideal for analysis, testing, and string manipulation.",
@@ -320,6 +341,24 @@
     "copy": "Copy",
     "preview": "Preview"
   },
+  "byte_size_converter": {
+    "title": "Byte Size Converter",
+    "description": "Convert values between Bytes, KB, MB, GB, TB with adjustable precision.",
+    "tags": [
+      "bytes",
+      "converter",
+      "size",
+      "kb",
+      "mb",
+      "gb"
+    ],
+    "category": "Utilities",
+    "intro": "Enter a value and select the unit to see conversions across all scales.",
+    "label.value": "Value",
+    "label.unit": "Unit",
+    "label.decimals": "Decimal places",
+    "error.invalid": "Invalid value. Please enter a valid number."
+  },
   "camelcase_snake_case_kebab_case_converter": {
     "title": "CamelCase ↔ snake_case ↔ kebab-case Converter",
     "description": "Easily convert between CamelCase, snake_case, and kebab-case formats. Ideal for standardizing variables, filenames, and APIs.",
@@ -361,21 +400,6 @@
     "error": "Error converting codes to text.",
     "reference": "Unicode Reference",
     "link": "Plane (Unicode)"
-  },
-  "code_chat_with_deepseek": {
-    "title": "Code Chat with DeepSeek",
-    "description": "Chat with a local model specialized in programming. Ideal for quick questions and code generation.",
-    "tags": [
-      "chat",
-      "programming",
-      "deepseek",
-      "assistant",
-      "code"
-    ],
-    "category": "Assistants",
-    "placeholder.input": "Type your programming question here...",
-    "send": "Send",
-    "clear": "Clear"
   },
   "code_diff_github_style": {
     "title": "Code Diff (GitHub Style)",
@@ -805,6 +829,27 @@
     "copiedMsg": "Copied!",
     "errorPrefix": "Error"
   },
+  "curl_builder": {
+    "title": "CURL Builder",
+    "description": "Visually build curl commands to test APIs.",
+    "tags": [
+      "curl",
+      "http",
+      "api",
+      "builder"
+    ],
+    "category": "Network / HTTP",
+    "intro": "Fill in the details below to generate a complete curl command.",
+    "label.method": "HTTP Method",
+    "label.url": "Request URL",
+    "label.headers": "Headers",
+    "label.body": "Request Body (optional)",
+    "label.result": "Generated cURL Command",
+    "label.format": "Format",
+    "generate": "Generate cURL",
+    "add": "Add header",
+    "download": "Download command"
+  },
   "curl_to_code_converter": {
     "title": "cURL to Code",
     "description": "Convert cURL commands into code snippets in popular languages: JavaScript, Python, PHP, Node.js, Go, and more.",
@@ -968,6 +1013,35 @@
     "textToDecimal": "Text → Decimal",
     "decimalToText": "Decimal → Text",
     "decodeError": "Error converting decimal to text."
+  },
+  "dns_lookup": {
+    "title": "DNS Lookup",
+    "description": "Perform DNS lookups for domains with different record types: A, MX, TXT, etc.",
+    "tags": [
+      "dns",
+      "lookup",
+      "record",
+      "a",
+      "mx",
+      "txt"
+    ],
+    "category": "Network / HTTP",
+    "intro": "Enter the domain and select the DNS record types you want to query.",
+    "label.domain": "Domain",
+    "label.recordTypes": "DNS Record Types",
+    "label.format": "Format",
+    "format.json": "JSON",
+    "format.text": "Plain Text",
+    "format.table": "Table",
+    "lookup": "Lookup DNS",
+    "label.result": "Lookup Result",
+    "download": "Download Result",
+    "table.type": "Type",
+    "table.value": "Value",
+    "json.loading": "⏳ Querying DNS records...",
+    "error.fetch": "❌ Failed to fetch DNS records",
+    "error.emptyDomain": "Please enter a domain.",
+    "error.noTypes": "Select at least one DNS record type."
   },
   "escape_unescape_backslashes": {
     "title": "Escape/Unescape Backslashes",
@@ -1194,6 +1268,38 @@
     "error.invalidUrl": "Please enter a valid URL.",
     "error.checkFailed": "Error while testing",
     "error.prefix": "Error"
+  },
+  "gzip_tool": {
+    "title": "JSONPath Tester",
+    "description": "Explore and extract data from JSON using JSONPath expressions. Ideal for API debugging, structure analysis, and complex queries on objects.",
+    "tags": [
+      "jsonpath",
+      "json path",
+      "jsonpath tester",
+      "json expression",
+      "validate jsonpath",
+      "json query",
+      "json lookup"
+    ],
+    "category": "Validators",
+    "intro": "Enter a JSON and a JSONPath expression to view extracted data in real time.",
+    "label.json": "JSON Input",
+    "label.path": "JSONPath Expression",
+    "label.output": "Result",
+    "run": "Run",
+    "error": "Error processing",
+    "label.help": "Syntax Guide",
+    "help.root": "Root object or array.",
+    "help.current": "Current node (for filters).",
+    "help.dot": "Access with dot notation.",
+    "help.brackets": "Access with brackets.",
+    "help.deepScan": "Deep key lookup.",
+    "help.wildcard": "Select all children.",
+    "help.index": "Access item by index.",
+    "help.multi": "Select multiple indexes.",
+    "help.slice": "Slice arrays like Python.",
+    "help.filter": "Filter by boolean expression.",
+    "help.script": "Embedded JS expression."
   },
   "hash_generator_md5_sha1_sha224_sha256_sha512": {
     "title": "Hash Generator (MD5, SHA1, SHA224, SHA256 and SHA512)",
@@ -1737,6 +1843,38 @@
     "valid": "✅ Valid JSON.",
     "invalid": "❌ Invalid"
   },
+  "jsonpath_tester": {
+    "title": "JSONPath Tester",
+    "description": "Explore and extract data from JSON using JSONPath expressions. Ideal for API debugging, structure analysis, and complex queries on objects.",
+    "tags": [
+      "jsonpath",
+      "json path",
+      "jsonpath tester",
+      "json expression",
+      "validate jsonpath",
+      "json query",
+      "json lookup"
+    ],
+    "category": "Validators",
+    "intro": "Enter a JSON and a JSONPath expression to view extracted data in real time.",
+    "label.json": "JSON Input",
+    "label.path": "JSONPath Expression",
+    "label.output": "Result",
+    "run": "Run",
+    "error": "Error processing",
+    "label.help": "Syntax Guide",
+    "help.root": "Root object or array.",
+    "help.current": "Current node (for filters).",
+    "help.dot": "Access with dot notation.",
+    "help.brackets": "Access with brackets.",
+    "help.deepScan": "Deep key lookup.",
+    "help.wildcard": "Select all children.",
+    "help.index": "Access item by index.",
+    "help.multi": "Select multiple indexes.",
+    "help.slice": "Slice arrays like Python.",
+    "help.filter": "Filter by boolean expression.",
+    "help.script": "Embedded JS expression."
+  },
   "jwt_generator": {
     "title": "JWT Generator",
     "description": "Create custom JWT tokens with header, payload and secret. Ideal for testing with HS256.",
@@ -1828,8 +1966,8 @@
     "xorJson": "XOR with key → valid JSON"
   },
   "markdown_to_html_preview": {
-    "title": "Markdown → HTML Preview",
-    "description": "Preview the rendering of Markdown text converted to HTML in real time. Ideal for writers, developers, and content creators.",
+    "title": "Markdown with Live Preview",
+    "description": "Write in Markdown and instantly preview the HTML conversion in real-time. Ideal for writers, developers, and content creators.",
     "tags": [
       "markdown to html",
       "markdown preview",
@@ -1837,10 +1975,19 @@
       "markdown viewer",
       "markdown live preview",
       "convert markdown",
-      "html from markdown"
+      "html from markdown",
+      "markdown",
+      "preview",
+      "html",
+      "render",
+      "live",
+      "editor"
     ],
     "category": "Converters",
-    "placeholder": "# Title\\n\\nSome *markdown* text."
+    "intro": "Type your Markdown content in the editor and see it rendered live as HTML.",
+    "label.markdown": "Markdown Editor",
+    "label.preview": "Live Preview",
+    "label.scrollSync": "Sync scroll"
   },
   "markdown_to_html_tags": {
     "title": "Markdown → HTML (Tags)",

@@ -1,15 +1,24 @@
 {
-  "title": "Markdown → HTML-Vorschau",
-  "description": "Zeigen Sie die Darstellung von in HTML konvertiertem Markdown-Text in Echtzeit an. Ideal für Autoren, Entwickler und Content-Ersteller.",
+  "title": "Markdown mit Live-Vorschau",
+  "description": "Schreiben Sie in Markdown und sehen Sie die HTML-Konvertierung in Echtzeit. Ideal für Redakteure, Entwickler und Content-Ersteller.",
   "tags": [
-    "Markdown zu HTML",
-    "Markdown-Vorschau",
-    "Markdown rendern",
-    "Markdown-Viewer",
-    "Markdown-Livevorschau",
-    "Markdown konvertieren",
-    "HTML aus Markdown"
+    "markdown zu html",
+    "markdown vorschau",
+    "markdown rendern",
+    "markdown viewer",
+    "markdown live preview",
+    "markdown konvertieren",
+    "html aus markdown",
+    "markdown",
+    "vorschau",
+    "html",
+    "rendern",
+    "live",
+    "editor"
   ],
   "category": "Konverter",
-  "placeholder": "# Titel\\n\\nEin *Markdown*-Text."
+  "intro": "Geben Sie Ihren Markdown-Inhalt im Editor ein und sehen Sie die automatische Live-HTML-Vorschau.",
+  "label.markdown": "Markdown-Editor",
+  "label.preview": "Live-Vorschau",
+  "label.scrollSync": "Scroll synchronisieren"
 }

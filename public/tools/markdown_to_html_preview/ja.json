@@ -1,15 +1,24 @@
 {
-  "title": "マークダウン → HTML プレビュー",
-  "description": "HTML に変換された Markdown テキストのレンダリングをリアルタイムでプレビューします。ライター、開発者、コンテンツ作成者に最適です。",
+  "title": "ライブプレビュー付きMarkdown",
+  "description": "Markdownを記述し、HTMLへの変換をリアルタイムでプレビュー。ライター、開発者、コンテンツ制作者に最適です。",
   "tags": [
-    "マークダウンからHTMLへ",
-    "マークダウンプレビュー",
-    "マークダウンをレンダリングする",
-    "マークダウンビューア",
-    "マークダウンライブプレビュー",
-    "マークダウンを変換",
-    "マークダウンからのHTML"
+    "markdownからhtmlへ",
+    "markdownプレビュー",
+    "markdownレンダリング",
+    "markdownビューア",
+    "markdownライブプレビュー",
+    "markdown変換",
+    "markdownからhtml作成",
+    "markdown",
+    "プレビュー",
+    "html",
+    "レンダー",
+    "ライブ",
+    "エディター"
   ],
   "category": "コンバーター",
-  "placeholder": "# タイトル\\n\\n*markdown*テキスト。"
+  "intro": "Markdownを左側に入力すると、右側にHTMLとしてライブ表示されます。",
+  "label.markdown": "Markdownエディター",
+  "label.preview": "ライブプレビュー",
+  "label.scrollSync": "スクロール同期"
 }

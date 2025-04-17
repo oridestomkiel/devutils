@@ -1,9 +1,0 @@
-{
-  "title": "Code Chat with DeepSeek",
-  "description": "Chat with a local model specialized in programming. Ideal for quick questions and code generation.",
-  "tags": ["chat", "programming", "deepseek", "assistant", "code"],
-  "category": "Assistants",
-  "placeholder.input": "Type your programming question here...",
-  "send": "Send",
-  "clear": "Clear"
-}

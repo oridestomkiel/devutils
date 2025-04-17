@@ -1,0 +1,16 @@
+{
+  "title": "CURLビルダー",
+  "description": "APIをテストするためのcurlコマンドを視覚的に作成します。",
+  "tags": ["curl", "http", "api", "ビルダー"],
+  "category": "ネットワーク / HTTP",
+  "intro": "以下に必要な情報を入力して、完全なcurlコマンドを生成します。",
+  "label.method": "HTTPメソッド",
+  "label.url": "リクエストURL",
+  "label.headers": "ヘッダー",
+  "label.body": "リクエストボディ（オプション）",
+  "label.result": "生成されたcURLコマンド",
+  "label.format": "形式",
+  "generate": "cURLを生成",
+  "add": "ヘッダーを追加",
+  "download": "コマンドをダウンロード"
+}

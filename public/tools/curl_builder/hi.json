@@ -1,0 +1,16 @@
+{
+  "title": "CURL बिल्डर",
+  "description": "एपीआई परीक्षण के लिए curl कमांड को विज़ुअल रूप से बनाएं।",
+  "tags": ["curl", "http", "api", "बिल्डर"],
+  "category": "नेटवर्क / HTTP",
+  "intro": "पूर्ण curl कमांड बनाने के लिए नीचे विवरण भरें।",
+  "label.method": "HTTP विधि",
+  "label.url": "अनुरोध URL",
+  "label.headers": "हेडर",
+  "label.body": "अनुरोध बॉडी (वैकल्पिक)",
+  "label.result": "जनरेटेड cURL कमांड",
+  "label.format": "फॉर्मेट",
+  "generate": "cURL बनाएं",
+  "add": "हेडर जोड़ें",
+  "download": "कमांड डाउनलोड करें"
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Convertisseur de Taille (Octets)",
+  "description": "Convertissez des valeurs entre octets, Ko, Mo, Go, To avec une précision réglable.",
+  "tags": ["octets", "convertisseur", "taille", "ko", "mo", "go"],
+  "category": "Utilitaires",
+  "intro": "Entrez une valeur et sélectionnez l'unité pour voir les conversions dans toutes les échelles.",
+  "label.value": "Valeur",
+  "label.unit": "Unité",
+  "label.decimals": "Décimales",
+  "error.invalid": "Valeur invalide. Veuillez entrer un nombre valide."
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Analisador de Performance Web",
+  "description": "Audite uma URL para verificar aspectos de performance, acessibilidade e boas práticas.",
+  "tags": ["performance", "acessibilidade", "auditoria", "seo", "web"],
+  "category": "Rede",
+  "intro": "Digite uma URL pública e clique em analisar para ver detalhes técnicos da página.",
+  "label.url": "URL da Página",
+  "analyze": "Analisar",
+  "download": "Baixar Relatório",
+  "category.performance": "Performance",
+  "category.accessibility": "Acessibilidade",
+  "category.bestPractices": "Boas Práticas",
+  "error.fetch": "❌ Não foi possível acessar a URL. Verifique se ela está correta e acessível.",
+  "error.emptyUrl": "Por favor, informe uma URL para análise."
+}

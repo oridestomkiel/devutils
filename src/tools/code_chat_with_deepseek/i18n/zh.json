@@ -1,9 +1,0 @@
-{
-  "title": "与 DeepSeek 的代码聊天",
-  "description": "与专注于编程的本地模型对话。适用于快速提问和代码生成。",
-  "tags": ["聊天", "编程", "deepseek", "助手", "代码"],
-  "category": "助手",
-  "placeholder.input": "在此输入你的编程问题...",
-  "send": "发送",
-  "clear": "清除"
-}

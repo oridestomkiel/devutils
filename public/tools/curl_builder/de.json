@@ -1,0 +1,16 @@
+{
+  "title": "CURL-Generator",
+  "description": "Erstelle visuell curl-Befehle zum Testen von APIs.",
+  "tags": ["curl", "http", "api", "generator"],
+  "category": "Netzwerk / HTTP",
+  "intro": "Fülle die Felder unten aus, um einen vollständigen curl-Befehl zu generieren.",
+  "label.method": "HTTP-Methode",
+  "label.url": "Anfrage-URL",
+  "label.headers": "Header",
+  "label.body": "Anfrageinhalt (optional)",
+  "label.result": "Generierter cURL-Befehl",
+  "label.format": "Format",
+  "generate": "cURL generieren",
+  "add": "Header hinzufügen",
+  "download": "Befehl herunterladen"
+}

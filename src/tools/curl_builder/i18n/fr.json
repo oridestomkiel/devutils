@@ -1,0 +1,16 @@
+{
+  "title": "Générateur de CURL",
+  "description": "Créez visuellement des commandes curl pour tester des API.",
+  "tags": ["curl", "http", "api", "générateur"],
+  "category": "Réseau / HTTP",
+  "intro": "Remplissez les champs ci-dessous pour générer une commande curl complète.",
+  "label.method": "Méthode HTTP",
+  "label.url": "URL de la requête",
+  "label.headers": "En-têtes",
+  "label.body": "Corps de la requête (optionnel)",
+  "label.result": "Commande cURL générée",
+  "label.format": "Format",
+  "generate": "Générer cURL",
+  "add": "Ajouter un en-tête",
+  "download": "Télécharger la commande"
+}

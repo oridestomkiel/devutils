@@ -1,0 +1,12 @@
+{
+  "title": "JSON-Beispiele",
+  "description": "Echte JSON-Strukturen mit interaktiver Visualisierung anzeigen und erkunden.",
+  "tags": ["json", "beispiele", "anzeige", "bildung"],
+  "category": "Dienstprogramme",
+  "intro": "Wähle ein JSON-Beispiel aus und betrachte es als interaktiven Baum.",
+  "label.selectExample": "Verfügbares Beispiel",
+  "label.selectPlaceholder": "Beispiel auswählen...",
+  "label.output": "JSON-Ansicht",
+  "btn.download": "JSON herunterladen",
+  "error": "Fehler beim Laden der Beispiele"
+}

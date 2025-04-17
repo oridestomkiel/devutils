@@ -1,0 +1,22 @@
+{
+  "title": "DNS लुकअप",
+  "description": "डोमेन के लिए DNS लुकअप करें विभिन्न रिकॉर्ड प्रकारों के साथ: A, MX, TXT आदि।",
+  "tags": ["dns", "lookup", "रिकॉर्ड", "a", "mx", "txt"],
+  "category": "नेटवर्क",
+  "intro": "डोमेन दर्ज करें और उन DNS रिकॉर्ड प्रकारों का चयन करें जिन्हें आप क्वेरी करना चाहते हैं।",
+  "label.domain": "डोमेन",
+  "label.recordTypes": "DNS रिकॉर्ड प्रकार",
+  "label.format": "प्रारूप",
+  "format.json": "JSON",
+  "format.text": "सादा पाठ",
+  "format.table": "तालिका",
+  "lookup": "DNS लुकअप करें",
+  "label.result": "लुकअप परिणाम",
+  "download": "परिणाम डाउनलोड करें",
+  "table.type": "प्रकार",
+  "table.value": "मूल्य",
+  "json.loading": "⏳ DNS रिकॉर्ड क्वेरी की जा रही है...",
+  "error.fetch": "❌ DNS रिकॉर्ड लाने में विफल",
+  "error.emptyDomain": "कृपया एक डोमेन दर्ज करें।",
+  "error.noTypes": "कम से कम एक DNS रिकॉर्ड प्रकार चुनें।"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "JSON 示例",
+  "description": "使用交互式可视化查看和探索真实的 JSON 结构。",
+  "tags": ["json", "示例", "查看器", "教育"],
+  "category": "实用工具",
+  "intro": "选择一个 JSON 示例并以交互树的形式查看。",
+  "label.selectExample": "可用示例",
+  "label.selectPlaceholder": "请选择一个示例...",
+  "label.output": "JSON 视图",
+  "btn.download": "下载 JSON",
+  "error": "加载示例时出错"
+}

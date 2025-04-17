@@ -1,0 +1,22 @@
+{
+  "title": "DNS Lookup",
+  "description": "Perform DNS lookups for domains with different record types: A, MX, TXT, etc.",
+  "tags": ["dns", "lookup", "record", "a", "mx", "txt"],
+  "category": "Network / HTTP",
+  "intro": "Enter the domain and select the DNS record types you want to query.",
+  "label.domain": "Domain",
+  "label.recordTypes": "DNS Record Types",
+  "label.format": "Format",
+  "format.json": "JSON",
+  "format.text": "Plain Text",
+  "format.table": "Table",
+  "lookup": "Lookup DNS",
+  "label.result": "Lookup Result",
+  "download": "Download Result",
+  "table.type": "Type",
+  "table.value": "Value",
+  "json.loading": "⏳ Querying DNS records...",
+  "error.fetch": "❌ Failed to fetch DNS records",
+  "error.emptyDomain": "Please enter a domain.",
+  "error.noTypes": "Select at least one DNS record type."
+}

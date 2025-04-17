@@ -1,0 +1,16 @@
+{
+  "title": "CURL Builder",
+  "description": "Visually build curl commands to test APIs.",
+  "tags": ["curl", "http", "api", "builder"],
+  "category": "Network / HTTP",
+  "intro": "Fill in the details below to generate a complete curl command.",
+  "label.method": "HTTP Method",
+  "label.url": "Request URL",
+  "label.headers": "Headers",
+  "label.body": "Request Body (optional)",
+  "label.result": "Generated cURL Command",
+  "label.format": "Format",
+  "generate": "Generate cURL",
+  "add": "Add header",
+  "download": "Download command"
+}

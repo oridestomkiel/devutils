@@ -105,6 +105,27 @@
     "label.sorted": "排序后的文本：",
     "button.download": "下载 TXT"
   },
+  "ascii_art_generator": {
+    "title": "ASCII 艺术生成器",
+    "description": "使用不同的字体样式将文本转换为 ASCII 艺术。",
+    "tags": [
+      "ascii",
+      "艺术",
+      "文本",
+      "样式化",
+      "figlet"
+    ],
+    "category": "生成器",
+    "intro": "输入文本并选择字体样式以生成 ASCII 艺术。",
+    "label.text": "文本",
+    "label.font": "字体",
+    "label.output": "结果（ASCII 艺术）",
+    "generate": "生成",
+    "download": "下载为 TXT",
+    "error.empty": "请输入一些文本。",
+    "error.fontLoad": "字体加载出错。",
+    "error.generate": "生成 ASCII 艺术时出错。"
+  },
   "ascii_encoder_decoder": {
     "title": "ASCII 编码器/解码器",
     "description": "快速轻松地将文本转换为 ASCII 码，或从 ASCII 码转换回文本。非常适合分析、测试和字符串处理。",
@@ -320,6 +341,24 @@
     "copy": "复制",
     "preview": "预览"
   },
+  "byte_size_converter": {
+    "title": "字节大小转换器",
+    "description": "在字节、KB、MB、GB 和 TB 之间进行可调精度转换。",
+    "tags": [
+      "字节",
+      "转换器",
+      "大小",
+      "kb",
+      "mb",
+      "gb"
+    ],
+    "category": "实用工具",
+    "intro": "输入一个值并选择单位，即可查看所有单位的转换结果。",
+    "label.value": "值",
+    "label.unit": "单位",
+    "label.decimals": "小数位数",
+    "error.invalid": "无效的值。请输入有效的数字。"
+  },
   "camelcase_snake_case_kebab_case_converter": {
     "title": "CamelCase ↔ snake_case ↔ kebab-case 转换器",
     "description": "轻松在 CamelCase、snake_case 和 kebab-case 格式之间转换。适用于变量、文件名和 API 的标准化。",
@@ -361,21 +400,6 @@
     "error": "将代码转换为文本时出错。",
     "reference": "Unicode 参考",
     "link": "平面 (Unicode)"
-  },
-  "code_chat_with_deepseek": {
-    "title": "与 DeepSeek 的代码聊天",
-    "description": "与专注于编程的本地模型对话。适用于快速提问和代码生成。",
-    "tags": [
-      "聊天",
-      "编程",
-      "deepseek",
-      "助手",
-      "代码"
-    ],
-    "category": "助手",
-    "placeholder.input": "在此输入你的编程问题...",
-    "send": "发送",
-    "clear": "清除"
   },
   "code_diff_github_style": {
     "title": "代码差异对比（GitHub 风格）",
@@ -805,6 +829,27 @@
     "copiedMsg": "已复制！",
     "errorPrefix": "错误"
   },
+  "curl_builder": {
+    "title": "CURL 构建器",
+    "description": "可视化构建 curl 命令以测试 API。",
+    "tags": [
+      "curl",
+      "http",
+      "api",
+      "构建器"
+    ],
+    "category": "网络 / HTTP",
+    "intro": "填写以下信息以生成完整的 curl 命令。",
+    "label.method": "HTTP 方法",
+    "label.url": "请求 URL",
+    "label.headers": "请求头",
+    "label.body": "请求体（可选）",
+    "label.result": "生成的 cURL 命令",
+    "label.format": "格式",
+    "generate": "生成 cURL",
+    "add": "添加请求头",
+    "download": "下载命令"
+  },
   "curl_to_code_converter": {
     "title": "cURL 转代码",
     "description": "将 cURL 命令转换为 JavaScript、Python、PHP、Node.js、Go 等流行语言的代码片段。",
@@ -968,6 +1013,35 @@
     "textToDecimal": "文本 → 十进制",
     "decimalToText": "十进制 → 文本",
     "decodeError": "将十进制转换为文本时出错。"
+  },
+  "dns_lookup": {
+    "title": "DNS查询",
+    "description": "对域名执行DNS查询，支持多种记录类型：A、MX、TXT等。",
+    "tags": [
+      "dns",
+      "查询",
+      "记录",
+      "a",
+      "mx",
+      "txt"
+    ],
+    "category": "网络 / HTTP",
+    "intro": "请输入域名并选择要查询的DNS记录类型。",
+    "label.domain": "域名",
+    "label.recordTypes": "DNS记录类型",
+    "label.format": "格式",
+    "format.json": "JSON",
+    "format.text": "纯文本",
+    "format.table": "表格",
+    "lookup": "查询DNS",
+    "label.result": "查询结果",
+    "download": "下载结果",
+    "table.type": "类型",
+    "table.value": "值",
+    "json.loading": "⏳ 正在查询DNS记录...",
+    "error.fetch": "❌ 查询DNS记录失败",
+    "error.emptyDomain": "请输入域名。",
+    "error.noTypes": "请至少选择一个DNS记录类型。"
   },
   "escape_unescape_backslashes": {
     "title": "转义/取消转义反斜杠",
@@ -1194,6 +1268,38 @@
     "error.invalidUrl": "请输入有效的 URL。",
     "error.checkFailed": "测试时出错",
     "error.prefix": "错误"
+  },
+  "gzip_tool": {
+    "title": "JSONPath 测试器",
+    "description": "使用 JSONPath 表达式浏览和提取 JSON 数据。适用于调试 API、结构分析和复杂查询。",
+    "tags": [
+      "jsonpath",
+      "json 路径",
+      "jsonpath 测试器",
+      "json 表达式",
+      "验证 jsonpath",
+      "json 查询",
+      "json 分析"
+    ],
+    "category": "验证器",
+    "intro": "输入 JSON 和 JSONPath 表达式以实时查看提取的数据。",
+    "label.json": "JSON 输入",
+    "label.path": "JSONPath 表达式",
+    "label.output": "结果",
+    "run": "执行",
+    "error": "处理时出错",
+    "label.help": "语法帮助",
+    "help.root": "根对象或数组。",
+    "help.current": "当前节点（用于过滤）。",
+    "help.dot": "点访问法。",
+    "help.brackets": "方括号访问法。",
+    "help.deepScan": "深度查找键。",
+    "help.wildcard": "选择所有子项。",
+    "help.index": "按索引访问项。",
+    "help.multi": "选择多个索引。",
+    "help.slice": "像 Python 一样切片数组。",
+    "help.filter": "使用布尔表达式进行过滤。",
+    "help.script": "内嵌 JS 表达式。"
   },
   "hash_generator_md5_sha1_sha224_sha256_sha512": {
     "title": "哈希生成器（MD5、SHA1、SHA224、SHA256 和 SHA512）",
@@ -1737,6 +1843,38 @@
     "valid": "✅ 有效的 JSON。",
     "invalid": "❌ 无效"
   },
+  "jsonpath_tester": {
+    "title": "JSONPath 测试器",
+    "description": "使用 JSONPath 表达式浏览和提取 JSON 数据。适用于调试 API、结构分析和复杂查询。",
+    "tags": [
+      "jsonpath",
+      "json 路径",
+      "jsonpath 测试器",
+      "json 表达式",
+      "验证 jsonpath",
+      "json 查询",
+      "json 分析"
+    ],
+    "category": "验证器",
+    "intro": "输入 JSON 和 JSONPath 表达式以实时查看提取的数据。",
+    "label.json": "JSON 输入",
+    "label.path": "JSONPath 表达式",
+    "label.output": "结果",
+    "run": "执行",
+    "error": "处理时出错",
+    "label.help": "语法帮助",
+    "help.root": "根对象或数组。",
+    "help.current": "当前节点（用于过滤）。",
+    "help.dot": "点访问法。",
+    "help.brackets": "方括号访问法。",
+    "help.deepScan": "深度查找键。",
+    "help.wildcard": "选择所有子项。",
+    "help.index": "按索引访问项。",
+    "help.multi": "选择多个索引。",
+    "help.slice": "像 Python 一样切片数组。",
+    "help.filter": "使用布尔表达式进行过滤。",
+    "help.script": "内嵌 JS 表达式。"
+  },
   "jwt_generator": {
     "title": "JWT 生成器",
     "description": "使用标头、有效负载和密钥创建自定义 JWT 令牌。非常适合使用 HS256 进行测试。",
@@ -1828,19 +1966,28 @@
     "xorJson": "与密钥进行异或 → 有效的 JSON"
   },
   "markdown_to_html_preview": {
-    "title": "Markdown → HTML 预览",
-    "description": "实时预览 Markdown 文本转换为 HTML 后的渲染效果。非常适合作家、开发人员和内容创建者。",
+    "title": "带实时预览的 Markdown",
+    "description": "用 Markdown 编写内容，并实时预览其 HTML 渲染效果。非常适合内容创作者、开发者和编辑者使用。",
     "tags": [
       "markdown 转 html",
       "markdown 预览",
       "渲染 markdown",
-      "Markdown 查看器",
+      "markdown 查看器",
       "markdown 实时预览",
       "转换 markdown",
-      "来自 markdown 的 html"
+      "通过 markdown 生成 html",
+      "markdown",
+      "预览",
+      "html",
+      "渲染",
+      "实时",
+      "编辑器"
     ],
     "category": "转换器",
-    "placeholder": "# 标题\\n\\n一些 *markdown* 文本。"
+    "intro": "在左侧编辑 Markdown，右侧即可实时看到 HTML 渲染效果。",
+    "label.markdown": "Markdown 编辑器",
+    "label.preview": "实时预览",
+    "label.scrollSync": "同步滚动"
   },
   "markdown_to_html_tags": {
     "title": "Markdown → HTML (标签)",

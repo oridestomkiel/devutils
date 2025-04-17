@@ -1,0 +1,32 @@
+{
+  "title": "Probador de JSONPath",
+  "description": "Explora y extrae datos de JSON utilizando expresiones JSONPath. Ideal para depuración de APIs, análisis de estructura y consultas complejas en objetos.",
+  "tags": [
+    "jsonpath",
+    "ruta json",
+    "probador jsonpath",
+    "expresión json",
+    "validar jsonpath",
+    "consulta json",
+    "búsqueda json"
+  ],
+  "category": "Validadores",
+  "intro": "Ingresa un JSON y una expresión JSONPath para ver los datos extraídos en tiempo real.",
+  "label.json": "Entrada JSON",
+  "label.path": "Expresión JSONPath",
+  "label.output": "Resultado",
+  "run": "Ejecutar",
+  "error": "Error al procesar",
+  "label.help": "Guía de sintaxis",
+  "help.root": "Objeto o arreglo raíz.",
+  "help.current": "Nodo actual (para filtros).",
+  "help.dot": "Acceso con punto.",
+  "help.brackets": "Acceso con corchetes.",
+  "help.deepScan": "Búsqueda profunda por clave.",
+  "help.wildcard": "Selecciona todos los hijos.",
+  "help.index": "Accede al ítem por índice.",
+  "help.multi": "Selecciona múltiples índices.",
+  "help.slice": "Divide arrays como en Python.",
+  "help.filter": "Filtra con expresión booleana.",
+  "help.script": "Expresión JS embebida."
+}

@@ -1,0 +1,22 @@
+{
+  "title": "DNS查询",
+  "description": "对域名执行DNS查询，支持多种记录类型：A、MX、TXT等。",
+  "tags": ["dns", "查询", "记录", "a", "mx", "txt"],
+  "category": "网络 / HTTP",
+  "intro": "请输入域名并选择要查询的DNS记录类型。",
+  "label.domain": "域名",
+  "label.recordTypes": "DNS记录类型",
+  "label.format": "格式",
+  "format.json": "JSON",
+  "format.text": "纯文本",
+  "format.table": "表格",
+  "lookup": "查询DNS",
+  "label.result": "查询结果",
+  "download": "下载结果",
+  "table.type": "类型",
+  "table.value": "值",
+  "json.loading": "⏳ 正在查询DNS记录...",
+  "error.fetch": "❌ 查询DNS记录失败",
+  "error.emptyDomain": "请输入域名。",
+  "error.noTypes": "请至少选择一个DNS记录类型。"
+}

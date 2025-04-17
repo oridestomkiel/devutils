@@ -105,6 +105,27 @@
     "label.sorted": "並べ替え後のテキスト：",
     "button.download": "TXTをダウンロード"
   },
+  "ascii_art_generator": {
+    "title": "ASCIIアートジェネレーター",
+    "description": "テキストをさまざまなフォントスタイルのASCIIアートに変換します。",
+    "tags": [
+      "ascii",
+      "アート",
+      "テキスト",
+      "スタイル",
+      "figlet"
+    ],
+    "category": "ジェネレーター",
+    "intro": "テキストを入力し、フォントスタイルを選択してASCIIアートを生成します。",
+    "label.text": "テキスト",
+    "label.font": "フォント",
+    "label.output": "結果（ASCIIアート）",
+    "generate": "生成する",
+    "download": "TXTとしてダウンロード",
+    "error.empty": "テキストを入力してください。",
+    "error.fontLoad": "フォントの読み込みエラー。",
+    "error.generate": "ASCIIアートの生成中にエラーが発生しました。"
+  },
   "ascii_encoder_decoder": {
     "title": "ASCIIエンコーダー / デコーダー",
     "description": "テキストをASCIIコードに、またはその逆に素早く簡単に変換できます。分析、テスト、文字列操作に最適です。",
@@ -320,6 +341,24 @@
     "copy": "コピー",
     "preview": "プレビュー"
   },
+  "byte_size_converter": {
+    "title": "バイトサイズ変換ツール",
+    "description": "バイト、KB、MB、GB、TB 間で調整可能な精度で値を変換します。",
+    "tags": [
+      "バイト",
+      "変換",
+      "サイズ",
+      "kb",
+      "mb",
+      "gb"
+    ],
+    "category": "ユーティリティ",
+    "intro": "値を入力して単位を選択すると、すべての単位への変換が表示されます。",
+    "label.value": "値",
+    "label.unit": "単位",
+    "label.decimals": "小数点以下の桁数",
+    "error.invalid": "無効な値です。正しい数値を入力してください。"
+  },
   "camelcase_snake_case_kebab_case_converter": {
     "title": "CamelCase ↔ snake_case ↔ kebab-case コンバーター",
     "description": "CamelCase、snake_case、kebab-case 間の変換を簡単に行えます。変数、ファイル名、APIの標準化に最適です。",
@@ -361,21 +400,6 @@
     "error": "コードをテキストに変換中にエラーが発生しました。",
     "reference": "Unicodeリファレンス",
     "link": "プレーン (Unicode)"
-  },
-  "code_chat_with_deepseek": {
-    "title": "DeepSeek とのコードチャット",
-    "description": "プログラミングに特化したローカルモデルとチャットできます。簡単な質問やコード生成に最適です。",
-    "tags": [
-      "チャット",
-      "プログラミング",
-      "deepseek",
-      "アシスタント",
-      "コード"
-    ],
-    "category": "アシスタント",
-    "placeholder.input": "ここにプログラミングの質問を入力してください...",
-    "send": "送信",
-    "clear": "クリア"
   },
   "code_diff_github_style": {
     "title": "コード差分（GitHubスタイル）",
@@ -805,6 +829,27 @@
     "copiedMsg": "コピーされました！",
     "errorPrefix": "エラー"
   },
+  "curl_builder": {
+    "title": "CURLビルダー",
+    "description": "APIをテストするためのcurlコマンドを視覚的に作成します。",
+    "tags": [
+      "curl",
+      "http",
+      "api",
+      "ビルダー"
+    ],
+    "category": "ネットワーク / HTTP",
+    "intro": "以下に必要な情報を入力して、完全なcurlコマンドを生成します。",
+    "label.method": "HTTPメソッド",
+    "label.url": "リクエストURL",
+    "label.headers": "ヘッダー",
+    "label.body": "リクエストボディ（オプション）",
+    "label.result": "生成されたcURLコマンド",
+    "label.format": "形式",
+    "generate": "cURLを生成",
+    "add": "ヘッダーを追加",
+    "download": "コマンドをダウンロード"
+  },
   "curl_to_code_converter": {
     "title": "cURL からコードへ",
     "description": "cURLコマンドをJavaScript、Python、PHP、Node.js、Goなどの一般的な言語のコードスニペットに変換します。",
@@ -968,6 +1013,35 @@
     "textToDecimal": "テキスト → 10進数",
     "decimalToText": "10進数 → テキスト",
     "decodeError": "10進数をテキストに変換する際にエラーが発生しました。"
+  },
+  "dns_lookup": {
+    "title": "DNSルックアップ",
+    "description": "ドメインに対して、A、MX、TXTなどのさまざまなレコードタイプのDNSルックアップを実行します。",
+    "tags": [
+      "dns",
+      "ルックアップ",
+      "レコード",
+      "a",
+      "mx",
+      "txt"
+    ],
+    "category": "ネットワーク / HTTP",
+    "intro": "ドメインを入力し、クエリしたいDNSレコードタイプを選択してください。",
+    "label.domain": "ドメイン",
+    "label.recordTypes": "DNSレコードタイプ",
+    "label.format": "形式",
+    "format.json": "JSON",
+    "format.text": "プレーンテキスト",
+    "format.table": "テーブル",
+    "lookup": "DNSを検索",
+    "label.result": "検索結果",
+    "download": "結果をダウンロード",
+    "table.type": "タイプ",
+    "table.value": "値",
+    "json.loading": "⏳ DNSレコードを照会中...",
+    "error.fetch": "❌ DNSレコードの取得に失敗しました",
+    "error.emptyDomain": "ドメインを入力してください。",
+    "error.noTypes": "少なくとも1つのDNSレコードタイプを選択してください。"
   },
   "escape_unescape_backslashes": {
     "title": "バックスラッシュのエスケープ/アンエスケープ",
@@ -1194,6 +1268,38 @@
     "error.invalidUrl": "有効な URL を入力してください。",
     "error.checkFailed": "テスト中にエラーが発生しました",
     "error.prefix": "エラー"
+  },
+  "gzip_tool": {
+    "title": "JSONPathテスター",
+    "description": "JSONPath式を使ってJSONデータを探索・抽出します。APIのデバッグ、構造解析、複雑なクエリに最適です。",
+    "tags": [
+      "jsonpath",
+      "json パス",
+      "jsonpath テスター",
+      "json 式",
+      "jsonpath 検証",
+      "json クエリ",
+      "json チェッカー"
+    ],
+    "category": "バリデーター",
+    "intro": "JSONとJSONPath式を入力して、リアルタイムで抽出されたデータを表示します。",
+    "label.json": "JSON入力",
+    "label.path": "JSONPath式",
+    "label.output": "結果",
+    "run": "実行",
+    "error": "処理中のエラー",
+    "label.help": "構文ヘルプ",
+    "help.root": "ルートのオブジェクトまたは配列。",
+    "help.current": "現在のノード（フィルター用）。",
+    "help.dot": "ドット記法でアクセス。",
+    "help.brackets": "ブラケット記法でアクセス。",
+    "help.deepScan": "キーを深く検索。",
+    "help.wildcard": "すべての子要素を選択。",
+    "help.index": "インデックスで要素を取得。",
+    "help.multi": "複数のインデックスを選択。",
+    "help.slice": "Pythonのように配列をスライス。",
+    "help.filter": "ブール式でフィルター。",
+    "help.script": "埋め込みJS式。"
   },
   "hash_generator_md5_sha1_sha224_sha256_sha512": {
     "title": "ハッシュジェネレーター (MD5、SHA1、SHA224、SHA256、SHA512)",
@@ -1737,6 +1843,38 @@
     "valid": "✅ 有効な JSON。",
     "invalid": "❌ 無効"
   },
+  "jsonpath_tester": {
+    "title": "JSONPathテスター",
+    "description": "JSONPath式を使ってJSONデータを探索・抽出します。APIのデバッグ、構造解析、複雑なクエリに最適です。",
+    "tags": [
+      "jsonpath",
+      "json パス",
+      "jsonpath テスター",
+      "json 式",
+      "jsonpath 検証",
+      "json クエリ",
+      "json チェッカー"
+    ],
+    "category": "バリデーター",
+    "intro": "JSONとJSONPath式を入力して、リアルタイムで抽出されたデータを表示します。",
+    "label.json": "JSON入力",
+    "label.path": "JSONPath式",
+    "label.output": "結果",
+    "run": "実行",
+    "error": "処理中のエラー",
+    "label.help": "構文ヘルプ",
+    "help.root": "ルートのオブジェクトまたは配列。",
+    "help.current": "現在のノード（フィルター用）。",
+    "help.dot": "ドット記法でアクセス。",
+    "help.brackets": "ブラケット記法でアクセス。",
+    "help.deepScan": "キーを深く検索。",
+    "help.wildcard": "すべての子要素を選択。",
+    "help.index": "インデックスで要素を取得。",
+    "help.multi": "複数のインデックスを選択。",
+    "help.slice": "Pythonのように配列をスライス。",
+    "help.filter": "ブール式でフィルター。",
+    "help.script": "埋め込みJS式。"
+  },
   "jwt_generator": {
     "title": "JWT ジェネレーター",
     "description": "ヘッダー、ペイロード、シークレットを使用してカスタム JWT トークンを作成します。HS256 でのテストに最適です。",
@@ -1828,19 +1966,28 @@
     "xorJson": "キーとのXOR → 有効なJSON"
   },
   "markdown_to_html_preview": {
-    "title": "マークダウン → HTML プレビュー",
-    "description": "HTML に変換された Markdown テキストのレンダリングをリアルタイムでプレビューします。ライター、開発者、コンテンツ作成者に最適です。",
+    "title": "ライブプレビュー付きMarkdown",
+    "description": "Markdownを記述し、HTMLへの変換をリアルタイムでプレビュー。ライター、開発者、コンテンツ制作者に最適です。",
     "tags": [
-      "マークダウンからHTMLへ",
-      "マークダウンプレビュー",
-      "マークダウンをレンダリングする",
-      "マークダウンビューア",
-      "マークダウンライブプレビュー",
-      "マークダウンを変換",
-      "マークダウンからのHTML"
+      "markdownからhtmlへ",
+      "markdownプレビュー",
+      "markdownレンダリング",
+      "markdownビューア",
+      "markdownライブプレビュー",
+      "markdown変換",
+      "markdownからhtml作成",
+      "markdown",
+      "プレビュー",
+      "html",
+      "レンダー",
+      "ライブ",
+      "エディター"
     ],
     "category": "コンバーター",
-    "placeholder": "# タイトル\\n\\n*markdown*テキスト。"
+    "intro": "Markdownを左側に入力すると、右側にHTMLとしてライブ表示されます。",
+    "label.markdown": "Markdownエディター",
+    "label.preview": "ライブプレビュー",
+    "label.scrollSync": "スクロール同期"
   },
   "markdown_to_html_tags": {
     "title": "Markdown → HTML (タグ)",

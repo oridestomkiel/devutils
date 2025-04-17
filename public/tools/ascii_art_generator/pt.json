@@ -1,0 +1,15 @@
+{
+  "title": "Gerador de ASCII Art",
+  "description": "Transforme qualquer texto em arte ASCII com diferentes estilos de fonte.",
+  "tags": ["ascii", "arte", "texto", "estilizado", "figlet"],
+  "category": "Geradores",
+  "intro": "Digite um texto e selecione um estilo de fonte para gerar arte em ASCII.",
+  "label.text": "Texto",
+  "label.font": "Fonte",
+  "label.output": "Resultado (ASCII Art)",
+  "generate": "Gerar",
+  "download": "Baixar como TXT",
+  "error.empty": "Por favor, digite algum texto.",
+  "error.fontLoad": "Erro ao carregar a fonte.",
+  "error.generate": "Erro ao gerar a arte ASCII."
+}

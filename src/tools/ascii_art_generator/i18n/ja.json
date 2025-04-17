@@ -1,0 +1,15 @@
+{
+  "title": "ASCIIアートジェネレーター",
+  "description": "テキストをさまざまなフォントスタイルのASCIIアートに変換します。",
+  "tags": ["ascii", "アート", "テキスト", "スタイル", "figlet"],
+  "category": "ジェネレーター",
+  "intro": "テキストを入力し、フォントスタイルを選択してASCIIアートを生成します。",
+  "label.text": "テキスト",
+  "label.font": "フォント",
+  "label.output": "結果（ASCIIアート）",
+  "generate": "生成する",
+  "download": "TXTとしてダウンロード",
+  "error.empty": "テキストを入力してください。",
+  "error.fontLoad": "フォントの読み込みエラー。",
+  "error.generate": "ASCIIアートの生成中にエラーが発生しました。"
+}

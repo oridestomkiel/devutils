@@ -1,0 +1,15 @@
+{
+  "title": "ASCII Art Generator",
+  "description": "Transform any text into ASCII art with different font styles.",
+  "tags": ["ascii", "art", "text", "styled", "figlet"],
+  "category": "Generators",
+  "intro": "Enter some text and select a font style to generate ASCII art.",
+  "label.text": "Text",
+  "label.font": "Font",
+  "label.output": "Result (ASCII Art)",
+  "generate": "Generate",
+  "download": "Download as TXT",
+  "error.empty": "Please enter some text.",
+  "error.fontLoad": "Error loading the font.",
+  "error.generate": "Error generating ASCII art."
+}

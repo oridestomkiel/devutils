@@ -1,0 +1,15 @@
+{
+  "title": "Générateur d'Art ASCII",
+  "description": "Transformez n'importe quel texte en art ASCII avec différents styles de police.",
+  "tags": ["ascii", "art", "texte", "stylisé", "figlet"],
+  "category": "Générateurs",
+  "intro": "Entrez un texte et sélectionnez un style de police pour générer une œuvre ASCII.",
+  "label.text": "Texte",
+  "label.font": "Police",
+  "label.output": "Résultat (Art ASCII)",
+  "generate": "Générer",
+  "download": "Télécharger en TXT",
+  "error.empty": "Veuillez saisir un texte.",
+  "error.fontLoad": "Erreur lors du chargement de la police.",
+  "error.generate": "Erreur lors de la génération de l'art ASCII."
+}

@@ -3,15 +3,21 @@ import { tGlobal } from "../../utils/i18n-global.js";
 
 const http_error_simulator = {
   i18n: {},
+  descriptions: {},
 
   async loadI18n() {
     await loadToolI18n(this, window.getDevutilsLang?.() || "pt");
   },
 
+  async loadDescriptions() {
+    const res = await fetch("./data/http-codes.json");
+    this.descriptions = await res.json();
+  },
+
   author: "DevUtils",
   hasApi: false,
   license: "MIT",
-  version: "1.0.0",
+  version: "1.1.0",
 
   render() {
     const t = (key) => this.i18n?.[key] ?? key;
@@ -36,39 +42,39 @@ const http_error_simulator = {
       
       <div 
         id="httpSimOutput"
-        class="mt-4 text-sm text-center break-words text-gray-800 dark:text-gray-200 bg-white border border-gray-300 dark:border-gray-700 dark:bg-gray-900 p-6"
+        class="mt-4 text-sm text-left text-gray-800 dark:text-gray-200 bg-white border border-gray-300 dark:border-gray-700 dark:bg-gray-900 p-6 space-y-4"
       ></div>
     `;
   },
 
-  init() {
+  async init() {
     const t = (key) => this.i18n?.[key] ?? key;
+    this.loadDescriptions().then(() => {
+      document.getElementById("httpSimBtn").addEventListener("click", () => {
+        const code = document.getElementById("httpCode").value.trim();
+        const output = document.getElementById("httpSimOutput");
 
-    document.getElementById("httpSimBtn").addEventListener("click", () => {
-      const code = document.getElementById("httpCode").value.trim();
-      const output = document.getElementById("httpSimOutput");
+        if (!code || isNaN(code)) {
+          output.innerHTML = `❌ ${t("invalidCode")}`;
+          return;
+        }
 
-      if (!code || isNaN(code)) {
-        output.innerHTML = `❌ ${t("invalidCode")}`;
-        return;
-      }
+        const desc =
+          this.descriptions[code] || this.descriptions[code[0] + "xx"];
+        const short = desc?.short ?? t("unknownStatus");
+        const large = desc?.large ?? t("noDescription");
 
-      output.innerHTML = `${tGlobal("loading")}...`;
-
-      fetch(`https://httpstat.us/${code}`)
-        .then((res) => {
-          output.innerHTML = `
-            🧾 <strong>${t("status")}:</strong> ${res.status} ${
-            res.statusText
-          }<br/>
-            🔗 <a href="https://httpstat.us/${code}" target="_blank" class="underline text-blue-400">${t(
-            "viewFull"
-          )}</a>
-          `;
-        })
-        .catch((err) => {
-          output.innerHTML = `❌ ${t("error")} ${err.message}`;
-        });
+        output.innerHTML = `
+        <p><strong>🔢 ${t("status")}:</strong> ${code} - ${short}</p>
+        <p class="text-sm text-gray-700 dark:text-gray-300">${large}</p>
+        <img src="https://http.cat/${code}" alt="HTTP cat for ${code}" class="mx-auto rounded max-w-xs mt-4 border dark:border-gray-700" />
+        <p class="mt-4 text-center">
+          🔗 <a href="https://httpstat.us/${code}" target="_blank" class="underline text-blue-400">${t(
+          "viewFull"
+        )}</a>
+        </p>
+      `;
+      });
     });
   },
 };

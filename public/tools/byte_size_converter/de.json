@@ -1,0 +1,11 @@
+{
+  "title": "Byte-Größenrechner",
+  "description": "Konvertiere Werte zwischen Bytes, KB, MB, GB und TB mit einstellbarer Genauigkeit.",
+  "tags": ["bytes", "konverter", "größe", "kb", "mb", "gb"],
+  "category": "Dienstprogramme",
+  "intro": "Gib einen Wert ein und wähle die Einheit, um Umrechnungen in allen Größenordnungen zu sehen.",
+  "label.value": "Wert",
+  "label.unit": "Einheit",
+  "label.decimals": "Dezimalstellen",
+  "error.invalid": "Ungültiger Wert. Bitte gib eine gültige Zahl ein."
+}
