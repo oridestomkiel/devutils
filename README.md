@@ -175,12 +175,3 @@ Source code is also available as [ZIP](https://github.com/oridestomkiel/devutils
 
 Have questions or suggestions?  
 Feel free to open an issue: https://github.com/oridestomkiel/devutils/issues
-
----
-
-## 💜 Support the project
-
-This is an independent project, maintained by a single person.  
-Your support helps keep DevUtils free, accessible, and growing with new tools.
-
-**PIX (Brazil):** 20b16bb2-d827-48a6-9e2c-924cd11a1a79
