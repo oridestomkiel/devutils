@@ -1,0 +1,12 @@
+{
+  "title": "Exemplos de JSON",
+  "description": "Visualize e explore estruturas JSON reais com visualização interativa.",
+  "tags": ["json", "exemplos", "visualizador", "educativo"],
+  "category": "Utilitários",
+  "intro": "Escolha um exemplo de JSON e visualize como árvore interativa.",
+  "label.selectExample": "Exemplo disponível",
+  "label.selectPlaceholder": "Selecione um exemplo...",
+  "label.output": "Visualização do JSON",
+  "btn.download": "Baixar JSON",
+  "error": "Erro ao carregar os exemplos"
+}

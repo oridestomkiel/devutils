@@ -1,0 +1,22 @@
+{
+  "title": "Multi-Line Editor",
+  "description": "Generate multiple lines based on templates with dynamic placeholders.",
+  "tags": ["editor", "generator", "template", "text"],
+  "category": "Utilities",
+  "intro": "Fill in the fields and watch the output being generated automatically.",
+  "label.lines": "Number of lines",
+  "label.input": "Base text",
+  "label.template": "Template (with placeholders)",
+  "label.output": "Generated result",
+  "label.help": "How does it work?",
+  "btn.export": "Export .txt",
+  "placeholder.input": "e.g. admin",
+  "placeholder.template": "{{i:3}} - {{input}}",
+  "hint.separator": "Separate multiple blocks with '---' (one per line group).",
+  "help.intro": "You can use the following placeholders in your template:",
+  "help.input": "Text entered in the base text field",
+  "help.n": "Current line number (starting from 1)",
+  "help.i": "Incremental number with optional zero padding",
+  "help.separator": "Use three hyphens (---) to split multiple template blocks.",
+  "error": "Error generating content"
+}

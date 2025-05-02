@@ -1569,6 +1569,50 @@
     "download": "Descargar imagen",
     "clear": "Para limpiar"
   },
+  "json_compare": {
+    "title": "Editor Multilínea",
+    "description": "Genera múltiples líneas usando plantillas con marcadores dinámicos.",
+    "tags": [
+      "editor",
+      "generador",
+      "plantilla",
+      "texto"
+    ],
+    "category": "Utilidades",
+    "intro": "Completa los campos y observa el resultado generarse automáticamente.",
+    "label.lines": "Número de líneas",
+    "label.input": "Texto base",
+    "label.template": "Plantilla (con marcadores)",
+    "label.output": "Resultado generado",
+    "label.help": "¿Cómo funciona?",
+    "btn.export": "Exportar .txt",
+    "placeholder.input": "ej: admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Separa múltiples bloques con '---' (uno por grupo de líneas).",
+    "help.intro": "Puedes usar los siguientes marcadores en tu plantilla:",
+    "help.input": "Texto ingresado en el campo base",
+    "help.n": "Número de línea actual (comenzando desde 1)",
+    "help.i": "Número incremental con ceros opcionales",
+    "help.separator": "Usa tres guiones (---) para dividir múltiples bloques de plantilla.",
+    "error": "Error al generar contenido"
+  },
+  "json_examples": {
+    "title": "Ejemplos de JSON",
+    "description": "Visualiza y explora estructuras JSON reales con visualización interactiva.",
+    "tags": [
+      "json",
+      "ejemplos",
+      "visor",
+      "educativo"
+    ],
+    "category": "Utilidades",
+    "intro": "Selecciona un ejemplo de JSON y visualízalo como un árbol interactivo.",
+    "label.selectExample": "Ejemplo disponible",
+    "label.selectPlaceholder": "Selecciona un ejemplo...",
+    "label.output": "Vista del JSON",
+    "btn.download": "Descargar JSON",
+    "error": "Error al cargar los ejemplos"
+  },
   "json_formatter": {
     "title": "Formateador JSON",
     "description": "Formatee sus datos JSON para que sean más legibles y organizados. Ideal para desarrolladores que trabajan con API y frameworks complejos.",
@@ -1654,6 +1698,33 @@
     "convert": "Convertir",
     "invalid": "Esquema inválido.",
     "invalidJson": "¡Esquema JSON no válido!"
+  },
+  "json_structure_comparator": {
+    "title": "Editor Multilínea",
+    "description": "Genera múltiples líneas usando plantillas con marcadores dinámicos.",
+    "tags": [
+      "editor",
+      "generador",
+      "plantilla",
+      "texto"
+    ],
+    "category": "Utilidades",
+    "intro": "Completa los campos y observa el resultado generarse automáticamente.",
+    "label.lines": "Número de líneas",
+    "label.input": "Texto base",
+    "label.template": "Plantilla (con marcadores)",
+    "label.output": "Resultado generado",
+    "label.help": "¿Cómo funciona?",
+    "btn.export": "Exportar .txt",
+    "placeholder.input": "ej: admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Separa múltiples bloques con '---' (uno por grupo de líneas).",
+    "help.intro": "Puedes usar los siguientes marcadores en tu plantilla:",
+    "help.input": "Texto ingresado en el campo base",
+    "help.n": "Número de línea actual (comenzando desde 1)",
+    "help.i": "Número incremental con ceros opcionales",
+    "help.separator": "Usa tres guiones (---) para dividir múltiples bloques de plantilla.",
+    "error": "Error al generar contenido"
   },
   "json_to_bigquery_schema": {
     "title": "JSON → Esquema de BigQuery",
@@ -2016,6 +2087,33 @@
     "convert_button": "Convertir",
     "export_csv": "Exportar CSV"
   },
+  "multi_line_editor": {
+    "title": "Editor Multilínea",
+    "description": "Genera múltiples líneas usando plantillas con marcadores dinámicos.",
+    "tags": [
+      "editor",
+      "generador",
+      "plantilla",
+      "texto"
+    ],
+    "category": "Utilidades",
+    "intro": "Completa los campos y observa el resultado generarse automáticamente.",
+    "label.lines": "Número de líneas",
+    "label.input": "Texto base",
+    "label.template": "Plantilla (con marcadores)",
+    "label.output": "Resultado generado",
+    "label.help": "¿Cómo funciona?",
+    "btn.export": "Exportar .txt",
+    "placeholder.input": "ej: admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Separa múltiples bloques con '---' (uno por grupo de líneas).",
+    "help.intro": "Puedes usar los siguientes marcadores en tu plantilla:",
+    "help.input": "Texto ingresado en el campo base",
+    "help.n": "Número de línea actual (comenzando desde 1)",
+    "help.i": "Número incremental con ceros opcionales",
+    "help.separator": "Usa tres guiones (---) para dividir múltiples bloques de plantilla.",
+    "error": "Error al generar contenido"
+  },
   "multiple_property_transitions": {
     "title": "Transiciones con múltiples propiedades",
     "description": "Cree transiciones CSS personalizadas con múltiples propiedades, cada una con su propia duración, retraso y suavizado.",
@@ -2274,6 +2372,38 @@
     "generate": "Para generar",
     "placeholder": "El resultado aparecerá aquí"
   },
+  "regex_natural": {
+    "title": "Probador de JSONPath",
+    "description": "Explora y extrae datos de JSON utilizando expresiones JSONPath. Ideal para depuración de APIs, análisis de estructura y consultas complejas en objetos.",
+    "tags": [
+      "jsonpath",
+      "ruta json",
+      "probador jsonpath",
+      "expresión json",
+      "validar jsonpath",
+      "consulta json",
+      "búsqueda json"
+    ],
+    "category": "Validadores",
+    "intro": "Ingresa un JSON y una expresión JSONPath para ver los datos extraídos en tiempo real.",
+    "label.json": "Entrada JSON",
+    "label.path": "Expresión JSONPath",
+    "label.output": "Resultado",
+    "run": "Ejecutar",
+    "error": "Error al procesar",
+    "label.help": "Guía de sintaxis",
+    "help.root": "Objeto o arreglo raíz.",
+    "help.current": "Nodo actual (para filtros).",
+    "help.dot": "Acceso con punto.",
+    "help.brackets": "Acceso con corchetes.",
+    "help.deepScan": "Búsqueda profunda por clave.",
+    "help.wildcard": "Selecciona todos los hijos.",
+    "help.index": "Accede al ítem por índice.",
+    "help.multi": "Selecciona múltiples índices.",
+    "help.slice": "Divide arrays como en Python.",
+    "help.filter": "Filtra con expresión booleana.",
+    "help.script": "Expresión JS embebida."
+  },
   "regex_tester": {
     "title": "Comprobador de expresiones regulares",
     "description": "Pruebe sus expresiones regulares en tiempo real. Ideal para analizar patrones, validar cadenas y corregir rápidamente errores de sintaxis.",
@@ -2385,6 +2515,54 @@
     "english": "Texto en inglés en general",
     "compressed": "Datos comprimidos/encriptados",
     "source": "Fuente"
+  },
+  "sql_generator": {
+    "title": "Generador de SQL",
+    "description": "Crea fácilmente consultas SQL basadas en la estructura de tablas.",
+    "tags": [
+      "sql",
+      "generador",
+      "tabla",
+      "consulta"
+    ],
+    "category": "Utilidades",
+    "intro": "Completa los campos para generar automáticamente instrucciones SQL.",
+    "label.tableName": "Nombre de la tabla",
+    "label.queryType": "Tipo de consulta",
+    "label.output": "Resultado SQL",
+    "label.selectExample": "Ejemplo de estructura",
+    "label.selectPlaceholder": "Elige un ejemplo...",
+    "label.field": "Campo",
+    "label.type": "Tipo",
+    "label.size": "Tamaño",
+    "label.null": "NULL",
+    "label.pk": "PK",
+    "label.ai": "AI",
+    "label.default": "Por defecto",
+    "label.engine": "Motor",
+    "label.charset": "Conjunto de caracteres",
+    "label.export": "Exportar .sql",
+    "btn.addField": "Agregar campo",
+    "btn.removeField": "Eliminar",
+    "btn.generate": "Generar SQL",
+    "option.placeholder": "nombre",
+    "option.types": [
+      "INT",
+      "VARCHAR",
+      "TEXT",
+      "DATE",
+      "DATETIME",
+      "BOOLEAN"
+    ],
+    "option.engines": [
+      "InnoDB",
+      "MyISAM"
+    ],
+    "option.charsets": [
+      "utf8mb4",
+      "utf8"
+    ],
+    "error": "Error al generar SQL"
   },
   "system_information": {
     "title": "Información del sistema",

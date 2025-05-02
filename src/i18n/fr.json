@@ -1575,6 +1575,50 @@
     "download": "Télécharger l'image",
     "clear": "Pour nettoyer"
   },
+  "json_compare": {
+    "title": "Éditeur Multi-Lignes",
+    "description": "Générez plusieurs lignes à partir de modèles avec des variables dynamiques.",
+    "tags": [
+      "éditeur",
+      "générateur",
+      "modèle",
+      "texte"
+    ],
+    "category": "Utilitaires",
+    "intro": "Remplissez les champs et voyez le résultat se générer automatiquement.",
+    "label.lines": "Nombre de lignes",
+    "label.input": "Texte de base",
+    "label.template": "Modèle (avec des variables)",
+    "label.output": "Résultat généré",
+    "label.help": "Comment ça marche ?",
+    "btn.export": "Exporter .txt",
+    "placeholder.input": "ex : admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Séparez plusieurs blocs avec '---' (un par groupe de lignes).",
+    "help.intro": "Vous pouvez utiliser les variables suivantes dans votre modèle :",
+    "help.input": "Texte saisi dans le champ de base",
+    "help.n": "Numéro de la ligne actuelle (commence à 1)",
+    "help.i": "Nombre incrémental avec remplissage optionnel de zéros",
+    "help.separator": "Utilisez trois tirets (---) pour séparer plusieurs blocs de modèle.",
+    "error": "Erreur lors de la génération du contenu"
+  },
+  "json_examples": {
+    "title": "Exemples de JSON",
+    "description": "Visualisez et explorez des structures JSON réelles avec une visualisation interactive.",
+    "tags": [
+      "json",
+      "exemples",
+      "visualiseur",
+      "éducatif"
+    ],
+    "category": "Utilitaires",
+    "intro": "Choisissez un exemple JSON et visualisez-le sous forme d’arborescence interactive.",
+    "label.selectExample": "Exemple disponible",
+    "label.selectPlaceholder": "Sélectionnez un exemple...",
+    "label.output": "Affichage JSON",
+    "btn.download": "Télécharger le JSON",
+    "error": "Erreur lors du chargement des exemples"
+  },
   "json_formatter": {
     "title": "Formateur JSON",
     "description": "Formatez vos données JSON pour les rendre plus lisibles et organisées. Idéal pour les développeurs travaillant avec des API et des frameworks complexes.",
@@ -1660,6 +1704,33 @@
     "convert": "Convertir",
     "invalid": "Schéma non valide.",
     "invalidJson": "Schéma JSON non valide !"
+  },
+  "json_structure_comparator": {
+    "title": "Éditeur Multi-Lignes",
+    "description": "Générez plusieurs lignes à partir de modèles avec des variables dynamiques.",
+    "tags": [
+      "éditeur",
+      "générateur",
+      "modèle",
+      "texte"
+    ],
+    "category": "Utilitaires",
+    "intro": "Remplissez les champs et voyez le résultat se générer automatiquement.",
+    "label.lines": "Nombre de lignes",
+    "label.input": "Texte de base",
+    "label.template": "Modèle (avec des variables)",
+    "label.output": "Résultat généré",
+    "label.help": "Comment ça marche ?",
+    "btn.export": "Exporter .txt",
+    "placeholder.input": "ex : admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Séparez plusieurs blocs avec '---' (un par groupe de lignes).",
+    "help.intro": "Vous pouvez utiliser les variables suivantes dans votre modèle :",
+    "help.input": "Texte saisi dans le champ de base",
+    "help.n": "Numéro de la ligne actuelle (commence à 1)",
+    "help.i": "Nombre incrémental avec remplissage optionnel de zéros",
+    "help.separator": "Utilisez trois tirets (---) pour séparer plusieurs blocs de modèle.",
+    "error": "Erreur lors de la génération du contenu"
   },
   "json_to_bigquery_schema": {
     "title": "JSON → Schéma BigQuery",
@@ -2022,6 +2093,33 @@
     "convert_button": "Convertir",
     "export_csv": "Exporter au format CSV"
   },
+  "multi_line_editor": {
+    "title": "Éditeur Multi-Lignes",
+    "description": "Générez plusieurs lignes à partir de modèles avec des variables dynamiques.",
+    "tags": [
+      "éditeur",
+      "générateur",
+      "modèle",
+      "texte"
+    ],
+    "category": "Utilitaires",
+    "intro": "Remplissez les champs et voyez le résultat se générer automatiquement.",
+    "label.lines": "Nombre de lignes",
+    "label.input": "Texte de base",
+    "label.template": "Modèle (avec des variables)",
+    "label.output": "Résultat généré",
+    "label.help": "Comment ça marche ?",
+    "btn.export": "Exporter .txt",
+    "placeholder.input": "ex : admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Séparez plusieurs blocs avec '---' (un par groupe de lignes).",
+    "help.intro": "Vous pouvez utiliser les variables suivantes dans votre modèle :",
+    "help.input": "Texte saisi dans le champ de base",
+    "help.n": "Numéro de la ligne actuelle (commence à 1)",
+    "help.i": "Nombre incrémental avec remplissage optionnel de zéros",
+    "help.separator": "Utilisez trois tirets (---) pour séparer plusieurs blocs de modèle.",
+    "error": "Erreur lors de la génération du contenu"
+  },
   "multiple_property_transitions": {
     "title": "Transitions à propriétés multiples",
     "description": "Créez des transitions CSS personnalisées avec plusieurs propriétés, chacune avec sa propre durée, son propre délai et son propre assouplissement.",
@@ -2280,6 +2378,38 @@
     "generate": "Pour générer",
     "placeholder": "Le résultat apparaîtra ici"
   },
+  "regex_natural": {
+    "title": "Testeur de JSONPath",
+    "description": "Explorez et extrayez des données JSON avec des expressions JSONPath. Idéal pour le débogage d’API, l’analyse de structure et les requêtes complexes sur les objets.",
+    "tags": [
+      "jsonpath",
+      "chemin json",
+      "testeur jsonpath",
+      "expression json",
+      "valider jsonpath",
+      "requête json",
+      "analyse json"
+    ],
+    "category": "Validateurs",
+    "intro": "Entrez un JSON et une expression JSONPath pour voir les données extraites en temps réel.",
+    "label.json": "Entrée JSON",
+    "label.path": "Expression JSONPath",
+    "label.output": "Résultat",
+    "run": "Exécuter",
+    "error": "Erreur de traitement",
+    "label.help": "Aide de syntaxe",
+    "help.root": "Objet ou tableau racine.",
+    "help.current": "Nœud courant (pour les filtres).",
+    "help.dot": "Accès par point.",
+    "help.brackets": "Accès par crochets.",
+    "help.deepScan": "Recherche profonde par clé.",
+    "help.wildcard": "Sélectionne tous les enfants.",
+    "help.index": "Accède à l’élément par index.",
+    "help.multi": "Sélectionne plusieurs indices.",
+    "help.slice": "Découpe les tableaux comme en Python.",
+    "help.filter": "Filtre par expression booléenne.",
+    "help.script": "Expression JS intégrée."
+  },
   "regex_tester": {
     "title": "Testeur d'expressions régulières",
     "description": "Testez vos expressions régulières en temps réel. Idéal pour analyser des modèles, valider des chaînes et corriger rapidement les erreurs de syntaxe.",
@@ -2391,6 +2521,54 @@
     "english": "Texte anglais en général",
     "compressed": "Données compressées/cryptées",
     "source": "Source"
+  },
+  "sql_generator": {
+    "title": "Générateur SQL",
+    "description": "Créez facilement des requêtes SQL à partir de la structure des tables.",
+    "tags": [
+      "sql",
+      "générateur",
+      "table",
+      "requête"
+    ],
+    "category": "Utilitaires",
+    "intro": "Remplissez les champs pour générer automatiquement des instructions SQL.",
+    "label.tableName": "Nom de la table",
+    "label.queryType": "Type de requête",
+    "label.output": "Résultat SQL",
+    "label.selectExample": "Exemple de structure",
+    "label.selectPlaceholder": "Choisissez un exemple...",
+    "label.field": "Champ",
+    "label.type": "Type",
+    "label.size": "Taille",
+    "label.null": "NULL",
+    "label.pk": "PK",
+    "label.ai": "AI",
+    "label.default": "Défaut",
+    "label.engine": "Moteur",
+    "label.charset": "Encodage",
+    "label.export": "Exporter en .sql",
+    "btn.addField": "Ajouter un champ",
+    "btn.removeField": "Supprimer",
+    "btn.generate": "Générer SQL",
+    "option.placeholder": "nom",
+    "option.types": [
+      "INT",
+      "VARCHAR",
+      "TEXT",
+      "DATE",
+      "DATETIME",
+      "BOOLEAN"
+    ],
+    "option.engines": [
+      "InnoDB",
+      "MyISAM"
+    ],
+    "option.charsets": [
+      "utf8mb4",
+      "utf8"
+    ],
+    "error": "Erreur lors de la génération SQL"
   },
   "system_information": {
     "title": "Informations système",

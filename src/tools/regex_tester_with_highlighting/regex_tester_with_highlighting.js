@@ -39,7 +39,7 @@ const regex_tester_with_highlighting = {
       <div class="relative mt-4">
         <div
           id="regexResult"
-          class="p-3 bg-white border border-gray-300 text-gray-800 rounded whitespace-pre-wrap break-words pr-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
+          class="p-6 bg-white border border-gray-300 text-gray-800 rounded whitespace-pre-wrap break-words pr-16 dark:bg-gray-900 dark:border-gray-700 dark:text-white"
         ></div>
 
         <button

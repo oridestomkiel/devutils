@@ -1575,6 +1575,50 @@
     "download": "Bild herunterladen",
     "clear": "Reinigen"
   },
+  "json_compare": {
+    "title": "Mehrzeilen-Editor",
+    "description": "Erzeuge mehrere Zeilen basierend auf Vorlagen mit dynamischen Platzhaltern.",
+    "tags": [
+      "editor",
+      "generator",
+      "vorlage",
+      "text"
+    ],
+    "category": "Werkzeuge",
+    "intro": "Füllen Sie die Felder aus und sehen Sie, wie das Ergebnis automatisch generiert wird.",
+    "label.lines": "Anzahl der Zeilen",
+    "label.input": "Basistext",
+    "label.template": "Vorlage (mit Platzhaltern)",
+    "label.output": "Generiertes Ergebnis",
+    "label.help": "Wie funktioniert das?",
+    "btn.export": "Als .txt exportieren",
+    "placeholder.input": "z.B. admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Trennen Sie mehrere Blöcke mit '---' (einer pro Zeilengruppe).",
+    "help.intro": "Folgende Platzhalter können in der Vorlage verwendet werden:",
+    "help.input": "Text aus dem Basistextfeld",
+    "help.n": "Aktuelle Zeilennummer (beginnend bei 1)",
+    "help.i": "Inkrementelle Nummer mit optionalem Zero Padding",
+    "help.separator": "Nutzen Sie drei Bindestriche (---), um mehrere Vorlagenblöcke zu trennen.",
+    "error": "Fehler beim Generieren des Inhalts"
+  },
+  "json_examples": {
+    "title": "JSON-Beispiele",
+    "description": "Echte JSON-Strukturen mit interaktiver Visualisierung anzeigen und erkunden.",
+    "tags": [
+      "json",
+      "beispiele",
+      "anzeige",
+      "bildung"
+    ],
+    "category": "Dienstprogramme",
+    "intro": "Wähle ein JSON-Beispiel aus und betrachte es als interaktiven Baum.",
+    "label.selectExample": "Verfügbares Beispiel",
+    "label.selectPlaceholder": "Beispiel auswählen...",
+    "label.output": "JSON-Ansicht",
+    "btn.download": "JSON herunterladen",
+    "error": "Fehler beim Laden der Beispiele"
+  },
   "json_formatter": {
     "title": "JSON-Formatierer",
     "description": "Formatieren Sie Ihre JSON-Daten, um sie lesbarer und übersichtlicher zu gestalten. Ideal für Entwickler, die mit komplexen APIs und Frameworks arbeiten.",
@@ -1660,6 +1704,33 @@
     "convert": "Konvertieren",
     "invalid": "Ungültiges Schema.",
     "invalidJson": "Ungültiges JSON-Schema!"
+  },
+  "json_structure_comparator": {
+    "title": "Mehrzeilen-Editor",
+    "description": "Erzeuge mehrere Zeilen basierend auf Vorlagen mit dynamischen Platzhaltern.",
+    "tags": [
+      "editor",
+      "generator",
+      "vorlage",
+      "text"
+    ],
+    "category": "Werkzeuge",
+    "intro": "Füllen Sie die Felder aus und sehen Sie, wie das Ergebnis automatisch generiert wird.",
+    "label.lines": "Anzahl der Zeilen",
+    "label.input": "Basistext",
+    "label.template": "Vorlage (mit Platzhaltern)",
+    "label.output": "Generiertes Ergebnis",
+    "label.help": "Wie funktioniert das?",
+    "btn.export": "Als .txt exportieren",
+    "placeholder.input": "z.B. admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Trennen Sie mehrere Blöcke mit '---' (einer pro Zeilengruppe).",
+    "help.intro": "Folgende Platzhalter können in der Vorlage verwendet werden:",
+    "help.input": "Text aus dem Basistextfeld",
+    "help.n": "Aktuelle Zeilennummer (beginnend bei 1)",
+    "help.i": "Inkrementelle Nummer mit optionalem Zero Padding",
+    "help.separator": "Nutzen Sie drei Bindestriche (---), um mehrere Vorlagenblöcke zu trennen.",
+    "error": "Fehler beim Generieren des Inhalts"
   },
   "json_to_bigquery_schema": {
     "title": "JSON → BigQuery-Schema",
@@ -2022,6 +2093,33 @@
     "convert_button": "Konvertieren",
     "export_csv": "CSV exportieren"
   },
+  "multi_line_editor": {
+    "title": "Mehrzeilen-Editor",
+    "description": "Erzeuge mehrere Zeilen basierend auf Vorlagen mit dynamischen Platzhaltern.",
+    "tags": [
+      "editor",
+      "generator",
+      "vorlage",
+      "text"
+    ],
+    "category": "Werkzeuge",
+    "intro": "Füllen Sie die Felder aus und sehen Sie, wie das Ergebnis automatisch generiert wird.",
+    "label.lines": "Anzahl der Zeilen",
+    "label.input": "Basistext",
+    "label.template": "Vorlage (mit Platzhaltern)",
+    "label.output": "Generiertes Ergebnis",
+    "label.help": "Wie funktioniert das?",
+    "btn.export": "Als .txt exportieren",
+    "placeholder.input": "z.B. admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Trennen Sie mehrere Blöcke mit '---' (einer pro Zeilengruppe).",
+    "help.intro": "Folgende Platzhalter können in der Vorlage verwendet werden:",
+    "help.input": "Text aus dem Basistextfeld",
+    "help.n": "Aktuelle Zeilennummer (beginnend bei 1)",
+    "help.i": "Inkrementelle Nummer mit optionalem Zero Padding",
+    "help.separator": "Nutzen Sie drei Bindestriche (---), um mehrere Vorlagenblöcke zu trennen.",
+    "error": "Fehler beim Generieren des Inhalts"
+  },
   "multiple_property_transitions": {
     "title": "Übergänge mit mehreren Eigenschaften",
     "description": "Erstellen Sie benutzerdefinierte CSS-Übergänge mit mehreren Eigenschaften, jeweils mit eigener Dauer, Verzögerung und Beschleunigung.",
@@ -2280,6 +2378,38 @@
     "generate": "Um zu generieren",
     "placeholder": "Das Ergebnis wird hier angezeigt"
   },
+  "regex_natural": {
+    "title": "JSONPath-Tester",
+    "description": "Erkunden und extrahieren Sie Daten aus JSON mit JSONPath-Ausdrücken. Ideal zum Debuggen von APIs, zur Strukturanalyse und für komplexe Abfragen von Objekten.",
+    "tags": [
+      "jsonpath",
+      "json pfad",
+      "jsonpath tester",
+      "json ausdruck",
+      "jsonpath validieren",
+      "json abfrage",
+      "json suche"
+    ],
+    "category": "Validatoren",
+    "intro": "Geben Sie ein JSON und einen JSONPath-Ausdruck ein, um extrahierte Daten in Echtzeit anzuzeigen.",
+    "label.json": "JSON-Eingabe",
+    "label.path": "JSONPath-Ausdruck",
+    "label.output": "Ergebnis",
+    "run": "Ausführen",
+    "error": "Fehler bei der Verarbeitung",
+    "label.help": "Syntaxhilfe",
+    "help.root": "Wurzelobjekt oder -array.",
+    "help.current": "Aktueller Knoten (für Filter).",
+    "help.dot": "Zugriff mit Punktnotation.",
+    "help.brackets": "Zugriff mit Klammern.",
+    "help.deepScan": "Tiefensuche nach Schlüsseln.",
+    "help.wildcard": "Alle Kinder auswählen.",
+    "help.index": "Element nach Index zugreifen.",
+    "help.multi": "Mehrere Indizes auswählen.",
+    "help.slice": "Arrays wie in Python schneiden.",
+    "help.filter": "Nach boolescher Bedingung filtern.",
+    "help.script": "Eingebetteter JS-Ausdruck."
+  },
   "regex_tester": {
     "title": "Tester für reguläre Ausdrücke",
     "description": "Testen Sie Ihre regulären Ausdrücke in Echtzeit. Ideal für die Musteranalyse, die Validierung von Zeichenfolgen und die schnelle Korrektur von Syntaxfehlern.",
@@ -2391,6 +2521,54 @@
     "english": "Englischer Text im Allgemeinen",
     "compressed": "Komprimierte/verschlüsselte Daten",
     "source": "Quelle"
+  },
+  "sql_generator": {
+    "title": "SQL-Generator",
+    "description": "Erstelle ganz einfach SQL-Abfragen basierend auf Tabellenstrukturen.",
+    "tags": [
+      "sql",
+      "generator",
+      "tabelle",
+      "abfrage"
+    ],
+    "category": "Dienstprogramme",
+    "intro": "Fülle die Felder aus, um automatisch SQL-Anweisungen zu generieren.",
+    "label.tableName": "Tabellenname",
+    "label.queryType": "Abfrage-Typ",
+    "label.output": "SQL-Ergebnis",
+    "label.selectExample": "Strukturbeispiel",
+    "label.selectPlaceholder": "Beispiel wählen...",
+    "label.field": "Feld",
+    "label.type": "Typ",
+    "label.size": "Größe",
+    "label.null": "NULL",
+    "label.pk": "PK",
+    "label.ai": "AI",
+    "label.default": "Standard",
+    "label.engine": "Engine",
+    "label.charset": "Zeichensatz",
+    "label.export": ".sql exportieren",
+    "btn.addField": "Feld hinzufügen",
+    "btn.removeField": "Entfernen",
+    "btn.generate": "SQL generieren",
+    "option.placeholder": "name",
+    "option.types": [
+      "INT",
+      "VARCHAR",
+      "TEXT",
+      "DATE",
+      "DATETIME",
+      "BOOLEAN"
+    ],
+    "option.engines": [
+      "InnoDB",
+      "MyISAM"
+    ],
+    "option.charsets": [
+      "utf8mb4",
+      "utf8"
+    ],
+    "error": "Fehler beim Generieren von SQL"
   },
   "system_information": {
     "title": "Systeminformationen",

@@ -1,0 +1,22 @@
+{
+  "title": "Editor Multi-Linha",
+  "description": "Gere várias linhas com base em padrões com placeholders dinâmicos.",
+  "tags": ["editor", "gerador", "template", "texto"],
+  "category": "Utilitários",
+  "intro": "Preencha os campos e veja o resultado sendo gerado automaticamente.",
+  "label.lines": "Número de linhas",
+  "label.input": "Texto base",
+  "label.template": "Template (com placeholders)",
+  "label.output": "Resultado gerado",
+  "label.help": "Como funciona?",
+  "btn.export": "Exportar .txt",
+  "placeholder.input": "ex: admin",
+  "placeholder.template": "{{i:3}} - {{input}}",
+  "hint.separator": "Separe múltiplos blocos com '---' (um por grupo de linhas).",
+  "help.intro": "Você pode usar os seguintes placeholders no seu template:",
+  "help.input": "Texto digitado no campo de entrada",
+  "help.n": "Número da linha atual (começa em 1)",
+  "help.i": "Número incremental com zero padding opcional",
+  "help.separator": "Use três hifens (---) para dividir múltiplos blocos de template.",
+  "error": "Erro ao gerar conteúdo"
+}

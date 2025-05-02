@@ -1,0 +1,22 @@
+{
+  "title": "Mehrzeilen-Editor",
+  "description": "Erzeuge mehrere Zeilen basierend auf Vorlagen mit dynamischen Platzhaltern.",
+  "tags": ["editor", "generator", "vorlage", "text"],
+  "category": "Werkzeuge",
+  "intro": "Füllen Sie die Felder aus und sehen Sie, wie das Ergebnis automatisch generiert wird.",
+  "label.lines": "Anzahl der Zeilen",
+  "label.input": "Basistext",
+  "label.template": "Vorlage (mit Platzhaltern)",
+  "label.output": "Generiertes Ergebnis",
+  "label.help": "Wie funktioniert das?",
+  "btn.export": "Als .txt exportieren",
+  "placeholder.input": "z.B. admin",
+  "placeholder.template": "{{i:3}} - {{input}}",
+  "hint.separator": "Trennen Sie mehrere Blöcke mit '---' (einer pro Zeilengruppe).",
+  "help.intro": "Folgende Platzhalter können in der Vorlage verwendet werden:",
+  "help.input": "Text aus dem Basistextfeld",
+  "help.n": "Aktuelle Zeilennummer (beginnend bei 1)",
+  "help.i": "Inkrementelle Nummer mit optionalem Zero Padding",
+  "help.separator": "Nutzen Sie drei Bindestriche (---), um mehrere Vorlagenblöcke zu trennen.",
+  "error": "Fehler beim Generieren des Inhalts"
+}

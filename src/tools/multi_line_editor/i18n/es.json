@@ -1,0 +1,22 @@
+{
+  "title": "Editor Multilínea",
+  "description": "Genera múltiples líneas usando plantillas con marcadores dinámicos.",
+  "tags": ["editor", "generador", "plantilla", "texto"],
+  "category": "Utilidades",
+  "intro": "Completa los campos y observa el resultado generarse automáticamente.",
+  "label.lines": "Número de líneas",
+  "label.input": "Texto base",
+  "label.template": "Plantilla (con marcadores)",
+  "label.output": "Resultado generado",
+  "label.help": "¿Cómo funciona?",
+  "btn.export": "Exportar .txt",
+  "placeholder.input": "ej: admin",
+  "placeholder.template": "{{i:3}} - {{input}}",
+  "hint.separator": "Separa múltiples bloques con '---' (uno por grupo de líneas).",
+  "help.intro": "Puedes usar los siguientes marcadores en tu plantilla:",
+  "help.input": "Texto ingresado en el campo base",
+  "help.n": "Número de línea actual (comenzando desde 1)",
+  "help.i": "Número incremental con ceros opcionales",
+  "help.separator": "Usa tres guiones (---) para dividir múltiples bloques de plantilla.",
+  "error": "Error al generar contenido"
+}

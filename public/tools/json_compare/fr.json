@@ -1,0 +1,22 @@
+{
+  "title": "Éditeur Multi-Lignes",
+  "description": "Générez plusieurs lignes à partir de modèles avec des variables dynamiques.",
+  "tags": ["éditeur", "générateur", "modèle", "texte"],
+  "category": "Utilitaires",
+  "intro": "Remplissez les champs et voyez le résultat se générer automatiquement.",
+  "label.lines": "Nombre de lignes",
+  "label.input": "Texte de base",
+  "label.template": "Modèle (avec des variables)",
+  "label.output": "Résultat généré",
+  "label.help": "Comment ça marche ?",
+  "btn.export": "Exporter .txt",
+  "placeholder.input": "ex : admin",
+  "placeholder.template": "{{i:3}} - {{input}}",
+  "hint.separator": "Séparez plusieurs blocs avec '---' (un par groupe de lignes).",
+  "help.intro": "Vous pouvez utiliser les variables suivantes dans votre modèle :",
+  "help.input": "Texte saisi dans le champ de base",
+  "help.n": "Numéro de la ligne actuelle (commence à 1)",
+  "help.i": "Nombre incrémental avec remplissage optionnel de zéros",
+  "help.separator": "Utilisez trois tirets (---) pour séparer plusieurs blocs de modèle.",
+  "error": "Erreur lors de la génération du contenu"
+}

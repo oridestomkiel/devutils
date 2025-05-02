@@ -1575,6 +1575,50 @@
     "download": "画像をダウンロード",
     "clear": "掃除する"
   },
+  "json_compare": {
+    "title": "マルチラインエディタ",
+    "description": "動的プレースホルダー付きテンプレートで複数行を生成します。",
+    "tags": [
+      "エディタ",
+      "ジェネレーター",
+      "テンプレート",
+      "テキスト"
+    ],
+    "category": "ユーティリティ",
+    "intro": "フィールドに入力すると、結果が自動的に生成されます。",
+    "label.lines": "行数",
+    "label.input": "ベーステキスト",
+    "label.template": "テンプレート（プレースホルダー付き）",
+    "label.output": "生成された結果",
+    "label.help": "使い方は？",
+    "btn.export": ".txtとしてエクスポート",
+    "placeholder.input": "例：admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "複数のブロックは '---' で区切ってください（1つのグループにつき1つ）。",
+    "help.intro": "テンプレートで使用できるプレースホルダー：",
+    "help.input": "入力フィールドに入力されたテキスト",
+    "help.n": "現在の行番号（1から開始）",
+    "help.i": "ゼロ埋め可能な連番",
+    "help.separator": "テンプレートブロックを区切るにはハイフン3つ（---）を使ってください。",
+    "error": "コンテンツの生成中にエラーが発生しました"
+  },
+  "json_examples": {
+    "title": "JSONの例",
+    "description": "インタラクティブな可視化で実際のJSON構造を表示・探索できます。",
+    "tags": [
+      "json",
+      "例",
+      "ビューア",
+      "教育用"
+    ],
+    "category": "ユーティリティ",
+    "intro": "JSONの例を選択し、インタラクティブなツリーとして表示します。",
+    "label.selectExample": "利用可能な例",
+    "label.selectPlaceholder": "例を選択...",
+    "label.output": "JSONビュー",
+    "btn.download": "JSONをダウンロード",
+    "error": "例の読み込み中にエラーが発生しました"
+  },
   "json_formatter": {
     "title": "JSONフォーマッタ",
     "description": "JSON データをフォーマットして、読みやすく整理された状態にします。複雑な API やフレームワークを扱う開発者に最適です。",
@@ -1660,6 +1704,33 @@
     "convert": "変換する",
     "invalid": "無効なスキーマです。",
     "invalidJson": "無効な JSON スキーマです。"
+  },
+  "json_structure_comparator": {
+    "title": "マルチラインエディタ",
+    "description": "動的プレースホルダー付きテンプレートで複数行を生成します。",
+    "tags": [
+      "エディタ",
+      "ジェネレーター",
+      "テンプレート",
+      "テキスト"
+    ],
+    "category": "ユーティリティ",
+    "intro": "フィールドに入力すると、結果が自動的に生成されます。",
+    "label.lines": "行数",
+    "label.input": "ベーステキスト",
+    "label.template": "テンプレート（プレースホルダー付き）",
+    "label.output": "生成された結果",
+    "label.help": "使い方は？",
+    "btn.export": ".txtとしてエクスポート",
+    "placeholder.input": "例：admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "複数のブロックは '---' で区切ってください（1つのグループにつき1つ）。",
+    "help.intro": "テンプレートで使用できるプレースホルダー：",
+    "help.input": "入力フィールドに入力されたテキスト",
+    "help.n": "現在の行番号（1から開始）",
+    "help.i": "ゼロ埋め可能な連番",
+    "help.separator": "テンプレートブロックを区切るにはハイフン3つ（---）を使ってください。",
+    "error": "コンテンツの生成中にエラーが発生しました"
   },
   "json_to_bigquery_schema": {
     "title": "JSON → BigQuery スキーマ",
@@ -2022,6 +2093,33 @@
     "convert_button": "変換する",
     "export_csv": "CSV をエクスポート"
   },
+  "multi_line_editor": {
+    "title": "マルチラインエディタ",
+    "description": "動的プレースホルダー付きテンプレートで複数行を生成します。",
+    "tags": [
+      "エディタ",
+      "ジェネレーター",
+      "テンプレート",
+      "テキスト"
+    ],
+    "category": "ユーティリティ",
+    "intro": "フィールドに入力すると、結果が自動的に生成されます。",
+    "label.lines": "行数",
+    "label.input": "ベーステキスト",
+    "label.template": "テンプレート（プレースホルダー付き）",
+    "label.output": "生成された結果",
+    "label.help": "使い方は？",
+    "btn.export": ".txtとしてエクスポート",
+    "placeholder.input": "例：admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "複数のブロックは '---' で区切ってください（1つのグループにつき1つ）。",
+    "help.intro": "テンプレートで使用できるプレースホルダー：",
+    "help.input": "入力フィールドに入力されたテキスト",
+    "help.n": "現在の行番号（1から開始）",
+    "help.i": "ゼロ埋め可能な連番",
+    "help.separator": "テンプレートブロックを区切るにはハイフン3つ（---）を使ってください。",
+    "error": "コンテンツの生成中にエラーが発生しました"
+  },
   "multiple_property_transitions": {
     "title": "複数のプロパティを持つ遷移",
     "description": "複数のプロパティ（それぞれ独自の期間、遅延、イージングを持つ）を使用してカスタム CSS トランジションを構築します。",
@@ -2280,6 +2378,38 @@
     "generate": "生成する",
     "placeholder": "結果はここに表示されます"
   },
+  "regex_natural": {
+    "title": "JSONPathテスター",
+    "description": "JSONPath式を使ってJSONデータを探索・抽出します。APIのデバッグ、構造解析、複雑なクエリに最適です。",
+    "tags": [
+      "jsonpath",
+      "json パス",
+      "jsonpath テスター",
+      "json 式",
+      "jsonpath 検証",
+      "json クエリ",
+      "json チェッカー"
+    ],
+    "category": "バリデーター",
+    "intro": "JSONとJSONPath式を入力して、リアルタイムで抽出されたデータを表示します。",
+    "label.json": "JSON入力",
+    "label.path": "JSONPath式",
+    "label.output": "結果",
+    "run": "実行",
+    "error": "処理中のエラー",
+    "label.help": "構文ヘルプ",
+    "help.root": "ルートのオブジェクトまたは配列。",
+    "help.current": "現在のノード（フィルター用）。",
+    "help.dot": "ドット記法でアクセス。",
+    "help.brackets": "ブラケット記法でアクセス。",
+    "help.deepScan": "キーを深く検索。",
+    "help.wildcard": "すべての子要素を選択。",
+    "help.index": "インデックスで要素を取得。",
+    "help.multi": "複数のインデックスを選択。",
+    "help.slice": "Pythonのように配列をスライス。",
+    "help.filter": "ブール式でフィルター。",
+    "help.script": "埋め込みJS式。"
+  },
   "regex_tester": {
     "title": "正規表現テスター",
     "description": "正規表現をリアルタイムでテストします。パターンの分析、文字列の検証、構文エラーの迅速な修正に最適です。",
@@ -2391,6 +2521,54 @@
     "english": "英語のテキスト全般",
     "compressed": "圧縮/暗号化されたデータ",
     "source": "ソース"
+  },
+  "sql_generator": {
+    "title": "SQLジェネレーター",
+    "description": "テーブル構造に基づいてSQLクエリを簡単に作成できます。",
+    "tags": [
+      "sql",
+      "ジェネレーター",
+      "テーブル",
+      "クエリ"
+    ],
+    "category": "ユーティリティ",
+    "intro": "フィールドを入力してSQL文を自動生成します。",
+    "label.tableName": "テーブル名",
+    "label.queryType": "クエリタイプ",
+    "label.output": "SQL出力",
+    "label.selectExample": "構造の例",
+    "label.selectPlaceholder": "例を選択...",
+    "label.field": "フィールド",
+    "label.type": "タイプ",
+    "label.size": "サイズ",
+    "label.null": "NULL",
+    "label.pk": "PK",
+    "label.ai": "AI",
+    "label.default": "デフォルト",
+    "label.engine": "エンジン",
+    "label.charset": "文字セット",
+    "label.export": ".sqlをエクスポート",
+    "btn.addField": "フィールドを追加",
+    "btn.removeField": "削除",
+    "btn.generate": "SQLを生成",
+    "option.placeholder": "名前",
+    "option.types": [
+      "INT",
+      "VARCHAR",
+      "TEXT",
+      "DATE",
+      "DATETIME",
+      "BOOLEAN"
+    ],
+    "option.engines": [
+      "InnoDB",
+      "MyISAM"
+    ],
+    "option.charsets": [
+      "utf8mb4",
+      "utf8"
+    ],
+    "error": "SQLの生成中にエラーが発生しました"
   },
   "system_information": {
     "title": "システム情報",

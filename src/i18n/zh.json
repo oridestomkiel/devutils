@@ -1575,6 +1575,50 @@
     "download": "下载图片",
     "clear": "清洁"
   },
+  "json_compare": {
+    "title": "多行编辑器",
+    "description": "根据包含动态占位符的模板生成多行内容。",
+    "tags": [
+      "编辑器",
+      "生成器",
+      "模板",
+      "文本"
+    ],
+    "category": "实用工具",
+    "intro": "填写字段，自动生成结果。",
+    "label.lines": "行数",
+    "label.input": "基础文本",
+    "label.template": "模板（包含占位符）",
+    "label.output": "生成结果",
+    "label.help": "如何使用？",
+    "btn.export": "导出 .txt",
+    "placeholder.input": "例如：admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "使用 '---' 分隔多个模板块（每组一块）。",
+    "help.intro": "你可以在模板中使用以下占位符：",
+    "help.input": "输入字段中的文本",
+    "help.n": "当前行号（从1开始）",
+    "help.i": "递增编号，可选前导零",
+    "help.separator": "使用三个连字符 (---) 分隔多个模板块。",
+    "error": "生成内容时出错"
+  },
+  "json_examples": {
+    "title": "JSON 示例",
+    "description": "使用交互式可视化查看和探索真实的 JSON 结构。",
+    "tags": [
+      "json",
+      "示例",
+      "查看器",
+      "教育"
+    ],
+    "category": "实用工具",
+    "intro": "选择一个 JSON 示例并以交互树的形式查看。",
+    "label.selectExample": "可用示例",
+    "label.selectPlaceholder": "请选择一个示例...",
+    "label.output": "JSON 视图",
+    "btn.download": "下载 JSON",
+    "error": "加载示例时出错"
+  },
   "json_formatter": {
     "title": "JSON 格式化程序",
     "description": "格式化您的 JSON 数据，使其更易读、更井然有序。非常适合使用复杂 API 和框架的开发人员。",
@@ -1660,6 +1704,33 @@
     "convert": "转变",
     "invalid": "架构无效。",
     "invalidJson": "无效的 JSON 模式！"
+  },
+  "json_structure_comparator": {
+    "title": "多行编辑器",
+    "description": "根据包含动态占位符的模板生成多行内容。",
+    "tags": [
+      "编辑器",
+      "生成器",
+      "模板",
+      "文本"
+    ],
+    "category": "实用工具",
+    "intro": "填写字段，自动生成结果。",
+    "label.lines": "行数",
+    "label.input": "基础文本",
+    "label.template": "模板（包含占位符）",
+    "label.output": "生成结果",
+    "label.help": "如何使用？",
+    "btn.export": "导出 .txt",
+    "placeholder.input": "例如：admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "使用 '---' 分隔多个模板块（每组一块）。",
+    "help.intro": "你可以在模板中使用以下占位符：",
+    "help.input": "输入字段中的文本",
+    "help.n": "当前行号（从1开始）",
+    "help.i": "递增编号，可选前导零",
+    "help.separator": "使用三个连字符 (---) 分隔多个模板块。",
+    "error": "生成内容时出错"
   },
   "json_to_bigquery_schema": {
     "title": "JSON → BigQuery 架构",
@@ -2022,6 +2093,33 @@
     "convert_button": "转变",
     "export_csv": "导出 CSV"
   },
+  "multi_line_editor": {
+    "title": "多行编辑器",
+    "description": "根据包含动态占位符的模板生成多行内容。",
+    "tags": [
+      "编辑器",
+      "生成器",
+      "模板",
+      "文本"
+    ],
+    "category": "实用工具",
+    "intro": "填写字段，自动生成结果。",
+    "label.lines": "行数",
+    "label.input": "基础文本",
+    "label.template": "模板（包含占位符）",
+    "label.output": "生成结果",
+    "label.help": "如何使用？",
+    "btn.export": "导出 .txt",
+    "placeholder.input": "例如：admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "使用 '---' 分隔多个模板块（每组一块）。",
+    "help.intro": "你可以在模板中使用以下占位符：",
+    "help.input": "输入字段中的文本",
+    "help.n": "当前行号（从1开始）",
+    "help.i": "递增编号，可选前导零",
+    "help.separator": "使用三个连字符 (---) 分隔多个模板块。",
+    "error": "生成内容时出错"
+  },
   "multiple_property_transitions": {
     "title": "具有多个属性的过渡",
     "description": "构建具有多个属性的自定义 CSS 转换，每个属性都有自己的持续时间、延迟和缓和。",
@@ -2280,6 +2378,38 @@
     "generate": "生成",
     "placeholder": "结果将显示在这里"
   },
+  "regex_natural": {
+    "title": "JSONPath 测试器",
+    "description": "使用 JSONPath 表达式浏览和提取 JSON 数据。适用于调试 API、结构分析和复杂查询。",
+    "tags": [
+      "jsonpath",
+      "json 路径",
+      "jsonpath 测试器",
+      "json 表达式",
+      "验证 jsonpath",
+      "json 查询",
+      "json 分析"
+    ],
+    "category": "验证器",
+    "intro": "输入 JSON 和 JSONPath 表达式以实时查看提取的数据。",
+    "label.json": "JSON 输入",
+    "label.path": "JSONPath 表达式",
+    "label.output": "结果",
+    "run": "执行",
+    "error": "处理时出错",
+    "label.help": "语法帮助",
+    "help.root": "根对象或数组。",
+    "help.current": "当前节点（用于过滤）。",
+    "help.dot": "点访问法。",
+    "help.brackets": "方括号访问法。",
+    "help.deepScan": "深度查找键。",
+    "help.wildcard": "选择所有子项。",
+    "help.index": "按索引访问项。",
+    "help.multi": "选择多个索引。",
+    "help.slice": "像 Python 一样切片数组。",
+    "help.filter": "使用布尔表达式进行过滤。",
+    "help.script": "内嵌 JS 表达式。"
+  },
   "regex_tester": {
     "title": "正则表达式测试器",
     "description": "实时测试您的正则表达式。非常适合分析模式、验证字符串和快速纠正语法错误。",
@@ -2391,6 +2521,54 @@
     "english": "一般为英文文本",
     "compressed": "压缩/加密数据",
     "source": "来源"
+  },
+  "sql_generator": {
+    "title": "SQL生成器",
+    "description": "根据表结构轻松创建SQL查询。",
+    "tags": [
+      "sql",
+      "生成器",
+      "表",
+      "查询"
+    ],
+    "category": "实用工具",
+    "intro": "填写字段以自动生成SQL语句。",
+    "label.tableName": "表名",
+    "label.queryType": "查询类型",
+    "label.output": "SQL输出",
+    "label.selectExample": "结构示例",
+    "label.selectPlaceholder": "选择示例...",
+    "label.field": "字段",
+    "label.type": "类型",
+    "label.size": "大小",
+    "label.null": "NULL",
+    "label.pk": "PK",
+    "label.ai": "AI",
+    "label.default": "默认",
+    "label.engine": "引擎",
+    "label.charset": "字符集",
+    "label.export": "导出 .sql",
+    "btn.addField": "添加字段",
+    "btn.removeField": "删除",
+    "btn.generate": "生成 SQL",
+    "option.placeholder": "名称",
+    "option.types": [
+      "INT",
+      "VARCHAR",
+      "TEXT",
+      "DATE",
+      "DATETIME",
+      "BOOLEAN"
+    ],
+    "option.engines": [
+      "InnoDB",
+      "MyISAM"
+    ],
+    "option.charsets": [
+      "utf8mb4",
+      "utf8"
+    ],
+    "error": "生成SQL时出错"
   },
   "system_information": {
     "title": "系统信息",

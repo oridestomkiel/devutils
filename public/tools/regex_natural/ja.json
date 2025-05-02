@@ -1,0 +1,32 @@
+{
+  "title": "JSONPathテスター",
+  "description": "JSONPath式を使ってJSONデータを探索・抽出します。APIのデバッグ、構造解析、複雑なクエリに最適です。",
+  "tags": [
+    "jsonpath",
+    "json パス",
+    "jsonpath テスター",
+    "json 式",
+    "jsonpath 検証",
+    "json クエリ",
+    "json チェッカー"
+  ],
+  "category": "バリデーター",
+  "intro": "JSONとJSONPath式を入力して、リアルタイムで抽出されたデータを表示します。",
+  "label.json": "JSON入力",
+  "label.path": "JSONPath式",
+  "label.output": "結果",
+  "run": "実行",
+  "error": "処理中のエラー",
+  "label.help": "構文ヘルプ",
+  "help.root": "ルートのオブジェクトまたは配列。",
+  "help.current": "現在のノード（フィルター用）。",
+  "help.dot": "ドット記法でアクセス。",
+  "help.brackets": "ブラケット記法でアクセス。",
+  "help.deepScan": "キーを深く検索。",
+  "help.wildcard": "すべての子要素を選択。",
+  "help.index": "インデックスで要素を取得。",
+  "help.multi": "複数のインデックスを選択。",
+  "help.slice": "Pythonのように配列をスライス。",
+  "help.filter": "ブール式でフィルター。",
+  "help.script": "埋め込みJS式。"
+}

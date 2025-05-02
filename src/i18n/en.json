@@ -1575,6 +1575,50 @@
     "download": "Download image",
     "clear": "To clean"
   },
+  "json_compare": {
+    "title": "Multi-Line Editor",
+    "description": "Generate multiple lines based on templates with dynamic placeholders.",
+    "tags": [
+      "editor",
+      "generator",
+      "template",
+      "text"
+    ],
+    "category": "Utilities",
+    "intro": "Fill in the fields and watch the output being generated automatically.",
+    "label.lines": "Number of lines",
+    "label.input": "Base text",
+    "label.template": "Template (with placeholders)",
+    "label.output": "Generated result",
+    "label.help": "How does it work?",
+    "btn.export": "Export .txt",
+    "placeholder.input": "e.g. admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Separate multiple blocks with '---' (one per line group).",
+    "help.intro": "You can use the following placeholders in your template:",
+    "help.input": "Text entered in the base text field",
+    "help.n": "Current line number (starting from 1)",
+    "help.i": "Incremental number with optional zero padding",
+    "help.separator": "Use three hyphens (---) to split multiple template blocks.",
+    "error": "Error generating content"
+  },
+  "json_examples": {
+    "title": "JSON Examples",
+    "description": "View and explore real JSON structures with interactive visualization.",
+    "tags": [
+      "json",
+      "examples",
+      "viewer",
+      "educational"
+    ],
+    "category": "Utilities",
+    "intro": "Choose a JSON example and view it as an interactive tree.",
+    "label.selectExample": "Available example",
+    "label.selectPlaceholder": "Select an example...",
+    "label.output": "JSON View",
+    "btn.download": "Download JSON",
+    "error": "Error loading examples"
+  },
   "json_formatter": {
     "title": "JSON Formatter",
     "description": "Format your JSON data to make it more readable and organized. Ideal for developers working with complex APIs and frameworks.",
@@ -1660,6 +1704,33 @@
     "convert": "Convert",
     "invalid": "Invalid schema.",
     "invalidJson": "Invalid JSON Schema!"
+  },
+  "json_structure_comparator": {
+    "title": "Multi-Line Editor",
+    "description": "Generate multiple lines based on templates with dynamic placeholders.",
+    "tags": [
+      "editor",
+      "generator",
+      "template",
+      "text"
+    ],
+    "category": "Utilities",
+    "intro": "Fill in the fields and watch the output being generated automatically.",
+    "label.lines": "Number of lines",
+    "label.input": "Base text",
+    "label.template": "Template (with placeholders)",
+    "label.output": "Generated result",
+    "label.help": "How does it work?",
+    "btn.export": "Export .txt",
+    "placeholder.input": "e.g. admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Separate multiple blocks with '---' (one per line group).",
+    "help.intro": "You can use the following placeholders in your template:",
+    "help.input": "Text entered in the base text field",
+    "help.n": "Current line number (starting from 1)",
+    "help.i": "Incremental number with optional zero padding",
+    "help.separator": "Use three hyphens (---) to split multiple template blocks.",
+    "error": "Error generating content"
   },
   "json_to_bigquery_schema": {
     "title": "JSON → BigQuery Schema",
@@ -2022,6 +2093,33 @@
     "convert_button": "Convert",
     "export_csv": "Export CSV"
   },
+  "multi_line_editor": {
+    "title": "Multi-Line Editor",
+    "description": "Generate multiple lines based on templates with dynamic placeholders.",
+    "tags": [
+      "editor",
+      "generator",
+      "template",
+      "text"
+    ],
+    "category": "Utilities",
+    "intro": "Fill in the fields and watch the output being generated automatically.",
+    "label.lines": "Number of lines",
+    "label.input": "Base text",
+    "label.template": "Template (with placeholders)",
+    "label.output": "Generated result",
+    "label.help": "How does it work?",
+    "btn.export": "Export .txt",
+    "placeholder.input": "e.g. admin",
+    "placeholder.template": "{{i:3}} - {{input}}",
+    "hint.separator": "Separate multiple blocks with '---' (one per line group).",
+    "help.intro": "You can use the following placeholders in your template:",
+    "help.input": "Text entered in the base text field",
+    "help.n": "Current line number (starting from 1)",
+    "help.i": "Incremental number with optional zero padding",
+    "help.separator": "Use three hyphens (---) to split multiple template blocks.",
+    "error": "Error generating content"
+  },
   "multiple_property_transitions": {
     "title": "Transitions with Multiple Properties",
     "description": "Build custom CSS transitions with multiple properties, each with its own duration, delay, and easing.",
@@ -2280,6 +2378,38 @@
     "generate": "To generate",
     "placeholder": "Result will appear here"
   },
+  "regex_natural": {
+    "title": "JSONPath Tester",
+    "description": "Explore and extract data from JSON using JSONPath expressions. Ideal for API debugging, structure analysis, and complex queries on objects.",
+    "tags": [
+      "jsonpath",
+      "json path",
+      "jsonpath tester",
+      "json expression",
+      "validate jsonpath",
+      "json query",
+      "json lookup"
+    ],
+    "category": "Validators",
+    "intro": "Enter a JSON and a JSONPath expression to view extracted data in real time.",
+    "label.json": "JSON Input",
+    "label.path": "JSONPath Expression",
+    "label.output": "Result",
+    "run": "Run",
+    "error": "Error processing",
+    "label.help": "Syntax Guide",
+    "help.root": "Root object or array.",
+    "help.current": "Current node (for filters).",
+    "help.dot": "Access with dot notation.",
+    "help.brackets": "Access with brackets.",
+    "help.deepScan": "Deep key lookup.",
+    "help.wildcard": "Select all children.",
+    "help.index": "Access item by index.",
+    "help.multi": "Select multiple indexes.",
+    "help.slice": "Slice arrays like Python.",
+    "help.filter": "Filter by boolean expression.",
+    "help.script": "Embedded JS expression."
+  },
   "regex_tester": {
     "title": "Regular Expression Tester",
     "description": "Test your regular expressions in real time. Ideal for analyzing patterns, validating strings and quickly correcting syntax errors.",
@@ -2391,6 +2521,54 @@
     "english": "English text generally",
     "compressed": "Compressed/encrypted data",
     "source": "Source"
+  },
+  "sql_generator": {
+    "title": "SQL Generator",
+    "description": "Easily create SQL queries based on table structure.",
+    "tags": [
+      "sql",
+      "generator",
+      "table",
+      "query"
+    ],
+    "category": "Utilities",
+    "intro": "Fill in the fields to automatically generate SQL statements.",
+    "label.tableName": "Table Name",
+    "label.queryType": "Query Type",
+    "label.output": "SQL Output",
+    "label.selectExample": "Structure Example",
+    "label.selectPlaceholder": "Choose an example...",
+    "label.field": "Field",
+    "label.type": "Type",
+    "label.size": "Size",
+    "label.null": "NULL",
+    "label.pk": "PK",
+    "label.ai": "AI",
+    "label.default": "Default",
+    "label.engine": "Engine",
+    "label.charset": "Charset",
+    "label.export": "Export .sql",
+    "btn.addField": "Add Field",
+    "btn.removeField": "Remove",
+    "btn.generate": "Generate SQL",
+    "option.placeholder": "name",
+    "option.types": [
+      "INT",
+      "VARCHAR",
+      "TEXT",
+      "DATE",
+      "DATETIME",
+      "BOOLEAN"
+    ],
+    "option.engines": [
+      "InnoDB",
+      "MyISAM"
+    ],
+    "option.charsets": [
+      "utf8mb4",
+      "utf8"
+    ],
+    "error": "Error generating SQL"
   },
   "system_information": {
     "title": "System Information",

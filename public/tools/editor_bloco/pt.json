@@ -1,0 +1,9 @@
+{
+  "title": "Editor em Bloco",
+  "description": "Edite e replique múltiplas linhas com comportamento de IDE.",
+  "tags": ["editor", "texto", "bloco", "múltiplas linhas"],
+  "category": "Utilitários",
+  "intro": "Digite no editor abaixo. Use múltiplos cursores para editar em paralelo.",
+  "btn.export": "Exportar .txt",
+  "btn.clear": "Limpar conteúdo"
+}

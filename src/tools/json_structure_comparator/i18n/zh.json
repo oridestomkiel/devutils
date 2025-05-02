@@ -1,0 +1,22 @@
+{
+  "title": "多行编辑器",
+  "description": "根据包含动态占位符的模板生成多行内容。",
+  "tags": ["编辑器", "生成器", "模板", "文本"],
+  "category": "实用工具",
+  "intro": "填写字段，自动生成结果。",
+  "label.lines": "行数",
+  "label.input": "基础文本",
+  "label.template": "模板（包含占位符）",
+  "label.output": "生成结果",
+  "label.help": "如何使用？",
+  "btn.export": "导出 .txt",
+  "placeholder.input": "例如：admin",
+  "placeholder.template": "{{i:3}} - {{input}}",
+  "hint.separator": "使用 '---' 分隔多个模板块（每组一块）。",
+  "help.intro": "你可以在模板中使用以下占位符：",
+  "help.input": "输入字段中的文本",
+  "help.n": "当前行号（从1开始）",
+  "help.i": "递增编号，可选前导零",
+  "help.separator": "使用三个连字符 (---) 分隔多个模板块。",
+  "error": "生成内容时出错"
+}
